@@ -1,0 +1,1061 @@
+#!/usr/bin/perl
+################################################################################
+# Mandriva Online                                                              # 
+#                                                                              #
+# Copyright (C) 2003-2010 Mandriva                                             #
+#                                                                              #
+# Daouda Lo                                                                    #
+# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+use strict;
+use POSIX ":sys_wait_h";
+use lib qw(/usr/lib/libDrakX);
+use standalone; # for explanations
+use common;
+use run_program;
+use feature 'state';
+
+BEGIN { unshift @::textdomains, 'mdkonline' }
+
+use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
+use ugtk2 qw(:all);
+use lib qw(/usr/lib/libDrakX/drakfirsttime);
+use mdkonline;
+use mdkapplet_gui;
+use Gtk2::Notify '-init', 'mdkapplet';
+use Net::DBus qw(:typing);
+use Rpmdrake::open_db;
+
+if (!find { $_ eq '--auto-update' } @ARGV) {
+    if (my $pid = mdkonline::is_running('mdkapplet')) {
+        if ($::testing) {
+            warn "mdkapplet already running ($pid)\n";
+        } else {
+            die "mdkapplet already running ($pid)\n";
+        }
+    }
+}
+
+
+my $online_site = "http://www.mandrivalinux.com/";
+my ($menu, $timeout, $network_timeout, $state_global, $sub_state);
+
+read_sys_config();
+$config{UPDATE_FREQUENCY} ||= 3*60*60; # default to 3hours
+if ($::testing) {
+    $config{FIRST_CHECK_DELAY} =  1 * 1000; # 1 second
+} else {
+    $config{FIRST_CHECK_DELAY} ||= 5 * 60 * 1000; # default to 5 minutes
+}
+$config{DISTRO_CHECK_DELAY} ||= 60*60*24; # default : one day
+
+my %state = (
+	     delayed => {
+		      colour => [ 'busy' ],
+		      menu => [ 'check' ],
+ 		      do_not_use_bubble => 1,
+		      tt => [
+                    #-PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+                    N("Will check updates at %s", POSIX::strftime("%T", localtime(time() + $config{FIRST_CHECK_DELAY}/1000)))
+                ],
+		     },
+    
+	     okay => {
+		      colour => [ 'okay' ],
+		      menu => [ 'check' ],
+ 		      do_not_use_bubble => 1,
+		      tt => [ N_("Your system is up-to-date") ]
+		     },
+ 	     critical => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'check' ],
+		      tt => [ N_("Service configuration problem. Please check logs and send mail to support\@mandrivaonline.com") ]
+		     },
+	     busy => {
+		      colour => [ 'busy' ], 
+		      menu => [],
+ 		      do_not_use_bubble => 1,
+		      tt => [ N_("Please wait, finding available packages...") ]
+		     },
+	     updates => {
+		      colour => [ 'error' ],
+		      menu => [ 'update', 'check' ],
+		      tt => [ N_("New updates are available for your system") ]
+		     },
+             new_distribution => {
+                 colour => [ 'bundle' ],
+                 menu => [ 'upgrade_distro', 'check' ],
+                 urgency => 'low',
+                 tt => [ N("A new version of Mandriva Linux distribution has been released") ]
+             },
+             no_more_supported => {
+                 colour => [ 'disabled' ],
+                 menu => [ 'check' ],
+                 urgency => 'low',
+                 tt => []
+             },
+             extended_support_is_enabled => {
+                 colour => [ 'okay' ],
+                 menu => [ 'check' ],
+                 urgency => 'low',
+                 tt => []
+             },
+             unconfigured_restricted_media => {
+                 colour => [ 'bundle' ],
+                 menu => [ 'add_restricted_media', 'check' ],
+                 urgency => 'low',
+                 tt => [ N("An additional package medium is available for your distribution.") ]
+             },
+	     disconnected => {
+		      colour => [ 'disconnect' ],
+		      menu => [ 'confNetwork' ],
+		      tt => [ N_("Network is down. Please configure your network") ],
+ 		      do_not_use_bubble => mdkonline::is_running('net_applet'),
+		     },
+	     disabled => {
+		      colour => [ 'disabled' ],
+		      menu => [],
+		      tt => [ N_("Service is not activated. Please click on \"Online Website\"") ]
+		     },
+          locked => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'check' ],
+                tt => [ N_("urpmi database locked") ],
+ 		      do_not_use_bubble => 1,
+          },
+          loop_locked => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'check' ],
+                tt => [ N_("urpmi database locked") ],
+          },
+	     notsupported => {
+		      colour => [ 'disabled' ],
+		      menu => [],
+		      tt => [ N_("Release not supported (too old release, or development release)") ]
+		     },
+          end_of_extended_support => {
+              colour => [ 'disabled' ],
+              menu => [],
+              tt => [ get_obsolete_message_() ]
+          },
+          no_update_medium => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'check' ],
+                tt => [ N_("No medium found. You must add some media through 'Software Media Manager'.") ],
+          },
+          no_enterprise_update_medium => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'add_enterprise_update_medium' , 'check' ],
+		      tt => [ N("An additional package medium is available for your distribution.") ]
+          },
+          no_enabled_medium => {
+		      colour => [ 'noconf' ],
+		      menu => [ 'check' ],
+                tt => [ N("You already have at least one update medium configured, but
+all of them are currently disabled. You should run the Software
+Media Manager to enable at least one (check it in the \"%s\"
+column).
+
+Then, restart \"%s\".", N("Enabled"), 'mdkapplet') ],
+          },
+	    );
+
+my %comm_codes = (
+    locked => {
+        code => 2,
+        status => 'locked',
+        log => "urpmi database locked, skipping updating urpmi database",
+    },
+    error_updating => {
+        code => 3,
+        status => 'critical',
+        log => N_("Error updating media"),
+    },
+    no_update_medium => {
+        code => 4,
+        status => 'no_update_medium',
+        log => "no update media configured",
+    },
+    no_enabled_medium => {
+        code => 5,
+        status => 'no_enabled_medium',
+        log => "all update media are disabled",
+    },
+    updates => {
+        code => 6,
+        status => 'updates',
+        log => "Checking... Updates are available\n\n",
+    },
+    uptodate => {
+        code => 7,
+        status => 'okay',
+        log => "Packages are up to date\n",
+    },
+    db_not_open => {
+        code => 8,
+        status => 'critical',
+        log => "Failed to open urpmi database\n",
+    },
+    unconfigured_restricted_media => {
+        code => 9,
+        status => 'unconfigured_restricted_media',
+        log => "Missing restricted media\n",
+    },
+    no_enterprise_update_medium => {
+        code => 10,
+        status => 'no_enterprise_update_medium',
+        log => "Missing enterprise update media\n",
+    },
+);
+
+my %actions = (
+	       'update' => { name => N("Install updates"), launch => \&installUpdates },
+	       'add_restricted_media' => { name => N("Add additional package medium"), launch => \&prepare_add_restricted },
+	       'add_enterprise_update_medium' => { name => N("Add additional package medium"), launch => \&prepare_add_enterprise_update_media },
+	       'check' => { name => N("Check Updates"), launch => \&checkUpdates },
+	       'confNetwork' => { name => N("Configure Network"), launch => \&configNetwork },
+	       'upgrade_distro' => { name => N("Upgrade the system"), launch => \&upgrade },
+	      );
+
+my $icon = Gtk2::StatusIcon->new;
+#$icon->shape_combine_mask($img, 0, 0);
+$icon->signal_connect(popup_menu => sub {
+                          my ($_icon, $button, $time) = @_;
+                          $menu and $menu->popup(undef, undef, undef, undef, $button, $time);
+                      });
+$icon->signal_connect(activate => sub {
+                          my %click_actions = (
+                              unconfigured_restricted_media => \&prepare_add_restricted,
+                              no_update_medium => \&add_media,
+                              no_enterprise_update_medium => \&prepare_add_enterprise_update_media,
+                              no_enabled_medium => \&add_media,
+                              updates => \&installUpdates,
+                              new_distribution => \&upgrade,
+                              no_more_supported => \&no_more_supported,
+                          );
+                          my $action = $state_global;
+                          # default to updates rather than distro upgrade:
+                          if ($action eq 'new_distribution' && $sub_state eq 'updates') {
+                              $action = 'updates';
+                          }
+
+                          $click_actions{$action}->() if ref $click_actions{$action};
+			  });
+foreach my $opt (@ARGV) {
+    if ($opt eq '--force' || $opt eq '-f') { setAutoStart('TRUE') }
+    if ($opt =~ /--(rpm-root|urpmi-root)=(.*)/) {
+        $::rpmdrake_options{$1}[0] = $2;
+    }
+}
+
+my ($download_dir, $download_all);
+{
+    my $temp_urpm = Rpmdrake::open_db::fast_open_urpmi_db();
+    $root = $temp_urpm->{root};
+    $download_dir = $temp_urpm->{cachedir};
+}
+
+my ($new_distro, $no_more_supported, $extended_maintenance_url, $extended_maintenance_end);
+my ($current_apimdv_distro);
+
+get_product_id();
+
+shouldStart() or die "$localfile should be set to TRUE: please use --force or -f option to launch applet\n";
+
+go2State('delayed');
+
+Glib::Timeout->add_seconds($config{FIRST_CHECK_DELAY}/1000, sub {
+                       # schedule future checks:
+                       setup_cyclic_check();
+                       # perform a test after initial delay:
+                       checkNetwork();
+                       checkUpdates();
+                       0;
+                   });
+
+sub gnome_shell_exit_overview() {
+    eval { Net::DBus->session->get_service('org.gnome.Shell')->get_object('/org/gnome/Shell', 'org.freedesktop.DBus.Properties')->Set('org.gnome.Shell', 'OverviewActive', dbus_boolean(0)); };
+}
+
+$SIG{USR1} = 'IGNORE';
+$SIG{USR2} = 'IGNORE';
+$SIG{CHLD} = \&harvester;
+$SIG{HUP} = \&restart_applet;
+
+run_program::raw({ detach => 1 }, 'ionice', '-p', $$, '-n7');
+
+
+Gtk2->main;
+
+ugtk2::exit(0);
+
+sub is_extended_support_not_ended {
+    return if !is_extmaint_supported();
+    require POSIX;
+    my $d = POSIX::strftime("%G%m%d", localtime(time()));
+    $d < $extended_maintenance_end;
+}
+
+
+sub is_there_a_new_distributions() {
+    # sanity check for cooker/cauldron:
+    return if $product_id->{branch} eq 'Devel';
+    # some OEM Philco systems have no specific updates repo
+    # so we can only blacklist them here directly
+    return if cat_("/etc/oem-release") =~ /philco/i;
+
+    my @distros = get_distro_list();
+    return if !@distros;
+
+    # do not do anything if current distribution isn't listed on api.mdv.com:
+    return if !member($product_id->{version}, map { $_->{version} } @distros);
+
+    # only compare first distro: if it's not the same as the currently installed one,
+    # then it's the most recent release:
+    my $new_distribution = $distros[0];
+
+    if (-e get_stale_upgrade_filename()) {
+        $new_distro = $new_distribution;
+        return 1;
+    }
+
+    $current_apimdv_distro = find_current_distro(@distros);
+    $no_more_supported = $current_apimdv_distro->{obsoleted_by} if !is_extmaint_supported();
+    ($extended_maintenance_url, $extended_maintenance_end) = @$current_apimdv_distro{qw(extended-maintenance extended-maintenance-end)};
+    refresh_no_more_supported_msg();
+    if ($no_more_supported) {
+        $new_distro = find { $_->{version} eq $no_more_supported } @distros;
+        return if is_extended_support_not_ended();
+    }
+
+    # no if we're using the extended maintenance:
+    return if is_extended_support_not_ended();
+
+    if ($new_distribution && $new_distribution->{version} ne $product_id->{version}) {
+        $new_distro = $new_distribution;
+        log::explanations(sprintf("new '%s' distribution was released on %s", $new_distro->{version}, $new_distro->{release_date}));
+        return 1;
+    }
+}
+
+
+my ($mdv_update_pid, $checker_pid, $media_manager_pid, $locked_count);
+
+# FIXME: flushing a hash would be less error prone when adding new stuff:
+sub clean_distro_cache() {
+    undef $new_distro;
+    undef $no_more_supported;
+    undef $extended_maintenance_url;
+    undef $extended_maintenance_end;
+ }
+
+sub is_false {
+    my ($s) = @_;
+    !text2bool($s) && $s != 1;
+}
+
+sub process_state {
+    my ($state) = @_;
+    log::explanations($state->{log});
+    $sub_state = $state->{status};
+
+    if ($sub_state eq 'locked') {
+        $locked_count++;
+        $sub_state = 'loop_locked' if $locked_count > 10;
+    } else {
+        $locked_count = 0;
+    }
+
+    # busy critical delayed disabled disconnected locked loop_locked new_distribution no_enabled_medium no_enterprise_update_medium no_more_supported no_update_medium notsupported okay unconfigured_restricted_media update
+    if (!member($sub_state, qw(okay))) {
+        go2State($sub_state);
+    } elsif ($no_more_supported
+               && !text2bool($local_config{DO_NOT_ASK_FOR_NO_MORE_SUPPORTED})
+               && !text2bool($config{EXTENDED_SUPPORT})
+               && !text2bool($local_config{EXTENDED_SUPPORT_OFFERED})) {
+        go2State('no_more_supported');
+    } elsif ($current_apimdv_distro->{obsoleted_by} && text2bool($config{EXTENDED_SUPPORT})
+               && is_extmaint_supported()
+               && !text2bool($local_config{EXTENDED_SUPPORT_SPLASHED})) {
+        $state{extended_support_is_enabled}{tt}[0] =
+          N("Basic maintenance for this distribution has expired. Thanks to your subscription to extended maintenance, your system will be kept up to date until %s", iso8601_date_to_locale($extended_maintenance_end));
+        go2State('extended_support_is_enabled');
+        setVar('EXTENDED_SUPPORT_SPLASHED', bool2yesno(1));
+        # FIXME: just drop this state once upgrade from 2009.0 has been tested:
+    } elsif (is_extmaint_supported() && !is_extended_support_not_ended()) {
+        go2State('end_of_extended_support');
+    } elsif ($new_distro && is_false($config{DO_NOT_ASK_FOR_DISTRO_UPGRADE})
+               && is_false($local_config{DO_NOT_ASK_FOR_DISTRO_UPGRADE})) {
+        go2State('new_distribution');
+    } else {
+        go2State($sub_state);
+    }
+}
+
+# Signal management 
+sub harvester {
+    my ($_signame, $_clean) = @_;
+    my ($childpid, @pids);
+    my $schedule_checks;
+    do {
+        $childpid = waitpid(-1, &WNOHANG);
+        my $status = $? >> 8;
+        if ($mdv_update_pid && $mdv_update_pid == $childpid) {
+            undef $mdv_update_pid;
+            # make sure to not report new distro after distro upgrade:
+            clean_distro_cache();
+            $schedule_checks = 1;
+        } elsif ($checker_pid && $checker_pid == $childpid) {
+            undef $checker_pid;
+            my ($state) = grep { $_->{code} eq $status } values %comm_codes;
+            if ($state) {
+                process_state($state);
+            }
+        } elsif ($media_manager_pid && $media_manager_pid == $childpid) {
+            undef $media_manager_pid;
+            $schedule_checks = 1;
+        }
+        push @pids, $childpid;
+    } while $childpid > 0;
+    Glib::Timeout->add(200, sub { silentCheck(); 0 }) if $schedule_checks;
+    return @pids;
+}
+
+sub restart_applet {
+    local $SIG{CHLD} = 'DEFAULT';
+    log::explanations(N("Received SIGHUP (probably an upgrade has finished), restarting applet."));
+    { redo if wait() > 0 }
+    exec($0, '--auto-update');
+}
+
+# FIXME: we can run many drakconnect when network is down:
+sub configNetwork() {
+    log::explanations(N_("Launching drakconnect\n"));
+    fork_exec("/usr/sbin/drakconnect");
+}
+
+# only enable 'download all packages at once' on 2010.1 and further:
+sub is_download_all_enabled() {
+    is_it_a_devel_distro();
+}
+
+sub confirm_upgrade() {
+    local $mygtk2::left_padding = 0;
+    my $warn_me = text2bool($local_config{DO_NOT_ASK_FOR_DISTRO_UPGRADE});
+    my $w = new_portable_dialog(N("New version of Mandriva Linux distribution"));
+    my ($temp_dir, $box);
+    
+    my $browse;
+    $browse = gtksignal_connect(
+        Gtk2::FileChooserButton->new(N("Browse"), 'select-folder'),
+        'current-folder-changed' => sub {
+            $temp_dir = $_[0]->get_current_folder;
+            my $ok = 1;
+            require urpm;
+            urpm::check_cache_dir({ fatal => sub { $ok = 0 } }, $temp_dir);
+            $ok or ask_warn(N("Error"), N("You must choose a directory owned by the super administrator!"));
+        });
+    $browse->set_current_folder($download_dir);
+
+    my $res = fill_n_run_portable_dialog($w,
+                                      [
+               get_banner(),
+               gtknew('Label_Left', text => N("A new version of Mandriva Linux distribution has been released."), @common),
+               gtknew('HButtonBox', layout => 'start', children_tight => [
+                   new_link_button($new_distro->{url}, N("More info about this new version")),
+               ]),
+               gtknew('Label_Left', text => N("Do you want to upgrade to the '\%s' distribution?", 
+                                              $new_distro->{name} || $new_distro->{version}), @common),
+               gtknew('CheckButton', text => N("Do not ask me next time"), active_ref => \$warn_me),
+               (is_download_all_enabled() ?
+                   (gtknew('CheckButton', text => N("Download all packages at once") . "\n" .
+                            N("(Warning: You will need quite a lot of free space)"),
+                          active_ref => \$download_all, sensitive_ref => \$browse,
+                          toggled => sub { $box and $box->set_sensitive($download_all) },
+                      ),
+                   $box = gtknew('HBox', sensitive => $download_all,
+                                 children => [
+                                     0, gtknew('Label_Left', text => N("Where to download packages:")),
+                                     1 , $browse,
+                                 ]),
+               ) : ()),
+               create_okcancel($w, N("Next"), N("Cancel")),
+                                      ]);
+
+    setVar('DO_NOT_ASK_FOR_DISTRO_UPGRADE', bool2text($warn_me));
+    $local_config{DO_NOT_ASK_FOR_DISTRO_UPGRADE} = bool2text($warn_me);
+    if ($res) {
+        require urpm;
+        my $ok = 1;
+        urpm::check_cache_dir({ fatal => sub { $ok = 0 } }, $temp_dir);
+        $ok or goto &confirm_upgrade;
+        $download_dir = $temp_dir;
+        really_confirm_upgrade();
+    } else {
+        return 0;
+    }
+}
+
+
+sub get_obsolete_message_() {
+    N("Maintenance for this Mandriva Linux version has ended. No more updates will be delivered for this system."),
+}
+
+sub get_obsolete_message() {
+    join("\n\n",
+         get_obsolete_message_(),
+          N("In order to keep your system secure, you can:"),
+     );
+}
+      
+sub refresh_no_more_supported_msg() {
+    my $basic_msg = get_obsolete_message_();
+    my $distro = N("Mandriva Linux");
+    my $msg;
+
+    # is extended maintenance available?
+    if ($extended_maintenance_url) {
+        if ($no_more_supported eq 'none') {
+            $msg = N("You should get extended maintenance.");
+        } else {
+            $msg = N("You should either get extended maintenance or upgrade to a newer version of the %s distribution.",
+                 $distro);
+        }
+    } else {
+        $msg = N("You should upgrade to a newer version of the %s distribution.", $distro);
+    }
+    $state{no_more_supported}{tt}[0] = join(' ', $basic_msg, $msg);
+}
+
+sub no_more_supported_choice() {
+    local $mygtk2::left_padding = 0;
+    my $warn_me = text2bool($local_config{DO_NOT_ASK_FOR_NO_MORE_SUPPORTED});
+    # FIXME: just tell radio buttons' children to wrap instead:
+    local $mdkapplet_gui::width = 580;
+    my $w = new_portable_dialog(N("Your distribution is no longer supported"));
+    my ($b1, $b2);
+    my $choice = $extended_maintenance_url ? 'extended' : ($no_more_supported ne 'none' ? 'upgrade' : undef);
+
+    my @widgets = (
+        get_banner(N("Extended Maintenance")),
+        gtknew('Label_Left', 
+               text => get_obsolete_message() . "\n", @common),
+        if_($extended_maintenance_url,
+            $b1 = gtknew('RadioButton',
+                         text => N("Purchase a maintenance extension for this version (%s) and keep it running until %s.",
+                                   $product_id->{version},
+                                   iso8601_date_to_locale($extended_maintenance_end)),
+                         
+                         toggled => sub {
+                             ($choice, $warn_me) = ('extended', undef) if $_[0]->get_active;
+                         },
+
+                     ),
+            gtknew('HSeparator'),
+        ),
+        ($no_more_supported ne 'none' ? (
+            gtknew('VBox', children_tight => [
+                $b2 = gtknew('RadioButton',
+                             text => N("Do you want to upgrade to the '\%s' distribution?", 
+                                       $new_distro->{name} || $new_distro->{version}),
+                             toggled => sub {
+                                 ($choice, $warn_me) = ('upgrade', undef) if $_[0]->get_active;
+                             },
+                             if_($b1, group => $b1)),
+                new_link_button($new_distro->{url}, N("More info about this new version")),
+            ]),
+            gtknew('HSeparator'),
+        ) : ()),
+        gtknew('RadioButton', text => N("Do not ask me next time"),
+                     toggled => sub {
+                         $choice = 'nothing' if $_[0]->get_active;
+                         $warn_me = $_[0]->get_active },
+                     group => $b1 || $b2),
+        create_okcancel($w, N("Next"), N("Cancel")),
+    );
+
+    #$_ and $_->set_border_width(8) foreach $b1, $b2, $b3;
+
+    # explicitely wrap too long message:
+    foreach ($b1, $b2) {
+        next if !$_ || !$_->child;
+        $_->child->set_line_wrap(1);
+        $_->child->set_size_request($width-50, -1);
+    }
+
+    my $res = fill_n_run_portable_dialog($w, \@widgets);
+
+    setVar('EXTENDED_SUPPORT_OFFERED', bool2yesno(1));
+    setVar('DO_NOT_ASK_FOR_NO_MORE_SUPPORTED', bool2text($warn_me));
+    $local_config{DO_NOT_ASK_FOR_NO_MORE_SUPPORTED} = bool2text($warn_me);
+    if ($res) {
+        return $choice;
+    } else {
+        return 0;
+    }
+}
+
+
+my $no_more_supported_wip;
+sub no_more_supported() {
+    return if $mdv_update_pid || $no_more_supported_wip;
+    gnome_shell_exit_overview();
+    $no_more_supported_wip = 1;
+    my $choice = no_more_supported_choice();
+    if ($choice eq 'upgrade') {
+        really_confirm_upgrade() and real_upgrade();
+    } elsif ($choice eq 'extended') {
+        get_extended_maintenance();
+    } elsif ($choice eq 'nothing') {
+        $icon->set_visible(0);
+    }
+    undef $no_more_supported_wip;
+}
+
+
+sub get_extended_maintenance() {
+    $mdv_update_pid = fork_exec('mdkapplet-add-media-helper', 
+                                if_($::testing, '--testing'),
+                                if_($root, "--urpmi-root=$root"),
+                                '--product=extended',
+                                $product_id->{version});
+}
+
+
+sub really_confirm_upgrade() {
+    local $mygtk2::left_padding = 0;
+    my $w = ugtk2->new(N("New version of Mandriva Linux distribution"), width => $width + 20);
+
+    # estimated package size:
+    my $c;
+    foreach (run_program::get_stdout('rpm', '-qa', '--qf', '%{Archivesize}\n')) {
+        $c += $_;
+    }
+    $c = formatXiB($c);
+
+    {
+        # use wizard button order (for both 2008.1 & 2009.0):
+        local $::isWizard = 1;
+        local $w->{pop_it} = 0;
+        local $::isInstall = 1;
+    gtkadd($w->{window},
+           gtknew('VBox', children_tight => [
+               get_banner(),
+               gtknew('Label_Left', text => N("This upgrade requires high bandwidth network connection (cable, xDSL, ...)  and may take several hours to complete."),
+                      @common),
+               gtknew('Label_Left', text => N("Estimated download data will be %s", $c), @common),
+               gtknew('Label_Left', text => N("You should close all other running applications before continuing.") .
+                        (detect_devices::isLaptop() ?
+                           ' ' .
+                             N("You should put your laptop on AC and favor ethernet connection over wifi, if available.")
+                               : ''),
+                      @common),
+               create_okcancel($w, N("Next"), N("Cancel")),
+           ]),
+       );
+    }
+    $w->{ok}->grab_focus;
+    return $w->main;
+}
+
+sub upgrade() {
+    return if $mdv_update_pid;
+    gnome_shell_exit_overview();
+    return if !confirm_upgrade();
+    real_upgrade();
+}
+
+sub real_upgrade() {
+    $mdv_update_pid = fork_exec('mdkapplet-upgrade-helper', "--new_distro_version=$new_distro->{version}",
+                                if_($::testing, '--testing'),
+                                if_($download_all, "--download-all=$download_dir"),
+                                if_($root, "--urpmi-root=$root"));
+}
+
+sub add_media() {
+    return if $media_manager_pid;
+    log::explanations("Launching 'Software Media Manager'");
+    gnome_shell_exit_overview();
+    $media_manager_pid = fork_exec('/usr/sbin/edit-urpm-sources.pl', '--no-splash', if_($root, "--urpmi-root=$root"));
+}
+
+sub installUpdates() {
+    return if $mdv_update_pid;
+    log::explanations(N_("Launching MandrivaUpdate\n"));
+    gnome_shell_exit_overview();
+    my $program = find { -x "/usr/bin/$_" } qw(MageiaUpdate MandrivaUpdate);
+    $mdv_update_pid = fork_exec($program, '--no-media-update', '--no-confirmation', '--no-splash',
+                                if_($root, "--urpmi-root=$root"));
+    silentCheck(); gtkflush();
+}
+
+sub checker_exit {
+    my ($state) = @_;
+    POSIX::_exit($comm_codes{$state}{code});
+}
+
+sub update_backport_media {
+    my ($urpm) = @_;
+    # update inactive backport media:
+    my @inactive_backport_media = Rpmdrake::open_db::get_inactive_backport_media($urpm);
+    return if !@inactive_backport_media;
+    log::explanations("updating inactive backport media " . join(', ', @inactive_backport_media));
+    foreach (@inactive_backport_media) {
+        run_program::run('urpmi.update', if_($root, "--urpmi-root=$root"), $_);
+    }
+}
+
+sub silentCheck() {
+    state $check_time;
+    my $new_time = time();
+    if (!$check_time || $new_time - $check_time > $config{DISTRO_CHECK_DELAY}) {
+        clean_distro_cache();
+        $check_time = $new_time;
+        is_there_a_new_distributions();
+    }
+
+    return if $mdv_update_pid || $checker_pid;
+    log::explanations(N_("Computing new updates...\n"));
+    my $w = $::main_window ? $::main_window->window : undef;
+    go2State('busy');
+
+    # are there any updates ?
+
+    $checker_pid = fork();
+    if (defined $checker_pid) {
+        return if $checker_pid; # parent
+
+        # immediate exit, else forked gtk+ object destructors will badly catch up parent applet
+        my $_safe = before_leaving {
+            my $err = $@;
+            log::explanations("mdkapplet check crashed: $err ");
+            warn "Error: $err\n" . common::backtrace();
+            POSIX::_exit(0);
+        };
+
+        # be nice with other processes:
+        setpriority(0, $$, 7);  # 0 is PRIO_PROCESS
+
+        my $will_not_update_media;
+        require urpm;
+        require urpm::lock;
+        # so that get_inactive_backport_media() doesn't vivify $urpm->{media}:
+        my $urpm = Rpmdrake::open_db::fast_open_urpmi_db();
+        {
+            local $urpm->{fatal} = sub {
+                print "Fatal: @_\n";
+                $will_not_update_media = 1;
+            };
+            local $urpm->{error} = $urpm->{fatal};
+
+            urpm::lock::urpmi_db($urpm, 'exclusive', 1);
+        }
+        checker_exit('locked') if $will_not_update_media;
+
+        my $is_it_a_devel_distro = is_it_a_devel_distro();
+
+        my $media = $is_it_a_devel_distro ? '-a' : '--update';
+        if (!run_program::run('urpmi.update', $media, if_($root, "--urpmi-root=$root"))) {
+            checker_exit('error_updating') if $will_not_update_media;
+        }
+
+        update_backport_media($urpm);
+        
+        require urpm::select;
+        require urpm::media;
+        # this eats 52Mb of RAM on 64bit:
+        # (hence we do it in the forked helper so that the applet doesn't eat too much RAM)
+        urpm::media::configure($urpm, if_(!$is_it_a_devel_distro, update => 1));
+
+        my @update_medias = get_update_medias($urpm);
+
+        if (!@update_medias) {
+	    if (is_enterprise_media_supported()) {
+		checker_exit('no_enterprise_update_medium');
+	    } else {
+		checker_exit('no_update_medium');
+	    }
+        } elsif (!any { ! $_->{ignore} } @update_medias) {
+            checker_exit('no_enabled_medium');
+        }
+
+        if (my $_db = urpm::db_open_or_die($urpm)) {
+            my $requested = {};
+            my $state = {};
+            my $need_restart = urpm::select::resolve_dependencies(
+                $urpm, $state, $requested,
+                callback_choices => sub { 0 },
+                priority_upgrade => $urpm->{options}{'priority-upgrade'},
+                auto_select => 1,
+            );
+            my @requested_strict = map { scalar $_->fullname } @{$urpm->{depslist}}[keys %{$state->{selected}}];
+
+            if ($need_restart || @requested_strict) {
+                # FIXME: log first found pkgs?
+                warn ">> need_restart=$need_restart, updates=" . join(', ', @requested_strict) . "\n";
+                checker_exit('updates');
+            } else {
+                if (!text2bool($local_config{DO_NOT_ASK_FOR_RESTRICTED})) {
+                    if (is_restricted_media_configured($urpm)) {
+                        checker_exit('uptodate');
+                    } else {
+                        checker_exit('unconfigured_restricted_media');
+                    }
+                } else {
+                    checker_exit('uptodate');
+                }
+            }
+        } else {
+            checker_exit('db_not_open');
+        }
+        checker_exit('updates');
+    } else {
+        log::explanations("cannot fork: %s", "update checker ($!)");
+        go2State('critical');
+    }
+}
+
+sub setup_cyclic_check() {
+    $network_timeout = Glib::Timeout->add(2000, sub { checkNetwork(); 1 });
+    $timeout = Glib::Timeout->add_seconds($config{UPDATE_FREQUENCY}, sub {
+           checkUpdates();
+           1;
+       });
+}
+
+sub getTime() {
+    my $d = localtime();
+    $d =~ s/\s+/_/g;
+    $d;
+}
+
+sub setLastTime() {
+    my $date = getTime();
+    setVar('LASTCHECK', $date);
+}
+
+sub checkNetwork() {
+    return if $checker_pid;
+    require network::tools;
+    
+    if (!network::tools::has_network_connection()) {
+        # do not notify if already done:
+        return if member($state_global, qw(disconnected));
+	log::explanations(N_("Checking Network: seems disabled\n"));
+	go2State('disconnected');
+    } elsif (member($state_global, qw(disconnected))) {
+	silentCheck(); #- state has changed, update
+    }
+}
+
+sub checkUpdates() {
+    member($state_global, qw(disconnected)) or silentCheck();
+}
+
+sub go2State {
+    my ($state) = @_;
+    $menu->destroy if $menu;
+    $menu = setState($state);
+    $state_global = $state;
+    gtkflush();
+}
+
+sub shouldStart() {
+    to_bool($local_config{AUTOSTART} ne 'FALSE');
+}
+
+sub about_dialog() {
+    my $ver = 1;                # automatically set from spec file
+    my $url = $online_site;
+    $url =~ s/^https:/http:/;
+    my $w = gtknew('AboutDialog', name => N("Mandriva Online %s", $ver),
+                   copyright => N("Copyright (C) %s by Mandriva", '2001-2010'),
+                   license => join('', cat_('/usr/share/common-licenses/GPL')),
+                   icon => '/usr/share/icons/mini/mdkonline.png',
+                   comments => N("Mandriva Online gives access to Mandriva web services."),
+                   website => $url,
+                   website_label => N("Online WebSite"),
+                   authors => 'Thierry Vignaud <vignaud@mandriva.com>',
+                   artists => 'Hélène Durosini',
+                   translator_credits =>
+                     #-PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+                     N("_: Translator(s) name(s) & email(s)\n"),
+                   transient_for => $::main_window, modal => 1, position_policy => 'center-on-parent',
+               );
+
+    $w->show_all;
+    $w->run;
+    return 1;
+}
+
+sub setState {
+    my ($state) = @_;
+    my $checkme;
+    state $previous_state;
+    my @arr = @{$state{$state}{menu}};
+    my $tmp = eval { gtkcreate_pixbuf($state{$state}{colour}[0]) };
+    $icon->set_from_pixbuf($tmp) if $tmp;
+    $icon->set_tooltip(formatAlaTeX(translate($state{$state}{tt}[0])));
+    my @invisible_states = qw(delayed okay disconnected locked);
+    $icon->set_visible(!member($state, @invisible_states));
+
+    # do not show icon while checking if previously hidden:
+    $icon->set_visible(0) if $state eq 'busy' && member($previous_state, @invisible_states);
+
+    $previous_state = $state;
+
+    gtkflush(); # so that bubbles are displayed on right icon
+
+    if ($state{$state}{tt}[0] && $icon->isa('Gtk2::StatusIcon') && !$state{$state}{do_not_use_bubble}) {
+        my $bubble = Gtk2::Notify->new(N("Warning"), formatAlaTeX(translate($state{$state}{tt}[0])) . "\n",
+                                                        '/usr/share/icons/mdkonline.png');
+        if ($state eq 'new_distribution') {
+            $bubble->add_action('clicked', N("More Information"), \&upgrade);
+            if ($sub_state eq 'updates') {
+                push @arr, 'update';
+            }
+        } elsif ($state eq 'no_more_supported') {
+            $bubble->add_action('clicked', N("More Information"), \&no_more_supported);
+            if ($sub_state eq 'updates') {
+                push @arr, 'update';
+            }
+        } elsif ($state eq 'updates') {
+            unshift @arr, 'upgrade_distro' if $new_distro;
+            $bubble->add_action('clicked', N("Install updates"), \&installUpdates);
+        } elsif ($state eq 'unconfigured_restricted_media') {
+            $bubble->add_action('clicked', N("More Information"), \&prepare_add_restricted);
+        } elsif ($state eq 'no_enterprise_update_medium') {
+            $bubble->add_action('clicked', N("More Information"), \&prepare_add_enterprise_update_media);
+        } elsif (member($state, qw(no_enabled_medium no_update_medium))) {
+            $bubble->add_action('clicked', N("Add media"), \&add_media);
+        }
+
+        $bubble->set_urgency($state{$state}{urgency}) if $state{$state}{urgency};
+        $bubble->set_timeout(5000);
+        eval { $bubble->show };
+    }
+
+    my $menu = Gtk2::Menu->new;
+    foreach (@arr) { 
+	my $action = $actions{$_};
+	next if !ref($action->{launch});
+	$menu->append(gtksignal_connect(gtkshow(Gtk2::MenuItem->new_with_label($action->{name})), activate => $action->{launch}));
+    }
+    $menu->append(gtkshow(Gtk2::SeparatorMenuItem->new));
+    $menu->append(gtksignal_connect(gtkshow(Gtk2::MenuItem->new_with_label(N("About..."))),
+                                    activate => \&about_dialog));
+    $menu->append(gtksignal_connect(gtkshow(Gtk2::MenuItem->new_with_label(N("Updates Configuration"))), 
+                                    activate => sub { run_program::raw({ detach => 1 }, 'mdkapplet-config') }));
+    $menu->append(gtksignal_connect(gtkset_active($checkme = Gtk2::CheckMenuItem->new_with_label(N("Always launch on startup")), shouldStart()), toggled => sub { setAutoStart(uc(bool2text($checkme->get_active))) }));
+    $checkme->show;
+    $menu->append(gtksignal_connect(gtkshow(Gtk2::MenuItem->new_with_label(N("Quit"))), activate => sub { mainQuit() }));
+    $menu;
+}
+
+sub setAutoStart {
+    my $state = shift;
+    my $date = getTime();
+    if (-f $localfile) {
+	setVar('AUTOSTART', $state);
+    } else { 
+        output_p($localfile, 
+	       qq(AUTOSTART=$state
+LASTCHECK=$date
+));
+	 }
+}
+
+sub mainQuit() {
+#    setAutoStart('FALSE');
+    Glib::Source->remove($timeout) if $timeout;
+    Glib::Source->remove($network_timeout) if $network_timeout;
+    Gtk2->main_quit;
+}
+
+sub get_enabled_restricted_media {
+    my ($urpm) = @_;
+    grep { $_->{name} =~ /restricted/i && !$_->{ignore} } @{$urpm->{media}};
+}
+
+sub is_restricted_media_configured {
+    my ($urpm) = @_;
+    return 1 if !is_restricted_media_supported();
+
+    my @restricted_media = get_enabled_restricted_media($urpm);
+    my @names = map { $_->{name} } @restricted_media;
+    # we need both 'Restricted' & 'Restricted Updates' media
+    # those who did online update trough mdkapplet do not have restricted medium, hence the test for 2 medium:
+    @restricted_media >= (urpm::cfg::get_arch() =~ /64/ ? 4 : 2)
+      && (grep { /Restricted Updates/ } @names) && (grep { /Restricted/ && !/Updates/ } @names);
+}
+
+sub really_prepare_add_restricted() {
+    $mdv_update_pid = run_program::raw({ detach => 1 }, 
+				       'mdkapplet-add-media-helper', 
+				       $product_id->{version});
+}
+
+sub prepare_add_restricted() {
+    my $warn_me = text2bool($local_config{DO_NOT_ASK_FOR_RESTRICTED});
+    return if $warn_me;
+    my $w = new_portable_dialog(N("New medium available"));
+    my $res =
+      fill_n_run_portable_dialog(
+          $w,
+          [
+              get_banner(N("New medium available")),
+              gtknew('Label_Left', text => 
+                       N("You use '%s' distribution and therefore have privileged access to additional software.",
+                         translate_product()) . "\n\n" .
+                           N("Do you want to install this additional software repository?"), @common),
+              gtknew('CheckButton', text => N("Do not ask me next time"), active_ref => \$warn_me),
+              create_okcancel($w, N("Next"), N("Cancel")),
+          ]);
+    setVar('DO_NOT_ASK_FOR_RESTRICTED', bool2text($warn_me));
+    $local_config{DO_NOT_ASK_FOR_RESTRICTED} = bool2text($warn_me);
+    $res ? really_prepare_add_restricted() : 0;
+}
+
+
+sub really_prepare_add_enterprise() {
+    $mdv_update_pid = run_program::raw(
+	{ detach => 1 },
+	'mdkapplet-add-media-helper',
+	join('', @$product_id{qw(type product version)})
+	);
+}
+
+sub prepare_add_enterprise_update_media() {
+    my $warn_me = text2bool($local_config{DO_NOT_ASK_FOR_ENTERPRISE_UPDATE_MEDIA});
+    return if $warn_me;
+    my $w = new_portable_dialog(N("New medium available"));
+    my $res =
+      fill_n_run_portable_dialog(
+          $w,
+          [
+              get_banner(N("New medium available")),
+              gtknew('Label_Left', text => 
+                       N("You use '%s' distribution and therefore have privileged access to additional software.",
+                         N_("Mandriva Enterprise Server")) . "\n\n" .
+                           N("Do you want to install this additional software repository?"), @common),
+              gtknew('CheckButton', text => N("Do not ask me next time"), active_ref => \$warn_me),
+              create_okcancel($w, N("Next"), N("Cancel")),
+          ]);
+    setVar('DO_NOT_ASK_FOR_ENTERPRISE_UPDATE_MEDIA', bool2text($warn_me));
+    $local_config{DO_NOT_ASK_FOR_ENTERPRISE_UPDATE_MEDIA} = bool2text($warn_me);
+    $res ? really_prepare_add_enterprise() : 0;
+}

@@ -1,0 +1,1144 @@
+# translation of mdkonline-mk.po to Macedonian
+# Copyright (C) 2002, 2004, 2005, 2006 Free Software Foundation, Inc.
+#
+# Danko Ilik <danko@mindless.com>, 2002.
+# Зоран Димовски <decata@mt.net.mk>, 2004, 2005.
+# Zoran Dimovski <zoki.dimovski@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-mk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2006-09-17 20:55-0700\n"
+"Last-Translator: Zoran Dimovski <zoki.dimovski@gmail.com>\n"
+"Language-Team: Macedonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural= n==1 || n%10==1 ? 0 : 1\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, fuzzy, c-format
+msgid "Will check updates at %s"
+msgstr "Провери за ажурирање"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Вашиот систем е ажуриран"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Проблем при конфигурирање на сервисот. Ве молиме проверете ги логовите и "
+"испратете пошта на  support@mandrivaonline.com"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Почекајте, пронаоѓање на достапните пакети..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Достапни се нови ажурирања за вашиот систем"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Мрежата не работи. Ве молиме конфигурирајте ја вашата мрежа"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Сервисот не е вклучен. Ве молиме притиснете на \"Онлајн Веб сајт\""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, fuzzy, c-format
+msgid "urpmi database locked"
+msgstr "базата на податоци на urpmi е заклучена"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+"Верзијата не е подржана (премногу стара верзија или верзија во развоја фаза)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, fuzzy, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+"Веќе имате конфигурирано барем еден медиум за ажурирање,\n"
+"но сите такви се моментално оневозможени. Би требало да го\n"
+"вклучите Менаџерот на софтверски медиуми и да овозможите барем еден\n"
+"од таквите медиуми (штиклирајте во колоната Овозможено).\n"
+"\n"
+"Потоа, рестатувајте го %s."
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Овозможено"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Инсталирај надоградувања"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Провери за ажурирање"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Конфигурирај мрежа"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr ""
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "Вклучувам drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Следно"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Откажи"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, fuzzy, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "Вклучувам MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Ги пресметувам новите ажурирања...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Системот е ажуриран\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Проверувам мрежа: изгледа е оневозможена\n"
+
+#: ../mdkapplet:893
+#, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Авторски права (C) %s од „Mandriva“"
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr "„Mandriva Online“ дава пристап до веб сервисите на „Mandriva“."
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Онлајн Веб сајт"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Внимание"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "За..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, fuzzy, c-format
+msgid "Updates Configuration"
+msgstr "Читам конфигурација\n"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Секогаш вклучувај при подигнување"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Напушти"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr ""
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Грешка"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Опис на машината:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Се случи грешка"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, fuzzy, c-format
+msgid "An error occurred while adding medium"
+msgstr "Неуспех при додавање медиум"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Во ред"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, fuzzy, c-format
+msgid "Your password"
+msgstr "Погрешна лозинка"
+
+#: ../mdkapplet_gui.pm:228
+#, fuzzy, c-format
+msgid "Forgotten password"
+msgstr "Погрешна лозинка"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Затвори"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, fuzzy, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Online %s"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, fuzzy, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Online %s"
+
+#: ../mdkonline.pm:179
+#, fuzzy, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Online %s"
+
+#: ../mdkonline.pm:180
+#, fuzzy, c-format
+msgid "Mandriva One"
+msgstr "Mandriva Online %s"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, fuzzy, c-format
+msgid "Mandriva PowerPack"
+msgstr "„Mandriva Online“"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate верзија %s\n"
+"Авторски права (C) %s Mandriva.\n"
+"Ова е бесплатен софтвер и може да се редистрибуира под условите на GNU GPL.\n"
+"\n"
+"употреба:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- ја печати оваа помошна порака.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Автоматско вклучување на Mandriva Update.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- вклучува одредени mnf скрипти.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- верзија на Mandriva Update во текстуален режим.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr "  --debug\t\t\t- запишува што се случува\n"
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "Не можам да ги ажурирам пакетите од медиумот update_source.\n"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Опис на машината:"
+
+#~ msgid "Installation failed"
+#~ msgstr "Неуспешна инсталација"
+
+#~ msgid "Congratulations"
+#~ msgstr "Честитки"
+
+#~ msgid "Reboot"
+#~ msgstr "Рестартирај"
+
+#~ msgid ""
+#~ "Packages database is locked. Please close other applications\n"
+#~ "working with packages database (do you have another media\n"
+#~ "manager on another desktop, or are you currently installing\n"
+#~ "packages as well?)."
+#~ msgstr ""
+#~ "Базата на пакети е заклучена. Затворете ги другите апликации\n"
+#~ "што работат со неа (дали имате друг менаџер на медиуми на некој\n"
+#~ "друг десктоп, или пак моментално инсталирате некои пакети?)."
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Неуспех при додавање медиум"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "Изгледа дека Mandriva Online е повторно инсталиран, го превчитувам "
+#~ "аплетот ...."
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Проверувам... Пакетите за ажурирање се достапни\n"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "не можам да отворам rpmdb"
+
+#~ msgid "Connecting to"
+#~ msgstr "Се поврзувам со"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Аплет за ажурирање на Mandriva Linux"
+
+#~ msgid "Security error"
+#~ msgstr "Безбедносна грешка"
+
+#~ msgid "Generic error (machine already registered)"
+#~ msgstr "Општа грешка (машината е веќе регистрирана)"
+
+#~ msgid "Database error"
+#~ msgstr "Грешка на базата на податоци"
+
+#~ msgid ""
+#~ "Server Database failed\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Серверот за бази на податоци е недостапен\n"
+#~ "Ве молиме обидете се подоцна"
+
+#~ msgid "Registration error"
+#~ msgstr "Грешка при регистрација"
+
+#~ msgid "Some parameters are missing"
+#~ msgstr "Недостасуваат некои параметри"
+
+#~ msgid "Password error"
+#~ msgstr "Грешка во лозинката"
+
+#~ msgid "Login error"
+#~ msgstr "Грешка при најавување"
+
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Е-поштата која ја внесовте е веќе во употреба\n"
+#~ "Ве молиме внесете друга\n"
+
+#~ msgid "The email you provided is invalid or forbidden"
+#~ msgstr "Е-поштата која ја внесовте е невалидна или забранета"
+
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr ""
+#~ "Сандачето на е-поштата е празно\n"
+#~ "Ве молиме внесете едно"
+
+#~ msgid "Restriction Error"
+#~ msgstr "Грешка при огранучување"
+
+#~ msgid "Database access forbidden"
+#~ msgstr "Пристапот кон базата на податоци е забранет"
+
+#~ msgid "Service error"
+#~ msgstr "Грешка во сервисот"
+
+#~ msgid ""
+#~ "Mandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Веб сервисите на Mandriva тековно се недостапни\n"
+#~ "Ве молиме обидете се подоцна"
+
+#~ msgid "Password mismatch"
+#~ msgstr "Лозинките не се совпаѓаат"
+
+#~ msgid ""
+#~ "Mandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Веб сервисите на Mandriva се сервисираат\n"
+#~ "Ве молиме обидете се подоцна"
+
+#~ msgid "User Forbidden"
+#~ msgstr "Корисникот е забранет"
+
+#~ msgid "User account forbidden by Mandriva web services"
+#~ msgstr "Корисничката сметка е забранета од веб сервисите на Mandriva"
+
+#~ msgid "Connection error"
+#~ msgstr "Грешка при поврзување"
+
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "Веб сервисите на Mandriva се недостапни"
+
+#~ msgid ""
+#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
+#~ "file.\n"
+#~ msgstr ""
+#~ "  --bundle datoteka.bundle\t- анализира и инсталира пакет од мета "
+#~ "информациите на „.bundle“ датотека.\n"
+
+#~ msgid ""
+#~ "You first need to install the system on your harddrive with the 'Live "
+#~ "Install' wizard."
+#~ msgstr ""
+#~ "Најпрво треба да го инсталирате системот на вашиот хард диск преку "
+#~ "волшебникот „Live Install“."
+
+#~ msgid "Please wait"
+#~ msgstr "Ве молиме, почекајте"
+
+#~ msgid "Preparing..."
+#~ msgstr "Се подготвувам..."
+
+#~ msgid ""
+#~ "Failed to authenticate to the bundle server:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Неуспешно потврдување на серверот за пакет со апликации:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The version of the Mandriva Online client is too old.\n"
+#~ "\n"
+#~ "You need to update to a newer version. You can get a new one from http://"
+#~ "start.mandriva.com"
+#~ msgstr ""
+#~ "Верзијата на клиентот „Mandriva Online“ е премногу стара.\n"
+#~ "\n"
+#~ "Треба да го надградите со понова верзија. Новата верзија можете да ја "
+#~ "преземете од http://start.mandriva.com"
+
+#~ msgid "This bundle is not well formated. Aborting."
+#~ msgstr "Овој пакет со апликации не е добро форматиран. Прекинувам."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Инсталирање на пакетите...\n"
+
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Достапен е нов пакет со апликации за вашиот систем"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "Сервисот не е конфигуриран. Ве молиме притиснете на \"конфигурај го "
+#~ "сервисот\""
+
+#~ msgid "Configure the service"
+#~ msgstr "Конфигурирај го сервисот"
+
+#~ msgid "Check updates"
+#~ msgstr "Провери за ажурирање"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Конфигурирај Веднаш!"
+
+#~ msgid "Actions"
+#~ msgstr "Акции"
+
+#~ msgid "Configure"
+#~ msgstr "Конфигурирај"
+
+#~ msgid "See logs"
+#~ msgstr "Види логови"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Мрежна конекција: "
+
+#~ msgid "Up"
+#~ msgstr "Горе"
+
+#~ msgid "Down"
+#~ msgstr "Долу"
+
+#~ msgid "Last check: "
+#~ msgstr "Последна проверка: "
+
+#~ msgid "Machine name:"
+#~ msgstr "Име на машината:"
+
+#~ msgid "Updates: "
+#~ msgstr "Ажурирања: "
+
+#~ msgid "Development release not supported by service"
+#~ msgstr "Верзија во развојна фаза, не е подржана од сервисот"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Премногу стара верзија, не е подржана од сервисот"
+
+#~ msgid "Unknown state"
+#~ msgstr "Непозната држава"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Онлајн сервисите се оневозможени. Контактирајте со сајтот Mandriva "
+#~ "Online\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Погрешна лозинка.\n"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Погрешна акција или компјутер или логирање.\n"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Нешто не е во ред со вашите мрежни подесувања (проверете го вашиот route, "
+#~ "firewall или прокси подесувањата)\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Се појави проблем при поврзување со серверот. Ве молиме контактирајте со "
+#~ "тимот за поддршка"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Одговор од серверот на Mandriva Online\n"
+
+#~ msgid "No check"
+#~ msgstr "Без проверка"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Проверувам конфигурациона датотека: Не е достапна\n"
+
+#~ msgid "Logs"
+#~ msgstr "Логови"
+
+#~ msgid "Clear"
+#~ msgstr "Исчисти"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline верзија %s\n"
+#~ "Авторски права (C) %s Mandriva.\n"
+#~ "Ова е бесплатен софтвер и може да се редистрибуира под условите на GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "употреба:\n"
+
+#~ msgid "  --box=\t\t\t- hostname.\n"
+#~ msgstr "  --box=\t\t\t- имеНаХостот.\n"
+
+#~ msgid "  --country\t\t\t- name of country of the user. \n"
+#~ msgstr "  --country\t\t\t- име на државата на корисникот. \n"
+
+#~ msgid "  --interactive\t\t- use the interactive mode.\n"
+#~ msgstr "  --interactive\t\t- користи интерактивен режим.\n"
+
+#~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
+#~ msgstr "  --nointeractive\t- користи не-интерактивен режим.\n"
+
+#~ msgid "  --login=\t\t     - login name of the user.\n"
+#~ msgstr "  --login=\t\t     - име за најавување на корисникот.\n"
+
+#~ msgid "  --pass=\t\t\t- password  of the user.\n"
+#~ msgstr "  --pass=\t\t\t- лозинка на корисникот.\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Веќе имам сметка"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "Сакам да се зачленам"
+
+#~ msgid "Mr."
+#~ msgstr "г-дин"
+
+#~ msgid "Mrs."
+#~ msgstr "Г-ѓа"
+
+#~ msgid "Ms."
+#~ msgstr "Г-ца"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Овој асистент ќе ви помогне да ја пратите вашата конфигурација\n"
+#~ "(пакети, хардверска конфигурација) во централизирана база на податоци\n"
+#~ "за да ве известува за сигурносни ажурирања и корисни надоградувања.\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Создавање на сметка или автентикација"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr "Внесете го вашиот Mandriva Online логин, лозинка и име на машината:"
+
+#~ msgid "Email address:"
+#~ msgstr "Адреса на е-пошта:"
+
+#~ msgid "Country"
+#~ msgstr "Држава"
+
+#~ msgid "Password:"
+#~ msgstr "Лозинка:"
+
+#~ msgid "(Ex: My Home Office's Computer)"
+#~ msgstr "(Пр: Компјутер за мојата домашна канцеларија)"
+
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr "Името на машината море да има од 1-40 алфанумерички карактери"
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Се поврзувам на веб страницата Mandriva Online..."
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "За да придобивате од сервисите на Mandriva Online,\n"
+#~ "сега ќе ја пратиме вашата конфигурација.\n"
+#~ "\n"
+#~ "Волшебникот сега ќе ги испрати следниве информации на Mandriva:\n"
+#~ "\n"
+#~ "1) листа на пакетите кои се инсталирани на вашиот систем,\n"
+#~ "\n"
+#~ "2) вашата хардверска конфигурација.\n"
+#~ "\n"
+#~ "Ако се чествувате неудобно од оваа идеја, или не сакате да придобиете од "
+#~ "овој сервис,\n"
+#~ "ве молиме притиснете 'Откажи'. Со притискање на 'Следно', ни дозволувате "
+#~ "постојано да ве известуваме\n"
+#~ "за сигурносни ажурирања и корисни надоградувања преку персонализирани "
+#~ "email пораки.\n"
+#~ "Дури и придобивате од сервисите за подршка со намалена наплата на\n"
+#~ "www.mandrivaexpert.com."
+
+#~ msgid "Connection problem"
+#~ msgstr "Проблем со конекцијата"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Проблем при испраќање на датотеките, ве молиме обидете се повторно"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Создади Mandriva Online сметка"
+
+#~ msgid "Greeting:"
+#~ msgstr "Поздрав:"
+
+#~ msgid "First name:"
+#~ msgstr "Име:"
+
+#~ msgid "Last name:"
+#~ msgstr "Презиме:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Потврди ја лозинката:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Лозинките не се совпаѓаат\n"
+#~ " Ве молиме обидете се повторно\n"
+
+#~ msgid "Please fill in each field"
+#~ msgstr "Ве молиме пополнете ги сите полиња"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Невалидна email адреса!\n"
+
+#~ msgid "Creating account failed!"
+#~ msgstr "Неуспешно создавање на сметка!"
+
+#~ msgid ""
+#~ "Mandriva Online Account successfully created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "„Mandriva Online“ сметката е успешно креирана.\n"
+#~ "Ве молиме притиснете „Следно“ за автентикација и испраќање на вашата "
+#~ "конфигурација\n"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "Вашето испраќање е успешно!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Од сега па понатаму ќе добивате известувања за \n"
+#~ "сигурност и ажурирања, благодарение на „Mandriva Online“."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "„Mandriva Online“ ви ја нуди способноста за автоматско ажурирање.\n"
+#~ "Програмата ќе работи регуларно на вашиот систем чекајќи за нови "
+#~ "ажирирања\n"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Вашата „Mandriva Online“ сметка успешно е конфигуирана\n"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Конфигурацијата е успешно испратена"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Проблем при праќање на конфигурацијата"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "Не можам да се поврзам на веб страницата на „Mandriva Online“: погрешна "
+#~ "најава/лозинка или лоши поставувања на рутерот/огнениот ѕид"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- Вклучување на Mandriva Update.\n"
+
+#~ msgid "Cannot get list of updates: %s"
+#~ msgstr "Не може да се достави листата на надградби: %s"
+
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Изберете кои пакети да се инсталираат и притиснете Во ред"

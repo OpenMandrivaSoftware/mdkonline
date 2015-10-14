@@ -1,0 +1,131 @@
+#!/usr/bin/perl
+################################################################################
+# Mandriva Online                                                              # 
+#                                                                              #
+# Copyright (C) 2008 Mandriva                                             #
+#                                                                              #
+# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+use strict;
+use lib qw(/usr/lib/libDrakX /usr/lib/libDrakX/drakfirsttime);
+use standalone; # for explanations
+use common;
+
+BEGIN { unshift @::textdomains, 'mdkonline' }
+
+use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
+use ugtk2 qw(:all);
+use mdkonline;
+use mdkapplet_gui;
+use interactive;
+
+get_product_id();
+configure();
+
+ugtk2::exit(0);
+
+
+sub configure() {
+    my $w = ugtk2->new(N("Adding an additional package medium"), width => -1);
+
+    my %config = getVarsFromSh($config_file);
+
+    # convert from ms to seconds:
+    $config{FIRST_CHECK_DELAY} /= 1000;
+    # convert from seconds to minutes :
+    $config{FIRST_CHECK_DELAY} /= 60;
+    # convert from seconds to hours :
+    $config{UPDATE_FREQUENCY} /= 3600;
+
+    # sanity check:
+    $config{UPDATE_FREQUENCY} = 1 if $config{UPDATE_FREQUENCY} < 1;
+
+    # config file has negative options but GUI want positive options (HIG):
+    invbools_for_display(\%config);
+    
+    my $_ww = eval { gtknew('HScale', digits => 5) };
+    my $is_hscale_unsupported = $@;
+    my $product = translate_product();
+
+    my $res =
+      fill_n_run_portable_dialog(
+          $w,
+          [
+              if_(!$::isEmbedded, get_banner(N("Updates Configuration"))),
+              gtknew('Label_Left', text => N("Here you can configure the updates applet"), @common),
+              gtknew('Table', col_spacings => 5, row_spacings => 5, children => [
+                  [ gtknew('Label', alignment => [ 0, 1 ], text => N("Update frequency (hours)")),
+                    gtknew($is_hscale_unsupported ? ('Entry', text_ref => \$config{UPDATE_FREQUENCY})
+                      : ('HScale',
+                        digits => 0,
+                        lower => 1,
+                        upper => 24,
+                        step_increment => 1,
+                        width => 100,
+                        value_ref => \$config{UPDATE_FREQUENCY})) ],
+                  [ gtknew('Label', alignment => [ 0, 1 ], text => N("First check delay (minutes)")),
+                    gtknew($is_hscale_unsupported ? ('Entry', text_ref => \$config{UPDATE_FREQUENCY})
+                      : ('HScale',
+                        digits => 0,
+                        lower => 5,
+                        upper => 30,
+                        step_increment => 1,
+                        value_ref => \$config{FIRST_CHECK_DELAY})) ],
+                  [ gtknew('CheckButton',
+                           text => N("Check for newer \"%s\" releases", $product),
+                           active_ref => \$config{DO_NOT_ASK_FOR_DISTRO_UPGRADE},
+                       ),
+                ],
+                  if_(is_restricted_media_supported(),
+                  [ gtknew('CheckButton',
+                           text => N("Check for missing \"%s\" media", N("Restricted")),
+                           active_ref => \$config{DO_NOT_ASK_FOR_RESTRICTED},
+                       ),
+                ]),
+                  if_(is_enterprise_media_supported(),
+                  [ gtknew('CheckButton',
+                           text => N("Check for missing \"%s\" media", N("Enterprise")),
+                           active_ref => \$config{DO_NOT_ASK_FOR_ENTERPRISE_UPDATE_MEDIA},
+                       ),
+                ]),
+              ]),
+              create_okcancel($w), #, N("Next"), N("Cancel")),
+          ]);
+
+    if ($res) {
+        # convert from seconds to minutes :
+        $config{FIRST_CHECK_DELAY} *= 60;
+
+        # convert from seconds to hours :
+        $config{UPDATE_FREQUENCY} *= 3600;
+
+        # convert back into ms from seconds:
+        $config{FIRST_CHECK_DELAY} *= 1000;
+
+        # config file has negative options but GUI want positive options (HIG):
+        invbools_for_display(\%config);
+
+        setVarsInSh($config_file, \%config);
+    }
+}
+
+sub invbools_for_display {
+    my ($config) = @_;
+    foreach (qw(DO_NOT_ASK_FOR_DISTRO_UPGRADE DO_NOT_ASK_FOR_RESTRICTED DO_NOT_ASK_FOR_ENTERPRISE_UPDATE_MEDIA)) {
+        invbool(\$config->{$_});
+    }
+}

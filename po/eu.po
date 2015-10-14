@@ -1,0 +1,766 @@
+# translation of mdkonline.po to Euskara
+# EUSKARA: Mandriva Linux translation.
+# Copyright (C) 2001 Mandriva S.A.
+#
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003, 2004, 2005, 2006, 2008, 2009, 2010.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2010-06-29 21:26+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, c-format
+msgid "Will check updates at %s"
+msgstr "Eguneraketak egiaztatu %s-n"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Zure sistema eguneratuta dago"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Zerbitzuaren konfigurazio arazoa. Mesedez aztertu erregistroak eta bidali "
+"posta support@mandrivaonline.com helbidera"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Itxaron, pakete erabilgarriak bilatzen..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Zure sistemarentzako eguneraketa berriak eskuragarri daude"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr "Mandriva Linux banaketaren bertsio berri bat kaleratu da"
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr "Zure banaketaren pakete euskarri berri osagarri bat eskuragarri dago."
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Sarea erorita dago. Mesedez konfiguratu zure sarea"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Zerbitzua ez dago aktibatuta. Mesedez klikatu \"Lerroko Webgunea\""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, c-format
+msgid "urpmi database locked"
+msgstr "urpmi datubasea blokeatuta"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+"Bertsio hau ez dago sostengaturik (bertsio zaharregia, edo garapen bertsioa)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+"Ez da euskarririk aurkitu. Euskarriren bat erantsi behar duzu 'Software "
+"Euskarri Kudeatzailea' bitartez."
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+"Dagoeneko gutxienez eguneraketa euskarri bat konfiguratuta\n"
+"daukazu, baina une honetan guztiak ezgaituta daude. Software\n"
+"Euskarrien Kudeatzailea exekutatu beharko zenuke gutxienez\n"
+" bat gaitzeko (markatu \"%s\" zutabean).\n"
+"\n"
+"Ondoren, \"%s\" berrabiarazi."
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr "Akatsa euskarri eguneratzerakoan"
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Instalatu eguneratzeak"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr "Erantsi pakete euskarri osagarria"
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Egiaztatu eguneratzeak"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Konfiguratu sarea"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr "Sistema bertsio berritu"
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+"Banaketa honentzako oinarrizko mantenua amaitu da. Mantenu  hedatuan duzun "
+"harpidetzari esker, zure sistema %s arte eguneratuko da."
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+"SIGHUP jaso da (baliteke bertsio berritze bat amaitu izatea), applet-a "
+"berrabiatzen."
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "drakconect abiarazten\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr "Mandriva Linux banaketaren bertsio berria"
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr "Arakatu"
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr "Mandriva Linux banaketaren bertsio berri bat kaleratu da."
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr "Bertsio berri honi buruzko informazio gehiago"
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr "'%s' banaketara bertsio berritu nahi duzu?"
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr "Ez galdetu berriz"
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr "Jaitsi pakete guztiak batera"
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr "(Oharra: leku aske haundi xamarra beharko duzu)"
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr "Paketeak nora jaitsi:"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Utzi"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+"Mandriva Linux bertsio honentzako mantenua amaitu da. Ez dira sistema "
+"honentzako eguneraketa gehiago hornituko."
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr "Zure sistema seguru mantentzeko, egin dezakezu:"
+
+#: ../mdkapplet:520
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr "Mantenu hedatua hartu beharko zenuke."
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+"Mantenu hedatua hartu edo %s banaketaren bertsio berriago batera berritu "
+"beharko zenuke."
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr "%s banaketaren bertsio berriago batera berritu beharko zenuke."
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr "Zure banaketak ez du aurrerantzean euskarririk izango"
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr "Mantenu hedatua"
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+"Erosi bertsio honentzako (%s) mantenuaren luzapen bat eta jarraitu "
+"erabiltzen %s arte."
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+"Bertsio berritze honek banda zabalera haundiko sare lotura (kablea, "
+"xDSL, ...)  behar du eta osatzeko orduak beharko ditu."
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr "Jaitsi behar den datu kopurua %s izango dela kalkulatu da"
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+"Jarraitu aurretik martxan dauden gainontzeko aplikazio guztiak itxi beharko "
+"zenituzke."
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+"Magalekoa sare elektrikora konektatu beharko zenuke eta wifi loturaren "
+"gainetik ethernet hobetsi, eskuragarri badago."
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "MandrivaUpdate abiarazten\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Eguneraketa berriak kalkulatzen...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Sistema eguneratzera doa\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Sare egiaztaketa: desgaituta dagoela dirudi\n"
+
+#: ../mdkapplet:893
+#, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C) %s Mandriva"
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr "Mandriva Online-k Mandriva web zerbitzuetara sarbidea ematen du."
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Lerroko Webgunea"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Kontuz"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr "Informazio gehiago"
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr "Euskarria erantsi"
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Honi buruz..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, c-format
+msgid "Updates Configuration"
+msgstr "Eguneraketen ezarpena"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Jaurti beti hasterakoan"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Irten"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr "Euskarri berria eskuragarri"
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+"'%s' banaketa erabiltzen duzu, ondorioz software osagarrira sarbide "
+"pribilegioa daukazu."
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr "Pakete gordetegi osagarri hau erantsi nahi duzu?"
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr "Mandriva Enterprise Server"
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr "Pakete euskarri berri bat eransten"
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr "Euskarria duten produktuak %s dira, '%s' ez dago zerrendan.\n"
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr "Mesedez bete zure kontu ID, pakete euskarri osagarri bat eransteko"
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Errorea"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr "Akatsa banaketen zerrenda eskuratzerakoan:"
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+"Mandrivak banaketetan 12 hilabetez mahaigainaren eguneraketak hornitzen ditu "
+"(%s arte) eta 18 hilabez oinarriaren eguneraketak (%s arte)."
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+"Mantenu hedatua eskuragarri dago orain 18 hilabetez eguneraketa gehigarriak "
+"jasotzeko (%s arte)."
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr "Izen eman dezakezu <b>oraintxe bertan</b> mantenu hedatua jasotzeko:"
+
+# Lifetime => Gazteleraz "Ciclo de vida"?
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr "Biziarteko politika"
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, c-format
+msgid "Online subscription"
+msgstr "Lerroko harpidetza"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Akats bat gertatu da"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr "Zure Mandriva kontuak ez dauka %s jaisteko harpidetza gaituta."
+
+#: ../mdkapplet-add-media-helper:226
+#, c-format
+msgid "An error occurred while adding medium"
+msgstr "Akatsa gertatu da euskarria eransterakoan"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr "Euskarria egokiro erantsi da!"
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr "%s euskarria erantsi da."
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Ados"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr "Hemen eguneraketa appleta konfiguratu dezakezu"
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr "Eguneratzeko maiztasuna (orduak)"
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr "Lehenengo egiaztapenerako atzerapena (minutuak)"
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr "Egiaztatu \"%s\"-ren kaleratze berriak"
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr "Egiaztatu falta den \"%s\" euskarria"
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr "Mugatuta"
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr "Enpresa"
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+"Mandriva Powerpack-ek mahaigainerako Linux esperientziarik onena ekartzen "
+"dizu: iturburu irekiko ebazpideen egonkortasun eta eraginkortasuna, software "
+"esklusibo eta Mandrivaren euskarri ofizialarekin batera."
+
+#: ../mdkapplet_gui.pm:94
+#, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Linux-en ezaugarriak"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr "Zure erabiltzaile kontuaren gaineko informazio gehiago"
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr "Zure post@"
+
+#: ../mdkapplet_gui.pm:221
+#, c-format
+msgid "Your password"
+msgstr "Zure pasahitza"
+
+#: ../mdkapplet_gui.pm:228
+#, c-format
+msgid "Forgotten password"
+msgstr "Ahaztutako pasahitza"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr "Pasahitza eta post@ ezin dira hutsik utzi."
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Itxi"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr "Aukeratu bertsio berritzeko zure bertsioa"
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr "Zure Powerpack atzipena amaitu da"
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr "%s eskuragarri dago orain, honetara bertsio berritu dezakezu:"
+
+#: ../mdkonline.pm:177
+#, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Flash"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Free"
+
+#: ../mdkonline.pm:179
+#, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Mini"
+
+#: ../mdkonline.pm:180
+#, c-format
+msgid "Mandriva One"
+msgstr "Mandriva One"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva PowerPack"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+"Mandriva Linux banaketa oraindik software gehiago eta euskarri ofizialarekin."
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr "%%100 Iturburu irekiko banaketa doan eskuragarri."
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr "Banaketaren Bertsio berritzea"
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate %s bertsioa\n"
+"Copyright (C) %s Mandriva.\n"
+"Software librea da, eta birbana daiteke GNU GPL lizentziaren baldintzak "
+"betetzen badira.\n"
+"\n"
+"erabilera:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- laguntza-mezu hau inprimatzen du.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Mandriva Update automatikoki abiarazten du.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- jaurti mnf script espezifikoak.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- Mandriva Update-ren testu moduko bertsioa.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr "  --debug\t\t\t- erregistratu egindako ekintzak\n"
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "Ezin dira update_source euskarritik paketeak eguneratu.\n"
+
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr ""
+#~ "Mesedez bete zure kontu ID pakete euskarri osagarri bat eransteko lerroan "
+#~ "izen eman duzunean"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "Zure Mandriva kontuak ez dauka Mantenu Hedapen harpidetza gaituta."
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Lerroko harpidetza"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Zure Mandriva kontuak ez dauka Powerpack jaisteko harpidetza gaituta."
+
+#~ msgid ""
+#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
+#~ "dMB)"
+#~ msgstr ""
+#~ "Zure sistemak ez dauka %s-n behar adina leku aske bertsio berritzeko (%"
+#~ "dMB < %dMB)"
+
+#~ msgid "Installation failed"
+#~ msgstr "Instalazioak huts egin du"
+
+#~ msgid "Installation logs can be found in '%s'"
+#~ msgstr "Instalaketaren egunkariak '%s'-n aurkitu daitezke"
+
+#~ msgid "Retry"
+#~ msgstr "Berriro saiatu"
+
+#~ msgid "Congratulations"
+#~ msgstr "Zorionak"
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Bertsio berritza Mandriva %s askapenera arrakastatsua izan da."
+
+#~ msgid "You must restart your system."
+#~ msgstr "Zure sistema berrabiatu behar duzu."
+
+#~ msgid "Reboot"
+#~ msgstr "Berrabiarazi"
+
+#~ msgid ""
+#~ "Packages database is locked. Please close other applications\n"
+#~ "working with packages database (do you have another media\n"
+#~ "manager on another desktop, or are you currently installing\n"
+#~ "packages as well?)."
+#~ msgstr ""
+#~ "Paketeen datu-basea blokeatuta dago. Itxi paketeen datu-basearekin\n"
+#~ "lanean ari diren aplikazioak (beste mahaigain batean beste\n"
+#~ "euskarri-kudeatzaile bat duzu, edo une honetan paketeak\n"
+#~ "instalatzen ari zara?)."
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Ezin izan da euskarria gehitu"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Mandriva Linux banaketaren bertsio berri bat kaleratu da."
+
+#~ msgid "MES5"
+#~ msgstr "MES5"

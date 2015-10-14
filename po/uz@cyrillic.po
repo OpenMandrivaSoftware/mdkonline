@@ -1,0 +1,1026 @@
+# translation of Mandriva Online-uz.po to Uzbek
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Copyright (C) 2003 Mandriva.
+#
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004.
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-uz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2009-12-20 19:03+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, c-format
+msgid "Will check updates at %s"
+msgstr "Янгиланишларни текшириш %s да амалга оширилади"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Тизим янгилашга муҳтоэ эмас"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Хизматни созлашда муаммо. Илтмос лог журналларини текширинг ва  "
+"support@mandrivaonline.com манзилига хат жўнатинг"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Мавжуд бўлган пакетлар қидирилмоқда, илтимос кутиб туринг..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Тизимингиз учун янгиланиш мавжуд"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr "Mandriva Linux дистрибутивининг янги версияси чиқди"
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr "Ушбу дистрибутив учун қўшимча пакетлар тўплами мавжуд."
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Тармоқ мавжуд эмас. Илтимос тармоқни созланг"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Хизмат активлаштирилмаган. Илтимос \"Online Website\"ни босинг"
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, c-format
+msgid "urpmi database locked"
+msgstr "urpmi маълумот базаси қулфланган"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+"Ушбу версия қўллаб-қувватланмайди (жуда эски версия ёки ушбу версия устида "
+"ишланмоқда)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+"Тўплам топилмади. 'Дастур тўплами бошқарувчиси' ёрдамида тўплам қўшишингиз "
+"керак."
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Ёқилган"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr "Тўпламни янгилаб бўлмади"
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Янгиланишларни ўрнатиш"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr "ҚЎшимча пакетлар тўпламини қўшиш"
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Янгиланишларни текшириш"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Тармоқни мослаш"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr "Тизимни янгилаш"
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "drakconnect'ни ишга тушириш\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr "Mandriva Linux дистрибутивининг янги версияси"
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr "Танлаш"
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr "Mandriva Linux дистрибутивининг янги версияси чиқди."
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr "Ушбу янги версия ҳақида кенгроқ маълумот"
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr "'%s' версияга янгилашни истайсизми?"
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr "Бошқа сўралмасин"
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr "Бирдан барча пакетларни ёзиб олиш"
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr "(Диққат: Сизга дискда яна кўпроқ керак)"
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr "Пакетлар қаерга ёзиб олинади:"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Кейингиси"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Бекор қилиш"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, fuzzy, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+"Ушбу версия бошқа қўллаб-қувватланмайди. Бу ушбу версия учун бошқа "
+"янгиланишлар чиқмаслигини англатади. Ушбу версияни, %s версияга "
+"алмаштиришингиз керак."
+
+#: ../mdkapplet:532
+#, fuzzy, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr "'%s' версияга янгилашни истайсизми?"
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+"Ушбу янгиланиш учун юқори тезликдаги интернет уланиши (кабелли, xDSL, ...) "
+"талаб қилинади ва янгиланишга бир неча соат кетиши мумкин."
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr "Давом этишдан олдин барча ишлаб турган дастурларни ёпинг."
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+"Ноутбукни доимий электр қувватига уланг ва wifi ўрнига симли уланишдан "
+"фойдаланинг."
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "MandrivaUpdate ишга туширилмоқда\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Янги янгиланишлар ҳисобланмоқда...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Тизим янгилашга муҳтоэ эмас\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Тармоқ текширилмоқда: ўчирилган кўринади\n"
+
+#: ../mdkapplet:893
+#, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C) %s by Mandriva"
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr "Mandriva Online, Mandriva веб хизматларига уланиш имкониятини беради."
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Online WebSite"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Нурали Абдураҳмонов <mavnur@gmail.com>\n"
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Диққат"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr "Қўшимча маълумотлар"
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr "Тўплам қўшиш"
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Дастур ҳақида..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, c-format
+msgid "Updates Configuration"
+msgstr "Янгилаш мосламалари"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Тизимга кирганда ишга тушириш"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Чиқиш"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr "Янги тўплам мавжуд"
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+"Сиз '%s' дистрибутивидан фойдаланяпсиз ва сизга қўшимча дастурларга рухсат "
+"бор."
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr "Ушбу қўшимча дастурлар репозиторийсини ўрнатишни истайсизми?"
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr "Mandriva Enterprise Server"
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr "Қўшимча пакетлар тўпламини қўшиш"
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr "Қўшимча пакетлар тўпламини қўшиш учун ўз ҳисобингиз логинини киритинг"
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Хато"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Компьютернинг номи:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Хато рўй берди"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr "Сизнинг Mandriva ҳисобингизда %s ёзиб олиш ёқилмаган."
+
+#: ../mdkapplet-add-media-helper:226
+#, c-format
+msgid "An error occurred while adding medium"
+msgstr "Тўпламни қўшиш муваффақиятсиз тугади"
+
+#: ../mdkapplet-add-media-helper:234
+#, fuzzy, c-format
+msgid "Successfully added media!"
+msgstr "%s тўплами муваффақиятли қўшилди."
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr "%s тўплами муваффақиятли қўшилди."
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Ок"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr "Бу ердан янгилаш аплетини созлашингиз мумкин"
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr "Янгилаш оралиғи (соатда)"
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr "Биринчи текшириш оралиғи (дақиқада)"
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr "Ҳимояланган"
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr "Ҳисобнинг қўшимча маълумотлари"
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr "Электрон почта"
+
+#: ../mdkapplet_gui.pm:221
+#, c-format
+msgid "Your password"
+msgstr "Махфий сўз"
+
+#: ../mdkapplet_gui.pm:228
+#, c-format
+msgid "Forgotten password"
+msgstr "Махфий сўзни унутдингизми"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr "Махфий сўз ва эл.почта бўш бўлиши мумкин эмас."
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Ёпиш"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Flash"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Free"
+
+#: ../mdkonline.pm:179
+#, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Mini"
+
+#: ../mdkonline.pm:180
+#, c-format
+msgid "Mandriva One"
+msgstr "Mandriva One"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva PowerPack"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr "Дистрибутивни янгилаш"
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate, версия %s\n"
+"Copyright (C) %s Mandriva.\n"
+"Бу эркин дастур ва GNU GPL шартлари асосида тарқатилиши мумкин.\n"
+"\n"
+"Фойдаланиш:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- шу ёрдам хабарини кўрсатиш.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Mandriva Update автоматик ишга тушади.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- mnf скриптини ишга тушириш.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- Mandriva Update матн усули.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr "  --debug\t\t\t- бажарилган ишлар бўйича лог журнали\n"
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "update_source тўпламидан пакетларни янгилаб бўлмади.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr ""
+#~ "Қўшимча пакетлар тўпламини қўшиш учун ўз ҳисобингиз логинини киритинг"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "Сизнинг Mandriva ҳисобингизда %s ёзиб олиш ёқилмаган."
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Компьютернинг номи:"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr "Сизнинг Mandriva ҳисобингизда Powerpack'ни ёзиб олиш ёқилмаган."
+
+#~ msgid ""
+#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
+#~ "dMB)"
+#~ msgstr ""
+#~ "Тизимингизда янгиланишлар учун %s да етарли жой қолмаган (%dМб < %dMB)"
+
+#~ msgid "Installation failed"
+#~ msgstr "Ўрнатиш муваффақиятсиз тугади"
+
+#~ msgid "Installation logs can be found in '%s'"
+#~ msgstr "Ўрнатиш бўйича лог журналларини '%s' да топишингиз мумкин"
+
+#~ msgid "Retry"
+#~ msgstr "Қайтадан уриниш"
+
+#~ msgid "Congratulations"
+#~ msgstr "Табриклаймиз"
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Mandriva %s релизига янгилаш муваффақиятли амалган оширилди."
+
+#~ msgid "You must restart your system."
+#~ msgstr "Тизимни ўчириб-ёқишингиз керак."
+
+#~ msgid "Reboot"
+#~ msgstr "Ўчириб-ёқиш"
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Тўпламни қўшиш муваффақиятсиз тугади"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Mandriva Linux дистрибутивининг янги версияси чиқди."
+
+#~ msgid "Yes"
+#~ msgstr "Ҳа"
+
+#~ msgid "No"
+#~ msgstr "Йўқ"
+
+#~ msgid "Packages are up to date"
+#~ msgstr "Пакетларни янгилаш муҳтожи йўқ"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "rpmdb'ни очиб бўлмади"
+
+#~ msgid "Connecting to"
+#~ msgstr "Алоқа ўрнатилмоқда"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Хавфсизлик хабарномаси:"
+
+#, fuzzy
+#~ msgid "Database error"
+#~ msgstr "Маълумот базанинг хатоси"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Рўйхатдан ўтишнинг тури"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Масофадаги принтернинг номи аниқланмаган!"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "Фойдаланувчи %s учун махфий сўз"
+
+#, fuzzy
+#~ msgid "Login error"
+#~ msgstr "номаълум хато"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "\"%s\" тахаллуси аллақачон банд ёки ҳақиқий эмас\n"
+#~ "Бошқасини киритинг\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr "Фойдаланувчи майдони бўш. Илтимос фойдаланувчини киритинг."
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Таърифи: "
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "Маълумот база сервери"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Ёзишда хато\n"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Махфий сўз мос келмади"
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "Фойдаланувчи менюси"
+
+#, fuzzy
+#~ msgid "Connection error"
+#~ msgstr "Уланишнинг номи"
+
+#~ msgid "Please wait"
+#~ msgstr "Илтимос кутиб туринг"
+
+#~ msgid "Preparing..."
+#~ msgstr "Тайёрланмоқда..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Пакетлар ўрнатилмоқда...\n"
+
+#, fuzzy
+#~ msgid "Configure the service"
+#~ msgstr "Тармоқни мослаш"
+
+#~ msgid "Check updates"
+#~ msgstr "Янгиланишларни текшириш"
+
+#~ msgid "Actions"
+#~ msgstr "Амаллар"
+
+#~ msgid "Configure"
+#~ msgstr "Мослаш"
+
+#~ msgid "See logs"
+#~ msgstr "Логларни кўриш"
+
+#~ msgid "Status"
+#~ msgstr "Ҳолати"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Тармоқ: "
+
+#~ msgid "Up"
+#~ msgstr "Ишлаяпти"
+
+#~ msgid "Down"
+#~ msgstr "Ишламаяпти"
+
+#~ msgid "Last check: "
+#~ msgstr "Охирги текширув:"
+
+#~ msgid "Machine name:"
+#~ msgstr "Компьютернинг номи:"
+
+#, fuzzy
+#~ msgid "Updates: "
+#~ msgstr "Янги янгиланишлар: "
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Махфий сўз нотўғри.\n"
+
+#, fuzzy
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Mandriva Online'га марҳамат"
+
+#~ msgid "Logs"
+#~ msgstr "Логлар"
+
+#~ msgid "Clear"
+#~ msgstr "Тозалаш"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline, версия %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Бу эркин дастур ва GNU GPL шартлари асосида тарқатилиши мумкин.\n"
+#~ "\n"
+#~ "Фойдаланиш:\n"
+
+#~ msgid "Mr."
+#~ msgstr "Жаноб"
+
+#~ msgid "Mrs."
+#~ msgstr "Хоним"
+
+#~ msgid "Ms."
+#~ msgstr "Хоним"
+
+#, fuzzy
+#~ msgid "Email address:"
+#~ msgstr "IP рақами"
+
+#~ msgid "Country"
+#~ msgstr "Кантри"
+
+#~ msgid "Password:"
+#~ msgstr "Махфий сўз:"
+
+#, fuzzy
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr "Улаш нуқталари фақат сон ёки ҳарфлардан иборат бўлиши мумкин"
+
+#, fuzzy
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Mandriva Online'га марҳамат"
+
+#~ msgid "Connection problem"
+#~ msgstr "Алоқа ўрнатишда муаммо"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Mandriva Online ҳисобини яратиш"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Яшил"
+
+#~ msgid "First name:"
+#~ msgstr "Исми:"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Исми:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Махфий сўзни тасдиқланг:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Махфий сўзлар мос келмайди\n"
+#~ " Илтимос яна уриниб кўринг\n"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Илтимос ҳамма майдонларни тўлдиринг\n"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Электрон почта ҳақиқий эмас!\n"
+
+#, fuzzy
+#~ msgid "Creating account failed!"
+#~ msgstr "Ҳисобни ўзгартириш"
+
+#, fuzzy
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Мосламалар жўнатилмоқда..."
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- Mandriva Update хизматини ишга тушириш.\n"
+
+#~ msgid "Login:"
+#~ msgstr "Фойдаланувчи:"
+
+#~ msgid "or"
+#~ msgstr "ёки"
+
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Фойдаланувчи ва махфий сўз 12 та белгидан кам бўлиши керак\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Махсус белгилар мумкин эмас\n"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Электрон почта ҳақиқий эмас\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Ҳисоб аллақачон мавжуд\n"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Серверга уланишда муаммо\n"
+
+#~ msgid "Previous"
+#~ msgstr "Олдингиси"
+
+#~ msgid "Authentification"
+#~ msgstr "Тасдиқлаш"
+
+#~ msgid "Finish"
+#~ msgstr "Тайёр"
+
+#~ msgid "automated Upgrades"
+#~ msgstr "Автоматлаштирилган янгиланишлар"
+
+#~ msgid "Country:"
+#~ msgstr "Давлат:"
+
+#~ msgid "Quitting Wizard\n"
+#~ msgstr "Ёрдамчидан чиқилмоқда\n"
+
+#~ msgid ""
+#~ "Mandriva Online could not be contacted, please try again at a later time"
+#~ msgstr ""
+#~ "Mandriva Online билан алоқа ўрнатиб бўлмади. Илтимос кейинроқ уриниб "
+#~ "кўринг"
+
+#~ msgid "  --update       - Update keys\n"
+#~ msgstr "  --update       - Калитларни янгилаш.\n"
+
+#~ msgid "Skip Wizard"
+#~ msgstr "Ёрдамчисиз"
+
+#~ msgid "Subscribe"
+#~ msgstr "Аъзо бўлиш"
+
+#~ msgid "Available"
+#~ msgstr "Мавжуд"
+
+#~ msgid "Checking ..."
+#~ msgstr "Текширилмоқда..."
+
+#~ msgid "Creation"
+#~ msgstr "Яратиш"
+
+#~ msgid "Special characters"
+#~ msgstr "Махсус белгилар"
+
+#~ msgid "Empty fields"
+#~ msgstr "Бўш майдонлар"
+
+#~ msgid "Email"
+#~ msgstr "Электрон почта"
+
+#~ msgid "Server Problem"
+#~ msgstr "Сервер муаммоси"

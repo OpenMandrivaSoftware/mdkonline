@@ -1,0 +1,374 @@
+#!/usr/bin/perl
+################################################################################
+# Mandriva Online Distribution Upgrade Helper                                  # 
+#                                                                              #
+# Copyright (C) 2008-2010 Mandriva                                             #
+#                                                                              #
+# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+use strict;
+use POSIX ":sys_wait_h";
+use lib qw(/usr/lib/libDrakX);
+use standalone; # for explanations
+use common;
+BEGIN { require_root_capability() }
+use run_program;
+use feature 'state';
+
+BEGIN { unshift @::textdomains, 'mdkonline' }
+
+use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
+use ugtk2 qw(:all);
+use lib qw(/usr/lib/libDrakX/drakfirsttime);
+use mdkonline;
+use Rpmdrake::open_db;
+use lang;
+use mdkapplet_gui qw(run_ask_credentials_dialog);
+
+ugtk2::add_icon_path("/usr/share/mdkonline/pixmaps/");
+my ($log_file);
+
+my ($new_distro_version, $download_dir);
+foreach my $opt (@ARGV) {
+    if ($opt =~ /--(rpm-root|urpmi-root)=(.*)/) {
+        $::rpmdrake_options{$1}[0] = $2;
+    } elsif ($opt =~ /--new_distro_version=(.*)/) {
+        $new_distro_version = $1;
+    } elsif ($opt =~ /--download-all=(.*)/) {
+        $download_dir = $1;
+    }
+}
+
+my $root = Rpmdrake::open_db::fast_open_urpmi_db()->{root};
+
+my $product_id = common::parse_LDAP_namespace_structure(cat_("$root/etc/product.id"));
+
+if (!$ENV{URPMI_IGNORESIZE}) {
+    check_available_free_space('/usr', 800) &&
+      check_available_free_space('/var', 800)
+	or exit(1);
+}
+
+run_program::raw({ detach => 1 }, 'ionice', '-p', $$, '-n7');
+
+upgrade();
+
+my ($refork_gurpmi);
+
+sub check_available_free_space {
+    my ($dir, $wanted_MB) = @_;
+
+    my (undef, $free_KB) = MDK::Common::System::df($dir);
+
+    if ($free_KB / 1024 < $wanted_MB) {
+	my $msg = ugtk2::escape_text_for_TextView_markup_format(
+	    N("Your system does not have enough space left in %s for upgrade (%dMB < %dMB)",
+	      $dir,
+	      $free_KB / 1024, $wanted_MB));
+	ugtk2::ask_warn(N("Error"), $msg);
+	0;
+    } else {
+	1;
+    }
+}
+
+sub run_gurpmi() {
+    my @initial_args = ('--replacefiles', '--clean');
+    push @initial_args, "--download-all=$download_dir" if $download_dir;
+
+    # Windows are created before upgrading packages, to guarantee that
+    # any possible related GTK upgrade won't affect us...
+    my $succeeded_win = create_upgrade_succeeded_window();
+    my $failed_win = create_upgrade_failed_window();
+
+    while ($refork_gurpmi) {
+        
+        my $ok = fork_gurpmi(@initial_args);
+        if ($refork_gurpmi && !$ok) {
+            $refork_gurpmi--;
+        } else {
+            undef $refork_gurpmi;
+        }
+
+        # update media in case mirrors got updated if needed:
+        update_media() if $refork_gurpmi;
+
+        if (!$refork_gurpmi) {
+            if (!$ok) {
+                $failed_win->main && upgrade();
+            } else {
+                rm_rf(get_stale_upgrade_filename());
+                $succeeded_win->main && !$::testing && any::reboot();
+                my $mdkapp_pid = common::is_running('mdkapplet');
+                defined($mdkapp_pid) && kill('HUP', $mdkapp_pid);
+            }
+        }
+    }
+}
+
+my $width = 500;
+my @common = (
+    # explicitely wrap (for 2008.1):
+    line_wrap => 1,
+    # workaround infamous 6 years old gnome bug #101968:
+    width => $width - 50,
+);
+
+sub create_upgrade_failed_window() {
+    local $mygtk2::left_padding = 0;
+    my $w = ugtk2->new(N("Error"));
+    gtkadd($w->{window},
+           gtknew('VBox', children_tight => [
+               get_banner(),
+               gtknew('Label_Left', text => N("Installation failed"), @common),
+               gtknew('Label_Left', text => N("Installation logs can be found in '%s'", $log_file), @common),
+               create_okcancel($w, N("Retry"), N("Cancel")),
+           ]),
+       );
+    $w->{ok}->grab_focus;
+    return $w;
+}
+
+sub create_upgrade_succeeded_window() {
+    local $mygtk2::left_padding = 0;
+    my $w = ugtk2->new(N("Congratulations"));
+    gtkadd($w->{window},
+           gtknew('VBox', children_tight => [
+               get_banner(),
+               gtknew('Label_Left', text => N("Upgrade to Mandriva %s release was successfull.", $new_distro_version),
+                      @common),
+               gtknew('Label_Left', text => N("You must restart your system."), @common),
+               create_okcancel($w, N("Reboot"), N("Cancel")),
+           ]),
+       );
+    $w->{ok}->grab_focus;
+    return $w;
+}
+
+# Returns: undef if failed to authenticate, [$email, $passwd] otherwise
+sub powerpack_auth_callback {
+    my ($email, $passwd) = @_;
+    my $profile = mdkonline::get_my_mdv_profile($email, $passwd);
+    
+    # Checking for profile retrieving errors...
+    if ($profile->{code} != 0) {
+        my $in = interactive->vnew;
+        $in->ask_warn(N('Error'), 
+                      N('An error occurred') . "\n" . $profile->{message});
+        return;
+    } 
+
+    # Checking rights to powerpack media...
+    #
+    # level 2 => mandriva group
+    # level 6 => powerpack subscriber group
+    # data.families => acces to especific version if matches
+    #                  powerpack-VERSION
+    #
+    my $level = $profile->{data}{club}{level};
+    if ($level == 2 or $level == 6) {
+        return [$email, $passwd];
+    }
+    elsif ($profile->{data}{families} 
+               =~ /powerpack-$new_distro_version/i) {
+        return [$email, $passwd];
+    }
+    else {
+        mdkapplet_gui::run_no_rights_dialog(
+            N('Powerpack Media Configuration'),
+            N('You current Mandriva account does not have Powerpack ' .
+              'subscription enabled.'),
+            'https://my.mandriva.com/powerpack/',
+            );
+        return;
+    }
+}
+
+sub try_to_add_powerpack_media {
+    my $is_powerpack = mdkonline::is_restricted_media_supported();
+    my $auth_info;
+
+    # Validating current product for offering powerpack medias...
+
+    if ($is_powerpack) {
+        # Verifying rights of current powerpack users...
+        my $title = N('Powerpack Media Configuration');
+        my $description = N('Please fill your My.Mandriva login and ' .
+                            'password to add additional package media '.
+                            'for Powerpack.');
+
+        # If no rights @auth_info == ()...
+        $auth_info = run_ask_credentials_dialog(
+            $title,
+            $description,
+            \&powerpack_auth_callback,
+        );
+    }
+    elsif ($product_id->{product} !~ /flash|free|one/i) {
+        return;    # don't offer pwp for any other product
+    }
+
+    my $choice;    # will be 'powerpack', 'free' or undef
+    while ($auth_info 
+               or ($choice = mdkapplet_gui::open_ask_powerpack_dialog(
+                                 $product_id->{product},
+                                 $new_distro_version))) {
+        $auth_info and return $auth_info;
+
+        # Get the new authentication info from user...
+        my $title = N('Powerpack Media Configuration');
+        my $description = N('Please fill your account ID to add ' .
+                            'Powerpack %s version packages media once ' .
+                            'you have subscribed online',
+                            $new_distro_version);
+        $auth_info = run_ask_credentials_dialog(
+            $title,
+            $description,
+            \&powerpack_auth_callback,
+            top_extra => $mdkapplet_gui::powerpack_ad,
+        );       
+    }
+    defined $choice or exit 0;    # means user has canceled upgrade
+    return;
+}
+
+sub upgrade() {
+    my $xid = gtkroot()->XWINDOW;
+    
+    run_program::raw({ detach => 1 }, 'xdg-screensaver', 'suspend', $xid);
+    my $_w = before_leaving { run_program::raw({ detach => 1 }, 'xdg-screensaver', 'resume', $xid) };
+   
+    my $file = "$ENV{HOME}/.MdkOnline/urpmi.cfg.backup." . int(rand 100000);
+    log::explanations("backuping urpmi configuration in $file");
+    cp_af("$root/etc/urpmi/urpmi.cfg", $file);
+
+    my $urpm = Rpmdrake::open_db::fast_open_urpmi_db();
+
+    my $urpmi_lock = eval {
+        local $urpm->{fatal} = sub { die @_ };
+        urpm::lock::urpmi_db($urpm, 'exclusive');
+    };
+
+    if (my $err = $@) {
+        log::explanations(sprintf("locking urpmi database failed: %s"), $err);
+        ugtk2::ask_warn(N("Error"),
+                        N("Installation failed"),
+                        '',
+                        formatAlaTeX(N("Packages database is locked. Please close other applications
+working with packages database (do you have another media
+manager on another desktop, or are you currently installing
+packages as well?)."))
+                    );
+        exit(1);
+    }
+    undef $urpmi_lock;
+
+    touch(get_stale_upgrade_filename());
+
+    log::explanations(
+        "checking if restricted (powerpack) media is to be addded");
+    # add_pwp_auth != undef, means user asked for pwp with good credentials
+    my $add_pwp_auth = try_to_add_powerpack_media();
+
+    log::explanations("removing all existing urpmi media for upgrade");
+    run_program::run('urpmi.removemedia', if_($root, '--urpmi-root', $root), '-a');
+
+    #- clear the mirror cache before upgrading:
+    eval { rm_rf("$::prefix/var/cache/urpmi/mirrors.cache") };
+
+    $urpm = Rpmdrake::open_db::fast_open_urpmi_db();
+    if ($urpm->{global_config}{downloader}) {
+        log::explanations("disabling custom downloader in order to use aria2");
+        delete $urpm->{global_config}{downloader};
+        urpm::media::write_config($urpm);
+    }
+
+    log::explanations("adding urpmi media for new distribution");
+
+    $ENV{URPMI_ADDMEDIA_REASON} = join(',', 'reason=upgrade', 'upgrade_by=mdkapplet', "upgrade_from=$product_id->{version}");
+    # the following modifies $MIRRORLIST expansion in urpm/mirrors.pm,
+    # it must be set for gurpmi.addmedia, but also for gurpmi
+    $ENV{URPMI_ADDMEDIA_PRODUCT_VERSION} = $new_distro_version;
+
+    system('gurpmi.addmedia', '--silent-success', if_($root, "--urpmi-root=$root"), '--distrib', '--mirrorlist', '$MIRRORLIST') and do {
+        log::explanations("adding media for new distribution failed");
+        rm_rf(get_stale_upgrade_filename());
+        log::explanations("restoringing urpmi configuration from $file");
+        cp_af($file, "$root/etc/urpmi/urpmi.cfg");
+        update_media();
+        ugtk2::ask_warn(N("Error"),
+                        N("Installation failed"),
+                        N("Failure when adding medium"),
+                    );
+        exit(2);
+    };
+
+    if ($add_pwp_auth) {
+        log::explanations("adding restricted (powerpack) media");
+
+        my ($email, $passwd) = @$add_pwp_auth;
+        unless (mdkonline::add_medium_powerpack(
+                    $email, 
+                    $passwd, 
+                    $new_distro_version, 
+                    urpm::cfg::get_arch()
+                )) {
+            # FIXME Don't replicate code like this!
+            log::explanations("adding media for new distribution failed");
+            rm_rf(get_stale_upgrade_filename());
+            log::explanations("restoringing urpmi configuration from $file");
+            cp_af($file, "$root/etc/urpmi/urpmi.cfg");
+            update_media();
+            ugtk2::ask_warn(N('Error'),
+                            N('Installation failed'),
+                            N('Failed to add powerpack restricted ' .
+                              'medium'),
+                );
+            exit(2);            
+        }
+        # Media was added, update it and move along...
+        update_media();
+    }
+
+    log::explanations("upgrading urpmi and rpmdrake");
+    log::explanations("upgrading the whole system");
+
+    # rerun gurpmi in case there was an issue (with eg: big transactions:
+    $refork_gurpmi = 4;
+    {
+        # force PATH:
+        local $ENV{TMPDIR} = undef;
+	my $log_template = 
+	    "gurpmi_upgrade_to_${new_distro_version}_XXXXXXXX";
+        $log_file = chomp_(`mktemp -u --tmpdir=$ENV{HOME}/.MdkOnline/ --suffix=.log $log_template`);
+        log::explanations("logging gurpmi message in '$log_file'");
+    }
+
+    # we cannot use installUpdates() as MandrivaUpdate needs the media
+    # flaged as update (or else, we need to add a new option to MandrivaUpdate):
+    run_gurpmi();
+}
+
+sub fork_gurpmi {
+    run_program::raw({ timeout => 'never' },
+		     'gurpmi', '>>', $log_file, '2>>', $log_file, '--auto', '--auto-select',
+                      if_($root, "--urpmi-root=$root"), @_);
+}
+
+sub update_media() {
+    run_program::run('urpmi.update', if_($root, '--urpmi-root', $root), '-a', '--nocheck');
+}

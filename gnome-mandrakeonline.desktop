@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Name=Mandriva Online
+Icon=mdkonline.png
+Exec=/usr/sbin/mdkonline
+Terminal=false
+MultipleArgs=false
+Type=Application
+StartupNotify=false

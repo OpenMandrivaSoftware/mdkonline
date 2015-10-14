@@ -1,0 +1,110 @@
+#!/usr/bin/perl
+################################################################################
+# Mdkupdate                                                                    # 
+#                                                                              #
+# Copyright (C) 2002-2006 Mandriva                                             #
+#                                                                              #
+# Daouda Lo                                                                    #
+# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+# workaround standalone.pm eating "--auto" from @ARGV:
+BEGIN { $::no_global_argv_parsing = 1 }
+
+use strict;
+use POSIX;
+use lib qw(/usr/lib/libDrakX /usr/lib/libDrakX/drakfirsttime);
+use standalone; # for explanations
+use common;
+use interactive;
+use URI::Escape;
+use run_program;
+
+use mdkonline;
+
+use Getopt::Long;
+
+BEGIN { unshift @::textdomains, 'mdkupdate' }
+
+require_root_capability();
+
+my $confdir = '/root/.MdkOnline';
+my $conffile = "$confdir/mdkupdate";
+
+my $logfile = '/var/tmp/mdkupdate.log';
+
+
+my $CLIENT_VERSION = "4";
+my $YEARS = "2002-2006";
+my $MGA_YEARS = "2010-2012";
+
+#for compatibilities with former versions
+mkdir_p($confdir) if !-d $confdir;
+-e '/root/.mdkupdate' and system "/bin/mv", "/root/.mdkupdate", $conffile;
+
+
+sub usage() {
+    print STDERR N("mdkupdate version %s
+%s
+This is free software and may be redistributed under the terms of the GNU GPL.
+
+usage:
+", $CLIENT_VERSION,
+N("Copyright (C) %s %s", $YEARS, 'Mandriva') . N("Copyright (C) %s %s", $MGA_YEARS, 'Mageia')) . N("  --help		- print this help message.
+", $CLIENT_VERSION, $YEARS) . N("  --help		- print this help message.
+") . N("  --auto		- Mandriva Update launched automatically.
+") . N("  --mnf			- launch mnf specific scripts.
+") . N("  --noX			- text mode version of Mandriva Update.
+") . N("  --debug			- log what is done
+");
+    exit(0);
+}
+
+my ($auto, $mnf, $noX, $debug);
+my %options = (
+	       'auto'	    => \$auto,
+	       'mnf'	    => \$mnf,
+	       'noX'	    => \$noX,
+            'd|debug'   => \$debug,
+	       'h|help'    => \&usage,
+	      );
+
+GetOptions(%options);
+
+-e $logfile and rm_rf($logfile);
+
+my $ret = update_pkgs();
+if ($ret != 1) {
+    output_p($logfile, "[mdkupdate] Error 100: Packages failed to upgrade");
+    log::explanations("[mdkupdate] Error 100: Packages failed to upgrade");
+}
+clean_dir();
+
+
+sub update_pkgs {
+    my (@pkgs) = @_;
+    eval {
+	run_program::raw({ timeout => 'never' }, '/usr/sbin/urpmi', '--auto-update', '--auto', '--keep', '--update', map { if_(/(.*)-[^-]*-[^-]*\.[^-.]*?\.rpm$/, $1) } @pkgs);
+	$? == 0 or die N("Unable to update packages from update_source medium.\n");
+    };
+    $@ and output_p($logfile, "[mdkupdate] Error 99: $@"), return 0;
+    return 1;
+}
+
+sub clean_dir() {
+    mdkonline::clean_confdir();
+    output_p($logfile, 'OK');
+}

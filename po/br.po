@@ -1,0 +1,915 @@
+# mdkonline e brezhoneg
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Thierry Vignaud <tvignaud@mandriva.com>, 2005-2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2010-01-27 00:02+0100\n"
+"Last-Translator: Thierry Vignaud <tvignaud@mandriva.com>\n"
+"Language-Team: brezhoneg <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1;plural=0\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, c-format
+msgid "Will check updates at %s"
+msgstr ""
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Bremañaet eo ho reiziad"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Gortozit mar plij, o klask ar pakadoù hegerz ..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr ""
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Marv eo ar rouedad. Kefluniañ anezhañ mar plij"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "N'eo ket bev ar servij. Klikit ouzh « Lec'hienn gwiad Online » mar plij"
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, c-format
+msgid "urpmi database locked"
+msgstr "krouilhet eo stlennvon urpmi"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Bevaatet "
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr "Fazi en ur bremañaat ar medium"
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Bremañaat"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr ""
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Kefluniañ ar rouedad"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr "Bremañaat ar reizhiad"
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "O loc'hañ drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr "Furchal"
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "A heul"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Nullañ"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "O loc'hañ MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr ""
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Bremañaet eo ar reiziad\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr ""
+
+#: ../mdkapplet:893
+#, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C) %s gant Mandriva"
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Lec'hienn gwiad Online"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>\n"
+"Thierry Vignaud <tvignaud@mandriva.com>\n"
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Ho evezh"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "A-brepoz ..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, c-format
+msgid "Updates Configuration"
+msgstr "Kefluniadur an nevezioù"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Loc'hañ atav pa loc'her ar reizhiad"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Kuitaat"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr "Medium nevez zo dibres"
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Fazi"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Deskrivadur an ostiz :"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Ur fazi zo bet"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, c-format
+msgid "An error occurred while adding medium"
+msgstr "Fazi en ur ouzhpennañ ar medium"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Mat eo"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, c-format
+msgid "Your password"
+msgstr "Ho tremenger"
+
+#: ../mdkapplet_gui.pm:228
+#, c-format
+msgid "Forgotten password"
+msgstr "Kollet eo an tremenger"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Serriñ"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Flash"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Free"
+
+#: ../mdkonline.pm:179
+#, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Mini"
+
+#: ../mdkonline.pm:180
+#, c-format
+msgid "Mandriva One"
+msgstr "Mandriva One"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva PowerPack"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"Ur meziant frank eo an hini-mañ ha moien zo da zal'ch anezhañ hervez GNU "
+"GPL.\n"
+"\n"
+"arveriadur :\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr ""
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr ""
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr ""
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr ""
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr ""
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Deskrivadur an ostiz :"
+
+#~ msgid "Installation failed"
+#~ msgstr "Sac'het eo ar staliadur"
+
+#~ msgid "Retry"
+#~ msgstr "Adklask"
+
+#~ msgid "Congratulations"
+#~ msgstr "Gourc'hemennoù"
+
+#~ msgid "Reboot"
+#~ msgstr "Adlañsañ"
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Fazi en ur grouiñ ar medium"
+
+#~ msgid "Yes"
+#~ msgstr "Ya"
+
+#~ msgid "No"
+#~ msgstr "N'eo ket"
+
+#~ msgid "Packages are up to date"
+#~ msgstr "Bremañaet eo ar pakadoù"
+
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "N'hell ket bet digoret stlennvon urpmi"
+
+#~ msgid "Connecting to"
+#~ msgstr "O kevreañ ouzh"
+
+#~ msgid "Security error"
+#~ msgstr "Fazi surantez"
+
+#~ msgid "Database error"
+#~ msgstr "Fazi stlennvon"
+
+#~ msgid ""
+#~ "Server Database failed\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Sac'het eo stlennvon ar servijer\n"
+#~ "Klask adarre diwezhatoc'h mar plij"
+
+#~ msgid "Registration error"
+#~ msgstr "Fazi en ur enskrivañ"
+
+#~ msgid "Some parameters are missing"
+#~ msgstr "Makout a ra un nebeut rannbennadoù"
+
+#~ msgid "Password error"
+#~ msgstr "Fazi tremenger"
+
+#~ msgid "Login error"
+#~ msgstr "Fazi en ur ereañ"
+
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Implijet eo dija ar postel e oa roet digantit\n"
+#~ "Roit unan all mar plij\n"
+
+#~ msgid "The email you provided is invalid or forbidden"
+#~ msgstr "N'eo ket mat ar postel roet diganit (pe eo arrabat)"
+
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr ""
+#~ "Goullo eo boest ar chomlec'h postel\n"
+#~ "Reiñ unan mar plij"
+
+#~ msgid "Database access forbidden"
+#~ msgstr "Arrabat eo tizhout ar stlennvon"
+
+#~ msgid "Service error"
+#~ msgstr "Fazi servij"
+
+#~ msgid "Password mismatch"
+#~ msgstr "An tremegerioù ne glot ket"
+
+#~ msgid "User Forbidden"
+#~ msgstr "Arrabat eo an arveriad"
+
+#~ msgid "Connection error"
+#~ msgstr "Fazi gant ar gevreadenn"
+
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "N'eo ket bet tizhet servijoù gwiad Mandriva"
+
+#~ msgid "Please wait"
+#~ msgstr "Gortozit mar plij"
+
+#~ msgid "Preparing..."
+#~ msgstr "Emaon o prientiñ ..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "O staliañ pakadoù ...\n"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "N'eo ket kefluniet ar servij. Klikit ouzh « Kefluniañ ar servij » mar plij"
+
+#~ msgid "Configure the service"
+#~ msgstr "Kefluniañ ar servij"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Kefluniañ bremanñ !"
+
+#~ msgid "Actions"
+#~ msgstr "Ober"
+
+#~ msgid "Configure"
+#~ msgstr "Kefluniañ"
+
+#~ msgid "See logs"
+#~ msgstr "Sellout ouzh ar c'herlevr"
+
+#~ msgid "Status"
+#~ msgstr "Stad"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Kevreadenn ar rouedad :"
+
+#~ msgid "Machine name:"
+#~ msgstr "Anv an ostiz :"
+
+#~ msgid "Unknown state"
+#~ msgstr "Dianav eo ar stad"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "N'eo ket un tremenger mat.\n"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Respont ar servijer Mandriva Online\n"
+
+#~ msgid "Logs"
+#~ msgstr "Kazetennoù"
+
+#~ msgid "Clear"
+#~ msgstr "Skarañ"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Ur meziant frank eo an hini-mañ ha moien zo da zal'ch anezhañ hervez GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "arveriadur :\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Ur gont 'meus adarre"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "C'hoant meus d'enskrivañ"
+
+#~ msgid "Mr."
+#~ msgstr "Ao."
+
+#~ msgid "Mrs."
+#~ msgstr "Itr."
+
+#~ msgid "Ms."
+#~ msgstr "Dim."
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Krouidigezh pe dilesadur ar gont"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr "Roit hoc'h ereañ, tremenger hag ho anv ardivink Mandriva Online :"
+
+#~ msgid "Email address:"
+#~ msgstr "Chomlec'h postel :"
+
+#~ msgid "Country"
+#~ msgstr "Bro"
+
+#~ msgid "Password:"
+#~ msgstr "Tremenger :"
+
+#~ msgid "(Ex: My Home Office's Computer)"
+#~ msgstr "(ds: Urhziataer burev ma zi)"
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "O kevreañ ouzh al lec'hienn Mandriva Online ..."
+
+#~ msgid "Connection problem"
+#~ msgstr "Kudenn ar gevreadenn"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Fazi en ur ezkargañ ar restroù; klaskit adarre mar plij"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Krouiñ ur gont Mandriva Online"
+
+#~ msgid "First name:"
+#~ msgstr "Anv-bihan :"
+
+#~ msgid "Last name:"
+#~ msgstr "Anv-bras :"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Tremenger (adarre) :"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "An tremegerioù ne glot ket\n"
+#~ "Klask adarre mar plij\n"
+
+#~ msgid "Please fill in each field"
+#~ msgstr "Leuniit pep dachenn"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "N'eo ket ur mailh mat !\n"
+
+#~ msgid "Creating account failed!"
+#~ msgstr "Sac'het eo krouiñ ar gont !"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Fazi en ur ezkargañ ar gefluniadur"
+
+#~ msgid "Cannot get list of updates: %s"
+#~ msgstr "N'hell ket bet tegaset roll nevezioù : %s"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Ac'hubet eo ar reiziad. Gortozit mar plij ..."
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Emaon o kas ar gefluniadur ..."
+
+#~ msgid "Login:"
+#~ msgstr "Anv :"
+
+#~ msgid "or"
+#~ msgstr "pe"
+
+#~ msgid "wrong password:"
+#~ msgstr "N'eo ket un tremenger mat :"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Roit un anv ereañ mar plij"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "N'eo ket ur mailh mat\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Endeo eo ar gont c'hoazh\n"

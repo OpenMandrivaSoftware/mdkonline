@@ -1,0 +1,793 @@
+- check that choosen download directory is owned by root (mga#6083)
+
+Version 2.78 - 31 August 2012, Thierry Vignaud
+
+- use more modern urpmi API
+
+Version 2.77.33 - 21 April 2012, Thierry Vignaud
+
+- invalidate urpmi cache on upgrade (mga#1588)
+
+Version 2.77.31 - 12 March 2012, Thierry Vignaud
+
+- drop support for mdv2007.x/2008.x/2009.x
+
+Version 2.77.29 - 28 May 2010, Thomas Backlund
+
+- move gurpmi upgrade log to .MdkOnline/ too so /root stays clean
+
+Version 2.77.28 - 28 May 2010, Thomas Backlund
+
+- dont pollute homedir with urpmi.cfg backup files (move to .MdkOnline/)
+
+Version 2.77.26 - 21 May 2010, Thierry Vignaud
+
+- handle both MageiaUpdate & MandrivaUpdate
+
+Version 2.77.22 - 27 May 2011, Per Øyvind Karlsen
+
+- fix api breakages with new Gtk2-Notify/libnotify
+
+Version 2.77.21 - 29 Jul 2010, João Victor Duarte Martins
+
+- Correctly add '--testing' when calling mdkapplet-add-media-helper.
+
+Version 2.77.20 - 27 Jul 2010, João Victor Duarte Martins
+
+- mdkapplet-upgrade-helper now tries to restart mdkapplet if it is
+  running (#59481).
+- Fix bug related to upgrading GTK to break mdkonline (#59025).
+
+Version 2.77.19 - 07 Jun 2010, João Victor Duarte Martins
+
+- mdkapplet-add-media-helper replaces
+  mdkapplet-extended-maintenance-helper
+
+Version 2.77.18 - 01 Jun 2010, João Victor Duarte Martins
+
+- Updated powerpack offering upgrade dialogs
+- Fix translating utf8 strings in mdkapplet-add-media-helper (#59509)
+
+Version 2.77.17 - 26 May 2010, Eugeni Dodonov
+
+- updated translations.
+- Install mdkapplet-add-media-helper to replace
+  mdkapplet-enterprise-update-helper and mdkapplet-restricted-helper (#59500)
+
+Version 2.77.16 - 19 May 2010, João Victor Duarte Martins
+
+- Translations updates.
+- Powerpack offering feature during upgrade is functional.
+
+Version 2.77.15.19 - 18 May 2010, João Victor Duarte Martins
+
+- mdkapplet-upgrade-helper
+  o Fixed log file name bug (#59200).
+  o Offers users Powerpack medias before upgrade
+- mdkapplet-restricted-helper
+  o Fixed password field bug (#59201).
+
+Version 2.77.15.18 - 30 April 2010, Thierry Vignaud
+
+- mdkapplet
+  o do not offer distribution upgrade on OEM Philco systems
+- mdkapplet-extended-maintenance-helper
+  o install only on distributions with extended maintenance
+    (2008.0, 2009.0, 2010.0)
+
+Version 2.77.15.17 - 10 February 2010, Thierry Vignaud
+
+- mdkapplet
+  o fix dates display wrong by one month
+  o fix new distro popup appearing on 2008.0 after choices have been displayed
+  o ignore lines starting with # in distro list
+
+Version 2.77.15.16 - 5 February 2010, Thierry Vignaud
+
+- mdkapplet 
+  o do not check for new distro when using extended maintenance
+  o further fix notifying extended maintenance taking over regular
+    maintenance
+  o warn when extended maintenance is over
+
+Version 2.77.15.15 - 4 February 2010, Thierry Vignaud
+
+- mdkapplet 
+  o advertize only once when has extended maintenance when
+    regular one is expired
+  o fix notifying extended maintenance taking over regular maintenance
+
+Version 2.77.15.14 - 3 February 2010, Thierry Vignaud
+
+- mdkapplet-extended-maintenance-helper
+  o add a 'Lifetime policy' button
+  o display 'no more supportion' dialog only once
+
+Version 2.77.15.13 - 3 February 2010, Thierry Vignaud
+
+- mdkapplet 
+  o prevent displaying twice the same 'no longuer supported' dialog
+
+Version 2.77.15.12 - 3 February 2010, Thierry Vignaud
+
+- mdkapplet 
+  o do not display 'distro upgrade' in the menu when in 'no longuer
+    supported' mode
+
+Version 2.77.15.11 - 3 February 2010, Thierry Vignaud
+
+- mdkapplet 
+  o fix a banner title
+  o hide the icon if "do nothing" was choosen
+
+Version 2.77.15.10 - 3 February 2010, Thierry Vignaud
+
+- fix setting version
+
+Version 2.77.15.9 - 3 February 2010, Thierry Vignaud
+
+- mdkapplet
+  o fix crashing when clicking on notification
+
+Version 2.77.15.8 - 2 February 2010, Thierry Vignaud
+
+- mdkapplet-extended-maintenance-helper
+  o fix retrieving password with older gtk+
+  o remember the email when an error occured
+
+Version 2.77.15.7 - 2 February 2010, Thierry Vignaud
+
+- mdkapplet
+  o actually honor DO_NOT_ASK_FOR_NO_MORE_SUPPORTED
+  o do not backport the "live upgrade" feature on 2008.0 since it's
+    unsupported/untested (missing urpmi support)
+  o restore old behaviour when detecting a new distro
+  o make link button usable in no more supported dialog
+
+Version 2.77.15.6 - 2 February 2010, Thierry Vignaud
+
+- fix reported version
+- revert change in 2.77.15.5 that pulled too many packages
+- translations updates
+
+Version 2.77.15.5 - 27 January 2010, Thierry Vignaud
+
+- mdkapplet
+  o fix a test
+  o skip some messages once extended maintenance has been enabled
+
+Version 2.77.15.4 - 27 January 2010, Thierry Vignaud
+
+- mdkapplet-extended-maintenance-helper
+  o better banner titles
+  o fix adding media on 2008.0 where --xml-info option is not supported
+  o fix getting password when not embedded in mcc
+- mdkapplet
+  o advertize when one has extended maintenance when regular one is
+    expired
+  o better notification message for no longuer supported distro
+
+Version 2.77.15.3 - 26 January 2010, Thierry Vignaud
+
+- mdkapplet-extended-maintenance-helper
+  o retrieve product URL instead of relying on caller to provide it
+- mdkapplet
+  o enable to run on 2008.0
+
+Version 2.77.15.2 - 25 January 2010, Thierry Vignaud
+
+- mdkapplet
+  o enable to share some code with mcc
+
+Version 2.77.15.1 - 25 January 2010, Thierry Vignaud
+
+- mdkapplet-extended-maintenance-helper
+  o do not show banner in error dialog when embedded in mcc
+  o fix getting password when embedded in mcc
+
+Version 2.77.15 - 21 January 2010, Thierry Vignaud
+
+- mdkapplet
+  o allow to get extended maintenance on some distributions
+  o fix accepting values vritten by configurator (#56348)
+- mdkapplet-config
+  o hide non available options instead of making them insensitive
+    (#56637)
+- include distribution version in user agent
+
+Version 2.77.14 - 9 December 2009, Thierry Vignaud
+
+- drop diagnostics, strict, vars and warnings pragmas
+- mdkapplet-config
+  o make sure dialog is properly sized
+
+Version 2.77.13.1 - 9 December 2009, Thierry Vignaud
+
+- translations updates
+
+Version 2.77.13 - 26 November 2009, Thierry Vignaud
+
+- mdkapplet-config
+  o offer a couple more options regarding checks
+
+Version 2.77.12 - 26 November 2009, Thierry Vignaud
+
+- mdkapplet-restricted-helper:
+  o fix running on 2008.1 (#55956)
+
+Version 2.77.11 - 24 November 2009, Thierry Vignaud
+
+- mdkapplet-config
+  o make it work on 2008.x & 2009.x
+- mdkapplet-enterprise-update-helper
+  o new authentication scheme (#55735)
+
+Version 2.77.10 - 19 November 2009, Thierry Vignaud
+
+- mdkapplet
+  o add mdkonline version to distribution list requests
+  o log crashes of mdkapplet checker process
+  o only enable 'download all packages at once' on 2010.1 and further
+  o prevent checker process from crashing on 2008.1 and 2009.0
+
+Version 2.77.9 - 10 November 2009, Thierry Vignaud
+
+- mdkapplet
+  o add distribution version to distribution list requests
+  o fix a crash (#55346)
+  o fix adding restricted media (#55320)
+  o warn about new distro or no more supported distro only after all
+    updates were applied
+- mdkapplet-upgrade-helper
+  o make sure utf8.pm is loaded before starting an upgrade (#55090)
+
+Version 2.77.8 - 5 November 2009, Thierry Vignaud
+
+- mdkapplet
+  o do not do anything if current distribution isn't listed on
+    api.mandriva.com, thus fixing offering to upgrade 2010.0 to 2009.1
+    (#55017)
+
+Version 2.77.7 - 29 October 2009, Thierry Vignaud
+
+- mdkapplet
+  o better check for detecting if current distro is obsolete
+
+Version 2.77.6 - 16 September 2009, Thierry Vignaud
+
+- mdkapplet
+  o display a "download all packages at once" option
+  o offer to select where to download packages
+- mdkapplet-enterprise-update-helper, mdkapplet-restricted-helper:
+  o escape password because urpmi and its downloaders do not like
+    some characters
+
+Version 2.77.5 - 8 September 2009, Aurelien Lefebvre
+
+- mdkapplet-config
+  o use GtkHScale instead of GtkEntry (Require drakxtools >= 12.48)
+- mdkapplet
+  o use https to fetch mirrorlist from api.mandriva.com
+
+Version 2.77.4 - 29 July 2009, Thierry Vignaud
+
+- mdkapplet-config
+  o better looking when embedded in MCC
+
+Version 2.77.3.1 - 29 July 2009, Thierry Vignaud
+
+- mdkapplet-enterprise-update-helper
+  o fix my.mdv.com URL
+
+Version 2.77.3 - 28 July 2009, Thierry Vignaud
+
+- mdkapplet-enterprise-update-helper
+  o gracefully handle (rare) server issues (#51299)
+  o use proper URL for MES
+
+Version 2.77.2 - 24 July 2009, Thierry Vignaud
+
+- mdkapplet, mdkapplet-enterprise-update-helper
+  o do not display PowerPack but real product name (#52292)
+  o on MES5, offer to add update media from authenticated server
+- mdkapplet-restricted-helper
+  o gracefully handle (rare) server issues (#51299, #51548)
+- mdkapplet
+  o if current distribution is no more supported, warn so and offer to
+    upgrade to latest release
+- mdkapplet-upgrade-helper
+  o remove the "upgrade in progress" flag when adding media failed
+    (might fix #50450)
+
+Version 2.77.1 - 12 May 2009, Thierry Vignaud
+
+- mdkapplet
+  o add 2009.1 restricted media on 2009.1 (#50478)
+  o remember a new distro exists when checking for updates (distro
+    check is less frequent) (#50535)
+  o perform initial check after 3 seconds when using --testing
+- mdkapplet-restricted-helper
+  o prevent having to cancel several time (#48999)
+
+Version 2.77 - 17 April 2009, Thierry Vignaud
+
+- mdkapplet
+  o do not complain when network is down if net_applet is running
+    (which will already warn about this)
+
+Version 2.76.2 - 15 April 2009, Thierry Vignaud
+
+- translation updates
+
+Version 2.76.1 - 30 March 2009, Thierry Vignaud
+
+- translation updates
+
+Version 2.76 - 25 March 2009
+
+- mdkapplet-config
+  o display update frenquency in hours
+  o display intial delay in minutes
+  o ensure update frenquency is at least 1 hour
+
+Version 2.75 - 19 March 2009
+
+- mdkapplet
+  o check all media for update on cooker instead only update media
+  o update all media on cooker instead of only update media
+
+Version 2.74 - 16 February 2008
+
+- mdkapplet-config
+  o add an updates configurator (#37903)
+
+Version 2.73 - 11 February 2008
+
+- mdkapplet
+  o do not hide urpmi.update arguments (#47002)
+  o be nicer with CPU (more efficient system power usage)
+  o only warn about locked urpmi DB after 10 tries
+
+Version 2.72 - 16 December 2008
+
+- mdkapplet
+  o do not claim there're updates when there're not if check for
+    missing resctricted media is disabled (#46291)
+    (regression introduced in 2.68)
+
+Version 2.71.4 - 11 December 2008
+
+- mdkapplet-restricted-helper
+  o use 'always' policy for downloading XML metadata so that non root
+    users can read themx
+
+Version 2.71.3 - 9 December 2008
+
+- mdkapplet-restricted-helper
+  o add arch in media names
+
+Version 2.71.2 - 9 December 2008
+
+- mdkapplet-restricted-helper
+  o warn if user's rigths have expired or he's not subscribed
+
+Version 2.71.1 - 4 December 2008
+
+- mdkapplet-restricted-helper
+  o display a success message when media were successfully added
+
+Version 2.71 - 3 December 2008
+
+- mdkapplet
+  o explain what is restricted media before actually asking for root
+    privileges
+- mdkapplet-restricted-helper
+  o add 32 bit repositories on x86_64 too
+  o fix banners' titles
+  o fix vertical spacing between entries
+  o prevent typing in empty password or login
+  o report urpmi.addmedia errors
+  o rephrase some strings (explaining what are restricted media)
+
+Version 2.70.1 - 1 December 2008
+
+- mdkapplet-restricted-helper
+  o only tag restricted/updates as 'update', not restricted/release
+
+Version 2.70 - 1 December 2008
+
+- mdkapplet
+  o check we have both restricted/release & restricted/updates
+- mdkapplet-restricted-helper
+  o add both newly created restricted/release & restricted/updates media
+
+Version 2.69 - 24 November 2008
+
+- mdkapplet
+  o really check again after adding update media
+  o update status once restricted media got added
+- mdkapplet-restricted-helper
+  o make sure added media names match our naming policy
+
+Version 2.68.2 - 20 November 2008
+
+- mdkapplet-restricted-helper
+  o fix spacing
+
+Version 2.68.1 - 20 November 2008
+
+- mdkapplet-restricted-helper
+  o pack buttons at start
+
+Version 2.68 - 20 November 2008
+
+- mdkapplet
+  o offer to add the restricted update medium if not available
+
+Version 2.67 - 23 October 2008
+
+- mdkapplet
+  o do not advise to use AC & wired network when not using a laptop
+
+Version 2.66 - 22 October 2008
+
+- mdkapplet
+  o further fix testing for /var/lib/urpmi/stale_upgrade_in_progress
+  o make sure confirm dialog is large enough on 2008.1
+  o use wizard button order in confirm dialogs
+
+Version 2.65 - 22 October 2008
+
+- mdkapplet
+  o fix testing for /var/lib/urpmi/stale_upgrade_in_progress
+  o explicitely wrap labels (for 2008.1)
+  o use Next/Cancel instead of Yes/No in confirmation dialogs
+
+Version 2.64 - 21 October 2008
+
+- mdkapplet
+  o be able to detect unfinished upgrades, even if mandriva-release
+    already got upgraded
+  o confirmation dialog for system upgrade:
+    * advise that it may take a couple hours
+    * advise the need for high BW network
+    * advise to close other applications
+    * advise to use AC & wired network when using a laptop
+    * display estimated size of downloads
+  o new distro notification bubble:
+    * change button from "Upgrade the system" to "More Information"
+    * set urgency as 'low'
+- mdkapplet-upgrade-helper
+  o disable custom downloader settings in order to default to aria2
+  o disable the X screen saver while upgrading the system
+  o offer to retry the upgrade if it failed
+  o when updates succeeded:
+    * offer to reboot
+    * s/should/must/
+
+Version 2.63 - 16 October 2008
+
+- mdkapplet
+  o really prevent upgrading more than once at a time
+
+Version 2.62 - 15 October 2008
+
+- mdkapplet-upgrade-helper
+  o check available free space, disallow upgrade if not enough room
+- mdkapplet
+  o update media in chroot when using --urpmi-root
+
+Version 2.61 - 15 October 2008
+
+- mdkapplet-upgrade-helper
+  o display error dialog instead of success one when we cannot add the
+    media
+  o updade media between gurpmi passes in case mirrors got updated if
+    needed
+
+Version 2.60 - 14 October 2008
+
+- mdkapplet-upgrade-helper
+  o ensure gurpmi is not killed after 10min
+  o ensure gurpmi error status is correctly catched
+  o instead of passing hand-crafter mirrorlist for new distro, use a magical
+    environment variable that is used by new urpmi
+
+Version 2.59 - 14 October 2008
+
+- mdkapplet
+  o do not restart the applet on package update anymore
+- mdkapplet-upgrade-helper
+  o call gurpmi with --clean
+  o log where gurpmi logs are ending
+  o log gurpmi STDERR too
+  o make all gurpmi passes using --replacefiles instead of just the
+    first one
+  o restore urpmi media if adding new distribution media failed
+
+Version 2.58 - 14 October 2008
+
+- mdkapplet-upgrade-helper
+  o enable to test distro upgrade even when service is disabled
+    through either --testing option or "TEST_DISTRO_UPGRADE=yes" in
+    /etc/sysconfig/mdkapplet
+
+Version 2.57 - 14 October 2008
+
+- mdkapplet
+  o make sure to not report new distro after distro upgrade
+  o reread distro release after distro upgrade
+
+Version 2.56 - 14 October 2008
+
+- drop PAM permissions for urpmi.removemedia (introduced in 2.46)
+- mdkapplet
+  o log reason as well as current & target distro for distro upgrade
+  o do not crash if image cannot be loaded (#44750)
+  o split upgrade code into mdkapplet-upgrade-helper:
+    * ask for root password earlier, before removing media (#44771)
+    * log where is backuped urpmi.cfg
+    * run up to 4 gurpmi passes if needed
+
+Version 2.55 - 10 October 2008
+
+- mdkapplet
+  o do not display gurpmi log errors when done installing updates,
+    only do it for distribution upgrade
+
+Version 2.54 - 10 October 2008
+
+- mdkapplet
+  o do not wrongly propose distribution upgrade after installing updates
+  o do not display "Congratulations" dialog when done installing updates, only
+    do it for distribution upgrade
+
+Version 2.53 - 9 October 2008
+
+- mdkapplet
+  o do not check for new distro on Flash
+    (not enough disk space)
+
+Version 2.52.2 - 8 October 2008
+
+- mdkapplet
+  o prevent upgrading more than once at a time
+
+Version 2.52.1 - 8 October 2008
+
+- mdkapplet
+  o explicitely wrap labels b/c 2008.1's mygtk2 didn't wrap
+
+Version 2.52 - 7 October 2008
+
+- mdkapplet
+  o add a banner and pack Ok button to the right in success dialog
+
+Version 2.51 - 7 October 2008
+
+- mdkapplet
+  o display a success or an error message at end of installation
+  o keep update log and tell users where they are if upgrade failed
+  o make "Distro Upgrade" confirmation dialog wider
+  o run gurpmi with --replacefiles option (so that temporary file
+    conflicts doesn't break upgrade due to missing conflict tags)
+    (needs urpmi 6.14.1 from updates)
+
+Version 2.50 - 6 October 2008
+
+- mdkapplet
+  o enable to globally enable/disable new distribution check
+  o "Distro Upgrade" confirmation dialog:
+    * display a banner
+    * display an URL link button
+    * display nicer distribution name
+  o when performing distro upgrade:
+    * enable to remove media in chroot specified by --urpmi-root
+    * run a 2nd gurpmi pass if first failed
+
+Version 2.49 - 3 October 2008
+
+- mdkapplet
+  o compute regular updates even if there's a new distro
+  o enable to not check again for new distro
+  o when a new distro is available:
+    * add an "upgrade system" in the menu 
+    * ask for confirmation before performing distro upgrade
+    * if there're updates, install regular updates instead of
+      performing distro upgrade on left click
+    * only show "Install updates" in right menu only if there actually
+      are updates
+    * use blue icon
+
+Version 2.48 - 2 October 2008
+
+- mdkapplet
+  o do not complain if urpmi DB is locked by another program, just
+    wait for next check slot
+
+Version 2.47 - 2 October 2008
+
+- mdkapplet
+  o prevent SIGCHILD handler's waitpid to interfere with urpmi waiting
+    for curl exit code, which broke downloads
+  o workarounding issue with downloading files as user
+
+Version 2.46 - 2 October 2008
+
+- mdkapplet
+  o fix backuping urpmi.cfg
+  o fix removing media as user
+
+Version 2.45 - 2 October 2008
+
+- mdkapplet
+  o workarounding downloading distro list as user for 2008.1 where
+    sometimes urpmi reports it failed to download the list when it
+    actually did with success
+
+Version 2.44 - 30 September 2008
+
+- mdkapplet
+  o add support for downloading distro list as user for 2008.1
+  o better check in order to exclude cooker from distro upgrade
+
+Version 2.43 - 30 September 2008
+
+- mdkapplet
+  o don't show the applet when there's no network (#40708)
+
+Version 2.42 - 4 September 2008
+
+- mdkapplet:
+  o fix dowloading distributions list
+  o offer to add media directly from bubble (#39987)
+  o prevent running media manager more than one at a time
+  o run media manager with --no-splash' option and handle "--urpmi-root=$root"
+  o check again after adding update media
+
+Version 2.41 - 7 August 2008, Thierry Vignaud
+
+- mdkapplet:
+  o add support for --rpm-root=foobar and --urpmi-root=foobar
+  o add support for live upgrade when a new distributions is released
+
+Version 2.40 - 8 May 2008, Thierry Vignaud
+
+- mdkapplet:
+  o run MandrivaUpdate with --no-splash option in order to skip splash
+    screen (#40366)
+
+Version 2.39 - 21 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o check for network just before first check
+  o do not check for network while checking for updates
+  o do not show icon while checking if previously hidden
+  o do not show icon while waiting for initial check
+  o do not skip first RPM check (change made in 2.16 in march 2007)
+  o do not start network cyclic checks before first media test (#38991)
+  o kill suppport for bundles
+  o reduce resident size by 9MB aka 30% (#31860)
+
+Version 2.38 - 20 March 2008, Thierry Vignaud
+
+- do not display "install updates" button when notifying about network
+  being down
+  (regression introduced in 2.35: "offer to install updates in
+  notifications")
+
+Version 2.37 - 19 March 2008, Olivier Blin
+
+- simplify network detection
+
+Version 2.36 - 14 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o bump copyright year
+  o do not check for network before first media test (#38991)
+
+Version 2.35 - 14 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o offer to install updates in notifications
+
+Version 2.34 - 12 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o do not keep complaining if nightly update cron had failled (#38531)
+
+Version 2.33 - 10 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o adapt to urpmi-5.9 (#38724)
+
+Version 2.32 - 5 March 2008, Thierry Vignaud
+
+- mdkapplet:
+  o check more often for network (#37701, #38004)
+  o do not crash if notfiy failed on ->show (#38496)
+  o do not notify if no network if already done
+  o make sure notifications' text doesn't got truncated
+  o use more modern API to check for updates
+
+Version 2.32 - Tue Feb 26 2008, Thierry Vignaud
+
+- lazy load Rpmdrake::open_db so that urpm really is lazy loaded at
+  runtime when forking checker
+
+Version 2.31 - Tue Feb 26 2008, Thierry Vignaud
+
+- make sure notifications' text doesn't got truncated
+
+Version 2.30 - Mon Feb 18 2008, Thierry Vignaud
+
+- update inactive backport media (#34620)
+
+Version 2.29 - Tue Feb  5 2008, Thierry Vignaud
+
+- increase initial check delayed from 60 seconds to 5 minutes
+- make sure to not display any bubbles at all if no updates (#37451)
+- really set nice priority
+- use Gtk2::Notify instead of Gtk2::NotificationBubble (#37113)
+- ues Gtk2::StatusIcon instead of Gtk2::TrayIcon
+- hide icon when no updates are availlable (#29728)
+
+Version 2.28 - Fri Feb  1 2008, Thierry Vignaud
+
+- do not crash when icon is removed from the panel socket (#35908)
+- do not display a bubble while checking updates (#36526)
+- make mdkapplet aware again of network status (#35107)
+- readd back tooltips regarding "initial check delay"
+- try harder not to report false positives (#36358)
+
+Version 2.27 - Dec 11 2007, Thierry Vignaud
+
+- delay initial check by 1 mn instead of by 25 seconds
+- do not display bubbles while waiting for the initial check
+
+Version 2.26 - Dec 05 2007, Thierry Vignaud
+
+- kill disconnect state (thus make mdkapplet works again w/o network)
+- mdkapplet.conf: fix default update frequency
+
+Version 2.25 - Dec 04 2007, Thierry Vignaud
+
+- drop --debug option
+- drop online registration wizard (obsolete since we locally compute
+  updates)
+- drop web link from menu (was only relevant for web based Online
+  service)
+- install config file for applet
+- kill dead code
+- renice checking updates at level 7
+- show Mandriva Linux site instead of old mdvonline one
+
+Version 2.24 - Oct 23 2007, Thierry Vignaud
+
+- use notification bubbles
+- do not harcode icon extension
+
+Version 2.23.1 - Oct 02 2007, Thierry Vignaud
+
+- fix bogus catalog
+- mdkapplet:
+  o fix a crash when /etc/mandriva-release isn't readable due to high msec
+    level (#34323))
+  o run with reduced I/O priority (#33888)
+- own /etc/cron.daily/mdkupdate (#33454)
+
+Version 2.22 - Sep 04 2007, Thierry Vignaud
+
+- improve About dialog
+
+Version 2.21 - Tue Dec  4 2007, Thierry Vignaud
+
+- drop --debug option
+- drop online registration wizard (obsolete since we locally compute
+  updates)
+- drop web link from menu (was only relevant for web based Online
+  service)
+- install config file for applet
+- kill dead code
+- renice checking updates at level 7
+- show Mandriva Linux site instead of old mdvonline one

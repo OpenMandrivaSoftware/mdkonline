@@ -1,0 +1,1287 @@
+# translation of mdkonline-el.po to Greek
+# translation of mdkonline-el.po to
+# Copyright (C) 2006 Free Software Foundation, Inc.
+#
+# Theophanis Mastakas, 2006.
+# Nick Niktaris <niktarin@yahoo.com>, 2001, 2002.
+# Theophanis Mastakas <mastakas@otenet.gr>, 2006.
+# Glentadakis Dimitrios <dglent@gmail.com>, 2009, 2010.
+# Dimitrios Glentadakis, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2010-06-12 09:56+0200\n"
+"Last-Translator: Dimitrios Glentadakis\n"
+"Language-Team: Greek <translators_team@mandrivalinux.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# αναφέρεται στην ώρα
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, c-format
+msgid "Will check updates at %s"
+msgstr "Θα γίνει έλεγχος ενημερώσεων στις %s"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Το σύστημα σας είναι ενημερωμένο "
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Πρόβλημα υπηρεσίας ρυθμίσεων. Παρακαλώ ελέγξτε τις καταγραφές και στείλτε "
+"μήνυμα στο support@mandrivaonline.com"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Παρακαλώ περιμένετε, γίνεται αναζήτηση διαθέσιμων πακέτων..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Υπάρχουν νέες ενημερώσεις για το σύστημά σας"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr "Μια νέα έκδοση της διανομής Mandriva Linux είναι διαθέσιμη"
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr "Ένα πρόσθετο μέσο πακέτων είναι διαθέσιμο για την διανομή σας."
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Το δίκτυο δεν λειτουργεί.Παρακαλώ διαμορφώστε το δίκτυο σας "
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr ""
+"Η υπηρεσία δεν είναι ενεργοποιημένη. Παρακαλώ κάντε κλικ στην «Ιστοσελίδα "
+"Mandriva Online» "
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, c-format
+msgid "urpmi database locked"
+msgstr "η βάση δεδομένων urpmi είναι κλειδωμένη"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr "Η έκδοση δεν υποστηρίζεται ( πολύ παλιά έκδοση ή έκδοση σε ανάπτυξη)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+"Δε βρέθηκε κάποιο μέσο. Πρέπει να προσθέσεις κάποια μέσα, χρησιμοποιώντας το "
+"«Διαχειριστή Μέσων Λογισμικού»."
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+"Έχεις ήδη, ένα ή περισσότερα μέσα ενημέρωσης ρυθμισμένα,\n"
+"αλλά προς το παρόν, είναι όλα, ανενεργά. Μπορείς να ενεργοποιήσεις\n"
+"ένα από αυτά από το «Πηγές λογισμικού» στο Κέντρο Ελέγχου Mandriva\n"
+"(επιλέξτε το στη στήλη «%s»).\n"
+"\n"
+"Έπειτα, εκκινήστε ξανά το «%s»."
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr "Σφάλμα στην ενημέρωση των μέσων"
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Εγκατάσταση ενημερώσεων"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr "Προσθήκη νέου μέσου πακέτων"
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Έλεγχος ενημερώσεων"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Ρύθμιση δικτύου"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr "Αναβάθμιση του συστήματος"
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+"Η βασική συντήρηση γι' αυτή τη διανομή έχει λήξη. Ευχαριστούμε για την "
+"εγγραφή σας στην εκτεταμένη υποστήριξη, το σύστημά σας θα ενημερώνεται μέχρι "
+"τις %s"
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+"Λήφθηκε σήμα SIGHUP (πιθανότατα τελείωσε μια αναβάθμιση), επανεκκίνηση της "
+"μικροεφαρμογής"
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "Εκτέλεση drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr "Νέα έκδοση της διανομής Mandriva Linux"
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr "Περιήγηση"
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr "Μια νέα έκδοση της διανομής Mandriva Linux είναι διαθέσιμη."
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr "Περισσότερες πληροφορίες για την νέα έκδοση"
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr "Θέλετε να κάνετε αναβάθμιση στην νέα διανομή «%s» ;"
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr "Μη με ρωτήσεις την επόμενη φορά"
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr "Άμεση λήψη όλων των πακέτων"
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr "(Προσοχή: Θα χρειαστείτε αρκετό ελεύθερο χώρο)"
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr "Προορισμός λήψης των πακέτων:"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Επόμενο"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+"Η συντήρηση αυτού του συστήματος Mandriva Linux έχει σταματήσει. Σημαίνει "
+"πως δεν θα λαμβάνεται νέες ενημερώσεις πλέον."
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr "Για να διατηρηθεί το σύστημα σας ασφαλές, μπορείτε να:"
+
+#: ../mdkapplet:520
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr "Θα πρέπει να αποκτήσετε εκτεταμένη συντήρηση."
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+"Θα πρέπει είτε να αποκτήσετε εκτεταμένη συντήρηση ή να αναβαθμίσετε σε μια "
+"νεότερη έκδοση της διανομής %s."
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr "Θα πρέπει να αναβαθμίσετε σε μια νεότερη έκδοση της διανομής %s."
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr "Η διανομή σας δεν υποστηρίζεται πλέον"
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr "Εκτεταμένη συντήρηση"
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+"Αγοράστε μια επέκταση συντήρησης για τη συγκεκριμένη έκδοση (%s) και "
+"συνεχίστε την λειτουργία της μέχρι το %s."
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+"Η αναβάθμιση απαιτεί υψηλό εύρος σύνδεσης (cable, xDSL, ...) και μπορεί να "
+"χρειαστεί μερικές ώρες για να ολοκληρωθεί."
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr "Το εκτιμώμενο μέγεθος των δεδομένων προς λήψη είναι %s "
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+"Θα πρέπει να κλείσετε όλες τις άλλες εκτελούμενες εφαρμογές πριν συνεχίσετε."
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+"Θα πρέπει να συνδέσετε τον φορητό σας υπολογιστή στον φορτιστή AC και να "
+"προτιμήσετε ethernet σύνδεση αντί για wifi, αν είναι διαθέσιμη."
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr " Εκτέλεση μικροεφαρμογής MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Επεξεργασία νέων αναβαθμίσεων...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Το σύστημα είναι ενημερωμένο\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Έλεγχος δικτύου: φαίνεται απενεργοποιημένο\n"
+
+#: ../mdkapplet:893
+#, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online %s"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C)%s by mandriva"
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+"Η Mandriva Online παρέχει πρόσβαση στις διαδικτυακές υπηρεσίες της Mandriva."
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Online Δικτυακός τόπος"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"Nikos Papadopoulos <231036448@freemail.gr>\n"
+"Glentadakis Dimitrios <dglent@gmail.com>\n"
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Προσοχή"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr "Περισσότερες πληροφορίες"
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr "Προσθήκη μέσου"
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Σχετικά..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, c-format
+msgid "Updates Configuration"
+msgstr "Ρύθμιση Ενημερώσεων"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Να εκτελείται πάντοτε στην εκκίνηση"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr "Νέο μέσο διαθέσιμο"
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+"Χρησιμοποιείτε την διανομή «%s» και και επωφελείστε επομένως από μια "
+"προνομιούχο πρόσβαση σε πρόσθετα πακέτα."
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr "Θέλετε να εγκαταστήσετε αυτό το νέο αποθετήριο λογισμικού ;"
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr "Mandriva Enterprise Server"
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr "Προσθήκη ενός νέου μέσου πακέτων"
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr "Τα υποστηριζόμενα προϊόντα είναι %s, το «%s» δεν είναι στην λίστα.\n"
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+"Παρακαλώ συμπληρώστε τα στοιχεία του λογαριασμού σας για να προσθέσετε ένα "
+"νέο μέσο πακέτων."
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr "Η ανάκτηση της λίστας των διανομών απέτυχε:"
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+"Η Mandriva παρέχει 12 μήνες ενημερώσεις για την επιφάνεια εργασίας (μέχρι "
+"τις %s) και 18 μήνες βασικές ενημερώσεις (μέχρι τις %s) για τις διανομές."
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+"Η εκτεταμένη συντήρηση είναι πλέον διαθέσιμη για να αποκτήσετε 18 μήνες "
+"πρόσθετες ενημερώσεις (μέχρι τις %s)."
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+"Μπορείτε να εγγραφείτε <b>τώρα αμέσως</b> για να αποκτήσετε εκτεταμένη "
+"συντήρηση:"
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr "Πολιτική χρόνου ζωής"
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, c-format
+msgid "Online subscription"
+msgstr "Εγγραφή στο διαδίκτυο"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Προκλήθηκε σφάλμα"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+"Ο λογαριασμός σας Mandriva δεν έχει συνδρομή στην υπηρεσία λήψης του %s."
+
+#: ../mdkapplet-add-media-helper:226
+#, c-format
+msgid "An error occurred while adding medium"
+msgstr "Παρουσιάστηκε σφάλμα κατά την προσθήκη του μέσου"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr "Η προσθήκη του μέσου έγινε με επιτυχία!"
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr "Η προσθήκη του μέσου %s έγινε με επιτυχία."
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Εντάξει"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr "Εδώ μπορείτε να ρυθμίσετε την εφαρμογή ενημερώσεων"
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr "Συχνότητα ενημερώσεων (ώρες)"
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr "Χρονική αναμονή πρώτης ενημέρωσης (λεπτά)"
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr "Έλεγχος για νέες εκδόσεις «%s»"
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr "Έλεγχος αν λείπουν τα μέσα «%s»"
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr "Με περιορισμούς"
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+"Η Mandriva Powerpack σας προσφέρει την καλύτερη εμπειρία επιφάνειας εργασίας "
+"Linux: την σταθερότητα και αποτελεσματικότητα του ανοιχτού λογισμικού σε "
+"συνδυασμό με αποκλειστικές εφαρμογές και επίσημη υποστήριξη Mandriva."
+
+#: ../mdkapplet_gui.pm:94
+#, c-format
+msgid "Mandriva Linux Features"
+msgstr "Χαρακτηριστικά της Mandriva Linux"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr "Περισσότερες πληροφορίες για τον λογαριασμό σας"
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr "Το ηλ.ταχυδρομείο σας"
+
+#: ../mdkapplet_gui.pm:221
+#, c-format
+msgid "Your password"
+msgstr "Ο κωδικός σας"
+
+#: ../mdkapplet_gui.pm:228
+#, c-format
+msgid "Forgotten password"
+msgstr "Έχω ξεχάσει τον κωδικό πρόσβασης"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr "Θα πρέπει να συμπληρώσετε τον κωδικό και το ηλ.ταχυδρομείο σας."
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr "Επιλέξτε την έκδοση αναβάθμισης"
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr "Η πρόσβασή σας στην Powerpack έχει λήξει"
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr "η %s είναι τώρα διαθέσιμη, μπορείτε να αναβαθμίσετε στην:"
+
+#: ../mdkonline.pm:177
+#, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Flash"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Free"
+
+#: ../mdkonline.pm:179
+#, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Mini"
+
+#: ../mdkonline.pm:180
+#, c-format
+msgid "Mandriva One"
+msgstr "Mandriva One"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva PowerPack"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+"Η διανομή Mandrfiva Linux με ακόμα περισσότερες εφαρμογές και επίσημη "
+"υποστήριξη."
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr "Η 100%% διανομή ανοιχτού λογισμικού ελεύθερα διαθέσιμη."
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr "Αναβάθμιση διανομής"
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"έκδοση mdkupdate %s\n"
+"Copyright (C) %s Mandriva.\n"
+"Αυτό είναι ελεύθερο λογισμικό και μπορεί να διανεμηθεί υπό τους όρους του "
+"GNU GPL.\n"
+"\n"
+"χρήση:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- εκτύπωση αυτού του μηνύματος βοήθειας.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Αυτόματη εκτέλεση του Mandriva Update.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- εκτέλεση ειδικών mnf σεναρίων.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- έκδοση του Mandriva Update σε μορφή κειμένου.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr "  --debug\t\t\t- καταγραφή γενόμενων\n"
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "Αδύνατη η ενημέρωση των πακέτων από το μέσο update_source.\n"
+
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr ""
+#~ "Παρακαλώ συμπληρώστε τα στοιχεία του λογαριασμού σας για να προσθέσετε "
+#~ "ένα νέο μέσο πακέτων αφού ολοκληρώσετε την εγγραφή σας στο διαδίκτυο"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Ο λογαριασμός σας Mandriva δεν έχει συνδρομή στην υπηρεσία εκτεταμένης "
+#~ "συντήρησης."
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#~ msgid "Would you like Powerpack?"
+#~ msgstr "Θα θέλατε την Powerpack;"
+
+#~ msgid ""
+#~ "Since you don't have Powerpack rights you may visit mandriva store now "
+#~ "and get Powerpack subscription."
+#~ msgstr ""
+#~ "Δεδομένου ότι δεν έχετε δικαιώματα Powerpack μπορείτε να επισκεφτείτε το "
+#~ "κατάστημα της Mandriva τώρα και να αποκτήσετε μια εγγραφή Powerpack."
+
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Απόκτηση εγγραφής Powerpack!"
+
+#~ msgid ""
+#~ "Continue to use your new Powerpack account information to upgrade, or "
+#~ "Cancel and upgrade to the Free Edition."
+#~ msgstr ""
+#~ "Συνέχεια κάνοντας χρήση του νέου σας λογαριασμού Powerpack για να κάνετε "
+#~ "αναβάθμιση, ή Ακύρωση και αναβάθμιση στην έκδοση Free."
+
+#~ msgid "Continue and Authenticate!"
+#~ msgstr "Συνέχεια και Ταυτοποίηση!"
+
+#~ msgid "Cancel, upgrade to Free Edition"
+#~ msgstr "Ακύρωση, αναβάθμιση στην έκδοση Free"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Ο λογαριασμός σας Mandriva δεν έχει συνδρομή στην υπηρεσία λήψης του "
+#~ "Powerpack."
+
+#~ msgid ""
+#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
+#~ "dMB)"
+#~ msgstr ""
+#~ "Το σύστημά σας δεν έχει αρκετό διαθέσιμο χώρο στο %s για την αναβάθμιση (%"
+#~ "dMB < %dMB)"
+
+#~ msgid "Installation failed"
+#~ msgstr "Η εγκατάσταση απέτυχε"
+
+#~ msgid "Installation logs can be found in '%s'"
+#~ msgstr "Τα αρχεία καταγραφής της εγκατάστασης μπορείτε να τα βρείτε στο «%s»"
+
+#~ msgid "Retry"
+#~ msgstr "Νέα προσπάθεια"
+
+#~ msgid "Congratulations"
+#~ msgstr "Συγχαρητήρια"
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Η αναβάθμιση σε Mandriva %s ολοκληρώθηκε με επιτυχία."
+
+#~ msgid "You must restart your system."
+#~ msgstr "Πρέπει να επανεκκινήστε το σύστημά σας."
+
+#~ msgid "Reboot"
+#~ msgstr "Επανεκκίνηση"
+
+#~ msgid ""
+#~ "Packages database is locked. Please close other applications\n"
+#~ "working with packages database (do you have another media\n"
+#~ "manager on another desktop, or are you currently installing\n"
+#~ "packages as well?)."
+#~ msgstr ""
+#~ "Η βάση δεδομένων των πακέτων είναι κλειδωμένη. Παρακαλώ κλείστε άλλες "
+#~ "εφαρμογές\n"
+#~ " που εργάζονται με τη βάση δεδομένων των πακέτων (έχετε άλλο διαχειριστή\n"
+#~ "μέσων σε άλλη επιφάνεια εργασίας, ή κάνετε επί του παρόντος εγκατάσταση "
+#~ "πακέτων ;)"
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Αποτυχία κατά την προσθήκη μέσου"
+
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr ""
+#~ "Η έκδοση Mandriva Linux που έχετε εγκατεστημένη δεν υποστηρίζεται πλέον."
+
+#~ msgid "Get long term support for your currently installed distribution"
+#~ msgstr ""
+#~ "Αποκτήστε μεγάλης διάρκειας υποστήριξη για την τρέχουσα εγκατεστημένη "
+#~ "διανομή σας."
+
+#~ msgid "MES5"
+#~ msgstr "MES5"
+
+#, fuzzy
+#~ msgid "You are using '%s' distribution."
+#~ msgstr "Θέλεις να προχωρήσεις σε αναβάθμιση;"
+
+#~ msgid "Do you want to upgrade?"
+#~ msgstr "Θέλεις να προχωρήσεις σε αναβάθμιση;"
+
+#~ msgid "Yes"
+#~ msgstr "Ναι"
+
+#~ msgid "No"
+#~ msgstr "Όχι"
+
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "Η υπηρεσία Mandriva Online φαίνεται πώς έχει επανεγκατασταθεί. "
+#~ "Επαναφόρτωση της μικροεφαρμογής...  "
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Έλεγχος...Υπάρχουν αναβαθμίσεις\n"
+
+#~ msgid "Packages are up to date"
+#~ msgstr "Έχεις τις τελευταίες ενημερώσεις των πακέτων"
+
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "Αδυναμία ανοίγματος της βάσης δεδομένων urpmi"
+
+#~ msgid "Connecting to"
+#~ msgstr "Σύνδεση με"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Μικροεφαρμογή αναβαθμίσεων της Mandriva Linux"
+
+#~ msgid "Security error"
+#~ msgstr "Σφάλμα ασφαλείας"
+
+#~ msgid "Generic error (machine already registered)"
+#~ msgstr "Γενικό σφάλμα (μηχάνημα ήδη καταχωρημένο)"
+
+#~ msgid "Database error"
+#~ msgstr "Σφάλμα στη βάση δεδομένων"
+
+#~ msgid ""
+#~ "Server Database failed\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Αστοχία βάσης δεδομένων του διακομιστή\n"
+#~ "Παρακαλώ δοκιμάστε ξανά αργότερα"
+
+#~ msgid "Registration error"
+#~ msgstr "Σφάλμα καταχώρισις"
+
+#~ msgid "Some parameters are missing"
+#~ msgstr "Λείπουν ορισμένοι παράμετροι"
+
+#~ msgid "Password error"
+#~ msgstr "Σφάλμα κωδικού"
+
+#~ msgid "Login error"
+#~ msgstr "Σφάλμα σύνδεσης"
+
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Η ηλεκτρονική διεύθυνση που δώσατε είναι ήδη σε χρήση \n"
+#~ "Παρακαλώ εισάγετε μια άλλη\n"
+
+#~ msgid "The email you provided is invalid or forbidden"
+#~ msgstr "Η ηλεκτρονική διεύθυνση που δώσατε είναι άκυρη ή απαγορευμένη"
+
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr ""
+#~ "Το πεδίο διεύθυνσης ηλεκτρονικού.ταχυδρομείου είναι κενό, παρακαλώ δώστε "
+#~ "·μία διεύθυνση"
+
+#~ msgid "Restriction Error"
+#~ msgstr "Σφάλμα περιορισμού"
+
+#~ msgid "Database access forbidden"
+#~ msgstr "Η πρόσβαση στη  Βάση Δεδομένων απαγορεύεται"
+
+#~ msgid "Service error"
+#~ msgstr "Σφάλμα υπηρεσίας"
+
+#~ msgid ""
+#~ "Mandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Οι δικτυακές υπηρεσίες της Mandriva είναι προς το παρόν μη διαθέσιμες\n"
+#~ "Παρακαλώ προσπαθήστε ξανά αργότερα"
+
+#~ msgid "Password mismatch"
+#~ msgstr "Το συνθηματικό δεν ταιριάζει."
+
+#~ msgid ""
+#~ "Mandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Οι δικτυακές υπηρεσίες της Mandriva είναι υπό συντήρηση\n"
+#~ "Παρακαλώ προσπαθήστε ξανά αργότερα"
+
+#~ msgid "User Forbidden"
+#~ msgstr "Ο χρήστης είναι απαγορευμένος"
+
+#~ msgid "User account forbidden by Mandriva web services"
+#~ msgstr ""
+#~ "Λογαριασμός χρήστη απαγορευμένος από τις δικτυακές υπηρεσίες της Mandriva"
+
+#~ msgid "Connection error"
+#~ msgstr "Σφάλμα σύνδεσης"
+
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "Οι δικτυακές υπηρεσίες της Mandriva δεν είναι προσβάσιμες"
+
+#~ msgid ""
+#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
+#~ "file.\n"
+#~ msgstr ""
+#~ "  --bundle file.bundle\t- ανάλυση και εγκατάσταση πακέτου από αρχείο "
+#~ "δέσμης metainfo.\n"
+
+#~ msgid ""
+#~ "You first need to install the system on your harddrive with the 'Live "
+#~ "Install' wizard."
+#~ msgstr ""
+#~ "Αρχικά πρέπει να εγκαταστήσετε το σύστημα στο σκληρό σας δίσκο με τον "
+#~ "αυτόματο οδηγό 'Live install'."
+
+#~ msgid "Please wait"
+#~ msgstr "Παρακαλώ περιμένετε"
+
+#~ msgid "Preparing..."
+#~ msgstr "Προετοιμασία..."
+
+#~ msgid ""
+#~ "Failed to authenticate to the bundle server:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Αποτυχία πιστοποίησης στον διακομιστή bundle:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "The version of the Mandriva Online client is too old.\n"
+#~ "\n"
+#~ "You need to update to a newer version. You can get a new one from http://"
+#~ "start.mandriva.com"
+#~ msgstr ""
+#~ "Η έκδοση του Mandriva online client είναι πολύ παλιά\n"
+#~ "\n"
+#~ "Πρέπει να γίνει αναβάθμιση σε νεότερη έκδοση.Μπορείτε να πάρετε μια νέα "
+#~ "από το http:// star.mandriva.com"
+
+#~ msgid "This bundle is not well formated. Aborting."
+#~ msgstr "Αυτή η δεσμίδα δεν είναι καλά μορφοποιημένη.Διακόπτω."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Εγκατάσταση πακέτων...\n"
+
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Υπάρχουν νέες δέσμες για το σύστημα σας"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "Η υπηρεσία δεν εχει ρυθμιστεί.Παρακαλώ κάντε κλίκ στο \"Ρύθμιση υπηρεσίας"
+#~ "\" "
+
+#~ msgid "Configure the service"
+#~ msgstr "Ρύθμιση υπηρεσίας "
+
+#~ msgid "Check updates"
+#~ msgstr "Ελεγχος αναβαθμίσεων"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Ρύθμιση τώρα !"
+
+#~ msgid "Actions"
+#~ msgstr "Ενέργειες"
+
+#~ msgid "Configure"
+#~ msgstr "Ρύθμιση"
+
+#~ msgid "See logs"
+#~ msgstr "Δές ημερολόγια"
+
+#~ msgid "Status"
+#~ msgstr "Κατάσταση"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Σύνδεση δικτύου:"
+
+#~ msgid "Up"
+#~ msgstr "Πάνω"
+
+#~ msgid "Down"
+#~ msgstr "Κάτω"
+
+#~ msgid "Last check: "
+#~ msgstr "Τελευταίος έλεγχος:"
+
+#~ msgid "Machine name:"
+#~ msgstr "Όνομα μηχανήματος:"
+
+#~ msgid "Updates: "
+#~ msgstr "Αναβαθμίσεις"
+
+#~ msgid "Development release not supported by service"
+#~ msgstr "Διανομή υπο εξέλιξη δεν υποστηρίζεται απο την υπηρεσία"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Πολύ παλιά διανομή δεν υποστηρίζεται απο την υπηρεσία"
+
+#~ msgid "Unknown state"
+#~ msgstr "Αγνωστη κατάσταση"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Υπηρεσία Online απενεργοποιημένη. Επικοινωνήστε με δικτυακό τόπο Manriva "
+#~ "Online\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Λάθος κωδικός πρόσβασης\n"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr ""
+#~ "Λανθασμένη ενέργεια ή λάθος κεντρικός υπολογιστής ή λάθος σύνδεση.\n"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Υπάρχει πρόβλημα με τις ρυθμίσεις του δικτύου σας (ελέγξτε τη δρομολόγηση "
+#~ "σας,το δικτυακό φίλτρο ασφάλειας ή τις ρυθμίσεις διαμεσολαβητή\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Υπήρξε πρόβλημα κατά τη σύνδεση σας με τον διακομιστή,παρακαλώ "
+#~ "επικοινωνήστε με την ομάδα υποστήριξης"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Απάντηση απο τόν διακομιστή της Mandriva Online\n"
+
+#~ msgid "No check"
+#~ msgstr "Μη έλεγχος"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Έλεγχος αρχείου config:Δεν υπάρχει\n"
+
+#~ msgid "Logs"
+#~ msgstr "Ημερολόγια"
+
+#~ msgid "Clear"
+#~ msgstr "Καθαρισμός"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdkonline έκδοση %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Αυτό είναι ελεύθερο λογισμικό και μπορεί να διανεμηθεί υπό τους όρους του "
+#~ "GNU GPL.\n"
+#~ "\n"
+#~ "χρήση:\n"
+
+#~ msgid "  --box=\t\t\t- hostname.\n"
+#~ msgstr "  --box=\t\t\t- όνομα κεντρικού υπολογιστή.\n"
+
+#~ msgid "  --country\t\t\t- name of country of the user. \n"
+#~ msgstr "  --country\t\t\t- όνομα χώρας του χρήστη. \n"
+
+#~ msgid "  --interactive\t\t- use the interactive mode.\n"
+#~ msgstr "  --interactive\t\t- χρήση διαδραστικής κατάστασης.\n"
+
+#~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
+#~ msgstr "  --nointeractive\t -χρήση της μή διαδραστικής κατάστασης.\n"
+
+#~ msgid "  --login=\t\t     - login name of the user.\n"
+#~ msgstr "  --login=\t\t     - όνομα σύνδεσης του χρήστη.\n"
+
+#~ msgid "  --pass=\t\t\t- password  of the user.\n"
+#~ msgstr "  --pass=\t\t\t- κωδικός χρήστη.\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Εχω ήδη ενα λογαριασμό"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "Θέλω να εγγραφώ συνδρομητής"
+
+#~ msgid "Mr."
+#~ msgstr "Κος."
+
+#~ msgid "Mrs."
+#~ msgstr "Κα."
+
+#~ msgid "Ms."
+#~ msgstr "Δνις."
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Ο βοηθός θα σας διευκολύνει να στείλετε την σύνθεση σας\n"
+#~ "(πακέτα, υλικό του υπολογιστή σας) σε μια κεντρική βάση για να μπορείτε\n"
+#~ "να ενημερώνεστε για αναβαθμίσεις ασφαλείας και χρήσιμες αναβαθμίσεις.\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Δημιουργία λογαριασμού ή πιστοποίηση ταυτότητας"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr ""
+#~ "Εισάγετε το όνομα χρήστη ,κωδικό πρόσβασης και το Όνομα μηχανήματος για "
+#~ "το Mandriva Online:"
+
+#~ msgid "Email address:"
+#~ msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#~ msgid "Country"
+#~ msgstr "Χώρα"
+
+#~ msgid "Password:"
+#~ msgstr "Κωδικός πρόσβασης:               "
+
+#~ msgid "(Ex: My Home Office's Computer)"
+#~ msgstr "(Εχ:"
+
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr ""
+#~ "Το όνομα μηχανήματος πρέπει να είναι απο 1 εώς 40 αλφαριθμητικούς "
+#~ "χαρακτήρες"
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Σύνδεση με τον δικτυακό τόπο Mandriva Online"
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Για να επωφεληθείτε από τις υπηρεσίες Mandriva Online\n"
+#~ "θα αποστείλουμε τις ρυθμίσεις σας καθώς και τα εγκατεστημένα πακέτα\n"
+#~ "\n"
+#~ "Ο οδηγός θα στείλει τώρα τα παρακάτω στοιχεία στην Mandriva:\n"
+#~ "\n"
+#~ "1) τα πακέτα που έχετε εγκατεστημένα στο σύστημά σας,\n"
+#~ "\n"
+#~ "2) τα στοιχεία των υλικών που αποτελούν τον υπολογιστή σας.\n"
+#~ "\n"
+#~ "Αν δεν νιώθετε άνετα με αυτό ή δεν θέλετε να επωφεληθείτε από την "
+#~ "υπηρεσία επιλέξτε 'Άκυρο'.\n"
+#~ "Επιλέγοντας 'Επόμενο', θα μας επιτρέψετε να σας κρατάμε ενήμερους\n"
+#~ "σχετικά με ενημερώσεις ασφαλείας και χρήσιμες αναβαθμίσεις με προσωπικό e-"
+#~ "mail\n"
+#~ "Θα μπορείτε να επωφεληθείτε από έκπτωση στην υπηρεσία με πληρωμή στο \n"
+#~ "www.mandrivaexpert.com"
+
+#~ msgid "Connection problem"
+#~ msgstr "Πρόβλημα σύνδεσης"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr ""
+#~ "Παρουσιάστηκε πρόβλημα κατά την αποστολή των αρχείων,παρακαλώ δοκιμάστε "
+#~ "ξανά"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Δημιουργήστε ένα λογαριασμό Mandriva Online"
+
+#~ msgid "Greeting:"
+#~ msgstr "Χαιρετισμός:"
+
+#~ msgid "First name:"
+#~ msgstr "Όνομα:"
+
+#~ msgid "Last name:"
+#~ msgstr "Επίθετο:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Επαλήθευση Κωδικού:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Οι κωδικοί δεν συμπίπτουν\n"
+#~ "Παρακαλώ προσπαθήστε ξανά\n"
+
+#~ msgid "Please fill in each field"
+#~ msgstr "Παρακαλώ συμπληρώστε τα παρακάτω πεδία"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Μη έγκυρη διεύθυνση ταχυδρομείου!\n"
+
+#~ msgid "Creating account failed!"
+#~ msgstr "Αποτυχία δημιουργίας λογαριασμού !"
+
+#~ msgid ""
+#~ "Mandriva Online Account successfully created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Επιτυχής δημιουργία λογαριασμού Mandriva Online\n"
+#~ "Παρακαλώ κάντε κλικ \"Next/Επόμενο\"για πιστοποίηση ταυτότητας και "
+#~ "αποστολή ρυθμίσεων\n"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "Η αποστολή ήταν επιτυχής!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Από εδώ και πέρα θα παραλαμβάνετε ανακοινώσεις\n"
+#~ "σχετικά με ενημερώσεις ασφαλείας και αναβαθμίσεις χάρη στο Mandriva "
+#~ "Online."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "Το Mandriva Online σας παρέχει τη δυνατότητα αυτοματοποιημένων "
+#~ "ενημερώσεων.\n"
+#~ "Ένα πρόγραμμα θα εκτελείται τακτικά στο σύστημά σας αναμένοντας νέες "
+#~ "αναβαθμίσεις\n"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Ο λογαριασμός σας Mandriva Online ρυθμίστηκε επιτυχώς\n"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Η αποστολή ρυθμίσεων ήταν επιτυχής!"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Πρόβλημα στην αποστολή Ρυθμίσεων"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "Η σύνδεση με τον δικτυακό τόπο της Mandriva Online δεν είναι εφικτή:λάθος "
+#~ "σύνδεση/κωδικός ή δρομολογητής/εσφαλμένες ρυθμίσεις  δικτυακού φίλτρου "
+#~ "ασφάλειας"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- εκτέλεση Mandriva Update.\n"
+
+#~ msgid "Cannot get list of updates: %s"
+#~ msgstr "Αδυναμία λήψης καταλόγου αναβαθμίσεων:%s"
+
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Διαλέξτε ποία πακέτα θα εγκατασταθούν και πιέστε ΟΚ"

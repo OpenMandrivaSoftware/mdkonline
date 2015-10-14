@@ -1,0 +1,1102 @@
+# translation of mdkonline-sc.po to Sardu
+# translation of Mandriva Online to Sardu
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Antonio Pistis <antonio.pistis@virgilio.it>, 2004.
+# Antoni Pistis <antonio.pistis@virgilio.it>, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-sc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2005-09-05 19:00+0100\n"
+"Last-Translator: Antoni Pistis <antonio.pistis@virgilio.it>\n"
+"Language-Team: Sardu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, fuzzy, c-format
+msgid "Will check updates at %s"
+msgstr "Controlla is ajorronus"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Su sistema est ajorronau"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Probrema de assètiu de serbìtziu. Controlla is log e manda una missada a "
+"support@mandrivaonline.com"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Abeta, agatu is pakitus a disposta..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Ajorronus a disposta po su sistema tuu"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "S'arretza no andat. Assètia s'arretza tua."
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Serbìtziu no abivau. Craca \"Jassus Online\""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, fuzzy, c-format
+msgid "urpmi database locked"
+msgstr "su database de urpmi est serrau"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr "Release no suportada (tropu beça, o de adelantamentu)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, fuzzy, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+"As jai assetiau a su mancu unu mèdiu de ajorronamentu, ma\n"
+"imoi funt totu disabivaus. Iast a depi aberri su Manijadori de\n"
+"Mèdius de Programas po ndi abivai unu a su mancu (marcaddu\n"
+"in sa colunna Abivau?).\n"
+"\n"
+"Apustis, torra a allui %s."
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Abivau"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Aposenta is ajorronus"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Controlla is Ajorronus"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Assètia Arretza"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr ""
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "Seu alluendi drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Sighi"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Annudda"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, fuzzy, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "Seu alluendi MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Seu carculendi atrus ajorronus...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Su sistema est ajorronau\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Seu controllendi s'arretza: parit disabivada\n"
+
+#: ../mdkapplet:893
+#, fuzzy, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Jassu online"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Atentu"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Apitzus de..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, fuzzy, c-format
+msgid "Updates Configuration"
+msgstr "Seu ligendi s'assètiu\n"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Lança sempri a s'alluidura"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Bessi"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr ""
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Faddina"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Nòmini màkina:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Faddina"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, fuzzy, c-format
+msgid "An error occurred while adding medium"
+msgstr "Faddina açungendi su mèdiu."
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, fuzzy, c-format
+msgid "Your password"
+msgstr "Password sballiada"
+
+#: ../mdkapplet_gui.pm:228
+#, fuzzy, c-format
+msgid "Forgotten password"
+msgstr "Password sballiada"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Serra"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, fuzzy, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, fuzzy, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:179
+#, fuzzy, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:180
+#, fuzzy, c-format
+msgid "Mandriva One"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, fuzzy, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate versioni %s\n"
+"Copyright (C) %s Mandriva.\n"
+"Custu est software lìberu e fait a du spainai sighendi sa GNU GPL.\n"
+"\n"
+"impreu:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- imprenta custa missada de ajudu.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Mandriva Update lançau in automàtigu.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- lança is script mnf.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- versioni in modalidadi scriturali de Mandriva Update.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr ""
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "No potzu ajorronai is pakitus de su mèdiu update_source.\n"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Nòmini màkina:"
+
+#~ msgid "Installation failed"
+#~ msgstr "Aposentadura faddia"
+
+#~ msgid "Congratulations"
+#~ msgstr "Cumprimentus"
+
+#~ msgid "Reboot"
+#~ msgstr "Torra a allui"
+
+#~ msgid ""
+#~ "Packages database is locked. Please close other applications\n"
+#~ "working with packages database (do you have another media\n"
+#~ "manager on another desktop, or are you currently installing\n"
+#~ "packages as well?)."
+#~ msgstr ""
+#~ "Su database de is pakitus est serrau. Serra is atrus programas\n"
+#~ "ki traballant cun su database de pakitus (tenis unu atru manijadori\n"
+#~ "de mèdius in d-una atra scriania, o jai imoi ses aposentendi\n"
+#~ "pakitus?)."
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Faddina açungendi su mèdiu."
+
+#~ msgid "Yes"
+#~ msgstr "Eya"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "Mandriva Online parit torrau a aposentai, càrrigu torra sa applet ...."
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Seu controllendi... Ajorronus a disposta\n"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "no potzu aberri su database rpm"
+
+#~ msgid "Connecting to"
+#~ msgstr "Seu acapiendi"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Applet Mandriva Linux Updates"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Siguresa"
+
+#, fuzzy
+#~ msgid "Database error"
+#~ msgstr "Faddina de su database"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Tipu de assentadura"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Paràmetrus de tempus"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "Password po %s"
+
+#, fuzzy
+#~ msgid "Login error"
+#~ msgstr "faddina disconnota"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Su nickname * %s * jai in impreu o no bonu\n"
+#~ "Po prexeri, scera-ndi un'atru\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr "Su campu \"nòmini\" est sbuidu, po praxeri, intra unu nòmini"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Descriidura: "
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Faddina de scriidura\n"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Disacòrdiu de password."
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "Lista Umperadori"
+
+#, fuzzy
+#~ msgid "Connection error"
+#~ msgstr "Acàpiu"
+
+#~ msgid "Please wait"
+#~ msgstr "Abeta, po praxeri"
+
+#~ msgid "Preparing..."
+#~ msgstr "Apariçu..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Aposentu is pakitus ... \n"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Ajorronus a disposta po su sistema tuu"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr "Serbìtziu no assetiau. Craca \"Assètia su Serbìtziu\""
+
+#~ msgid "Configure the service"
+#~ msgstr "Assètia su serbìtziu"
+
+#~ msgid "Check updates"
+#~ msgstr "Controlla is ajorronus"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Assètia Imoi!"
+
+#~ msgid "Actions"
+#~ msgstr "Fainas"
+
+#~ msgid "Configure"
+#~ msgstr "Assètia"
+
+#~ msgid "See logs"
+#~ msgstr "Càstia is logs"
+
+#~ msgid "Status"
+#~ msgstr "Stadu"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Acàpiu a s'Arretza: "
+
+#~ msgid "Up"
+#~ msgstr "Andat"
+
+#~ msgid "Down"
+#~ msgstr "No andat"
+
+#~ msgid "Last check: "
+#~ msgstr "Ùrtimu controllu: "
+
+#~ msgid "Machine name:"
+#~ msgstr "Nòmini màkina:"
+
+#~ msgid "Updates: "
+#~ msgstr "Ajorronus:"
+
+#~ msgid "Development release not supported by service"
+#~ msgstr "Release de adelantamentu no suportada de su serbìtziu"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Release tropu beça no suportada de su serbìtziu"
+
+#~ msgid "Unknown state"
+#~ msgstr "Stadu disconnotu"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr "Serbìtziu online disabivau. Cuntata su jassu Mandriva Online\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Password sballiada.\n"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Faina o host o login sballiau.\n"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Calincuna cosa est sballiada is s'assètiu arretza tuu (controlla "
+#~ "s'assètiu de route, de su firewall o de su proxy)\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Probrema in s'acàpiu a su server, po praxeri, cuntata su support team"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Arrespusta de su server Mandriva Online\n"
+
+#~ msgid "No check"
+#~ msgstr "Nisçunu controllu"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Seu controllendi su config file: no dui at\n"
+
+#~ msgid "Logs"
+#~ msgstr "Logs"
+
+#~ msgid "Clear"
+#~ msgstr "Lìmpia"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline versioni %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Custu est software lìberu e fait a du spainai sighendi sa GNU GPL.\n"
+#~ "\n"
+#~ "impreu:\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Tenju jai unu account"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "Bollu sutascriri"
+
+#, fuzzy
+#~ msgid "Mrs."
+#~ msgstr "XMrIs"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Custu ti at a ajudai a carrigai s'assètiu de sistema tuu (pakitus,\n"
+#~ "assètiu màkina) in d-unu database centralisau po ti podi apoderai\n"
+#~ "informau de is ajorronusus de siguresa e de mellorias utilosas.\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Creadura o autentigadura de account"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr "Intra su login e password tuus Mandriva Online e su nòmini màkina:"
+
+#, fuzzy
+#~ msgid "Email address:"
+#~ msgstr "Bivimentu IP de su Gateway:"
+
+#~ msgid "Country"
+#~ msgstr "Stadu"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Acàpiu a su jassu Mandriva Online in cursu..."
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Po ti podi abantaxai de is serbìtzius de Mandriva Online,\n"
+#~ "megaus a carrigai s'assetiu de su sistema tuu.\n"
+#~ "\n"
+#~ "Su Wizard imoi at a mandai a Mandriva is scedas ki sighint:\n"
+#~ "\n"
+#~ "1) sa lista de is pakitus ki as aposentau in su sistema,\n"
+#~ "\n"
+#~ "2) s'assètiu hardware cosa tua.\n"
+#~ "\n"
+#~ "Ki s'idea no ti praxit o no ti bolis abantaxai de su serbìtziu,\n"
+#~ "craca 'Annudda'. Crakendi 'Sighi', permitis a nosu de ti informai\n"
+#~ "apitzus de ajorronus de siguresa e utilosus via email.\n"
+#~ "In prus, t'abantaxas de su serbìtziu de ajudu scontau in\n"
+#~ "www.mandrivaexpert.com."
+
+#~ msgid "Connection problem"
+#~ msgstr "Probrema de acàpiu"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Probrema carrighendi is file, torra a provai"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Crea unu Account Mandriva Online"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Birdi"
+
+#, fuzzy
+#~ msgid "First name:"
+#~ msgstr "Nòmini host"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Nòmini host"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Cunfirma sa Password:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Is password no cuncordant\n"
+#~ "Po praxeri, torra a provai\n"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Po praxeri, preni totu is campus\n"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "No est bivimentu email bonu!\n"
+
+#~ msgid ""
+#~ "Mandriva Online Account successfully created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Account Mandriva Online acabau de creai.\n"
+#~ "Crica \"Sighi\" po intrai e carrigai is assètius tuus\n"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "S'upload est acabau beni!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "De imoi as a arriciri noas apitzus de siguresa e\n"
+#~ "ajorronus, gràtzias a Mandriva Online."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "Mandriva Online ti donat de podi ajorronai in automàtigu.\n"
+#~ "Unu programa at a girai in su sistema, abetendi ajorronus\n"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "S'assètiu de s'account Mandriva Online est acabau\n"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Su carrigamentu de s'assètiu est acabau!"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Barrancus carrighendi s'assètiu"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "No potzu acapiai su jassu mandrivaonline: login/password sballiau o "
+#~ "assètiu router/firewall malu "
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- lança Mandriva Update.\n"
+
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Sçobera ita pakitus iant a bolli aposentaus e Craca Ok"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Su sistema est arrocau. Abeta ..."
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Seu mandendi s'assètiu..."
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "File %s no agatau. Fai girai su wizard mdkonline a innantis"
+
+#~ msgid "Mandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "Mandriva Update no at pòtziu acapiai su jassu, eus a torrai a provai"
+
+#~ msgid "Login:"
+#~ msgstr "Login:"
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "wrong password:"
+#~ msgstr "Password sballiada:"
+
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on Mandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to Mandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Su login o sa password fiant sballiaus.\n"
+#~ " O dus depis torrai a scriri, o depis creai unu account in Mandriva "
+#~ "Online.\n"
+#~ " In sa segundu sorti, torra a su primu passu po ti acapiai a Mandriva "
+#~ "Online.\n"
+#~ " Atentu, ca depis donai unu nòmini màkina \n"
+#~ " (funt permìtias lìteras feti)"
+
+#~ msgid "Mail contact:"
+#~ msgstr "Cuntatu de Posta:"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Po praxeri, intra unu login"
+
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Login e password iant a bolli prus curtzus de 12 sinnus\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Sinnus spetzialis no funt amìtius\n"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Email no bona\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "S'account esistit jai\n"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Probrema de acàpiu a su server \n"

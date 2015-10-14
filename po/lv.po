@@ -1,0 +1,1076 @@
+# Latvian translation of Madrake Online.
+# Copyright (C) 2001 Mandriva S.A.
+# Juris Kudiņš <cooker@inbox.lv>, 2001.
+# Vitauts Stočka <vit@dau.lv>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline 0.15\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2002-09-25 19:04+0200\n"
+"Last-Translator: Raivo Saars <spaiks@inbox.lv>\n"
+"Language-Team: ll10nt <ll10nt@listes.murds.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, fuzzy, c-format
+msgid "Will check updates at %s"
+msgstr "Drošības atjauninājumi"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr ""
+
+#: ../mdkapplet:84
+#, fuzzy, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr "Problēmu gadījumā sūtiet vēstuli uz support@mandrivaonline.com\n"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Lūdzu gaidiet, meklēju pieejamās pakotnes..."
+
+#: ../mdkapplet:95
+#, fuzzy, c-format
+msgid "New updates are available for your system"
+msgstr "Jūsu sistēmā nav tīkla adaptera!"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr ""
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr ""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, fuzzy, c-format
+msgid "urpmi database locked"
+msgstr "urpmi datubāze noslēgta"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Atļauts"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, fuzzy, c-format
+msgid "Install updates"
+msgstr "Instalēt tēmas"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, fuzzy, c-format
+msgid "Check Updates"
+msgstr "Atjaunināt"
+
+#: ../mdkapplet:228
+#, fuzzy, c-format
+msgid "Configure Network"
+msgstr "Tīkla konfigurēšana"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr ""
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, fuzzy, c-format
+msgid "Launching drakconnect\n"
+msgstr "Izpildīt userdrake"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Tālāk"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, fuzzy, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr ""
+
+#: ../mdkapplet:719
+#, fuzzy, c-format
+msgid "Computing new updates...\n"
+msgstr "Pieslēguma problēma"
+
+#: ../mdkapplet:826
+#, fuzzy, c-format
+msgid "System is up-to-date\n"
+msgstr "Sistēmas režīms"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr ""
+
+#: ../mdkapplet:893
+#, fuzzy, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr ""
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Uzmanību"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Par..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, fuzzy, c-format
+msgid "Updates Configuration"
+msgstr "Nolasu konfigurāciju\n"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr ""
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Iziet"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr ""
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Kļūda"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Datora nosaukums:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Atklāta kļūda"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, fuzzy, c-format
+msgid "An error occurred while adding medium"
+msgstr "Atklāta kļūda"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Labi"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, fuzzy, c-format
+msgid "Your password"
+msgstr "Nepareiza parole"
+
+#: ../mdkapplet_gui.pm:228
+#, fuzzy, c-format
+msgid "Forgotten password"
+msgstr "Nepareiza parole"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Aizvērt"
+
+#: ../mdkapplet_gui.pm:302
+#, fuzzy, c-format
+msgid "Choose your upgrade version"
+msgstr "Norādiet savu ģeogrāfisko atrašanās vietu"
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, fuzzy, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, fuzzy, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:179
+#, fuzzy, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:180
+#, fuzzy, c-format
+msgid "Mandriva One"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, fuzzy, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate versija %s\n"
+"Autortiesības (C) %s Mandriva.\n"
+"Šī ir brīva programmatūra, ko var izplatīt saskaņā ar GNU GPL noteikumiem.\n"
+"\n"
+"Pielietojums:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- drukāt šo palīdzības tekstu.\n"
+
+#: ../mdkupdate:65
+#, fuzzy, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --update\t\t- izveidot atjaunināšanas datu nesēju.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr ""
+
+#: ../mdkupdate:67
+#, fuzzy, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --update       - izveidot atjaunināšanas datu nesēju.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr ""
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Datora nosaukums:"
+
+#~ msgid "Installation failed"
+#~ msgstr "Instalēšana neizdevās"
+
+#~ msgid "Congratulations"
+#~ msgstr "Apsveicam"
+
+#~ msgid "Reboot"
+#~ msgstr "Pārstartēt"
+
+#~ msgid "Yes"
+#~ msgstr "Jā"
+
+#~ msgid "No"
+#~ msgstr "Nē"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "Nevar atvērt failu %s\n"
+
+#, fuzzy
+#~ msgid "Connecting to"
+#~ msgstr "Pieslēguma problēma"
+
+#, fuzzy
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Mandriva Linux privātuma politika"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Drošības trauksmes:"
+
+#, fuzzy
+#~ msgid "Database error"
+#~ msgstr "Datubāzu serveris"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Nolasīšanas kļūda\n"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Nav attālā printera nosaukuma!"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "%s parole"
+
+#, fuzzy
+#~ msgid "Login error"
+#~ msgstr "Nezināma kļūda"
+
+#, fuzzy
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr "Vārda lauks ir tukšs, lūdzu ievadiet vārdu"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Apraksts: "
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "Datubāzu serveris"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Ierakstīšanas kļūda\n"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Paroles nesakrīt"
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "Lietotāja izvēlne"
+
+#, fuzzy
+#~ msgid "Connection error"
+#~ msgstr "Savienojuma nosaukums"
+
+#~ msgid "Please wait"
+#~ msgstr "Lūdzu uzgaidiet"
+
+#~ msgid "Preparing..."
+#~ msgstr "Sagatavoju..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Instalēju pakotnes...\n"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Jūsu sistēmā nav tīkla adaptera!"
+
+#, fuzzy
+#~ msgid "Configure the service"
+#~ msgstr "Servisu konfigurēšana"
+
+#, fuzzy
+#~ msgid "Check updates"
+#~ msgstr "Drošības atjauninājumi"
+
+#, fuzzy
+#~ msgid "Configure Now!"
+#~ msgstr "Nolasu konfigurāciju\n"
+
+#~ msgid "Actions"
+#~ msgstr "Darbības"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurēt"
+
+#, fuzzy
+#~ msgid "See logs"
+#~ msgstr "Meklēt +5s"
+
+#~ msgid "Status"
+#~ msgstr "Statuss"
+
+#, fuzzy
+#~ msgid "Network Connection: "
+#~ msgstr "Virtuālā tīkla pieslēgums"
+
+#~ msgid "Up"
+#~ msgstr "Uz augšu"
+
+#~ msgid "Down"
+#~ msgstr "Uz leju"
+
+#~ msgid "Machine name:"
+#~ msgstr "Datora nosaukums:"
+
+#, fuzzy
+#~ msgid "Updates: "
+#~ msgstr "Atjaunināt"
+
+#, fuzzy
+#~ msgid "Unknown state"
+#~ msgstr "Nezināms servera vārds"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Nepareiza parole.\n"
+
+#, fuzzy
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Laipni lūdzam Mandriva Online"
+
+#~ msgid "Logs"
+#~ msgstr "Žurnāli"
+
+#~ msgid "Clear"
+#~ msgstr "Attīrīt"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline versija %s\n"
+#~ "Autortiesības (C) %s Mandriva.\n"
+#~ "Šī ir brīva programmatūra, ko var izplatīt saskaņā ar GNU GPL "
+#~ "noteikumiem.\n"
+#~ "\n"
+#~ "Pielietojums:\n"
+
+#, fuzzy
+#~ msgid "Mrs."
+#~ msgstr "Mures"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "palīdzēs Jums augšuplādēt jūsu konfigurāciju (pakotnes, dzelžu "
+#~ "konfigurāciju)\n"
+#~ "uz centralizētu datubāzi, šis viss tiek darīts ar mērķi, lai Jūs tiktu\n"
+#~ "informēts par drošības uzlabojumiem un citiem vērtīgiem jaunumiem.\n"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr ""
+#~ "Ievadiet jūsu Mandriva Online lietotājvārdu, paroli un datora nosaukumu:"
+
+#, fuzzy
+#~ msgid "Email address:"
+#~ msgstr "IP adrese"
+
+#~ msgid "Country"
+#~ msgstr "Valsts"
+
+#~ msgid "Password:"
+#~ msgstr "Parole:"
+
+#, fuzzy
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Laipni lūdzam Mandriva Online"
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Lai pilnvērtīgi izmantotu Mandriva Online pakalpojumus,\n"
+#~ "mēs gatavojamies nosūtīt jūsu konfigurāciju.\n"
+#~ "\n"
+#~ "Vednis uz Mandriva tūlīt nosūtīs sekojošu informācijiu:\n"
+#~ "\n"
+#~ "1) jūsu sistēmā instalēto pakotņu sarakstu,\n"
+#~ "\n"
+#~ "2) jūsu dzelžu konfigurāciju.\n"
+#~ "\n"
+#~ "Ja jums tas liekas nepieņemami, vai arī nevēlaties izmantot šo\n"
+#~ "pakalpojumu, spiediet 'Atcelt'. Nospiežot 'Tālāk', jūs dodat\n"
+#~ "atļauju ar personificētu e-pasta vēstuļu palīdzību informēt jūs\n"
+#~ "par drošības jauninājumiem un citiem noderīgiem uzlabojumiem.\n"
+#~ "Bez tam, jūs saņemsit atlaides www.mandrivaexpert.com maksas\n"
+#~ "atbalsta pakalpojumiem."
+
+#~ msgid "Connection problem"
+#~ msgstr "Pieslēguma problēma"
+
+#, fuzzy
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Laipni lūdzam Mandriva Online"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Zaļa"
+
+#~ msgid "First name:"
+#~ msgstr "Vārds:"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Vārds:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Apstiprināt paroli:"
+
+#, fuzzy
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr "Paroles nesakrīt"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Lūdzu aizpildiet vai izvēlietis lauku"
+
+#, fuzzy
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Ievadiet, lūdzu, derīgu adresi!"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "Nosūtīšana bija veiksmīga!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Tagad pateicoties Mandriva Online jūs saņemsit\n"
+#~ "paziņojumus par drošības un citiem jauninājumiem."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "Mandriva Online piedāvā iespēju automatizēt jauninājumus.\n"
+#~ "Jūsu sistēma regulāri palaidīs programmu, kas gaidīs jauninājumus\n"
+
+#, fuzzy
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Nosūtīšana bija veiksmīga!"
+
+#, fuzzy
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Nolasu konfigurāciju\n"
+
+#, fuzzy
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --update\t\t- izveidot atjaunināšanas datu nesēju.\n"
+
+#~ msgid "Login:"
+#~ msgstr "Lietotājs:"
+
+#~ msgid "or"
+#~ msgstr "vai"
+
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on Mandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to Mandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Jūsu lietotājvārds vai parole bija nepareizi.\n"
+#~ "Jums tie jāievada vēlreiz, vai arī jāizveido Mandriva Online lietotāja "
+#~ "konts.\n"
+#~ "Jebkurā gadījumā jums jāiet atpakaļ uz pirmo soli, lai pieslēgtos "
+#~ "Mandriva Online.\n"
+#~ "Ievērojiet, ka jums jānorāda arī datora nosaukums \n"
+#~ "(atļauti tikai latīņu alfabēta burti)"
+
+#~ msgid "Previous"
+#~ msgstr "Atpakaļ"
+
+#~ msgid "Welcome to Mandriva Online"
+#~ msgstr "Laipni lūdzam Mandriva Online"
+
+#, fuzzy
+#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
+#~ msgstr "Man nav Mandriva Linux Online konta, un es vēlos "
+
+#~ msgid "Mandriva Linux Privacy Policy"
+#~ msgstr "Mandriva Linux privātuma politika"
+
+#~ msgid "Authentification"
+#~ msgstr "Autentifikācija"
+
+#~ msgid "Finish"
+#~ msgstr "Beigt"
+
+#~ msgid "automated Upgrades"
+#~ msgstr "automatizēta uzlabošana"
+
+#~ msgid "Quitting Wizard\n"
+#~ msgstr "Izeju no vedņa\n"
+
+#~ msgid "Subscribe"
+#~ msgstr "Parakstīties"
+
+#~ msgid "Yes I want automated updates"
+#~ msgstr "Jā, es vēlos automātiskus jauninājumus"
+
+#~ msgid "  --security     - use only security media.\n"
+#~ msgstr "  --security     - lietot tikai drošības datu nesēju.\n"
+
+#~ msgid "  -v             - verbose mode.\n"
+#~ msgstr "  -v             - runīgais režīms.\n"
+
+#~ msgid "Your login or password may be wrong"
+#~ msgstr "Iespējams, ka jūsu lietotājvārds vai parole ir nepareizi"
+
+#~ msgid "Africa"
+#~ msgstr "Āfrika"
+
+#~ msgid "Asia"
+#~ msgstr "Āzija"
+
+#~ msgid "Australia"
+#~ msgstr "Austrālija"
+
+#~ msgid "Europe"
+#~ msgstr "Eiropa"
+
+#~ msgid "North America"
+#~ msgstr "Ziemeļamerika"
+
+#~ msgid "South America"
+#~ msgstr "Dienvidamerika"
+
+#~ msgid "Back"
+#~ msgstr "Atpakaļ"
+
+#~ msgid "Warning: No browser specified"
+#~ msgstr "Brīdinājums: Nav norādīts pārlūks"
+
+#~ msgid "Sending your Configuration"
+#~ msgstr "Sūtu jūsu konfigurāciju"
+
+#~ msgid "Error while sending informations"
+#~ msgstr "Kļūda nosūtot informāciju"
+
+#~ msgid ""
+#~ "There was an error while sending your personal informations.\n"
+#~ "\n"
+#~ "Press Next to try and send your configuration again."
+#~ msgstr ""
+#~ "Atgadījās kļūda, sūtot jūsu personisko informācinu.\n"
+#~ "\n"
+#~ "Uzspiediet Tālāk, lai pamēģinātu sūtīt vēlreiz."
+
+#~ msgid "Finished"
+#~ msgstr "Pabeigts"
+
+#~ msgid "OK"
+#~ msgstr "Labi"
+
+#~ msgid ""
+#~ "Do you really want to abort Mandriva Online?\n"
+#~ "To return to the Wizard press 'Cancel',\n"
+#~ "to really quit it press 'Quit'."
+#~ msgstr ""
+#~ "Tiešām vēlaties pārtraukt Mandriva Linux Online?\n"
+#~ "Lai atgrieztos vednī, spiediet 'Atcelt',\n"
+#~ "lai tiešām izietu, spiediet 'Iziet'."
+
+#~ msgid "Really abort? - Mandriva Online"
+#~ msgstr "Tiešām pārtraukt? - Mandriva Linux Online"

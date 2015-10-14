@@ -1,0 +1,1218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-lt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2005-09-26 16:38+0200\n"
+"Last-Translator: Arvydas Svirka <arvydas@arvis.lt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, fuzzy, c-format
+msgid "Will check updates at %s"
+msgstr "Patikrinti atnaujinimus"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Jūsų sistema yra naujausia"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Paslaugos konfigūravimo problema. Patikrinkite įrašus ir išsiųskite el. "
+"laišką adresu support@mandrivaonline.com"
+
+#: ../mdkapplet:90
+#, fuzzy, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Prašom palaukti.Pašalinami paketai"
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "Jūsų sistemai yra atnaujinimų"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Tinklas neveikia. Sukonfigūruokite tinklą"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Paslauga neįjungta. Paspauskite \"Interneto svetainė\""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, fuzzy, c-format
+msgid "urpmi database locked"
+msgstr "urpmi duomenų bazė užrakinta"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr "Versija nepalaikoma (versija per sena arba dar kuriama)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Įjungtas"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "Įdiegti atnaujinimus"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Patikrinti atnaujinimus"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "Konfigūruoti tinklą"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr ""
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "Paleidžiama drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Sekantis"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, fuzzy, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "Paleidžiama MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Skaičiuojami paskutiniai atnaujinimai...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Siatema yra naujausia\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Tikrinamas tinklas: atrodo, neveikia\n"
+
+#: ../mdkapplet:893
+#, fuzzy, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Interneto svetainė"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Dėmesio"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Apie..."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, fuzzy, c-format
+msgid "Updates Configuration"
+msgstr "Skaitau nustatymus\n"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Visada paleisti įkrovimo metu"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Išeiti"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr ""
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Klaida"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Kompiuterio vardas:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "Įvyko klaida"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, fuzzy, c-format
+msgid "An error occurred while adding medium"
+msgstr "Įvyko klaida"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Gerai"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, fuzzy, c-format
+msgid "Your password"
+msgstr "Neteisingas slaptažodis"
+
+#: ../mdkapplet_gui.pm:228
+#, fuzzy, c-format
+msgid "Forgotten password"
+msgstr "Neteisingas slaptažodis"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Uždaryti"
+
+#: ../mdkapplet_gui.pm:302
+#, fuzzy, c-format
+msgid "Choose your upgrade version"
+msgstr "Pasirinkite jūsų geografinę padėtį"
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, fuzzy, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, fuzzy, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:179
+#, fuzzy, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:180
+#, fuzzy, c-format
+msgid "Mandriva One"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, fuzzy, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate versija %s\n"
+"Autorinės teisės (C) %s Mandriva.\n"
+"Tai nemokama programa ir gali būti platinama pagal GNU GPL licenciją.\n"
+" \n"
+"naudojimas:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- spausdinti šį pagalbos pranešimą.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Mandriva Update paleista automatiškai.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr "  --mnf\t\t\t- paleisti specialius mnf skriptus.\n"
+
+#: ../mdkupdate:67
+#, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --noX\t\t\t- tekstinės veiksenos Mandriva Update versija.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr ""
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "Negaliu atnaujinti paketų sarašo iš update_source šaltinio. \n"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Kompiuterio vardas:"
+
+#~ msgid "Installation failed"
+#~ msgstr "Įdiegimas nepavyko"
+
+#~ msgid "Congratulations"
+#~ msgstr "Sveikinimai"
+
+#~ msgid "Reboot"
+#~ msgstr "Perkrauti"
+
+#~ msgid "Yes"
+#~ msgstr "Taip"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr "Mandriva Online buvo įdiegta iš naujo, įkraunu programėlę ...."
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Tikrinama... Yra atnaujinimų\n"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "negaliu atverti rpmdb"
+
+#~ msgid "Connecting to"
+#~ msgstr "Jungiamasi prie"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Mandriva Linux atnaujinimų programėlė"
+
+#~ msgid "Security error"
+#~ msgstr "Saugumo klaida"
+
+#~ msgid "Database error"
+#~ msgstr "Duomenų bazės klaida"
+
+#~ msgid ""
+#~ "Server Database failed\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Serverio duomenų bazės klaida\n"
+#~ "Pabandykite vėliau"
+
+#~ msgid "Registration error"
+#~ msgstr "Registracijos klaida"
+
+#~ msgid "Some parameters are missing"
+#~ msgstr "Trūksta kai kurių parametrų"
+
+#~ msgid "Password error"
+#~ msgstr "Slaptažodžio klaida"
+
+#~ msgid "Login error"
+#~ msgstr "Prisijungimo klaida"
+
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Jūsų pateiktas el. pašto adresas jau naudojamas\n"
+#~ "Įrašykite kitą\n"
+
+#~ msgid "The email you provided is invalid or forbidden"
+#~ msgstr "Jūsų pateiktas el. pašto adresas yra neteisingas arba draudžiamas"
+
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr ""
+#~ "El. pašto adreso laukelis yra tuščias\n"
+#~ "Įrašykite adresą"
+
+#~ msgid "Restriction Error"
+#~ msgstr "Apribojimo klaida"
+
+#~ msgid "Database access forbidden"
+#~ msgstr "Draudžiamas priėjimas prie duomenų bazės"
+
+#~ msgid "Service error"
+#~ msgstr "Paslaugos klaida"
+
+#~ msgid ""
+#~ "Mandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mandriva internetinės paslaugos šiuo metu neteikiamos\n"
+#~ "Pabandykite vėliau"
+
+#~ msgid "Password mismatch"
+#~ msgstr "Slaptažodžio neatitikimas"
+
+#~ msgid ""
+#~ "Mandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mandriva internetinės paslaugos šiuo metu tvarkomos\n"
+#~ "Pabandykite vėliau"
+
+#~ msgid "User Forbidden"
+#~ msgstr "Vartotojas draudžiamas"
+
+#~ msgid "User account forbidden by Mandriva web services"
+#~ msgstr "Mandriva draudžia internetinių paslaugų vartotojo abonentą"
+
+#~ msgid "Connection error"
+#~ msgstr "Prisijungimo klaida"
+
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "Mandriva internetinės paslaugos nepasiekiamos"
+
+#~ msgid "Please wait"
+#~ msgstr "Prašom palaukti"
+
+#~ msgid "Preparing..."
+#~ msgstr "Ruošiamasi..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Įdiegiami paketai ...\n"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Jūsų sistemai yra atnaujinimų"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr "Paslauga nesukonfigūruota. Paspauskite \"Konfigūruoti paslaugą\""
+
+#~ msgid "Configure the service"
+#~ msgstr "Konfigūruoti paslaugą"
+
+#~ msgid "Check updates"
+#~ msgstr "Patikrinti atnaujinimus"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Konfigūruoti dabar!"
+
+#~ msgid "Actions"
+#~ msgstr "Veiksmai"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigūruoti"
+
+#~ msgid "See logs"
+#~ msgstr "Peržiūrėti įrašus"
+
+#~ msgid "Status"
+#~ msgstr "Būsena"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Prisijungimas prie tinklo: "
+
+#~ msgid "Up"
+#~ msgstr "Aukštyn"
+
+#~ msgid "Down"
+#~ msgstr "Žemyn"
+
+#~ msgid "Last check: "
+#~ msgstr "Paskutinis patikrinimas: "
+
+#~ msgid "Machine name:"
+#~ msgstr "Kompiuterio vardas:"
+
+#~ msgid "Updates: "
+#~ msgstr "Atnaujinimai: "
+
+#~ msgid "Development release not supported by service"
+#~ msgstr "Tarnyba nepalaiko dar kuriamos versijos"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Tarnyba nepalaiko per senos versijos"
+
+#~ msgid "Unknown state"
+#~ msgstr "Nežinoma būsena"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Internetinės paslaugos išjungtos. Kreipkitės į Mandriva Online svetainę\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Neteisingas slaptažodis.\n"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Neteisingas veiksmas, stotis arba prisijungimo vardas.\n"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Kažkas yra negerai su jūsų tinklo nustatymais (patikrinkite maršrutą, "
+#~ "ugniasienės ar tarpinio serverio nustatymus)\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Jungiantis prie serverio įvyko klaida, susisiekite su palaikymo komanda"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Atsakymas iš Mandriva Online serverio\n"
+
+#~ msgid "No check"
+#~ msgstr "Netikrinti"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Tikrinama konfigūracijos byla: nėra\n"
+
+#~ msgid "Logs"
+#~ msgstr "Įrašai"
+
+#~ msgid "Clear"
+#~ msgstr "Išvalyti"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline versija %s\n"
+#~ "Autorinės teisės (C) %s Mandriva.\n"
+#~ "Tai nemokama programa ir gali būti platinama pagal GNU GPL licenciją.\n"
+#~ " \n"
+#~ "naudojimas:\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Aš jau turiu abonentą"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "Noriu užsiregistruoti"
+
+#~ msgid "Mr."
+#~ msgstr "Ponas"
+
+#~ msgid "Mrs."
+#~ msgstr "Ponia"
+
+#~ msgid "Ms."
+#~ msgstr "Panelė"
+
+#~ msgid "Reading configuration\n"
+#~ msgstr "Skaitau konfigūraciją\n"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Pagalbininkas padės jums persiųsti reikiamus konfigūracijos duomenis\n"
+#~ "(paketus, įrangos konfigūraciją) į centralizuotą duomenų bazę,\n"
+#~ "kad vėliau galėtume jus informuoti apie saugumo atnaujinimus ir naudingus "
+#~ "patobulinimus.\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Abonento sukūrimas arba atpažinimas"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr ""
+#~ "Įveskite savo Mandriva Online abonento vardą, slaptažodį ir kompiuterio "
+#~ "vardą:"
+
+#~ msgid "Email address:"
+#~ msgstr "El. pašto adresas:"
+
+#~ msgid "Country"
+#~ msgstr "Valstybė"
+
+#~ msgid "Password:"
+#~ msgstr "Slaptažodis"
+
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr ""
+#~ "Kompiuterio vardą turi sudaryti nuo 1 iki 40 raidinių-skaitinių simbolių"
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Jungiamasi prie Mandriva Online svetainės..."
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Kad jūs galėtumėte naudotis Mandriva Online privalumais,\n"
+#~ "mes parsisiųsime jūsų kompiuterio konfigūraciją.\n"
+#~ "\n"
+#~ "Į Mandriva vedlys netrukus išsiųs sekančią informaciją:\n"
+#~ "\n"
+#~ "1) jūsų sistemoje įdiegtų paketų sąrašą,\n"
+#~ "\n"
+#~ "2) jūsų įrangos konfigūraciją.\n"
+#~ "\n"
+#~ "Jei ši mintis jums nepatinka arba jūs nenorite naudotis šios tarnybos "
+#~ "paslaugomis,\n"
+#~ "paspauskite 'Atšaukti'. Paspausdami 'Tęsti', jūs leisite mums jus "
+#~ "informuoti\n"
+#~ "apie saugumo atnaujinimus ir naudingus papildymus per asmeninę pašto "
+#~ "sistemą.\n"
+#~ "Be to, jūs naudositės palaikymo tarnybos paslaugų nuolaidomis svetainėje\n"
+#~ "www.mandrivaexpert.com."
+
+#~ msgid "Connection problem"
+#~ msgstr "Sujungimo klaida"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Persiunčiant bylas įvyko klaida, pabandykite dar kartą"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Sukurti Mandriva Online abonentą"
+
+#~ msgid "Greeting:"
+#~ msgstr "Sveikinimas:"
+
+#~ msgid "First name:"
+#~ msgstr "Vardas:"
+
+#~ msgid "Last name:"
+#~ msgstr "Pavardė:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Patvirtinkite slaptažodį:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Slaptažodžiai nesutampa\n"
+#~ " Pabandykite dar kartą\n"
+
+#~ msgid "Please fill in each field"
+#~ msgstr "Užpildykite visus laukelius"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Neteisingas el. pašto adresas!\n"
+
+#~ msgid ""
+#~ "Mandriva Online Account successfully created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Mandriva Online abonentas sėkmingai sukurtas.\n"
+#~ "Atpažinimui ir jūsų konfigūracijos persiuntimui paspauskite \"Tęsti\"\n"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "Jūsų siuntimas buvo sėkmingas!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Dėka Mandriva online nuo šio momento jūs gausite\n"
+#~ "pranešimus apie saugumo pataisas ir atnaujinimus."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "MandrivaOnlina jums siūlo galimybę automatizuoti atnaujinimus.\n"
+#~ "Programa bus reguliariai paleidžiama jūsų sistemoje ir lauks atnaujinimų\n"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Jūsų Mandriva Online abonentas buvo sėkmingai sukonfigūruotas\n"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Konfigūracija persiųsta sėkmingai"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Konfigūracijos persiuntimo problema"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "Negaliu prisijungti prie Mandriva Online svetainės: neteisingas "
+#~ "prisijungimo vardas/slaptažodis arba blogi maršrutizatoriaus/ugniasienės "
+#~ "nustatymai"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- paleisti Mandriva Update.\n"
+
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Pasirinkite, kokius paketus įdiegsite ir paspauskite Gerai"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Sistema užimta. Palaukite ..."
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Siunčiama konfigūracija..."
+
+#~ msgid "Unsecure invocation: Method available through httpS only"
+#~ msgstr "Nesaugus kreipimasis: metodas galimas tik httpS protokolu"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "Nerasta %s byla. Pirmiausia paleiskite mdkonline vedlį"
+
+#~ msgid "Mandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "Mandriva Update negali prisijungti prie svetainės, pabandysime dar kartą."
+
+#~ msgid "Login:"
+#~ msgstr "Prisijungimo vardas:"
+
+#~ msgid "or"
+#~ msgstr "arba"
+
+#~ msgid "wrong password:"
+#~ msgstr "neteisingas slaptažodis:"
+
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on Mandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to Mandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Jūsų prisijungimo vardas arba slaptažodis neteisingi.\n"
+#~ " Arba įrašykite juos dar kartą, arba jums reikės susikurti Mandriva "
+#~ "Online abonentą.\n"
+#~ " Pastaruoju atveju, grįžkite į prisijungimo prie Mandriva Online "
+#~ "žingsnio.\n"
+#~ " Žinokite, kad jūs taip pat turite nurodyti ir kompiuterio vardą \n"
+#~ " (leidžiami tik raidiniai simboliai)"
+
+#~ msgid "Mail contact:"
+#~ msgstr "El. pašto kontaktas:"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Nurodykite prisijungimo vardą"
+
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr ""
+#~ "Prisijungimo vardas ir slaptažodis negali būti ilgesni kaip 12 simbolių\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Specialūs simboliai neleidžiami\n"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Negaliojantis el. pašto adresas\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Toks abonentas jau yra\n"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Prisijungimo prie serverio klaida \n"
+
+#~ msgid "Unable to update packages from mdkupdate medium.\n"
+#~ msgstr "Negaliu atnaujinti paketų sarašo iš mdkupdate šaltinio. \n"
+
+#, fuzzy
+#~ msgid "Please Wait"
+#~ msgstr "Prašom palaukti"
+
+#~ msgid "Previous"
+#~ msgstr "Ankstesnis"
+
+#~ msgid "Welcome to Mandriva Online"
+#~ msgstr "Sveiki atvykę į Mandriva Online"
+
+#, fuzzy
+#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
+#~ msgstr "Aš neturiu Mandriva Online sąskaitos bet noriu "
+
+#~ msgid "Authentification"
+#~ msgstr "Autentifikacija"
+
+#~ msgid "Finish"
+#~ msgstr "Baigti"
+
+#~ msgid "automated Upgrades"
+#~ msgstr "automatizuoti Atnaujinimai"
+
+#, fuzzy
+#~ msgid "Country:"
+#~ msgstr "Kantri"
+
+#~ msgid "Quitting Wizard\n"
+#~ msgstr "Baigti vedlį\n"
+
+#~ msgid "Subscribe"
+#~ msgstr "Užsiprenumeruoti"
+
+#~ msgid "Yes I want automated updates"
+#~ msgstr "Taip, aš noriu automatinių atnaujinimų"
+
+#~ msgid "  --security     - use only security media.\n"
+#~ msgstr "  --security     - naudoti tik saugumo šaltinius.\n"
+
+#~ msgid "  -v             - verbose mode.\n"
+#~ msgstr "  -v             - verbose mode.\n"
+
+#~ msgid ""
+#~ "You need to have an account on Mandriva Online, or update your "
+#~ "subscription."
+#~ msgstr ""
+#~ "Jūs turite turėti sąskaita Mandriva Online servisui, arba atnaujinti "
+#~ "prenumeratą."
+
+#~ msgid "Your login or password may be wrong"
+#~ msgstr "Jūsų prisijungimo vardas ir slaptažodis gali buti klaidingi"
+
+#~ msgid "Unable to create mdkupdate medium.\n"
+#~ msgstr "Negaliu sukurti mdkupdate šaltinio. \n"
+
+#~ msgid "Africa"
+#~ msgstr "Afrika"
+
+#~ msgid "Asia"
+#~ msgstr "Azija"
+
+#~ msgid "Australia"
+#~ msgstr "Australija"
+
+#~ msgid "Europe"
+#~ msgstr "Europa"
+
+#~ msgid "North America"
+#~ msgstr "Šiaurės Amerika"
+
+#~ msgid "South America"
+#~ msgstr "Pietų Amerika"
+
+#~ msgid "Back"
+#~ msgstr "Atgal"
+
+#~ msgid "Warning: No browser specified"
+#~ msgstr "Ispėjimas: Nenurodyta naršyklė"
+
+#~ msgid "Sending your Configuration"
+#~ msgstr "Siusti jūsų nustatymus"
+
+#~ msgid "Error while sending informations"
+#~ msgstr "Klaida siunčiant informacija"
+
+#~ msgid "Finished"
+#~ msgstr "Baigta"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Really abort? - Mandriva Online"
+#~ msgstr "Tikrai Nutraukti ? - Mandriva Online"

@@ -1,0 +1,1128 @@
+# translation of mdkonline-tl.po to Filipino
+# translation of Mandriva Online-tl.po to Filipino
+# translation of mdkonline.po to Filipino
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Arys P. Deloso <arys@deloso.org>, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mdkonline-tl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"PO-Revision-Date: 2005-02-05 00:43+0000\n"
+"Last-Translator: Arys P. Deloso <arys@deloso.org>\n"
+"Language-Team: Filipino <salin@pandaypinoy.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+
+#. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
+#: ../mdkapplet:71
+#, fuzzy, c-format
+msgid "Will check updates at %s"
+msgstr "Suriin ang mga update"
+
+#: ../mdkapplet:79
+#, c-format
+msgid "Your system is up-to-date"
+msgstr "Ang iyong sistema ay ayon sa bago"
+
+#: ../mdkapplet:84
+#, c-format
+msgid ""
+"Service configuration problem. Please check logs and send mail to "
+"support@mandrivaonline.com"
+msgstr ""
+"Problema sa pag-configure ng serbisyo. Pakisuri ang mga log at ipadala sa "
+"sulat na support@mandrivaonline.com"
+
+#: ../mdkapplet:90
+#, c-format
+msgid "Please wait, finding available packages..."
+msgstr "Pakihintay, naghahanap ng mga available na package..."
+
+#: ../mdkapplet:95
+#, c-format
+msgid "New updates are available for your system"
+msgstr "May mga bagong update para sa iyong sistema"
+
+#: ../mdkapplet:101
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released"
+msgstr ""
+
+#: ../mdkapplet:119 ../mdkapplet:161
+#, c-format
+msgid "An additional package medium is available for your distribution."
+msgstr ""
+
+#: ../mdkapplet:124
+#, c-format
+msgid "Network is down. Please configure your network"
+msgstr "Bagsak ang network. Paki-configure ang iyong network"
+
+#: ../mdkapplet:130
+#, c-format
+msgid "Service is not activated. Please click on \"Online Website\""
+msgstr "Ang serbisyo ay hindi nakaandar. Paki-click ang \"Online Website\""
+
+#: ../mdkapplet:135 ../mdkapplet:141
+#, fuzzy, c-format
+msgid "urpmi database locked"
+msgstr "urpmi database ay naka-lock"
+
+#: ../mdkapplet:146
+#, c-format
+msgid "Release not supported (too old release, or development release)"
+msgstr ""
+"Hindi suportado ang pagpapalabas (luma na, o panglinang na pagpapalabas)"
+
+#: ../mdkapplet:156
+#, c-format
+msgid ""
+"No medium found. You must add some media through 'Software Media Manager'."
+msgstr ""
+
+#: ../mdkapplet:166
+#, fuzzy, c-format
+msgid ""
+"You already have at least one update medium configured, but\n"
+"all of them are currently disabled. You should run the Software\n"
+"Media Manager to enable at least one (check it in the \"%s\"\n"
+"column).\n"
+"\n"
+"Then, restart \"%s\"."
+msgstr ""
+"Mayroon ka nang hindi kukulangin sa isang update medium na\n"
+"na-configure, pero lahat nila ay kasalukuyang naka-disable. Dapat\n"
+"mong patakbuhin ang Software Media Manager para paganahin\n"
+"ang kahit isa man lang (suriin ito sa hanay na Gumagana?).\n"
+"\n"
+"Pagkatapos, simulan muli ang %s."
+
+#: ../mdkapplet:171
+#, c-format
+msgid "Enabled"
+msgstr "Gumagana"
+
+#: ../mdkapplet:184
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet:224 ../mdkapplet:946
+#, c-format
+msgid "Install updates"
+msgstr "I-install ang mga update"
+
+#: ../mdkapplet:225 ../mdkapplet:226
+#, c-format
+msgid "Add additional package medium"
+msgstr ""
+
+#: ../mdkapplet:227
+#, c-format
+msgid "Check Updates"
+msgstr "Suriin ang mga Update"
+
+#: ../mdkapplet:228
+#, c-format
+msgid "Configure Network"
+msgstr "I-configure ang Network"
+
+#: ../mdkapplet:229
+#, c-format
+msgid "Upgrade the system"
+msgstr ""
+
+#: ../mdkapplet:394
+#, c-format
+msgid ""
+"Basic maintenance for this distribution has expired. Thanks to your "
+"subscription to extended maintenance, your system will be kept up to date "
+"until %s"
+msgstr ""
+
+#: ../mdkapplet:439
+#, c-format
+msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
+msgstr ""
+
+#: ../mdkapplet:446
+#, c-format
+msgid "Launching drakconnect\n"
+msgstr "Inilulunsad ang drakconnect\n"
+
+#: ../mdkapplet:459 ../mdkapplet:632
+#, c-format
+msgid "New version of Mandriva Linux distribution"
+msgstr ""
+
+#: ../mdkapplet:464
+#, c-format
+msgid "Browse"
+msgstr ""
+
+#: ../mdkapplet:473
+#, c-format
+msgid "A new version of Mandriva Linux distribution has been released."
+msgstr ""
+
+#: ../mdkapplet:475 ../mdkapplet:572
+#, c-format
+msgid "More info about this new version"
+msgstr ""
+
+#: ../mdkapplet:477 ../mdkapplet:566
+#, c-format
+msgid "Do you want to upgrade to the '%s' distribution?"
+msgstr ""
+
+#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#, c-format
+msgid "Do not ask me next time"
+msgstr ""
+
+#: ../mdkapplet:482
+#, c-format
+msgid "Download all packages at once"
+msgstr ""
+
+#: ../mdkapplet:483
+#, c-format
+msgid "(Warning: You will need quite a lot of free space)"
+msgstr ""
+
+#: ../mdkapplet:489
+#, c-format
+msgid "Where to download packages:"
+msgstr ""
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Next"
+msgstr "Kasunod"
+
+#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
+#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#, c-format
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../mdkapplet:508
+#, c-format
+msgid ""
+"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"be delivered for this system."
+msgstr ""
+
+#: ../mdkapplet:514
+#, c-format
+msgid "In order to keep your system secure, you can:"
+msgstr ""
+
+#: ../mdkapplet:520
+#, fuzzy, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:526
+#, c-format
+msgid "You should get extended maintenance."
+msgstr ""
+
+#: ../mdkapplet:528
+#, c-format
+msgid ""
+"You should either get extended maintenance or upgrade to a newer version of "
+"the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:532
+#, c-format
+msgid "You should upgrade to a newer version of the %s distribution."
+msgstr ""
+
+#: ../mdkapplet:542
+#, c-format
+msgid "Your distribution is no longer supported"
+msgstr ""
+
+#: ../mdkapplet:547
+#, c-format
+msgid "Extended Maintenance"
+msgstr ""
+
+#: ../mdkapplet:552
+#, c-format
+msgid ""
+"Purchase a maintenance extension for this version (%s) and keep it running "
+"until %s."
+msgstr ""
+
+#: ../mdkapplet:649
+#, c-format
+msgid ""
+"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
+"and may take several hours to complete."
+msgstr ""
+
+#: ../mdkapplet:651
+#, c-format
+msgid "Estimated download data will be %s"
+msgstr ""
+
+#: ../mdkapplet:652
+#, c-format
+msgid "You should close all other running applications before continuing."
+msgstr ""
+
+#: ../mdkapplet:655
+#, c-format
+msgid ""
+"You should put your laptop on AC and favor ethernet connection over wifi, if "
+"available."
+msgstr ""
+
+#: ../mdkapplet:687
+#, c-format
+msgid "Launching MandrivaUpdate\n"
+msgstr "Inilulunsad ang MandrivaUpdate\n"
+
+#: ../mdkapplet:719
+#, c-format
+msgid "Computing new updates...\n"
+msgstr "Naghahanap ng mga bagong update...\n"
+
+#: ../mdkapplet:826
+#, c-format
+msgid "System is up-to-date\n"
+msgstr "Ang Sistema ay naka-update\n"
+
+#: ../mdkapplet:866
+#, c-format
+msgid "Checking Network: seems disabled\n"
+msgstr "Sinusuri ang Network: tila naka-disable\n"
+
+#: ../mdkapplet:893
+#, fuzzy, c-format
+msgid "Mandriva Online %s"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet:894
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../mdkapplet:897
+#, c-format
+msgid "Mandriva Online gives access to Mandriva web services."
+msgstr ""
+
+#: ../mdkapplet:899
+#, c-format
+msgid "Online WebSite"
+msgstr "Online WebSite"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../mdkapplet:904
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../mdkapplet:932
+#, c-format
+msgid "Warning"
+msgstr "Babala"
+
+#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
+#: ../mdkapplet_gui.pm:264
+#, c-format
+msgid "More Information"
+msgstr ""
+
+#: ../mdkapplet:952
+#, c-format
+msgid "Add media"
+msgstr ""
+
+#: ../mdkapplet:967
+#, c-format
+msgid "About..."
+msgstr "Tungkol sa.."
+
+#: ../mdkapplet:969 ../mdkapplet-config:68
+#, fuzzy, c-format
+msgid "Updates Configuration"
+msgstr "Binabasa ang configuration\n"
+
+#: ../mdkapplet:971
+#, c-format
+msgid "Always launch on startup"
+msgstr "Parating ilunsad sa pagsimula"
+
+#: ../mdkapplet:973
+#, c-format
+msgid "Quit"
+msgstr "Quit"
+
+#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#, c-format
+msgid "New medium available"
+msgstr ""
+
+#: ../mdkapplet:1030 ../mdkapplet:1060
+#, c-format
+msgid ""
+"You use '%s' distribution and therefore have privileged access to additional "
+"software."
+msgstr ""
+
+#: ../mdkapplet:1032 ../mdkapplet:1062
+#, c-format
+msgid "Do you want to install this additional software repository?"
+msgstr ""
+
+#: ../mdkapplet:1061 ../mdkonline.pm:182
+#, c-format
+msgid "Mandriva Enterprise Server"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#, c-format
+msgid "Adding an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:128
+#, c-format
+msgid "Supported products are %s, '%s' is not on the list.\n"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:138
+#, c-format
+msgid "Please fill in your account ID to add an additional package medium"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
+#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
+#, c-format
+msgid "Error"
+msgstr "Error"
+
+#: ../mdkapplet-add-media-helper:149
+#, c-format
+msgid "Failure while retrieving distributions list:"
+msgstr ""
+
+#. -PO: Here '%s' will be a localized date (eg:
+#: ../mdkapplet-add-media-helper:161
+#, c-format
+msgid ""
+"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
+"base updates (up to the %s) for distributions."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:167
+#, c-format
+msgid ""
+"Extended maintenance is now available to get 18 months of additional updates "
+"(until %s)."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:170
+#, c-format
+msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:174
+#, c-format
+msgid "Lifetime policy"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Pangalan ng makina:"
+
+#: ../mdkapplet-add-media-helper:194
+#, c-format
+msgid "An error occurred"
+msgstr "May \"error\" na nangyari"
+
+#: ../mdkapplet-add-media-helper:200
+#, c-format
+msgid "Your Mandriva account does not have %s download subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:226
+#, fuzzy, c-format
+msgid "An error occurred while adding medium"
+msgstr "Kabiguan kung nagdadagdag ng medium"
+
+#: ../mdkapplet-add-media-helper:234
+#, c-format
+msgid "Successfully added media!"
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:236
+#, c-format
+msgid "Successfully added media %s."
+msgstr ""
+
+#: ../mdkapplet-add-media-helper:238
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../mdkapplet-config:69
+#, c-format
+msgid "Here you can configure the updates applet"
+msgstr ""
+
+#: ../mdkapplet-config:71
+#, c-format
+msgid "Update frequency (hours)"
+msgstr ""
+
+#: ../mdkapplet-config:80
+#, c-format
+msgid "First check delay (minutes)"
+msgstr ""
+
+#: ../mdkapplet-config:89
+#, c-format
+msgid "Check for newer \"%s\" releases"
+msgstr ""
+
+#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#, c-format
+msgid "Check for missing \"%s\" media"
+msgstr ""
+
+#: ../mdkapplet-config:95
+#, c-format
+msgid "Restricted"
+msgstr ""
+
+#: ../mdkapplet-config:101
+#, c-format
+msgid "Enterprise"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:87
+#, c-format
+msgid ""
+"Mandriva Powerpack brings you the best of Linux experience for desktop: "
+"stability and efficiency of open source solutions together with exclusive "
+"softwares and Mandriva official support."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:94
+#, fuzzy, c-format
+msgid "Mandriva Linux Features"
+msgstr "Mandriva Online"
+
+#: ../mdkapplet_gui.pm:213
+#, c-format
+msgid "More information on your user account"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:220
+#, c-format
+msgid "Your email"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:221
+#, fuzzy, c-format
+msgid "Your password"
+msgstr "Maling password"
+
+#: ../mdkapplet_gui.pm:228
+#, fuzzy, c-format
+msgid "Forgotten password"
+msgstr "Maling password"
+
+#: ../mdkapplet_gui.pm:245
+#, c-format
+msgid "Password and email cannot be empty."
+msgstr ""
+
+#: ../mdkapplet_gui.pm:267
+#, c-format
+msgid "Close"
+msgstr "Isara"
+
+#: ../mdkapplet_gui.pm:302
+#, c-format
+msgid "Choose your upgrade version"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:306
+#, c-format
+msgid "Your Powerpack access has ended"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:309
+#, c-format
+msgid "%s is now available, you can upgrade to:"
+msgstr ""
+
+#: ../mdkonline.pm:177
+#, fuzzy, c-format
+msgid "Mandriva Flash"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:178 ../mdkonline.pm:198
+#, fuzzy, c-format
+msgid "Mandriva Free"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:179
+#, fuzzy, c-format
+msgid "Mandriva Mini"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:180
+#, fuzzy, c-format
+msgid "Mandriva One"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:181 ../mdkonline.pm:194
+#, fuzzy, c-format
+msgid "Mandriva PowerPack"
+msgstr "Mandriva Online"
+
+#: ../mdkonline.pm:195
+#, c-format
+msgid ""
+"The Mandriva Linux distribution with even more softwares and official "
+"support."
+msgstr ""
+
+#: ../mdkonline.pm:199
+#, c-format
+msgid "The 100%% Open Source distribution freely available."
+msgstr ""
+
+#: ../mdkonline.pm:213
+#, c-format
+msgid "Distribution Upgrade"
+msgstr ""
+
+#: ../mdkupdate:59
+#, c-format
+msgid ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"This is free software and may be redistributed under the terms of the GNU "
+"GPL.\n"
+"\n"
+"usage:\n"
+msgstr ""
+"mdkupdate version %s\n"
+"Copyright (C) %s Mandriva.\n"
+"Ito ay libreng software at maaaring ipamahagi muli sa ilalim ng mga nasasaad "
+"sa GNU GPL.\n"
+"\n"
+"paggamit:\n"
+
+#: ../mdkupdate:64
+#, c-format
+msgid "  --help\t\t- print this help message.\n"
+msgstr "  --help\t\t- i-print ang mensaheng tulong na ito.\n"
+
+#: ../mdkupdate:65
+#, c-format
+msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- Mandriva Update ay nakalunsad ng automatic.\n"
+
+#: ../mdkupdate:66
+#, c-format
+msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
+msgstr ""
+
+#: ../mdkupdate:67
+#, fuzzy, c-format
+msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgstr "  --applet       - ilunsad ang Mandriva Update.\n"
+
+#: ../mdkupdate:68
+#, c-format
+msgid "  --debug\t\t\t- log what is done\n"
+msgstr ""
+
+#: ../mdkupdate:98
+#, c-format
+msgid "Unable to update packages from update_source medium.\n"
+msgstr "Hindi ma-update ang mga package mula sa medium ng update_source.\n"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Pangalan ng makina:"
+
+#~ msgid "Installation failed"
+#~ msgstr "Pag-i-install nabigo"
+
+#~ msgid "Congratulations"
+#~ msgstr "Maligayang Bati"
+
+#~ msgid "Reboot"
+#~ msgstr "I-reboot"
+
+#~ msgid ""
+#~ "Packages database is locked. Please close other applications\n"
+#~ "working with packages database (do you have another media\n"
+#~ "manager on another desktop, or are you currently installing\n"
+#~ "packages as well?)."
+#~ msgstr ""
+#~ "Naka-lock ang database ng mga package. Pakisara ang ibang\n"
+#~ "mga application na gumagamit ng database ng mga package\n"
+#~ "(mayroon ka bang ibang media manager sa ibang desktop o\n"
+#~ "ikaw ay kasalukuyang nag-i-install din ng mga package?)."
+
+#~ msgid "Failure when adding medium"
+#~ msgstr "Kabiguan kung nagdadagdag ng medium"
+
+#~ msgid "Yes"
+#~ msgstr "Oo"
+
+#~ msgid "No"
+#~ msgstr "Hindi"
+
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "Tila in-install muli ang Mandriva Online, nilo-load muli ang applet..."
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Nagsusuri... mayroong mga Update\n"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "hindi mabuksan ang rpmdb"
+
+#~ msgid "Connecting to"
+#~ msgstr "Kumukonekta sa"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Mandriva Linux Updates Applet"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Mga Security Alert:"
+
+#, fuzzy
+#~ msgid "Database error"
+#~ msgstr "Database Error"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Uri ng Pagrerehistro"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Nawawala ang pangalan ng remote printer!"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "Password para sa %s"
+
+#, fuzzy
+#~ msgid "Login error"
+#~ msgstr "di-alam na kamalian"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr "Ang patutunguhang directory ay ginagamit na, pumili ng isa pa."
+
+#, fuzzy
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr "Ang field na Pangalan ay walang laman, magbigay ng pangalan"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Paglalarawan: "
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "Database Server"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Error sa pagsulat\n"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Mga password ay di-tugma."
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "User Login:"
+
+#, fuzzy
+#~ msgid "Connection error"
+#~ msgstr "Pangalan ng koneksyon"
+
+#~ msgid "Please wait"
+#~ msgstr "Maghintay lamang"
+
+#~ msgid "Preparing..."
+#~ msgstr "Naghahanda..."
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Ini-install ang mga package...\n"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "May mga bagong update para sa iyong sistema"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "Ang serbisyo ay hindi available. I-click ang \"I-configure ang serbisyo\""
+
+#~ msgid "Configure the service"
+#~ msgstr "I-configure ang serbisyo"
+
+#~ msgid "Check updates"
+#~ msgstr "Suriin ang mga update"
+
+#~ msgid "Configure Now!"
+#~ msgstr "I-configure Ngayon!"
+
+#~ msgid "Actions"
+#~ msgstr "Mga Aksiyon"
+
+#~ msgid "Configure"
+#~ msgstr "I-configure"
+
+#~ msgid "See logs"
+#~ msgstr "Tingnan ang mga log"
+
+#~ msgid "Status"
+#~ msgstr "Kalagayan"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Koneksyon sa Network: "
+
+#~ msgid "Up"
+#~ msgstr "Up"
+
+#~ msgid "Down"
+#~ msgstr "Down"
+
+#~ msgid "Last check: "
+#~ msgstr "Huling pagsuri: "
+
+#~ msgid "Machine name:"
+#~ msgstr "Pangalan ng makina:"
+
+#~ msgid "Updates: "
+#~ msgstr "Mga Update: "
+
+#~ msgid "Development release not supported by service"
+#~ msgstr "Ang Panglinang na pagpapalabas ay hindi suportado ng serbisyo"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Makalumang pagpapalabas ay hindi suportado ng serbisyo"
+
+#~ msgid "Unknown state"
+#~ msgstr "Di-kilalang state"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Naka-disable ang mga online service. Makipag-alam sa Mandriva Online "
+#~ "site\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Maling password.\n"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Maling aksyon o host o login.\n"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "May mali sa mga setting ng iyong network (pakisuri ang mga setting ng "
+#~ "iyong route, firewall o proxy)\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "May nangyaring problema habang kumokonekta sa server, makipag-alam sa "
+#~ "koponang pangsuporta"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Sagot mula sa Mandriva Online server\n"
+
+#~ msgid "No check"
+#~ msgstr "Walang pagsuri"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Sinusuri ang config file: Wala\n"
+
+#~ msgid "Logs"
+#~ msgstr "Mga Log"
+
+#~ msgid "Clear"
+#~ msgstr "I-clear"
+
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Ito ay libreng software at maaaring ipamahagi muli sa ilalim ng mga "
+#~ "nasasaad sa GNU GPL.\n"
+#~ "\n"
+#~ "paggamit:\n"
+
+#~ msgid "I already have an account"
+#~ msgstr "Mayroon na akong account"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "Gusto kong mag-subscribe"
+
+#, fuzzy
+#~ msgid "Mrs."
+#~ msgstr "XMrIs"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Ang alalay na ito ay tutulong sa iyong i-upload ang iyong configuration\n"
+#~ "(mga package, hardware configuration) sa isang centralized database\n"
+#~ "para mapaalam sa iyo ang tungkol sa mga update sa seguridad at mga\n"
+#~ "kapakipakinabang na mga upgrade.\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Paggawa o pagpapatotoo ng account"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr ""
+#~ "Ipasok ang iyong Mandriva Online login, password at pangalan ng makina:"
+
+#, fuzzy
+#~ msgid "Email address:"
+#~ msgstr "Pa-labas na mail address"
+
+#~ msgid "Country"
+#~ msgstr "Bansa"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#, fuzzy
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr ""
+#~ "Ang mga \"mount point\" ay dapat maglaman lamang ng mga character na "
+#~ "\"alphanumeric\""
+
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Kumukonekta sa Mandriva Online website..."
+
+#~ msgid ""
+#~ "In order to benefit from Mandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to Mandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Para makinabang sa mga serbisyo ng Mandriva Online,\n"
+#~ "i-a-upload namin ang iyong configuration.\n"
+#~ "\n"
+#~ "Ipapadala ngayon ng Wizard ang mga sumusunod na inpormasyon sa Mandriva:\n"
+#~ "\n"
+#~ "1) ang talaan ng mga package na naka-install sa iyong sistema,\n"
+#~ "\n"
+#~ "2) iyong hardware configuration.\n"
+#~ "\n"
+#~ "Kung hindi ka komportable sa idea na iyon, o ayaw pakinabangan ang "
+#~ "serbisyong ito,\n"
+#~ "paki-pindut ang 'I-cancel'. Sa pagpipindut ng 'Kasunod', pinapayagan mo "
+#~ "kaming\n"
+#~ "ipaalam sa iyo ang tungkol sa mga update sa seguridad at mga "
+#~ "kapakipakinabang na\n"
+#~ "mga upgrade via mga personalized email alert. At saka, ikaw ay "
+#~ "makakatawad sa\n"
+#~ "sa mga bayad na support service sa www.mandrivaexpert.com."
+
+#~ msgid "Connection problem"
+#~ msgstr "Problema sa koneksyon"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Nagkakaproblema sa pag-a-upload ng file, pakisubukan muli"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Gumawa ng Mandriva Online Account"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Luntian"
+
+#~ msgid "First name:"
+#~ msgstr "Unang pangalan:"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Unang pangalan:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Ulitin ang Password:"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Hindi magkatumbas ang mga password\n"
+#~ " Pakisubukan muli\n"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Pakipuno lahat ng field\n"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Hindi balidong mail address!\n"
+
+#~ msgid ""
+#~ "Mandriva Online Account successfully created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Matagumpay na nalikha ang Mandriva Online Account.\n"
+#~ "Paki-click ang \"Kasunod\" para patotohonan at i-upload ang iyong "
+#~ "configuration\n"
+
+#~ msgid "Your upload was successful!"
+#~ msgstr "Nagtagumpay ang iyong upload!"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Mula ngayon ikaw ay makakatanggap ng mga announcement\n"
+#~ "tungkol sa seguridad at update salamat sa Mandriva Online."
+
+#~ msgid ""
+#~ "Mandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "Ang Mandriva Online ay naghahandog sa iyo ng kakayahang i-automate\n"
+#~ "ang mga update. May program na tatakbo tuwina sa iyong sistema na\n"
+#~ "maghihintay para sa mga bagong update.\n"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Matagumpay na na-configure ang iyong Mandriva Online account\n"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Matagumpay na nai-upload ang configuration!"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Problema sa pag-a-upload ng configuration"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "Hindi makakonekta sa website ng mandrivaonline: maling login/password o "
+#~ "maling setting ng router/firewall"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- ilunsad ang Mandriva Update.\n"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Abala ang sistema. Maghintay ..."
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Ipinapadala ang configuration..."
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr ""
+#~ "Walang nakitang file na %s. Patakbuhin muna ang Mandriva Online Wizard"
+
+#~ msgid "Mandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "Hindi makapag-alam ang Mandriva Update sa pook, susubukan muli natin."
+
+#~ msgid "Login:"
+#~ msgstr "Login:"
+
+#~ msgid "or"
+#~ msgstr "o"
+
+#~ msgid "wrong password:"
+#~ msgstr "maling password:"
+
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on Mandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to Mandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Ang iyong login o password ay mali.\n"
+#~ " Kailangang i-type mo ulit ito, o kailangan mong gumawa ng account sa "
+#~ "Mandriva Online.\n"
+#~ " Sa mas huling kaso, bumalik sa unang hakbang para kumonekta saMandriva "
+#~ "Online.\n"
+#~ " Tandaan na dapat kang magbigay ng pangalan ng Makina \n"
+#~ " (mga alphabetical na character lamang ang tatanggapin)"
+
+#~ msgid "Mail contact:"
+#~ msgstr "Mail contact:"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Magbigay ng login"
+
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Ang login at password ay dapat mas maikli sa 12 character\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Hindi pinapayagan ang mga special character\n"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Email hindi balido\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Mayroon nang account\n"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Problema sa pagkonekta sa server \n"
+
+#~ msgid ""
+#~ "Problem occurred while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "May nangyaring problema habang kumokonekta sa server, makipag-alam sa "
+#~ "koponang pangsuporta"

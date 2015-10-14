@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Mdkonline
+Icon=/usr/share/icons/mdkonline.png
+Type=MimeType
+MimeType=application/x-mdv-exec;
+Comment=mdkonline application updater
+Hidden=false
+X-KDE-AutoEmbed=false

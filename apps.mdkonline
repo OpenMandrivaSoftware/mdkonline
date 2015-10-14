@@ -1,0 +1,4 @@
+USER=root
+PROGRAM=/usr/sbin/mdkonline.real
+SESSION=true
+FALLBACK=false

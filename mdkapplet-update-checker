@@ -1,0 +1,119 @@
+#!/usr/bin/perl
+################################################################################
+# Mandriva Online                                                              # 
+#                                                                              #
+# Copyright (C) 2003-2010 Mandriva                                             #
+#                                                                              #
+# Daouda Lo                                                                    #
+# Thierry Vignaud <thierry.vignaud at gmail dot com>                           #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+use lib qw(/usr/lib/libDrakX /usr/lib/libDrakX/drakfirsttime);
+use standalone; # for explanations
+use MDK::Common;
+use Rpmdrake::open_db;
+use mdkapplet;
+use urpm;
+use urpm::lock;
+use urpm::select;
+use urpm::media;
+
+# be nice with other processes:
+setpriority(0, $$, 7);  # 0 is PRIO_PROCESS
+
+my $root = $ARGV[0];
+
+my $will_not_update_media;
+# so that get_inactive_backport_media() doesn't vivify $urpm->{media}:
+my $urpm = Rpmdrake::open_db::fast_open_urpmi_db();
+{
+    local $urpm->{fatal} = sub {
+	print "Fatal: @_\n";
+	$will_not_update_media = 1;
+    };
+    local $urpm->{error} = $urpm->{fatal};
+
+    urpm::lock::urpmi_db($urpm, 'exclusive', 1);
+}
+checker_exit('locked') if $will_not_update_media;
+
+my $is_it_a_devel_distro = is_it_a_devel_distro();
+
+my $media = $is_it_a_devel_distro ? '-a' : '--update';
+if (!run_program::run('urpmi.update', $media, if_($root, "--urpmi-root=$root"))) {
+    checker_exit('error_updating') if $will_not_update_media;
+}
+
+update_backport_media($urpm);
+
+# this eats 52Mb of RAM on 64bit:
+# (hence we do it in the forked helper so that the applet doesn't eat too much RAM)
+urpm::media::configure($urpm, if_(!$is_it_a_devel_distro, update => 1));
+
+my @update_medias = get_update_medias($urpm);
+
+if (!@update_medias) {
+    checker_exit('no_update_medium');
+} elsif (!any { ! $_->{ignore} } @update_medias) {
+    checker_exit('no_enabled_medium');
+}
+
+if (my $_db = urpm::db_open_or_die($urpm)) {
+    my $requested = {};
+    my $state = {};
+    my $need_restart = urpm::select::resolve_dependencies(
+	$urpm, $state, $requested,
+	callback_choices => sub { 0 },
+	priority_upgrade => $urpm->{options}{'priority-upgrade'},
+	auto_select => 1,
+	);
+    my @requested_strict = map { scalar $_->fullname } @{$urpm->{depslist}}[keys %{$state->{selected}}];
+
+    if ($need_restart || @requested_strict) {
+	# FIXME: log first found pkgs?
+	warn ">> need_restart=$need_restart, updates=" . join(', ', @requested_strict) . "\n";
+	checker_exit('updates');
+    } else {
+        if (!text2bool($local_config{DO_NOT_ASK_FOR_RESTRICTED})) {
+            if (is_restricted_media_configured($urpm)) {
+                checker_exit('uptodate');
+            } else {
+                checker_exit('unconfigured_restricted_media');
+            }
+        } else {
+            checker_exit('uptodate');
+        }
+    }
+} else {
+    checker_exit('db_not_open');
+}
+checker_exit('updates');
+
+sub checker_exit {
+    my ($state) = @_;
+    POSIX::_exit($comm_codes{$state}{code});
+}
+
+sub update_backport_media {
+    my ($urpm) = @_;
+    # update inactive backport media:
+    my @inactive_backport_media = Rpmdrake::open_db::get_inactive_backport_media($urpm);
+    return if !@inactive_backport_media;
+    log::explanations("updating inactive backport media " . join(', ', @inactive_backport_media));
+    foreach (@inactive_backport_media) {
+        run_program::run('urpmi.update', if_($root, "--urpmi-root=$root"), $_);
+    }
+}
+

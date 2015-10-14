@@ -22,7 +22,7 @@
 
 # $Id$
 
-use strict;
+
 use POSIX;
 use lib qw(/usr/lib/libDrakX /usr/lib/libDrakX/drakfirsttime);
 use common;

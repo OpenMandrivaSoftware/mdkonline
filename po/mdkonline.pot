@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2015-10-14 22:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../mdkapplet:587
 #, c-format
-msgid "New version of Moondrake distribution"
+msgid "New version of OpenMandriva Lx distribution"
 msgstr ""
 
 #: ../mdkapplet:604
@@ -284,7 +284,7 @@ msgstr ""
 
 #: ../mdkapplet:728
 #, c-format
-msgid "Moondrake Online %s"
+msgid "OpenMandriva Online %s"
 msgstr ""
 
 #: ../mdkapplet:729
@@ -294,7 +294,7 @@ msgstr ""
 
 #: ../mdkapplet:732
 #, c-format
-msgid "Moondrake Online gives access to Moondrake web services."
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr ""
 
 #: ../mdkapplet:734
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to Moondrake %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -640,34 +640,6 @@ msgstr ""
 msgid "Unable to update packages from update_source medium.\n"
 msgstr ""
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
-msgid "Run Moondrake Update Applet Configuration"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
-msgid "Authentication is required to run Moondrake Update Applet Configuration"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
-msgid "Run Moondrake Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run Moondrake Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
-msgid "Run Moondrake Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run Moondrake Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
-msgid "Run Moondrake Package Media Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
-msgid "Authentication is required to run Moondrake Package Media Updater"
+#: ../mdkapplet:95
+msgid "Service configuration problem. Please check logs and send mail to support\\@mandrivaonline.com"
 msgstr ""

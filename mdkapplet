@@ -21,7 +21,7 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
 ################################################################################
 
-use strict;
+
 use POSIX qw(:signal_h :sys_wait_h);
 use lib qw(/usr/lib/libDrakX);
 use standalone; # for explanations
@@ -54,7 +54,7 @@ if (!find { $_ eq '--auto-update' } @ARGV) {
 }
 
 
-my $online_site = "http://www.mandrivalinux.com/";
+my $online_site = "http://www.openmandriva.org/";
 my ($menu, $timeout, $network_timeout, $state_global, $sub_state);
 my ($download_dir);
 {
@@ -409,7 +409,7 @@ sub configNetwork() {
 sub confirm_upgrade() {
     local $mygtk3::left_padding = 0;
     my $warn_me = text2bool($local_config{DO_NOT_ASK_FOR_DISTRO_UPGRADE});
-    my $w = new_portable_dialog(N("New version of Mandriva Linux distribution"));
+    my $w = new_portable_dialog(N("New version of OpenMandriva Lx distribution"));
     my ($temp_dir, $box);
     
     my $browse;
@@ -425,7 +425,7 @@ sub confirm_upgrade() {
     my $res = fill_n_run_portable_dialog($w,
                                       [
                get_banner(),
-               gtknew('Label_Left', text => N("A new version of Mandriva Linux distribution has been released."), @common),
+               gtknew('Label_Left', text => N("A new version of OpenMandriva Lx distribution has been released."), @common),
                gtknew('HButtonBox', layout => 'start', children_tight => [
                    new_link_button($new_distro->{url}, N("More info about this new version")),
                ]),
@@ -458,7 +458,7 @@ sub confirm_upgrade() {
 
 
 sub get_obsolete_message_() {
-    N("Maintenance for this Mandriva Linux version has ended. No more updates will be delivered for this system."),
+    N("Maintenance for this OpenMandriva Lx version has ended. No more updates will be delivered for this system."),
 }
 
 sub get_obsolete_message() {
@@ -470,7 +470,7 @@ sub get_obsolete_message() {
       
 sub refresh_no_more_supported_msg() {
     my $basic_msg = get_obsolete_message_();
-    my $distro = N("Mandriva Linux");
+    my $distro = N("OpenMandriva Lx");
     my $msg;
 
     # is extended maintenance available?
@@ -641,7 +641,7 @@ sub add_media() {
 
 sub installUpdates() {
     return if $mdv_update_pid;
-    log::explanations(N_("Launching MandrivaUpdate\n"));
+    log::explanations(N_("Launching OpenMandrivaUpdate\n"));
     gnome_shell_exit_overview();
     my $program = find { -x "/usr/bin/$_" } qw(MageiaUpdate MandrivaUpdate);
     $mdv_update_pid = fork_exec($program, '--no-media-update', '--no-confirmation', '--no-splash',
@@ -726,7 +726,7 @@ sub about_dialog() {
     my $url = $online_site;
     $url =~ s/^https:/http:/;
     my $w = gtknew('AboutDialog', name => N("OpenMandriva Online %s", $ver),
-                   copyright => N("Copyright (C) %s by Mandriva", '2001-2010'),
+                   copyright => N("Copyright (C) %s by OpenMandriva", '2001-2010'),
                    license => join('', cat_('/usr/share/common-licenses/GPL')),
                    icon => '/usr/share/icons/mini/mdkonline.png',
                    comments => N("OpenMandriva Online gives access to OpenMandriva web services."),

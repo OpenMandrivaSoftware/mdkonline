@@ -8,27 +8,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2005-02-03 20:01+0600\n"
 "Last-Translator: Jamil Ahmed <jamil@bengalinux.org>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, fuzzy, c-format
 msgid "Will check updates at %s"
 msgstr "আপডেট পরীক্ষা করো"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "আপনার সিস্টেম আপ-টু-ডেট আছে"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -38,54 +39,54 @@ msgstr ""
 "support@mandrivaonline.com এ মেইল করুন"
 
 # উপলব্ধ
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "উপস্থিত প্যাকেজসমুহ খোঁজা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "আপনার সিস্টেমের জন্য নতুন আপডেট উপস্হিত আছে"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr ""
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr ""
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "নেটওয়ার্ক বর্তমানে বন্ধ আছে। অনুগ্রহ করে আপনার নেটওয়ার্ক কনফিগার করুন"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr ""
 "পরিসেবা (service) বর্তমানে সক্রিয় নেই। অনুগ্রহ করে \"অনলাইন ওয়েবসাইট\"-এ ক্লিক করুন"
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, fuzzy, c-format
 msgid "urpmi database locked"
 msgstr "urpmi ডাটাবেস লক করা আছে"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "সংস্করণটির সমর্থন নেই (খুব পুরানো, অথবা ডেভেলপমেন্ট সংস্করণ)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
 msgstr ""
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, fuzzy, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -103,42 +104,37 @@ msgstr ""
 "এর পরে %s পুনরায় চালু করুন।"
 
 #  আছে কি
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "সক্রিয়"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr ""
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "আপডেট গুলো ইনস্টল করো"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr ""
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "আপডেট পরীক্ষা করো"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "নেটওয়ার্ক কনফিগার করো"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr ""
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -146,374 +142,447 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "drakconnect চালু করা হচ্ছে\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr ""
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr ""
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr ""
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "বাতিল"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, fuzzy, c-format
 msgid "Mandriva Linux"
 msgstr "ম্যান্ড্রিব অনলাইন"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
 "the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr ""
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
 "and may take several hours to complete."
 msgstr ""
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr ""
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr ""
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
 "available."
 msgstr ""
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "MandrivaUpdate চালু করা হচ্ছে\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "নতুন আপডেট পরীক্ষা করা হচ্ছে...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "সিস্টেম আপ-টু-ডেট আছে\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "নেটওয়ার্ক পরীক্ষা করা হচ্ছে: সম্ভবত নিষ্ক্রিয় করা আছে\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, fuzzy, c-format
-msgid "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
 msgstr "ম্যান্ড্রিব অনলাইন"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
+msgid "OpenMandriva Online gives access to Moondrake web services."
 msgstr ""
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "অনলাইন ওয়েবসাইট"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "নোটিশ"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr ""
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr ""
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "পরিচিতি..."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, fuzzy, c-format
 msgid "Updates Configuration"
 msgstr "কনফিগারেশন প্রেরণ করুন"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "সবসময় স্টার্টআপে আরম্ভ করো"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "প্রস্থান"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "ত্রুটি"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "মেশিনের নাম:"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:226
-#, fuzzy, c-format
-msgid "An error occurred while adding medium"
-msgstr "মাধ্যম যোগ করার প্রক্রিয়া বিফল হয়েছে"
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "ঠিক আছে"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr ""
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr ""
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr ""
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "ইনস্টলেশন ব্যর্থ হয়েছে"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "পুনরায় চেষ্টা করো"
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "অভিন্দন"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "রিবুট"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "কনফিগারেশন প্রেরণ করুন"
+
+#: ../mdkapplet-upgrade-helper:197
+#, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:214
+#, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:236
+#, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"প্যাকেজ সংক্রান্ত ডাটাবেসটি লক করা আছে। যে অ্যাপ্লিকেশনগুলো\n"
+"বর্তমানে প্যাকেজ ডাটাবেস ব্যবহার করছে সেগুলোকে বন্ধ করুন (অন্য \n"
+"কোন ডেস্কটপে কি আরেকটি মিডিয়া ম্যানজার চলছে, অথবা আপনি কি\n"
+"বর্তমানে প্যাকেজ ইনস্টল করছেন?)।"
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "মাধ্যম যোগ করার প্রক্রিয়া বিফল হয়েছে"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -521,103 +590,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "ম্যান্ড্রিব অনলাইন"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "মেশিনের নাম:"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, fuzzy, c-format
 msgid "Your password"
 msgstr "ভূল পাসওয়ার্ড"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, fuzzy, c-format
 msgid "Forgotten password"
 msgstr "ভূল পাসওয়ার্ড"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "বন্ধ"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "ম্যান্ড্রিব অনলাইন"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "ম্যান্ড্রিব অনলাইন"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "ম্যান্ড্রিব অনলাইন"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "ম্যান্ড্রিব অনলাইন"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, fuzzy, c-format
-msgid "Mandriva PowerPack"
-msgstr "ম্যান্ড্রিব অনলাইন"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr ""
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -629,123 +666,196 @@ msgstr ""
 "\n"
 "ব্যবহার বিধি:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, c-format
+msgid "Copyright (C) %s %s"
+msgstr "কপিরাইট %s %s"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr " --help\t\t- এই সহায়িকা বার্তা প্রদর্শন করো।\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Mandriva Update স্বয়ংক্রিয়ভাবে চালু করা হয়েছে।\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr ""
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, fuzzy, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --applet       - Mandriva Update চালু করো।\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr ""
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source মাধ্যম থেকে প্যাকেজ আপডেট করা যায় নি।\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "ম্যান্ড্রিব অনলাইন"
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "কনফিগারেশন প্রেরণ করুন"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "কনফিগারেশন প্রেরণ করুন"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "OpenMandrivaUpdate চালু করা হচ্ছে\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "OpenMandrivaUpdate চালু করা হচ্ছে\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate চালু করা হচ্ছে\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate চালু করা হচ্ছে\n"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- Mandriva Update চালু করো।\n"
+
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- OpenMandriva Update চালু করো।\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- OpenMandriva Update স্বয়ংক্রিয়ভাবে চালু করা হয়েছে।\n"
 
 #, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "মেশিনের নাম:"
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --applet       - OpenMandriva Update চালু করো।\n"
 
-#~ msgid "Installation failed"
-#~ msgstr "ইনস্টলেশন ব্যর্থ হয়েছে"
+#~ msgid "  --update       - Update keys\n"
+#~ msgstr "  --update       - আপডেট কী (keys)\n"
 
-#~ msgid "Retry"
-#~ msgstr "পুনরায় চেষ্টা করো"
+#~ msgid "Account already exists\n"
+#~ msgstr "ইতিমধ্যেই একাউন্টটি উপস্হিত আছে\n"
 
-#~ msgid "Congratulations"
-#~ msgstr "অভিন্দন"
+#~ msgid "Account creation or authentication"
+#~ msgstr "একাউন্ট তৈরি অথবা পরিচয় প্রমাণ প্রক্রিয়া"
 
-#~ msgid "Reboot"
-#~ msgstr "রিবুট"
+#~ msgid "Actions"
+#~ msgstr "কার্য"
 
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "প্যাকেজ সংক্রান্ত ডাটাবেসটি লক করা আছে। যে অ্যাপ্লিকেশনগুলো\n"
-#~ "বর্তমানে প্যাকেজ ডাটাবেস ব্যবহার করছে সেগুলোকে বন্ধ করুন (অন্য \n"
-#~ "কোন ডেস্কটপে কি আরেকটি মিডিয়া ম্যানজার চলছে, অথবা আপনি কি\n"
-#~ "বর্তমানে প্যাকেজ ইনস্টল করছেন?)।"
-
-#~ msgid "Failure when adding medium"
+#, fuzzy
+#~ msgid "An error occurred while adding medium"
 #~ msgstr "মাধ্যম যোগ করার প্রক্রিয়া বিফল হয়েছে"
 
-#~ msgid "Yes"
-#~ msgstr "হ্যাঁ"
+#~ msgid "Authentification"
+#~ msgstr "অনুমোদন"
 
-#~ msgid "No"
-#~ msgstr "না"
-
-#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
 #~ msgstr ""
-#~ "মনে হচ্ছে ম্যান্ড্রেকঅনলাইন পুনরায় ইনস্টল করা হয়েছে, পুনরায় applet চালানো "
-#~ "হচ্ছে ...."
+#~ "ম্যান্ড্রেকঅনলাইন ওয়েবসাইটের সাথে সংযোগ করা যাচ্ছ না: ভুল লগ-ইন/পাসওয়ার্ড অথবা "
+#~ "রুটার/ফায়ারওয়াল মন্দ বৈশিষ্ট্যাবলী"
+
+#~ msgid ""
+#~ "Cannot connect to OpenMandriva Online website: wrong login/password or "
+#~ "router/firewall bad settings"
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন ওয়েবসাইটের সাথে সংযোগ করা যাচ্ছ না: ভুল লগ-ইন/পাসওয়ার্ড অথবা "
+#~ "রুটার/ফায়ারওয়াল মন্দ বৈশিষ্ট্যাবলী"
+
+#~ msgid "Check updates"
+#~ msgstr "আপডেট পরীক্ষা করো"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "config ফাইল পরীক্ষা করা হচ্ছে: উপস্থিত নেই\n"
 
 #~ msgid "Checking... Updates are available\n"
 #~ msgstr "পরীক্ষা চলছে... আপডেট পাওয়া গেছে\n"
 
-#, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "rpmdb খুলতে অক্ষম"
+#~ msgid "Clear"
+#~ msgstr "পরিষ্কার করো"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "অভিন্দন, আপলোড সাফল্যের সাথে সম্পন্ন হয়েছে"
+
+#~ msgid "Configuration uploaded successfuly"
+#~ msgstr "অভিন্দন, আপলোড সাফল্যের সাথে সম্পন্ন হয়েছে"
+
+#~ msgid "Configure"
+#~ msgstr "কনফিগার"
+
+#~ msgid "Configure Now!"
+#~ msgstr "এক্ষুনি কনফিগার করো!"
+
+#~ msgid "Configure the service"
+#~ msgstr "পরিসেবাটি কনফিগার করো"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
 
 #~ msgid "Connecting to"
 #~ msgstr "এর সাথে সংযোগ করা হচ্ছে"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "ম্যান্ড্রেক আপডেট অ্যাপ্লেট"
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "ম্যান্ড্রিব অনলাইন ওয়েবসাইটের সাথে সংযুক্ত হচ্ছি..."
+
+#~ msgid "Connecting to OpenMandriva Online website..."
+#~ msgstr "ম্যান্ড্রিব অনলাইন ওয়েবসাইটের সাথে সংযুক্ত হচ্ছি..."
 
 #, fuzzy
-#~ msgid "Security error"
-#~ msgstr "নিরাপত্তা সতর্কতা:"
+#~ msgid "Connection error"
+#~ msgstr "কানেকশনের নাম"
+
+#~ msgid "Connection problem"
+#~ msgstr "সংযোগ সমস্যা"
+
+#~ msgid "Country"
+#~ msgstr "দেশ"
+
+#~ msgid "Country:"
+#~ msgstr "দেশ:"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "ম্যান্ড্রেকঅনলাইনে একটি অ্যাকাউন্ট তৈরি করো"
+
+#~ msgid "Create a OpenMandriva Online Account"
+#~ msgstr "ম্যান্ড্রেকঅনলাইনে একটি অ্যাকাউন্ট তৈরি করো"
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "ডেটাবেস সার্ভার"
 
 #, fuzzy
 #~ msgid "Database error"
 #~ msgstr "ডাটাবেসের সমস্যা"
 
-#, fuzzy
-#~ msgid "Registration error"
-#~ msgstr "রেজিষ্ট্রেশনের ধরন"
+#~ msgid "Development release not supported by service"
+#~ msgstr "সার্ভিস ডেভেলপমেন্ট সংস্করণ সমর্থন করে না"
 
-#, fuzzy
-#~ msgid "Some parameters are missing"
-#~ msgstr "দূরবর্তী প্রিন্টারের নাম নেই!"
-
-#, fuzzy
-#~ msgid "Password error"
-#~ msgstr "%s-এর জন্য পাসওয়ার্ড"
-
-#, fuzzy
-#~ msgid "Login error"
-#~ msgstr "অজানা সমস্যা"
-
-#, fuzzy
-#~ msgid ""
-#~ "The email you provided is already in use\n"
-#~ "Please enter another one\n"
-#~ msgstr "গন্তব্যর ডিরেক্টরি বর্তমানে ব্যবহৃত হচ্ছে, অনুগ্রহ করে অন্য একটি নির্বাচন করুন।"
+#~ msgid "Down"
+#~ msgstr "নিচে"
 
 #, fuzzy
 #~ msgid ""
@@ -754,197 +864,63 @@ msgstr "update_source মাধ্যম থেকে প্যাকেজ আ�
 #~ msgstr "নামের ক্ষেত্রটি ফঁাকা রয়েছে, দয়া করে একটি নাম লিখুন"
 
 #, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "বিবরণ: "
+#~ msgid "Email address:"
+#~ msgstr "বহির্মুখী মেইল অ্যাড্রেস"
 
-#, fuzzy
-#~ msgid "Database access forbidden"
-#~ msgstr "ডেটাবেস সার্ভার"
-
-#, fuzzy
-#~ msgid "Service error"
-#~ msgstr "লিখতে সমস্যা হয়েছে\n"
-
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "পাসওয়ার্ড মিলেনি।"
-
-#, fuzzy
-#~ msgid "User Forbidden"
-#~ msgstr "ব্যবহারকারী লগ-ইন:"
-
-#, fuzzy
-#~ msgid "Connection error"
-#~ msgstr "কানেকশনের নাম"
-
-#~ msgid "Please wait"
-#~ msgstr "অনুগ্রহ করে অপেক্ষা করুন"
-
-#~ msgid "Preparing..."
-#~ msgstr "প্রস্তুত করা হচ্ছে..."
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "প্যাকেজসমূহ ইনস্টল করা হচ্ছে...\n"
-
-#, fuzzy
-#~ msgid "New bundles are available for your system"
-#~ msgstr "আপনার সিস্টেমের জন্য নতুন আপডেট উপস্হিত আছে"
-
-#~ msgid "Service is not configured. Please click on \"Configure the service\""
-#~ msgstr ""
-#~ "পরিসেবা (service) বর্তমানে কনফিগার করা নেই। অনুগ্রহ করে \"পরিসেবাটি কনফিগার "
-#~ "করো\"-এ ক্লিক করুন"
-
-#~ msgid "Configure the service"
-#~ msgstr "পরিসেবাটি কনফিগার করো"
-
-#~ msgid "Check updates"
-#~ msgstr "আপডেট পরীক্ষা করো"
-
-#~ msgid "Configure Now!"
-#~ msgstr "এক্ষুনি কনফিগার করো!"
-
-#~ msgid "Actions"
-#~ msgstr "কার্য"
-
-#~ msgid "Configure"
-#~ msgstr "কনফিগার"
-
-#~ msgid "See logs"
-#~ msgstr "লগ দেখুন"
-
-#~ msgid "Status"
-#~ msgstr "অবস্থা"
-
-#~ msgid "Network Connection: "
-#~ msgstr "নেটওয়ার্ক সংযোগ: "
-
-#~ msgid "Up"
-#~ msgstr "উপরে"
-
-#~ msgid "Down"
-#~ msgstr "নিচে"
-
-#~ msgid "Last check: "
-#~ msgstr "সর্বশেষ পরীক্ষা: "
-
-#~ msgid "Machine name:"
-#~ msgstr "মেশিনের নাম:"
-
-#~ msgid "Updates: "
-#~ msgstr "আপডেট সমুহ: "
-
-#~ msgid "Development release not supported by service"
-#~ msgstr "সার্ভিস ডেভেলপমেন্ট সংস্করণ সমর্থন করে না"
-
-#~ msgid "Too old release not supported by service"
-#~ msgstr "সার্ভিস খুব পুরানো সংস্করণ সমর্থন করে না"
-
-#~ msgid "Unknown state"
-#~ msgstr "অজ্ঞাত অবস্হা"
-
-#~ msgid "Online services disabled. Contact Mandriva Online site\n"
-#~ msgstr ""
-#~ "অনলাইন পরিসেবা নিষ্ক্রিয় করা রয়েছে। ম্যান্ড্রেকঅনলাইন সাইটের সাথে যোগাযোগ করুন\n"
-
-#~ msgid "Wrong Password.\n"
-#~ msgstr "ভূল পাসওয়ার্ড।\n"
-
-#~ msgid "Wrong Action or host or login.\n"
-#~ msgstr "কাজ অথবা হোস্ট অথবা লগ-ইন সঠিক নয়।\n"
-
-#~ msgid ""
-#~ "Something is wrong with your network settings (check your route, firewall "
-#~ "or proxy settings)\n"
-#~ msgstr ""
-#~ "আপনার নেটওয়ার্ক সেটিংস এ কিছু সমস্যা হয়েছে (আপনার route, firewall or proxy "
-#~ "সেটিংস পুনায় পরীক্ষা করুন)\n"
-
-#~ msgid ""
-#~ "Problem occured while connecting to the server, please contact the "
-#~ "support team"
-#~ msgstr ""
-#~ "সার্ভারের সাথে সংযোগের সময় সমস্যা হয়েছে, অনুগ্রহ করে পরিসেবা দলের সাথে "
-#~ "যোগাযোগ করুন"
-
-#~ msgid "Response from Mandriva Online server\n"
-#~ msgstr "ম্যান্ড্রিব অনলাইন সার্ভারের উত্তর\n"
-
-#~ msgid "No check"
-#~ msgstr "কোন পরীক্ষণ নেই"
-
-#~ msgid "Checking config file: Not present\n"
-#~ msgstr "config ফাইল পরীক্ষা করা হচ্ছে: উপস্থিত নেই\n"
-
-#~ msgid "Logs"
-#~ msgstr "লগ"
-
-#~ msgid "Clear"
-#~ msgstr "পরিষ্কার করো"
-
-#~ msgid ""
-#~ "mdonline version %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "mdonline version %s\n"
-#~ "কপিরাইট %s Mandriva.\n"
-#~ "এই সফ্‌টওয়ারটি ফ্রি এবং গনুহ্‌ (GNU) GPL terms এর মাধ্যমে বিতরণ করা যাবে।\n"
-#~ "\n"
-#~ "ব্যবহার বিধি:\n"
-
-#~ msgid "I already have an account"
-#~ msgstr "ইতিমধ্যেই আমার একটি একাউন্ট আছে"
-
-#~ msgid "I want to subscribe"
-#~ msgstr "আমি গ্রহন করিতে ইচ্ছুক"
-
-#~ msgid "Mr."
-#~ msgstr "জনাব"
-
-#~ msgid "Mrs."
-#~ msgstr "জনাবা"
-
-#~ msgid "Ms."
-#~ msgstr "জনাবা"
-
-#~ msgid "Reading configuration\n"
-#~ msgstr "কনফিগারেশন পড়া হচ্ছে\n"
-
-#~ msgid ""
-#~ "This assistant will help you to upload your configuration\n"
-#~ "(packages, hardware configuration) to a centralized database in\n"
-#~ "order to keep you informed about security updates and useful upgrades.\n"
-#~ msgstr ""
-#~ "এই সাহায্যকারী আপনার কনফিগারেশন (প্যাকেজ, হার্ডওয়্যার কনফিগারেশন)\n"
-#~ "একটি কেন্দ্রীয় ডাটাবেসে আপলোড করতে সাহায্য করবে যাতে\n"
-#~ "আপনাকে সুরক্ষা সংক্রান্ত এবং অন্যান্য প্রয়োজনীয় আপডেট সম্বন্ধে জানানো করা যায়।\n"
-
-#~ msgid "Account creation or authentication"
-#~ msgstr "একাউন্ট তৈরি অথবা পরিচয় প্রমাণ প্রক্রিয়া"
+#~ msgid "Email not valid\n"
+#~ msgstr "ইমেইলটি বৈধ নয়\n"
 
 #~ msgid "Enter your Mandriva Online login, password and machine name:"
 #~ msgstr "আপনার ম্যান্ড্রেকঅনলাইন লগ-ইন, পাসওয়ার্ড এবং মেশিনের নাম লিখুন:"
 
-#, fuzzy
-#~ msgid "Email address:"
-#~ msgstr "বহির্মুখী মেইল অ্যাড্রেস"
-
-#~ msgid "Country"
-#~ msgstr "দেশ"
-
-#~ msgid "Password:"
-#~ msgstr "পাসওয়ার্ড:"
+#~ msgid "Enter your OpenMandriva Online login, password and machine name:"
+#~ msgstr "আপনার ম্যান্ড্রেকঅনলাইন লগ-ইন, পাসওয়ার্ড এবং মেশিনের নাম লিখুন:"
 
 #, fuzzy
-#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
-#~ msgstr "মাউন্ট পয়েন্টগুলিতে শুধু * অক্ষর থাকবে"
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "rpmdb খুলতে অক্ষম"
 
-#~ msgid "Connecting to Mandriva Online website..."
-#~ msgstr "ম্যান্ড্রিব অনলাইন ওয়েবসাইটের সাথে সংযুক্ত হচ্ছি..."
+#~ msgid "Finish"
+#~ msgstr "সম্পন্ন"
+
+#~ msgid "First name:"
+#~ msgstr "প্রথম নাম:"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন-এর জন্য, এখন থেকে আপনি নিরাপত্তা এবং \n"
+#~ "আপডেট সংক্রান্ত ঘোষনাগুলো নিয়মিত পাবেন।"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to OpenMandriva Online."
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন-এর জন্য, এখন থেকে আপনি নিরাপত্তা এবং \n"
+#~ "আপডেট সংক্রান্ত ঘোষনাগুলো নিয়মিত পাবেন।"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "মেশিনের নাম:"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "সবুজ"
+
+#~ msgid "I already have an account"
+#~ msgstr "ইতিমধ্যেই আমার একটি একাউন্ট আছে"
+
+#, fuzzy
+#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
+#~ msgstr "আমার কোনো ম্যান্ড্রেকানলাইন অ্যাকাউন্ট নেই কিন্তু আমি একটি তৈরি করতে ইচ্ছুক "
+
+#, fuzzy
+#~ msgid "I don't have a OpenMandriva Online account and I want to subscribe"
+#~ msgstr "আমার কোনো ম্যান্ড্রেকানলাইন অ্যাকাউন্ট নেই কিন্তু আমি একটি তৈরি করতে ইচ্ছুক "
+
+#~ msgid "I want to subscribe"
+#~ msgstr "আমি গ্রহন করিতে ইচ্ছুক"
 
 #~ msgid ""
 #~ "In order to benefit from Mandriva Online services,\n"
@@ -981,42 +957,106 @@ msgstr "update_source মাধ্যম থেকে প্যাকেজ আ�
 #~ "উপরন্তু, আপনি www.mandrivaexpert.com-র ডিস্কাউন্টসহ মূল্য প্রদত্ত\n"
 #~ "পরিসেবা পাবেন।"
 
-#~ msgid "Connection problem"
-#~ msgstr "সংযোগ সমস্যা"
+#~ msgid ""
+#~ "In order to benefit from OpenMandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to OpenMandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন-এর পরিসেবা থেকে উপকৃত হওয়ার আশায়,\n"
+#~ "আপনার কনফিগারেশনটি এখন আপলোড করা হবে।\n"
+#~ "\n"
+#~ "উইজার্ডটি নিম্নোক্ত তথ্যগুলো OpenMandriva-এ এখন প্রেরণ করবে:\n"
+#~ "\n"
+#~ "১) আপনার সিস্টেমে ইনস্টল করা প্যাকেজের তালিকা,\n"
+#~ "\n"
+#~ "২) আপনার হার্ডওয়্যার কনফিগারেশন.\n"
+#~ "\n"
+#~ "যদি আপনি এই পরিসেবা থেকে উপকৃত হতে অনিচ্ছুক হন তাহলে ,\n"
+#~ "অনুগ্রহ করে 'বাতিল' ক্লিক করুন। 'পরবর্তী'-এ ক্লিক করলে আমরা আপনাকে সুরক্ষা "
+#~ "সংক্রান্ত এবং \n"
+#~ "অন্যান্য প্রয়োজনীয় তথ্য ব্যাক্তিগত ই-মেইলের দ্বারা পাঠাতে থাকব।\n"
+#~ "উপরন্তু, আপনি www.mandrivaexpert.com-র ডিস্কাউন্টসহ মূল্য প্রদত্ত\n"
+#~ "পরিসেবা পাবেন।"
 
-#~ msgid "Problem occurs when uploading files, please try again"
-#~ msgstr "ফাইল আপলোড করার সময় সমস্যা হয়েছে, অনুগ্রহ করে পুনরায় চেষ্টা করুন"
+#~ msgid "Installing packages ...\n"
+#~ msgstr "প্যাকেজসমূহ ইনস্টল করা হচ্ছে...\n"
 
-#~ msgid "Create a Mandriva Online Account"
-#~ msgstr "ম্যান্ড্রেকঅনলাইনে একটি অ্যাকাউন্ট তৈরি করো"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "সবুজ"
-
-#~ msgid "First name:"
-#~ msgstr "প্রথম নাম:"
+#~ msgid "Last check: "
+#~ msgstr "সর্বশেষ পরীক্ষা: "
 
 #, fuzzy
 #~ msgid "Last name:"
 #~ msgstr "প্রথম নাম:"
 
-#~ msgid "Confirm Password:"
-#~ msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "OpenMandrivaUpdate চালু করা হচ্ছে\n"
 
-#~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
-#~ msgstr ""
-#~ "পাসওয়ার্ড মেলেনি\n"
-#~ " অনুগ্রহ করে পুনরায় চেষ্টা করুন\n"
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "লগ-ইন এবং পাসওয়ার্ড ১২ অক্ষরের কম হতে হবে\n"
 
 #, fuzzy
-#~ msgid "Please fill in each field"
-#~ msgstr "অনুগ্রহ করে সকল ক্ষেত্র পুরন করুন\n"
+#~ msgid "Login error"
+#~ msgstr "অজানা সমস্যা"
 
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "এটি বৈধ ই-মেইল ঠিকানা নয়!\n"
+#~ msgid "Login:"
+#~ msgstr "লগ-ইন:"
+
+#~ msgid "Logs"
+#~ msgstr "লগ"
+
+#, fuzzy
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr "মাউন্ট পয়েন্টগুলিতে শুধু * অক্ষর থাকবে"
+
+#~ msgid "Machine name:"
+#~ msgstr "মেশিনের নাম:"
+
+#~ msgid "Mail contact:"
+#~ msgstr "মেইলে যোগাযোগ:"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#~ msgid "Mandriva Linux Privacy Policy"
+#~ msgstr "ম্যান্ড্রেকলিনাক্স প্রাইভেসি পলিসি"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "ম্যান্ড্রেক আপডেট অ্যাপ্লেট"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "Mandriva Online %s"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
 
 #~ msgid ""
 #~ "Mandriva Online Account successfully created.\n"
@@ -1026,15 +1066,11 @@ msgstr "update_source মাধ্যম থেকে প্যাকেজ আ�
 #~ "অনুগ্রহ করে পরিচয় প্রমাণ এবং আপনার কনফিগারেশন আপলোড করার জন্য \"পরবর্তী\" ক্লিক "
 #~ "করুন\n"
 
-#~ msgid "Your upload was successful!"
-#~ msgstr "আপনার আপলোড সাফল্যের সাথে সম্পন্ন হয়েছে!"
-
 #~ msgid ""
-#~ "From now you will receive on security and updates \n"
-#~ "announcements thanks to Mandriva Online."
+#~ "Mandriva Online could not be contacted, please try again at a later time"
 #~ msgstr ""
-#~ "ম্যান্ড্রেকঅনলাইন-এর জন্য, এখন থেকে আপনি নিরাপত্তা এবং \n"
-#~ "আপডেট সংক্রান্ত ঘোষনাগুলো নিয়মিত পাবেন।"
+#~ "ম্যান্ড্রেকঅনলাইন-এর সাথে সংযোগ করা সম্ভব হয় নি, অনুগ্রহ করে কিছুক্ষণ পর পুনরায় "
+#~ "চেষ্টা করুন"
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1043,47 +1079,308 @@ msgstr "update_source মাধ্যম থেকে প্যাকেজ আ�
 #~ "ম্যান্ড্রেকঅনলাইন আপনাকে স্বয়ংক্রিয়ভাবে আপডেট পেতে সাহায্য করে।\n"
 #~ "একটি প্রোগ্রাম নুতন আপডেটের অপেক্ষায় আপনার সিস্টেমে নিয়মিত চলবে\n"
 
-#~ msgid "Your Mandriva Online account has been successfully configured\n"
-#~ msgstr "আপনার ম্যান্ড্রেকঅনলাইন একাউন্ট সাফল্যের সাথে কনফিগার করা হয়েছে\n"
-
-#~ msgid "Configuration uploaded successfully"
-#~ msgstr "অভিন্দন, আপলোড সাফল্যের সাথে সম্পন্ন হয়েছে"
-
-#~ msgid "Problem uploading configuration"
-#~ msgstr "আপলোড করতে সমস্যা হয়েছে"
-
-#~ msgid ""
-#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
-#~ "firewall bad settings"
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
 #~ msgstr ""
-#~ "ম্যান্ড্রেকঅনলাইন ওয়েবসাইটের সাথে সংযোগ করা যাচ্ছ না: ভুল লগ-ইন/পাসওয়ার্ড অথবা "
-#~ "রুটার/ফায়ারওয়াল মন্দ বৈশিষ্ট্যাবলী"
+#~ "মনে হচ্ছে ম্যান্ড্রেকঅনলাইন পুনরায় ইনস্টল করা হয়েছে, পুনরায় applet চালানো "
+#~ "হচ্ছে ...."
 
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- Mandriva Update চালু করো।\n"
-
-#~ msgid "System is busy. Please wait ..."
-#~ msgstr "সিস্টেম বর্তমানে ব্যস্ত রয়েছে। অনুগ্রহ করে অপেক্ষা করুন..."
-
-#~ msgid "Sending configuration..."
-#~ msgstr "কনফিগারেশন প্রেরণ করে হচ্ছে..."
-
-#~ msgid "No %s file found. Run mdkonline wizard first"
-#~ msgstr "কোন %s ফাইল পাওয়া যায় নি। mdkonline উইজার্ডটি প্রথমে চালান"
+#, fuzzy
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
 
 #~ msgid "Mandriva Update could not contact the site, we will try again."
 #~ msgstr ""
 #~ "ম্যান্ড্রেকআপডেট সাইটটির সাথে যোগাযোগ করতে পারে নি, আমরা কিছুক্ষণ পর পুনরায় "
 #~ "চেষ্টা করবো।"
 
-#~ msgid "Login:"
-#~ msgstr "লগ-ইন:"
+#~ msgid "OpenMandriva"
+#~ msgstr "ম্যান্ড্রিব লিনাক্স (OpenMandriva)"
 
-#~ msgid "or"
-#~ msgstr "অথবা"
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
 
-#~ msgid "wrong password:"
-#~ msgstr "ভুল পাসওয়ার্ড:"
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#~ msgid "OpenMandriva Linux Privacy Policy"
+#~ msgstr "ম্যান্ড্রেকলিনাক্স প্রাইভেসি পলিসি"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "ম্যান্ড্রেক আপডেট অ্যাপ্লেট"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#~ msgid ""
+#~ "OpenMandriva Online Account successfuly created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন একাউন্ট সাফল্যের সাথে তৈরি হয়েছে।\n"
+#~ "অনুগ্রহ করে পরিচয় প্রমাণ এবং আপনার কনফিগারেশন আপলোড করার জন্য \"পরবর্তী\" ক্লিক "
+#~ "করুন\n"
+
+#~ msgid ""
+#~ "OpenMandriva Online could not be contacted, please try again at a later time"
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন-এর সাথে সংযোগ করা সম্ভব হয় নি, অনুগ্রহ করে কিছুক্ষণ পর পুনরায় "
+#~ "চেষ্টা করুন"
+
+#~ msgid ""
+#~ "OpenMandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "ম্যান্ড্রেকঅনলাইন আপনাকে স্বয়ংক্রিয়ভাবে আপডেট পেতে সাহায্য করে।\n"
+#~ "একটি প্রোগ্রাম নুতন আপডেটের অপেক্ষায় আপনার সিস্টেমে নিয়মিত চলবে\n"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "মনে হচ্ছে ম্যান্ড্রেকঅনলাইন পুনরায় ইনস্টল করা হয়েছে, পুনরায় applet চালানো "
+#~ "হচ্ছে ...."
+
+#, fuzzy
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "ম্যান্ড্রিব অনলাইন"
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "ম্যান্ড্রেকআপডেট সাইটটির সাথে যোগাযোগ করতে পারে নি, আমরা কিছুক্ষণ পর পুনরায় "
+#~ "চেষ্টা করবো।"
+
+#~ msgid "Mr."
+#~ msgstr "জনাব"
+
+#~ msgid "Mrs."
+#~ msgstr "জনাবা"
+
+#~ msgid "Ms."
+#~ msgstr "জনাবা"
+
+#~ msgid "Network Connection: "
+#~ msgstr "নেটওয়ার্ক সংযোগ: "
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "আপনার সিস্টেমের জন্য নতুন আপডেট উপস্হিত আছে"
+
+#~ msgid "No"
+#~ msgstr "না"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "কোন %s ফাইল পাওয়া যায় নি। mdkonline উইজার্ডটি প্রথমে চালান"
+
+#~ msgid "No check"
+#~ msgstr "কোন পরীক্ষণ নেই"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "এটি বৈধ ই-মেইল ঠিকানা নয়!\n"
+
+#~ msgid "Ok"
+#~ msgstr "ঠিক আছে"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "অনলাইন পরিসেবা নিষ্ক্রিয় করা রয়েছে। ম্যান্ড্রেকঅনলাইন সাইটের সাথে যোগাযোগ করুন\n"
+
+#~ msgid "Online services disabled. Contact OpenMandriva Online site\n"
+#~ msgstr ""
+#~ "অনলাইন পরিসেবা নিষ্ক্রিয় করা রয়েছে। ম্যান্ড্রেকঅনলাইন সাইটের সাথে যোগাযোগ করুন\n"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "%s-এর জন্য পাসওয়ার্ড"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "পাসওয়ার্ড মিলেনি।"
+
+#~ msgid "Password:"
+#~ msgstr "পাসওয়ার্ড:"
+
+#, fuzzy
+#~ msgid "Please Wait"
+#~ msgstr "অনুগ্রহ করে অপেক্ষা করুন"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "অনুগ্রহ করে সকল ক্ষেত্র পুরন করুন\n"
+
+#~ msgid "Please provide a login"
+#~ msgstr "অনুগ্রহ করে একটি লগ-ইন নির্দিষ্ট করুন"
+
+#~ msgid "Please wait"
+#~ msgstr "অনুগ্রহ করে অপেক্ষা করুন"
+
+#~ msgid "Preparing..."
+#~ msgstr "প্রস্তুত করা হচ্ছে..."
+
+#~ msgid "Previous"
+#~ msgstr "পূর্ববর্তী"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "সার্ভারের সাথে সংযোগ করতে সমস্যা হয়েছে \n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "সার্ভারের সাথে সংযোগের সময় সমস্যা হয়েছে, অনুগ্রহ করে পরিসেবা দলের সাথে "
+#~ "যোগাযোগ করুন"
+
+#~ msgid ""
+#~ "Problem occurred while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "সার্ভারের সাথে সংযোগের সময় সমস্যা হয়েছে, অনুগ্রহ করে পরিসেবা দলের সাথে "
+#~ "যোগাযোগ করুন"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "ফাইল আপলোড করার সময় সমস্যা হয়েছে, অনুগ্রহ করে পুনরায় চেষ্টা করুন"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "আপলোড করতে সমস্যা হয়েছে"
+
+#~ msgid "Quitting Wizard\n"
+#~ msgstr "উইজার্ড থেকে প্রস্থান করা হচ্ছে\n"
+
+#~ msgid "Reading configuration\n"
+#~ msgstr "কনফিগারেশন পড়া হচ্ছে\n"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "রেজিষ্ট্রেশনের ধরন"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "ম্যান্ড্রিব অনলাইন সার্ভারের উত্তর\n"
+
+#~ msgid "Response from OpenMandriva Online server\n"
+#~ msgstr "ম্যান্ড্রিব অনলাইন সার্ভারের উত্তর\n"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "বিবরণ: "
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "নিরাপত্তা সতর্কতা:"
+
+#~ msgid "See logs"
+#~ msgstr "লগ দেখুন"
+
+#~ msgid "Sending configuration..."
+#~ msgstr "কনফিগারেশন প্রেরণ করে হচ্ছে..."
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "পরিসেবা (service) কনফিগার করতে সমস্যা হয়েছে। অনুগ্রহ করে লগ গুলো পরীক্ষা করুন "
+#~ "এবং support@moondrakeonline.com এ মেইল করুন"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "লিখতে সমস্যা হয়েছে\n"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "পরিসেবা (service) বর্তমানে কনফিগার করা নেই। অনুগ্রহ করে \"পরিসেবাটি কনফিগার "
+#~ "করো\"-এ ক্লিক করুন"
+
+#~ msgid "Skip Wizard"
+#~ msgstr "উইজার্ড ছেড়ে এগিয়ে চলো"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "দূরবর্তী প্রিন্টারের নাম নেই!"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "আপনার নেটওয়ার্ক সেটিংস এ কিছু সমস্যা হয়েছে (আপনার route, firewall or proxy "
+#~ "সেটিংস পুনায় পরীক্ষা করুন)\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "বিশেষ অক্ষর (Special characters) ব্যবহার করা নিষেধ\n"
+
+#~ msgid "Status"
+#~ msgstr "অবস্থা"
+
+#~ msgid "Subscribe"
+#~ msgstr "সাবস্ক্রাইব (Subscribe)"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "সিস্টেম বর্তমানে ব্যস্ত রয়েছে। অনুগ্রহ করে অপেক্ষা করুন..."
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "সিস্টেম আপ-টু-ডেট আছে\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr "গন্তব্যর ডিরেক্টরি বর্তমানে ব্যবহৃত হচ্ছে, অনুগ্রহ করে অন্য একটি নির্বাচন করুন।"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "পাসওয়ার্ড মেলেনি\n"
+#~ " অনুগ্রহ করে পুনরায় চেষ্টা করুন\n"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "এই সাহায্যকারী আপনার কনফিগারেশন (প্যাকেজ, হার্ডওয়্যার কনফিগারেশন)\n"
+#~ "একটি কেন্দ্রীয় ডাটাবেসে আপলোড করতে সাহায্য করবে যাতে\n"
+#~ "আপনাকে সুরক্ষা সংক্রান্ত এবং অন্যান্য প্রয়োজনীয় আপডেট সম্বন্ধে জানানো করা যায়।\n"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "সার্ভিস খুব পুরানো সংস্করণ সমর্থন করে না"
+
+#~ msgid "Unknown state"
+#~ msgstr "অজ্ঞাত অবস্হা"
+
+#~ msgid "Up"
+#~ msgstr "উপরে"
+
+#~ msgid "Updates: "
+#~ msgstr "আপডেট সমুহ: "
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "ব্যবহারকারী লগ-ইন:"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "কাজ অথবা হোস্ট অথবা লগ-ইন সঠিক নয়।\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "ভূল পাসওয়ার্ড।\n"
+
+#~ msgid "Yes"
+#~ msgstr "হ্যাঁ"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "আপনার ম্যান্ড্রেকঅনলাইন একাউন্ট সাফল্যের সাথে কনফিগার করা হয়েছে\n"
+
+#~ msgid "Your OpenMandriva Online account has been successfuly configured\n"
+#~ msgstr "আপনার ম্যান্ড্রেকঅনলাইন একাউন্ট সাফল্যের সাথে কনফিগার করা হয়েছে\n"
 
 #~ msgid ""
 #~ "Your login or password was wrong.\n"
@@ -1102,74 +1399,75 @@ msgstr "update_source মাধ্যম থেকে প্যাকেজ আ�
 #~ " আপনাকে কিন্তু মেশিনের নাম লিখতে বলা হবে \n"
 #~ " (শুধুমাত্র বর্ণমালার অক্ষর লেখা যাবে)"
 
-#~ msgid "Mail contact:"
-#~ msgstr "মেইলে যোগাযোগ:"
-
-#~ msgid "Please provide a login"
-#~ msgstr "অনুগ্রহ করে একটি লগ-ইন নির্দিষ্ট করুন"
-
-#~ msgid "Login and password should be less than 12 characters\n"
-#~ msgstr "লগ-ইন এবং পাসওয়ার্ড ১২ অক্ষরের কম হতে হবে\n"
-
-#~ msgid "Special characters are not allowed\n"
-#~ msgstr "বিশেষ অক্ষর (Special characters) ব্যবহার করা নিষেধ\n"
-
-#~ msgid "Email not valid\n"
-#~ msgstr "ইমেইলটি বৈধ নয়\n"
-
-#~ msgid "Account already exists\n"
-#~ msgstr "ইতিমধ্যেই একাউন্টটি উপস্হিত আছে\n"
-
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "সার্ভারের সাথে সংযোগ করতে সমস্যা হয়েছে \n"
-
 #~ msgid ""
-#~ "Problem occurred while connecting to the server, please contact the "
-#~ "support team"
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on OpenMandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to OpenMandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
 #~ msgstr ""
-#~ "সার্ভারের সাথে সংযোগের সময় সমস্যা হয়েছে, অনুগ্রহ করে পরিসেবা দলের সাথে "
-#~ "যোগাযোগ করুন"
+#~ "আপনার লগ-ইন অথবা পাসওয়ার্ড সঠিক ছিল না।\n"
+#~ " আপনাকে হয় এই তথ্যগুলি পুনরায় লিখতে হবে অথবা ম্যান্ড্রেকঅনলাইন-এ একটি অ্যাকাউন্ট "
+#~ "তৈরি করতে হবে।\n"
+#~ "  দ্বিতীয় ক্ষেত্রে আপনাকে প্রথম ধাপে ফেরত গিয়ে ম্যান্ড্রেকঅনলাইন-এর সাথে সংযোগ "
+#~ "করতে হবে।\n"
+#~ " আপনাকে কিন্তু মেশিনের নাম লিখতে বলা হবে \n"
+#~ " (শুধুমাত্র বর্ণমালার অক্ষর লেখা যাবে)"
 
-#, fuzzy
-#~ msgid "Please Wait"
-#~ msgstr "অনুগ্রহ করে অপেক্ষা করুন"
-
-#~ msgid "Previous"
-#~ msgstr "পূর্ববর্তী"
-
-#, fuzzy
-#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
-#~ msgstr "আমার কোনো ম্যান্ড্রেকানলাইন অ্যাকাউন্ট নেই কিন্তু আমি একটি তৈরি করতে ইচ্ছুক "
-
-#~ msgid "Mandriva Linux Privacy Policy"
-#~ msgstr "ম্যান্ড্রেকলিনাক্স প্রাইভেসি পলিসি"
-
-#~ msgid "Authentification"
-#~ msgstr "অনুমোদন"
-
-#~ msgid "Finish"
-#~ msgstr "সম্পন্ন"
+#~ msgid "Your upload was successful!"
+#~ msgstr "আপনার আপলোড সাফল্যের সাথে সম্পন্ন হয়েছে!"
 
 #~ msgid "automated Upgrades"
 #~ msgstr "স্বয়ংক্রিয় আপগ্রেড"
 
-#~ msgid "Country:"
-#~ msgstr "দেশ:"
-
-#~ msgid "Quitting Wizard\n"
-#~ msgstr "উইজার্ড থেকে প্রস্থান করা হচ্ছে\n"
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline version %s\n"
+#~ "কপিরাইট %s Mandriva.\n"
+#~ "এই সফ্‌টওয়ারটি ফ্রি এবং গনুহ্‌ (GNU) GPL terms এর মাধ্যমে বিতরণ করা যাবে।\n"
+#~ "\n"
+#~ "ব্যবহার বিধি:\n"
 
 #~ msgid ""
-#~ "Mandriva Online could not be contacted, please try again at a later time"
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
 #~ msgstr ""
-#~ "ম্যান্ড্রেকঅনলাইন-এর সাথে সংযোগ করা সম্ভব হয় নি, অনুগ্রহ করে কিছুক্ষণ পর পুনরায় "
-#~ "চেষ্টা করুন"
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "এই সফ্‌টওয়ারটি ফ্রি এবং গনুহ্‌ (GNU) GPL terms এর মাধ্যমে বিতরণ করা যাবে।\n"
+#~ "\n"
+#~ "ব্যবহার বিধি:\n"
 
-#~ msgid "  --update       - Update keys\n"
-#~ msgstr "  --update       - আপডেট কী (keys)\n"
+#, fuzzy
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdkupdate version %s\n"
+#~ "কপিরাইট %s OpenMandriva.\n"
+#~ "এই সফ্‌টওয়ারটি ফ্রি এবং গনুহ্‌ (GNU) GPL terms এর মাধ্যমে বিতরণ করা যাবে।\n"
+#~ "\n"
+#~ "ব্যবহার বিধি:\n"
 
-#~ msgid "Skip Wizard"
-#~ msgstr "উইজার্ড ছেড়ে এগিয়ে চলো"
+#~ msgid "or"
+#~ msgstr "অথবা"
 
-#~ msgid "Subscribe"
-#~ msgstr "সাবস্ক্রাইব (Subscribe)"
+#~ msgid "wrong password:"
+#~ msgstr "ভুল পাসওয়ার্ড:"

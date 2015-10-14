@@ -5,7 +5,7 @@
 #               2005-2006 Mandriva                                             #
 #                                                                              #
 # Daouda Lo                                                                    #
-# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+# Thierry Vignaud <thierry.vignaud at gmail dot com>                               #
 #                                                                              #
 # This program is free software; you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License Version 2 as            #
@@ -27,7 +27,7 @@ use strict;
 
 use lib qw(/usr/lib/libDrakX);
 use common;
-use ugtk2;
+use ugtk3;
 
 use LWP::UserAgent;
 use URI::Escape;
@@ -158,17 +158,14 @@ sub fork_exec {
 }
 
 sub translate_product {
-    my ($product) = @_;
+    my ($o_product) = @_;
     my %strings = (
-        flash => N("Mandriva Flash"),
-        free => N("Mandriva Free"),
-        mini => N("Mandriva Mini"),
-        one => N("Mandriva One"),
-        powerPack => N("Mandriva PowerPack"),
-        server => N("Mandriva Enterprise Server"),
+        Moondrake => "Moondrake GNU/Linux",
+        OpenMandriva => "OpenMandriva LX",
+        ROSA => "ROSA Linux",
     );
-    $product ||= lc $product_id->{product};
-    $strings{$product} || $product;
+    $o_product ||= lc $product_id->{product};
+    $strings{$o_product} || $o_product;
 }
 
 # TODO Move all product.id handling to a separate module
@@ -176,13 +173,17 @@ sub translate_product {
 sub get_product_info {
     my ($product) = @_;
     my %info = (
-        powerpack => {
-            name => N("Mandriva PowerPack"),
-            description => N("The Mandriva Linux distribution with even more softwares and official support."),
+        Moondrake => {
+            name => "Moondrake GNU/Linux",
+            description => "Moondrake GNU/Linux",
         },
-        free => {
-            name => N("Mandriva Free"),
-            description => N("The 100%% Open Source distribution freely available."),
+        OpenMandriva => {
+            name => "OpenMandriva LX",
+            description => "OpenMandriva LX",
+        },
+        ROSA => {
+            name => "ROSA Linux",
+            description => "ROSA Linux",
         },
     );
     $product ||= lc $product_id->{product};
@@ -196,7 +197,7 @@ sub get_banner_icon() {
 
 sub get_banner {
     my ($o_title) = @_;
-    Gtk2::Banner->new(get_banner_icon(), $o_title || N("Distribution Upgrade"));
+    Gtk3::Banner->new(get_banner_icon(), $o_title || N("Distribution Upgrade"));
 }
 
 sub get_urpmi_options() {

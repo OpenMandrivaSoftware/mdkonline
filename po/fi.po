@@ -15,10 +15,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-fi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2010-06-13 21:11+0300\n"
 "Last-Translator: Jani Välimaa <wally@mandriva.org>\n"
 "Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,17 +27,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr "Tarkistetaan päivitykset klo %s"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "Järjestelmä on ajantasalla"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -45,47 +46,47 @@ msgstr ""
 "Palvelun asetusongelma. Tarkista lokit ja lähetä sähköpostia osoitteeseen "
 "support@mandrivaonline.com"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "Etsitään saatavilla olevia paketteja..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "Järjestelmälle on saatavilla päivityksiä"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr "Mandriva Linux -jakelusta on saatavilla uusi versio"
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr "Käytettävälle jakelulle on saatavilla lisäpakettilähde."
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "Verkko on alhaalla. Aseta verkko."
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "Palvelua ei ole otettu käyttöön. Paina \"Online-sivusto\""
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr "Urpmi-tietokanta lukittu"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "Jakelu ei ole tuettu (liian vanha tai kehitysversio)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
@@ -93,7 +94,7 @@ msgstr ""
 "Ohjelmistolähteitä ei löytynyt. Lisää lähteitä rpmdraken Ohjelmistolähteiden "
 "hallinnalla."
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -110,42 +111,37 @@ msgstr ""
 "\n"
 "Tämän jälkeen käynnistä %s uudelleen."
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "Käytössä"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr "Virhe päivitettäessä lähteitä."
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "Asenna päivitykset"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr "Lisää lisäpakettilähde"
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "Tarkista päivitykset"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "Aseta verkko"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr "Päivitä järjestelmä"
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -155,76 +151,92 @@ msgstr ""
 "Perusylläpito jakelulle on päättynyt. Kiitos ylläpitolaajennuksen "
 "tilauksesta, nyt järjestelmä tulee pysymään ajantasalla %s asti."
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 "Vastaanotettiin SIGHUP (todennäköisesti päivitys on valmis), käynnistetään "
 "sovelma uudelleen."
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "Käynnistetään drakconnect\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr "Mandriva Linux -jakelun uusi versio"
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr "Selaa"
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Virhe"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr "Mandriva Linux -jakelusta on saatavilla uusi versio."
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr "Lisätietoja uudesta versiosta"
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Päivitetäänkö jakeluun %s?"
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Älä kysy seuraavalla kerralla"
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr "Lataa kaikki paketit kerralla"
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr "(Varoitus: Tarvitaan hyvin paljon vapaata levytilaa)"
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr "Minne paketit ladataan:"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Seuraava"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
@@ -233,22 +245,22 @@ msgstr ""
 "Tämän Mandriva Linux -järjestelmän ylläpito on loppunut. Uusia "
 "ohjelmistopäivityksiä ei enää ilmesty."
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr "Pitääksesi järjestelmän turvattuna, voit:"
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr "Ylläpitolaajennus tulisi hankkia."
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
@@ -256,22 +268,22 @@ msgid ""
 msgstr ""
 "Sinun tulisi hankkia ylläpitolaajennus tai päivittää uudempaan %sin versioon."
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr "Järjestelmä tulisi päivittää uudempaan %sin versioon."
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr "Jakelu ei ole enää tuettu"
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr "Ylläpitolaajennus"
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
@@ -280,7 +292,12 @@ msgstr ""
 "Hanki ylläpitolaajennus asennettuun versioon (%s) ja pidä se käytössä %s "
 "asti."
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr "OpenMandriva-jakelun uusi versio"
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
@@ -289,17 +306,17 @@ msgstr ""
 "Päivitys vaatii nopean verkkoyhteyden (kaapeli, xDSL, ...) ja voi kestää "
 "muutamia tunteja."
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr "Arvioitu ladattavan datan määrä: %s"
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr "Kaikki muut käynnissä olevat ohjelmat tulisi sulkea ennen jatkamista."
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
@@ -308,48 +325,43 @@ msgstr ""
 "Kannettava tulisi kytkeä verkkovirtaan ja käyttää WLAN-verkon sijaan "
 "lankaverkkoa, jos mahdollista."
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "Käynnistetään MandrivaUpdate\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "Etsitään uudet päivitykset...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "Järjestelmä on ajantasalla\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "Tarkistetaan verkkoa: nähtävästi pois käytöstä\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online %s"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s, Mandriva"
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
-msgstr "Mandriva Online avaa pääsyn Mandrivan Internet-palveluihin."
+msgid "OpenMandriva Online gives access to Moondrake web services."
+msgstr "OpenMandriva Online avaa pääsyn Moondraken Internet-palveluihin."
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Online-sivusto"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
@@ -357,192 +369,249 @@ msgstr ""
 "Jani Välimaa <wally@mandriva.org>\n"
 "Anssi Hannula <anssi@mandriva.org>\n"
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Huomautus"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr "Lisätietoja"
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr "Lisää lähde"
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Tietoja.."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr "Päivitysasetukset"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "Käynnistä automaattisesti"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Poistu"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr "Uusi lähde saatavilla"
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr "Käytössä on %s ja siksi myös oikeus päästä käsiksi lisäohjelmiin."
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Asennetaanko lisäpakettilähde?"
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr "Lisätään lisäpakettilähdettä"
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr "Tuetut tuotteet ovat %s, %s ei löydy listalta.\n"
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr "Täytä my.mandriva.com -tilin tiedot lisäpakettilähteen lisäämiseksi"
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Virhe"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr "Virhe noudettaessa listaa jakeluista:"
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-"Mandriva tarjoaa 12 kuukauden ajan päivityksiä työpöytäsovelluksiin (%s "
-"asti) ja 18 kuukauden ajan jakelun peruspaketteihin (%s asti)."
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-"Nyt on myös saatavilla ylläpitolaajennus, joka tarjoaa 18 kuukauden ajan "
-"lisäpäivityksiä (%s asti)."
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr "Voit tilata ylläpitolaajennuksen <b>heti</b>:"
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr "Jakelun elinkaari"
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, c-format
-msgid "Online subscription"
-msgstr "Online-tilaus"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "Ilmeni virhe"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr "My.mandriva.com -tililtä ei löydy %sin lataustilausta."
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr "Virhe lisättäessä lähdettä"
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr "Lisättiin lähde onnistuneesti!"
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr "Lisättiin lähde %s onnistuneesti."
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "OK"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr "Päivityssovelman asetukset"
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr "Päivitysväli (tuntia)"
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr ""
 "Ensimmäisen (käynnistyksen jälkeisen)\n"
 "tarkistuksen viive (minuuttia)"
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr "Tarkista uuden %s -julkaisun varalta"
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr "Tarkista puuttuvat %s -lähteet"
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr "Restricted"
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+"Levyllä %s ei ole tarpeeksi vapaata tilaa päivitykselle.\n"
+"Vapaana on %d Mt ja päivitys vaatii %d Mt."
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "Asennus epäonnistui"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr "Asennuslokit löytyvät hakemistosta %s"
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "Yritä uudelleen"
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "Onnittelut"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr "Päivitys OpenMandriva %s -julkaisuun onnistui."
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr "Järjestelmä tulee käynnistää uudelleen."
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Käynnistä uudelleen"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "Ilmeni virhe"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "Päivitysasetukset"
+
+#: ../mdkapplet-upgrade-helper:197
+#, fuzzy, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr "My.mandriva.com -tililtä ei löydy PowerPackin lataustilausta."
+
+#: ../mdkapplet-upgrade-helper:214
+#, fuzzy, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr "Täytä my.mandriva.com -tilin tiedot lisäpakettilähteen lisäämiseksi"
+
+#: ../mdkapplet-upgrade-helper:236
+#, fuzzy, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+"Täytä my.mandriva.com -tilin tiedot, jotta lisäpakettilähde voidaan lisätä "
+"Online-tilauksen jälkeen."
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"Pakettitietokanta on lukittu. Muut pakettitietokantaa\n"
+"käyttävät sovellukset on suljettava (onko taustalla toinen\n"
+"Ohjelmistolähteiden hallinta toisella työpöydällä tai\n"
+"asennetaanko paketteja juuri nyt?)."
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Virhe lisättäessä lähdettä"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr "Virhe päivitettäessä lähteitä."
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -553,105 +622,71 @@ msgstr ""
 "lähdekoodin perustuva vakaat ja tehokaat ratkaisut yhdistettynä "
 "eksklusiivisiin ohjelmistoihin ja Mandrivan viralliseen tukeen."
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Linux ominaisuudet"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, c-format
+msgid "Online subscription"
+msgstr "Online-tilaus"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr "Lisätietoja my.mandriva.com -tilistä"
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr "Sähköpostiosoite"
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, c-format
 msgid "Your password"
 msgstr "Salasana"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, c-format
 msgid "Forgotten password"
 msgstr "Unohdin salasanan"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr "Salasanaa ja sähköpostiosoitta ei voi jättää tyhjäksi."
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Sulje"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr "Valitse päivitysversio"
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr "Powerpack-oikeutesi on päättynyt"
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr "%s on nyt saatavilla, voit pävittää tuotteeseen:"
 
-#: ../mdkonline.pm:177
-#, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Flash"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Free"
-
-#: ../mdkonline.pm:179
-#, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Mini"
-
-#: ../mdkonline.pm:180
-#, c-format
-msgid "Mandriva One"
-msgstr "Mandriva One"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva PowerPack"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-"Mandriva Linux jakelu jossa en viellä enemmän ohjelmistoja ja virallista "
-"tukea."
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr "100%% avoimen lähdekoodin jakelu vapaasti saatavilla."
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr "Jakelun päivitys"
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -664,64 +699,121 @@ msgstr ""
 "\n"
 "Käyttö:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, fuzzy, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Copyright (C) %s, Mandriva"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- tulosta tämä viesti.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Mandriva Update käynnistetään automaattisesti.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- käynnistä mnf-aiheiset skriptit.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- tekstipohjainen Mandriva Update.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr "  --debug\t\t\t- kirjaa tapahtumalokiin\n"
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Paketteja ei voitu päivittää update_source-lähteestä.\n"
 
-#~ msgid ""
-#~ "Please fill in your account ID to add an additional package medium once "
-#~ "you have subscribed online"
-#~ msgstr ""
-#~ "Täytä my.mandriva.com -tilin tiedot, jotta lisäpakettilähde voidaan "
-#~ "lisätä Online-tilauksen jälkeen."
-
-#~ msgid ""
-#~ "Your Mandriva account does not have Extended Maintenance subscription "
-#~ "enabled."
-#~ msgstr "My.mandriva.com -tililtä ei löydy tilattua ylläpitolaajennusta."
-
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Free"
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "Päivitysasetukset"
 
-#~ msgid "Would you like Powerpack?"
-#~ msgstr "Haluatko Powerpackin?"
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "Päivitysasetukset"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "Käynnistetään OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "Käynnistetään OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "Käynnistetään OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "Käynnistetään OpenMandrivaUpdate\n"
+
+#~ msgid "  --debug\t\t- log what is done.\n"
+#~ msgstr "  --debug\t\t- kirjaa tapahtumalokiin\n"
+
+#~ msgid "Check for newer OpenMandriva releases"
+#~ msgstr "Tarkista uuden OpenMandriva -julkaisun varalta"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- OpenMandriva Update käynnistetään automaattisesti.\n"
 
 #~ msgid ""
-#~ "Since you don't have Powerpack rights you may visit mandriva store now "
-#~ "and get Powerpack subscription."
+#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
+#~ "file.\n"
 #~ msgstr ""
-#~ "Koska sinulla ei ole oikeuksia Powerpackiin, voit vierailla Mandrivan "
-#~ "nettikaupassa ja hankkia Powerpackin."
+#~ "  --bundle file.bundle\t- tulkitse ja asenna paketteja .bundle metainfo "
+#~ "tiedostosta.\n"
 
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Hanki Powerpack!"
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- tekstipohjainen OpenMandriva Update.\n"
+
+#~ msgid "A new version of OpenMandriva distribution has been released"
+#~ msgstr "OpenMandriva-jakelusta on saatavilla uusi versio"
+
+#~ msgid "A new version of OpenMandriva distribution has been released."
+#~ msgstr "OpenMandriva-jakelusta on saatavilla uusi versio."
+
+#~ msgid "An error occurred while adding medium"
+#~ msgstr "Virhe lisättäessä lähdettä"
+
+#~ msgid "Cancel, upgrade to Free Edition"
+#~ msgstr "Peruuta ja päivitä Free-versioon"
+
+#~ msgid "Checking... Updates are available\n"
+#~ msgstr "Tarkistetaan... Päivityksiä on saatavilla\n"
+
+#~ msgid "Connecting to"
+#~ msgstr "Yhdistetään kohteeseen"
+
+#~ msgid "Connection error"
+#~ msgstr "Yhteysvirhe"
+
+#~ msgid "Continue and Authenticate!"
+#~ msgstr "Jatka ja tunnistaudu!"
 
 #~ msgid ""
 #~ "Continue to use your new Powerpack account information to upgrade, or "
@@ -730,110 +822,240 @@ msgstr "Paketteja ei voitu päivittää update_source-lähteestä.\n"
 #~ "Jatka käyttämällä uuden Powerpack-tilin tietoja päivittämiseen tai "
 #~ "Peruuta ja päivitä Free-versioon."
 
-#~ msgid "Continue and Authenticate!"
-#~ msgstr "Jatka ja tunnistaudu!"
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Copyright (C) %s, %s"
 
-#~ msgid "Cancel, upgrade to Free Edition"
-#~ msgstr "Peruuta ja päivitä Free-versioon"
+#~ msgid "Database access forbidden"
+#~ msgstr "Tietokantatyhteys kielletty"
 
-#~ msgid ""
-#~ "Your Mandriva account does not have Powerpack download subscription "
-#~ "enabled."
-#~ msgstr "My.mandriva.com -tililtä ei löydy PowerPackin lataustilausta."
-
-#~ msgid ""
-#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
-#~ "dMB)"
-#~ msgstr ""
-#~ "Levyllä %s ei ole tarpeeksi vapaata tilaa päivitykselle.\n"
-#~ "Vapaana on %d Mt ja päivitys vaatii %d Mt."
-
-#~ msgid "Installation failed"
-#~ msgstr "Asennus epäonnistui"
-
-#~ msgid "Installation logs can be found in '%s'"
-#~ msgstr "Asennuslokit löytyvät hakemistosta %s"
-
-#~ msgid "Retry"
-#~ msgstr "Yritä uudelleen"
-
-#~ msgid "Congratulations"
-#~ msgstr "Onnittelut"
-
-#~ msgid "Upgrade to Mandriva %s release was successfull."
-#~ msgstr "Päivitys Mandriva %s -julkaisuun onnistui."
-
-#~ msgid "You must restart your system."
-#~ msgstr "Järjestelmä tulee käynnistää uudelleen."
-
-#~ msgid "Reboot"
-#~ msgstr "Käynnistä uudelleen"
-
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "Pakettitietokanta on lukittu. Muut pakettitietokantaa\n"
-#~ "käyttävät sovellukset on suljettava (onko taustalla toinen\n"
-#~ "Ohjelmistolähteiden hallinta toisella työpöydällä tai\n"
-#~ "asennetaanko paketteja juuri nyt?)."
-
-#~ msgid "Failure when adding medium"
-#~ msgstr "Virhe lisättäessä lähdettä"
-
-#~ msgid ""
-#~ "The version of Mandriva Linux installed on your system is no longer "
-#~ "supported."
-#~ msgstr "Asennettu Mandriva Linuxin versio ei ole enää tuettu."
-
-#~ msgid "Get long term support for your currently installed distribution"
-#~ msgstr "Hankkia pitkäaikaistuen tällä hetkellä asennettuna olevaan jakeluun"
-
-#~ msgid "MES5"
-#~ msgstr "MES5"
-
-#, fuzzy
-#~ msgid "You are using '%s' distribution."
-#~ msgstr "Haluatko päivittää?"
+#~ msgid "Database error"
+#~ msgstr "Tietokantavirhe"
 
 #~ msgid "Do you want to upgrade?"
 #~ msgstr "Haluatko päivittää?"
 
-#~ msgid "Yes"
-#~ msgstr "Kyllä"
+#~ msgid ""
+#~ "Email address box is empty\n"
+#~ "Please provide one"
+#~ msgstr ""
+#~ "Sähköpostiosoite-kenttä on tyhjä\n"
+#~ "Ole hyvä ja määritä sitä"
 
-#~ msgid "No"
-#~ msgstr "Ei"
+#~ msgid ""
+#~ "Extended maintenance is now available to get 18 months of additional "
+#~ "updates (until %s)."
+#~ msgstr ""
+#~ "Nyt on myös saatavilla ylläpitolaajennus, joka tarjoaa 18 kuukauden ajan "
+#~ "lisäpäivityksiä (%s asti)."
+
+#~ msgid ""
+#~ "Failed to authenticate to the bundle server:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tunnistaminen kokoelma-palvelimeen epäonnistui:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "urpmi-tietokantaa ei voitu avata"
+
+#~ msgid "Failure while retrieving distributions list:"
+#~ msgstr "Virhe noudettaessa listaa jakeluista:"
+
+#~ msgid "Generic error (machine already registered)"
+#~ msgstr "Yleisvirhe (kone jo rekisteröity)"
+
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Hanki Powerpack!"
+
+#~ msgid "Get long term support for your currently installed distribution"
+#~ msgstr "Hankkia pitkäaikaistuen tällä hetkellä asennettuna olevaan jakeluun"
+
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Asennetaan paketteja...\n"
+
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "Käynnistetään OpenMandrivaUpdate\n"
+
+#~ msgid "Lifetime policy"
+#~ msgstr "Jakelun elinkaari"
+
+#~ msgid "Login error"
+#~ msgstr "Kirjautumisvirhe"
+
+#~ msgid "MES5"
+#~ msgstr "MES5"
+
+#~ msgid ""
+#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
+#~ "delivered for this system."
+#~ msgstr ""
+#~ "Tämän OpenMandriva-järjestelmän ylläpito on loppunut. Uusia "
+#~ "ohjelmistopäivityksiä ei enää ilmesty."
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Flash"
+
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Free"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Mandrivan päivityssovelma"
+
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Mini"
+
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva One"
+
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online gives access to Mandriva web services."
+#~ msgstr "Mandriva Online avaa pääsyn Mandrivan Internet-palveluihin."
 
 #~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
 #~ msgstr ""
 #~ "Mandriva Online on asennettu uudelleen, käynnistetäänsovelma uudestan ..."
 
-#~ msgid "Checking... Updates are available\n"
-#~ msgstr "Tarkistetaan... Päivityksiä on saatavilla\n"
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva PowerPack"
+
+#~ msgid ""
+#~ "Mandriva provides 12 months of desktop updates (until %s) and 18 months "
+#~ "of base updates (up to the %s) for distributions."
+#~ msgstr ""
+#~ "Mandriva tarjoaa 12 kuukauden ajan päivityksiä työpöytäsovelluksiin (%s "
+#~ "asti) ja 18 kuukauden ajan jakelun peruspaketteihin (%s asti)."
+
+#~ msgid ""
+#~ "Mandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mandrivan webbipalvelut eivät ole käytettävissä tällä hetkellä\n"
+#~ "Ole hyvä ja yritä uudelleen myöhemmin"
+
+#~ msgid ""
+#~ "Mandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mandrivan webbipalvelut ovat huollon alla\n"
+#~ "Ole hyvä ja yritä uudelleen myöhemmin"
+
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "Mandrivan webbipalvelut eivät ole saatavilla"
+
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
+
+#~ msgid "OpenMandriva Enterprise Server"
+#~ msgstr "OpenMandriva Enterprise Server"
+
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandrivan ominaisuudet"
+
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Flash"
+
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Free"
+
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "OpenMandrivan päivityssovelma"
+
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Mini"
+
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva One"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "OpenMandriva Online on asennettu uudelleen, käynnistetäänsovelma uudestan ..."
+
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva PowerPack"
+
+#~ msgid ""
+#~ "OpenMandriva Powerpack brings you the best of Linux experience for desktop: "
+#~ "stability and efficiency of open source solutions together with exclusive "
+#~ "softwares and OpenMandriva official support."
+#~ msgstr ""
+#~ "OpenMandriva Powerpack tuo sinulle parhaan Linux kokemuksen työpöydälle: "
+#~ "avoimen lähdekoodin perustuva vakaat ja tehokaat ratkaisut yhdistettynä "
+#~ "eksklusiivisiin ohjelmistoihin ja OpenMandrivan viralliseen tukeen."
+
+#~ msgid ""
+#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 months "
+#~ "of base updates (up to the %s) for distributions."
+#~ msgstr ""
+#~ "OpenMandriva tarjoaa 12 kuukauden ajan päivityksiä työpöytäsovelluksiin (%s "
+#~ "asti) ja 18 kuukauden ajan jakelun peruspaketteihin (%s asti)."
+
+#~ msgid ""
+#~ "OpenMandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "OpenMandrivan webbipalvelut eivät ole käytettävissä tällä hetkellä\n"
+#~ "Ole hyvä ja yritä uudelleen myöhemmin"
+
+#~ msgid ""
+#~ "OpenMandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "OpenMandrivan webbipalvelut ovat huollon alla\n"
+#~ "Ole hyvä ja yritä uudelleen myöhemmin"
+
+#~ msgid "OpenMandriva web services not reachable"
+#~ msgstr "OpenMandrivan webbipalvelut eivät ole saatavilla"
+
+#~ msgid "No"
+#~ msgstr "Ei"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
 
 #~ msgid "Packages are up to date"
 #~ msgstr "Paketit ovat ajan tasalla"
 
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "urpmi-tietokantaa ei voitu avata"
+#~ msgid "Password error"
+#~ msgstr "Salasanavirhe"
 
-#~ msgid "Connecting to"
-#~ msgstr "Yhdistetään kohteeseen"
+#~ msgid "Password mismatch"
+#~ msgstr "Salasana ei täsmää"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "Mandrivan päivityssovelma"
+#~ msgid "Please fill in your account ID to add an additional package medium"
+#~ msgstr "Täytä my.mandriva.com -tilin tiedot lisäpakettilähteen lisäämiseksi"
+
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr ""
+#~ "Täytä my.mandriva.com -tilin tiedot, jotta lisäpakettilähde voidaan "
+#~ "lisätä Online-tilauksen jälkeen."
+
+#~ msgid "Please wait"
+#~ msgstr "Odota hetki"
+
+#~ msgid "Preparing..."
+#~ msgstr "Valmistellaan..."
+
+#~ msgid "Registration error"
+#~ msgstr "Rekisteröintivirhe"
+
+#~ msgid "Restriction Error"
+#~ msgstr "Rajoitusvirhe"
 
 #~ msgid "Security error"
 #~ msgstr "Tietoturvavirhe"
-
-#~ msgid "Generic error (machine already registered)"
-#~ msgstr "Yleisvirhe (kone jo rekisteröity)"
-
-#~ msgid "Database error"
-#~ msgstr "Tietokantavirhe"
 
 #~ msgid ""
 #~ "Server Database failed\n"
@@ -842,17 +1064,52 @@ msgstr "Paketteja ei voitu päivittää update_source-lähteestä.\n"
 #~ "Palvelimen tietokantavirhe\n"
 #~ "Yritä myöhemmin uudelleen"
 
-#~ msgid "Registration error"
-#~ msgstr "Rekisteröintivirhe"
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "Palvelun asetusongelma. Tarkista lokit ja lähetä sähköpostia osoitteeseen "
+#~ "support@moondrakeonline.com"
+
+#~ msgid "Service error"
+#~ msgstr "Palveluvirhe"
+
+#~ msgid ""
+#~ "Since you don't have Powerpack rights you may visit mandriva store now "
+#~ "and get Powerpack subscription."
+#~ msgstr ""
+#~ "Koska sinulla ei ole oikeuksia Powerpackiin, voit vierailla Mandrivan "
+#~ "nettikaupassa ja hankkia Powerpackin."
 
 #~ msgid "Some parameters are missing"
 #~ msgstr "Joitakin parametreja puuttuu"
 
-#~ msgid "Password error"
-#~ msgstr "Salasanavirhe"
+#~ msgid "Successfully added media %s."
+#~ msgstr "Lisättiin lähde %s onnistuneesti."
 
-#~ msgid "Login error"
-#~ msgstr "Kirjautumisvirhe"
+#~ msgid "Successfully added media!"
+#~ msgstr "Lisättiin lähde onnistuneesti!"
+
+#~ msgid "Supported products are %s, '%s' is not on the list.\n"
+#~ msgstr "Tuetut tuotteet ovat %s, %s ei löydy listalta.\n"
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "Järjestelmä on ajantasalla\n"
+
+#~ msgid "The 100%% Open Source distribution freely available."
+#~ msgstr "100%% avoimen lähdekoodin jakelu vapaasti saatavilla."
+
+#~ msgid ""
+#~ "The Mandriva Linux distribution with even more softwares and official "
+#~ "support."
+#~ msgstr ""
+#~ "Mandriva Linux jakelu jossa en viellä enemmän ohjelmistoja ja virallista "
+#~ "tukea."
+
+#~ msgid ""
+#~ "The OpenMandriva distribution with even more softwares and official support."
+#~ msgstr ""
+#~ "OpenMandriva-jakelu jossa en vielä enemmän ohjelmistoja ja virallista tukea."
 
 #~ msgid ""
 #~ "The email you provided is already in use\n"
@@ -865,78 +1122,14 @@ msgstr "Paketteja ei voitu päivittää update_source-lähteestä.\n"
 #~ msgstr "Antamasi sähköpostiosoite on virheellinen tai kielletty"
 
 #~ msgid ""
-#~ "Email address box is empty\n"
-#~ "Please provide one"
-#~ msgstr ""
-#~ "Sähköpostiosoite-kenttä on tyhjä\n"
-#~ "Ole hyvä ja määritä sitä"
-
-#~ msgid "Restriction Error"
-#~ msgstr "Rajoitusvirhe"
-
-#~ msgid "Database access forbidden"
-#~ msgstr "Tietokantatyhteys kielletty"
-
-#~ msgid "Service error"
-#~ msgstr "Palveluvirhe"
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Asennettu Mandriva Linuxin versio ei ole enää tuettu."
 
 #~ msgid ""
-#~ "Mandriva web services are currently unavailable\n"
-#~ "Please Try again Later"
-#~ msgstr ""
-#~ "Mandrivan webbipalvelut eivät ole käytettävissä tällä hetkellä\n"
-#~ "Ole hyvä ja yritä uudelleen myöhemmin"
-
-#~ msgid "Password mismatch"
-#~ msgstr "Salasana ei täsmää"
-
-#~ msgid ""
-#~ "Mandriva web services are under maintenance\n"
-#~ "Please Try again Later"
-#~ msgstr ""
-#~ "Mandrivan webbipalvelut ovat huollon alla\n"
-#~ "Ole hyvä ja yritä uudelleen myöhemmin"
-
-#~ msgid "User Forbidden"
-#~ msgstr "Käyttäjä kielletty"
-
-#~ msgid "User account forbidden by Mandriva web services"
-#~ msgstr "Käyttäjätili estety Mandrivan webbipalveluissa"
-
-#~ msgid "Connection error"
-#~ msgstr "Yhteysvirhe"
-
-#~ msgid "Mandriva web services not reachable"
-#~ msgstr "Mandrivan webbipalvelut eivät ole saatavilla"
-
-#~ msgid ""
-#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
-#~ "file.\n"
-#~ msgstr ""
-#~ "  --bundle file.bundle\t- tulkitse ja asenna paketteja .bundle metainfo "
-#~ "tiedostosta.\n"
-
-#~ msgid ""
-#~ "You first need to install the system on your harddrive with the 'Live "
-#~ "Install' wizard."
-#~ msgstr ""
-#~ "Sinun pitää ensin asenna järjestelmäsi kovalevylle käyttäen Live-"
-#~ "asennusvelhoa."
-
-#~ msgid "Please wait"
-#~ msgstr "Odota hetki"
-
-#~ msgid "Preparing..."
-#~ msgstr "Valmistellaan..."
-
-#~ msgid ""
-#~ "Failed to authenticate to the bundle server:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Tunnistaminen kokoelma-palvelimeen epäonnistui:\n"
-#~ "\n"
-#~ "%s"
+#~ "The version of OpenMandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Asennettu OpenMandriva Linuxin versio ei ole enää tuettu."
 
 #~ msgid ""
 #~ "The version of the Mandriva Online client is too old.\n"
@@ -949,8 +1142,86 @@ msgstr "Paketteja ei voitu päivittää update_source-lähteestä.\n"
 #~ "Sinun pitää päivittää uudempaan versioon. Voit hakea sitä osoitteesta: "
 #~ "http://start.mandriva.com/"
 
+#~ msgid ""
+#~ "The version of the OpenMandriva Online client is too old.\n"
+#~ "\n"
+#~ "You need to update to a newer version. You can get a new one from http://"
+#~ "start.mandriva.com"
+#~ msgstr ""
+#~ "Mandiva Online asiakasohjelma on liian vanha.\n"
+#~ "\n"
+#~ "Sinun pitää päivittää uudempaan versioon. Voit hakea sitä osoitteesta: "
+#~ "http://start.mandriva.com/"
+
 #~ msgid "This bundle is not well formated. Aborting."
 #~ msgstr "Tämä kokoelma ei ole oikein määritelty, Lopetetaan."
 
-#~ msgid "Installing packages ...\n"
-#~ msgstr "Asennetaan paketteja...\n"
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Päivitys Mandriva %s -julkaisuun onnistui."
+
+#~ msgid "User Forbidden"
+#~ msgstr "Käyttäjä kielletty"
+
+#~ msgid "User account forbidden by Mandriva web services"
+#~ msgstr "Käyttäjätili estety Mandrivan webbipalveluissa"
+
+#~ msgid "User account forbidden by OpenMandriva web services"
+#~ msgstr "Käyttäjätili estety OpenMandrivan webbipalveluissa"
+
+#~ msgid "Would you like Powerpack?"
+#~ msgstr "Haluatko Powerpackin?"
+
+#~ msgid "Yes"
+#~ msgstr "Kyllä"
+
+#, fuzzy
+#~ msgid "You are using '%s' distribution."
+#~ msgstr "Haluatko päivittää?"
+
+#~ msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+#~ msgstr "Voit tilata ylläpitolaajennuksen <b>heti</b>:"
+
+#~ msgid ""
+#~ "You first need to install the system on your harddrive with the 'Live "
+#~ "Install' wizard."
+#~ msgstr ""
+#~ "Sinun pitää ensin asenna järjestelmäsi kovalevylle käyttäen Live-"
+#~ "asennusvelhoa."
+
+#~ msgid ""
+#~ "Your Mandriva account does not have %s download subscription enabled."
+#~ msgstr "My.mandriva.com -tililtä ei löydy %sin lataustilausta."
+
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "My.mandriva.com -tililtä ei löydy tilattua ylläpitolaajennusta."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have %s download subscription enabled."
+#~ msgstr "My.mandriva.com -tililtä ei löydy %sin lataustilausta."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "My.mandriva.com -tililtä ei löydy tilattua ylläpitolaajennusta."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr "My.mandriva.com -tililtä ei löydy PowerPackin lataustilausta."
+
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mgaupdate versio %s\n"
+#~ "%s\n"
+#~ "Tämä on vapaata ohjelmistoa ja saadaan levittää uudelleen GNU GPL "
+#~ "lisenssin alaisuudessa.\n"
+#~ "\n"
+#~ "Käyttö:\n"

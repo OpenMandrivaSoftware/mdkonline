@@ -7,27 +7,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-ky\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2009-09-22 10:12+0600\n"
 "Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kyrgyz\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr "Жаңылоолор %s көрсөтүлгөн убакытта текшерилет"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "Система жаңылоону талап кылбайт"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -36,47 +37,47 @@ msgstr ""
 "Кызматты конфигурациялоо проблемасы. Логдорду карап чыгып андан соң "
 "support@mandrivaonline.com дарегин кат жазыңыз"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "Күтө туруңуз, мүмкүн болгон пакеттер изделүүдө..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "Сиздин системаңызды жаңылоо мүмкүнчүлүгү бар"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr "Mandriva Linux дистрибутивинин жаңы версиясы чыкты"
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr "Сиздин дистрибутивиңиз үчүн жаңы кошумча пакеттер булагы табылды."
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "Тармак иштеген эмес. Тармакты конфигурациялаңыз"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "Кызмат активдештирилген эмес. \"Онлайн веб-сайты\"н басыңыз"
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr "urpmi берилиштер базасы кулпуланган"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "Релиз колдоого ээ эмес (өтө эски же иштелип жаткан релиз)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
@@ -84,7 +85,7 @@ msgstr ""
 "Эч кандай булак табылган жок. Сиз 'Программа Булактардын Менеджер'ин "
 "колдонуп бир нече булактарды кошууңуз керек."
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -101,42 +102,37 @@ msgstr ""
 "\n"
 "Андан соң, \"%s\" кайра иштетиңиз."
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "Иштетилди"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr "Булакты жаңылоодо ката чыкты"
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "Жаңылоолорду орнотуу"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr "Кошумча пакеттер булагын кошуу"
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "Жаңылоолорду текшерүү"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "Тармакты конфигурациялоо"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr "Системаны жаңылоо"
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -144,96 +140,112 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "drakconnect иштетүү\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr "Mandriva Linux дистрибутивинин жаңы версиясы"
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Жаңылыштык"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr "Mandriva Linux дистрибутивинин жаңы версиясы чыкты."
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr "Жаңы версия жөнүндө кошумча маалымат"
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "'%s' дистрибутивине жаңылоону каалайсызбы?"
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Кийинки жолу башка менден сураба"
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Кийинки"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Айнуу"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, fuzzy, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
@@ -243,29 +255,34 @@ msgstr ""
 "кандай жаңылоолор чыкпайт. Сизге %s дистрибутивдин жаңы версиясына жаңылануу "
 "керек."
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, fuzzy, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr "'%s' дистрибутивине жаңылоону каалайсызбы?"
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr "OpenMandriva Linux дистрибутивинин жаңы версиясы"
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
@@ -274,17 +291,17 @@ msgstr ""
 "Бул жаңылоо жогорку ылдамдыкта тармак туташууну (кабель, xDSL, ж.б.)  талап "
 "кылат жана бир ниче убакытты алышы мүмкүн."
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr "Жүктөө маалымат көлөмү: %s"
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr "Улантуу үчүн иштеп жаткан бардык программаларды жабуу керек."
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
@@ -293,95 +310,90 @@ msgstr ""
 "Ноутбукту турактуу электр булагына кошуу зарыл жана мүмкүн болушунча\n"
 "сымсыз тармак туташуудан көрө кабельдик тармак туташууну колдонуу керек."
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "MandrivaUpdate иштетүү\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "Жаңы жаңылоолор эсептелүүдө...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "Система жаңылоону талап кылбайт\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "Тармак текшерилүүдө: өчүрүлгөн көрүнөт\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online %s"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
+msgid "OpenMandriva Online gives access to Moondrake web services."
 msgstr ""
-"Mandriva Online, Mandriva веб кызматтарды колдонуу мүмкүнчүлүгүн берет."
+"OpenMandriva Online, Moondrake веб кызматтарды колдонуу мүмкүнчүлүгүн берет."
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Онлайндагы веб-сайт"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Эскертүү"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr "Кошумча маалымат"
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr "Булак кошуу"
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Жөнүндө.."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr "Жаңылоолор ырастоолору"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "Дайыма старт учурунда ишке киргизүү"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Чыгуу"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr "Жаңы булак табылды"
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -390,138 +402,198 @@ msgstr ""
 "Сиз '%s' дистрибутивин колдонуп жатасыз жана кошумча программаларды "
 "колдонууга укугуңуз бар."
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Сиз кошумча пакеттер булагын кошууну каалайсызбы?"
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr "Кошумча пакеттер булагын кошуу"
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Жаңылыштык"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "Машинанын аты:"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "Жаңылыштык орун алды"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr "Сиздин Mandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr "Булакты кошууда ката чыкты"
-
-#: ../mdkapplet-add-media-helper:234
-#, fuzzy, c-format
-msgid "Successfully added media!"
-msgstr "%s булагы ийгиликтүү кошулду."
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr "%s булагы ийгиликтүү кошулду."
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "ОК"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr "Бул жерде жаңылоолор аплеттин ыраста аласыз"
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr "Жаңылоо жыштыгы (саат)"
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr "Биринчи текшерүүнү кийинкиге калтыруу убакыты (минута)"
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+"Сиздин системаңызда жаңылоо үчүн %s ичинде жетеринче бош көлөм калган жок "
+"(%d МБ < %d МБ)"
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "Орнотуу ийгиликсиз аяктады"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr "Орнотуу журналдары '%s' жерден тапсо болот"
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "Кайрадан"
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "Конфигурациялар"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr "OpenMandriva %s жаңылоосу ийгиликтүү аяктады."
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr "Системаны кайра өчүрүп иштетүү керек."
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Кайра жүктөө"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "Жаңылыштык орун алды"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "Жаңылоолор ырастоолору"
+
+#: ../mdkapplet-upgrade-helper:197
+#, fuzzy, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr "Сиздин Mandriva колодонуучу аты Powerpack жүктөө катталышын камтыбайт."
+
+#: ../mdkapplet-upgrade-helper:214
+#, fuzzy, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
+
+#: ../mdkapplet-upgrade-helper:236
+#, fuzzy, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"Пакеттердин берилиштер базасы кулпуланган. Бул\n"
+"база менен иштеп жаткан тиркемелерди жабыңыз (сиз\n"
+"башка иш столунда башка булак менеджери менен иштеп,\n"
+"же учурда башка иш столунда пакеттерди орнотуп жаткан\n"
+"жоксузбу?)."
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Булакты кошуу ийгиликсиздиги"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr "Булакты жаңылоодо ката чыкты"
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -529,103 +601,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Машинанын аты:"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr "Колдонуучу аты жөнүндө кошумча маалымат"
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr "Электрондук почта"
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, c-format
 msgid "Your password"
 msgstr "Сырсөз"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, c-format
 msgid "Forgotten password"
 msgstr "Унутулуп калган сырсөз"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr "Сырсөз жана э-почта бош болбошу керек."
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Жабуу"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Linux"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Linux"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva PowerPack"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr "Дитсрибутив жаңылоосу"
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -638,167 +678,198 @@ msgstr ""
 "\n"
 "колдонулушу:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, fuzzy, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Copyright (C) %s by Mandriva"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- бул маалыматты чыгаруу.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Mandriva Update автоматтык түрдө иштетүү.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- mnf аныкталган скриптерди иштетүү.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- Mandriva Update текстинин ыкма версиясы.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr "  --debug\t\t\t- болгондорду журналга жазуу\n"
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source булагынан пакеттерди жаңылоо мүмкүн эмес.\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "Жаңылоолор ырастоолору"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "Жаңылоолор ырастоолору"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "OpenMandrivaUpdate иштетүү\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "OpenMandrivaUpdate иштетүү\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate иштетүү\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate иштетүү\n"
+
+#~ msgid "  --debug\t\t- log what is done.\n"
+#~ msgstr "  --debug\t\t- болгондорду журналга жазуу\n"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- Mandriva Update иштетүү.\n"
+
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- OpenMandriva Update иштетүү.\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- OpenMandriva Update автоматтык түрдө иштетүү.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- OpenMandriva Update текстинин ыкма версиясы.\n"
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released"
+#~ msgstr "OpenMandriva Linux дистрибутивинин жаңы версиясы чыкты"
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released."
+#~ msgstr "OpenMandriva Linux дистрибутивинин жаңы версиясы чыкты."
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Мындай аккаунт бар\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Аккаунт түзүү же аутентификациялоо"
+
+#~ msgid "Actions"
+#~ msgstr "Аракеттер"
+
+#~ msgid "An error occurred while adding medium"
+#~ msgstr "Булакты кошууда ката чыкты"
+
 #~ msgid ""
-#~ "Please fill in your account ID to add an additional package medium once "
-#~ "you have subscribed online"
-#~ msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
-
-#, fuzzy
-#~ msgid ""
-#~ "Your Mandriva account does not have Extended Maintenance subscription "
-#~ "enabled."
-#~ msgstr "Сиздин Mandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
-
-#, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Машинанын аты:"
-
-#~ msgid ""
-#~ "Your Mandriva account does not have Powerpack download subscription "
-#~ "enabled."
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
 #~ msgstr ""
-#~ "Сиздин Mandriva колодонуучу аты Powerpack жүктөө катталышын камтыбайт."
+#~ "Mandriva Online веб сайтына кирүүгө мүмкүн эмес:аты/катылган белги туура "
+#~ "эмес  маршрутизатор/файервол ыңгайлашуусу туура эмес"
 
 #~ msgid ""
-#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
-#~ "dMB)"
+#~ "Cannot connect to OpenMandriva Online website: wrong login/password or "
+#~ "router/firewall bad settings"
 #~ msgstr ""
-#~ "Сиздин системаңызда жаңылоо үчүн %s ичинде жетеринче бош көлөм калган жок "
-#~ "(%d МБ < %d МБ)"
+#~ "OpenMandriva Online веб сайтына кирүүгө мүмкүн эмес:аты/катылган белги туура "
+#~ "эмес  маршрутизатор/файервол ыңгайлашуусу туура эмес"
 
-#~ msgid "Installation failed"
-#~ msgstr "Орнотуу ийгиликсиз аяктады"
+#~ msgid "Check updates"
+#~ msgstr "Жаңылоолорду текшерүү"
 
-#~ msgid "Installation logs can be found in '%s'"
-#~ msgstr "Орнотуу журналдары '%s' жерден тапсо болот"
-
-#~ msgid "Retry"
-#~ msgstr "Кайрадан"
-
-#~ msgid "Congratulations"
-#~ msgstr "Конфигурациялар"
-
-#~ msgid "Upgrade to Mandriva %s release was successfull."
-#~ msgstr "Mandriva %s жаңылоосу ийгиликтүү аяктады."
-
-#~ msgid "You must restart your system."
-#~ msgstr "Системаны кайра өчүрүп иштетүү керек."
-
-#~ msgid "Reboot"
-#~ msgstr "Кайра жүктөө"
-
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "Пакеттердин берилиштер базасы кулпуланган. Бул\n"
-#~ "база менен иштеп жаткан тиркемелерди жабыңыз (сиз\n"
-#~ "башка иш столунда башка булак менеджери менен иштеп,\n"
-#~ "же учурда башка иш столунда пакеттерди орнотуп жаткан\n"
-#~ "жоксузбу?)."
-
-#~ msgid "Failure when adding medium"
-#~ msgstr "Булакты кошуу ийгиликсиздиги"
-
-#, fuzzy
-#~ msgid ""
-#~ "The version of Mandriva Linux installed on your system is no longer "
-#~ "supported."
-#~ msgstr "Mandriva Linux дистрибутивинин жаңы версиясы чыкты."
-
-#~ msgid "You are using '%s' distribution."
-#~ msgstr "Сиз '%s' дистрибутивин колдонуп жатасыз."
-
-#~ msgid "Yes"
-#~ msgstr "Ооба"
-
-#~ msgid "No"
-#~ msgstr "Жок"
-
-#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
-#~ msgstr "Mandriva Online кайра орнотулса керек, апплет кайра жүктөлүүдө ...."
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Конфиг файлы текшерилүүдө: жок\n"
 
 #~ msgid "Checking... Updates are available\n"
 #~ msgstr "Текшерүү... Жаңылоолор мүмүкүн\n"
 
-#, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "rpmdb ачууга болбоду"
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Орнотуу үчүн пакеттердим тандагыла жана Okди баскыла"
+
+#~ msgid "Clear"
+#~ msgstr "Тазалоо"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Конфигурация ийгиликтүү сыртка жүктөлдү"
+
+#~ msgid "Configuration uploaded successfuly"
+#~ msgstr "Конфигурация ийгиликтүү сыртка жүктөлдү"
+
+#~ msgid "Configure"
+#~ msgstr "Конфигурациялоо"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Азыр конфигурациялоо!"
+
+#~ msgid "Configure the service"
+#~ msgstr "Кызматты конфигурациялоо"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Паролду кайталоо:"
 
 #~ msgid "Connecting to"
 #~ msgstr "Төмөнкүгө туташуу"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "Mandriva Linux Updates апплети"
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Mandriva Online веб-сайтына туташуу..."
+
+#~ msgid "Connecting to OpenMandriva Online website..."
+#~ msgstr "OpenMandriva Online веб-сайтына туташуу..."
 
 #, fuzzy
-#~ msgid "Security error"
-#~ msgstr "Коопсуздук"
+#~ msgid "Connection error"
+#~ msgstr "Туташуу түрү"
+
+#~ msgid "Connection problem"
+#~ msgstr "Туташуу проблемасы"
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Copyright (C) %s by %s"
+
+#~ msgid "Country"
+#~ msgstr "Өлкө"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Mandriva Online аккаунтун түзүү"
+
+#~ msgid "Create a OpenMandriva Online Account"
+#~ msgstr "OpenMandriva Online аккаунтун түзүү"
 
 #, fuzzy
 #~ msgid "Database error"
 #~ msgstr "Берилиштер базасынын катасы"
 
-#, fuzzy
-#~ msgid "Registration error"
-#~ msgstr "Катталуу тиби"
+#~ msgid "Development release not supported by service"
+#~ msgstr "Иштелип жаткан релиз кызмат тарабынан колдоого ээ эмес"
 
-#, fuzzy
-#~ msgid "Some parameters are missing"
-#~ msgstr "Сервердин IP'си жок!"
-
-#, fuzzy
-#~ msgid "Password error"
-#~ msgstr "%s үчүн пароль"
-
-#, fuzzy
-#~ msgid "Login error"
-#~ msgstr "белгисиз ката"
-
-#, fuzzy
-#~ msgid ""
-#~ "The email you provided is already in use\n"
-#~ "Please enter another one\n"
-#~ msgstr ""
-#~ "* %s * такма аты колдонууда же туура эмес\n"
-#~ "Башкасын тандап алыңыз\n"
+#~ msgid "Down"
+#~ msgstr "Төмөн"
 
 #, fuzzy
 #~ msgid ""
@@ -807,187 +878,52 @@ msgstr "update_source булагынан пакеттерди жаңылоо м�
 #~ msgstr "Аты талаасы толтурулган эмес, ат бериңиз"
 
 #, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "Баяны: "
+#~ msgid "Email address:"
+#~ msgstr "Шлюздун IP-адреси:"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Email туура эмес\n"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr "Mandriva Online логинин, паролун жана машина атын киргизиңиз:"
+
+#~ msgid "Enter your OpenMandriva Online login, password and machine name:"
+#~ msgstr "OpenMandriva Online логинин, паролун жана машина атын киргизиңиз:"
 
 #, fuzzy
-#~ msgid "Service error"
-#~ msgstr "Жазуу катасы\n"
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "rpmdb ачууга болбоду"
 
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "Сырсөздөр дал келишпейт."
+#~ msgid "First name:"
+#~ msgstr "Биринчи аты:"
 
-#, fuzzy
-#~ msgid "User Forbidden"
-#~ msgstr "Логин:"
-
-#, fuzzy
-#~ msgid "Connection error"
-#~ msgstr "Туташуу түрү"
-
-#~ msgid "Please wait"
-#~ msgstr "Күтө туруңуз"
-
-#~ msgid "Preparing..."
-#~ msgstr "Даярдоо ..."
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "Пакеттер орнотулууда...\n"
-
-#, fuzzy
-#~ msgid "New bundles are available for your system"
-#~ msgstr "Сиздин системаңызды жаңылоо мүмкүнчүлүгү бар"
-
-#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
 #~ msgstr ""
-#~ "Кызмат конфигурацияланган эмес. \"Кызматты конфигурациялоо\"ну басыңыз"
+#~ "Мындан кийин сиз коопсуздуктар жана жыңылоолор\n"
+#~ "жөнүндө, Mandriva Online тарабынан кабардар болосуздар."
 
-#~ msgid "Configure the service"
-#~ msgstr "Кызматты конфигурациялоо"
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to OpenMandriva Online."
+#~ msgstr ""
+#~ "Мындан кийин сиз коопсуздуктар жана жыңылоолор\n"
+#~ "жөнүндө, OpenMandriva Online тарабынан кабардар болосуздар."
 
-#~ msgid "Check updates"
-#~ msgstr "Жаңылоолорду текшерүү"
-
-#~ msgid "Configure Now!"
-#~ msgstr "Азыр конфигурациялоо!"
-
-#~ msgid "Actions"
-#~ msgstr "Аракеттер"
-
-#~ msgid "Configure"
-#~ msgstr "Конфигурациялоо"
-
-#~ msgid "See logs"
-#~ msgstr "Логдорду кара"
-
-#~ msgid "Status"
-#~ msgstr "Абалы"
-
-#~ msgid "Network Connection: "
-#~ msgstr "Тармак байланышы: "
-
-#~ msgid "Up"
-#~ msgstr "Жогору"
-
-#~ msgid "Down"
-#~ msgstr "Төмөн"
-
-#~ msgid "Last check: "
-#~ msgstr "Акыркы текшерүү: "
-
-#~ msgid "Machine name:"
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
 #~ msgstr "Машинанын аты:"
 
-#~ msgid "Updates: "
-#~ msgstr "Жаңылоолор: "
-
-#~ msgid "Development release not supported by service"
-#~ msgstr "Иштелип жаткан релиз кызмат тарабынан колдоого ээ эмес"
-
-#~ msgid "Too old release not supported by service"
-#~ msgstr "Өтө эле эски релиз кызмат тарабынан колдоого ээ эмес"
-
-#~ msgid "Unknown state"
-#~ msgstr "Белгисиз абал"
-
-#~ msgid "Online services disabled. Contact Mandriva Online site\n"
-#~ msgstr ""
-#~ "Онлайн кызматы өчүрүлгөн. Mandriva Online сайты менен байланышыңыз\n"
-
-#~ msgid "Wrong Password.\n"
-#~ msgstr "Туура эмес пароль.\n"
-
-#~ msgid "Wrong Action or host or login.\n"
-#~ msgstr "Туура эмес аракет, же хост, же логин.\n"
-
-#~ msgid ""
-#~ "Something is wrong with your network settings (check your route, firewall "
-#~ "or proxy settings)\n"
-#~ msgstr ""
-#~ "Сиздин тармактын конфигурациясынын кайсы бири туура эмес (маршрутуңуздун, "
-#~ "файрволуңуздун же проксиңиздин конфигурациясын текшериңиз)\n"
-
-#~ msgid ""
-#~ "Problem occured while connecting to the server, please contact the "
-#~ "support team"
-#~ msgstr ""
-#~ "Серверге кайрылууда ката кетти,сураныч жардамчы командасына кайрылыңыз"
-
-#~ msgid "Response from Mandriva Online server\n"
-#~ msgstr "Mandriva Online серверден жооп\n"
-
-#~ msgid "No check"
-#~ msgstr "Текшерүүсүз"
-
-#~ msgid "Checking config file: Not present\n"
-#~ msgstr "Конфиг файлы текшерилүүдө: жок\n"
-
-#~ msgid "Logs"
-#~ msgstr "Логдор"
-
-#~ msgid "Clear"
-#~ msgstr "Тазалоо"
-
-#~ msgid ""
-#~ "mdonline version %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "mdonline версиясы %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "Бул эркин программалык жабдуу жана ал GNU GPL\n"
-#~ "шартынын негизинде таратылат\n"
-#~ "\n"
-#~ "колдонулушу:\n"
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Жашыл"
 
 #~ msgid "I already have an account"
 #~ msgstr "Менде аккаунт бар"
 
 #~ msgid "I want to subscribe"
 #~ msgstr "Мен жазылууну каалайм"
-
-#, fuzzy
-#~ msgid "Mrs."
-#~ msgstr "XMrIs"
-
-#~ msgid ""
-#~ "This assistant will help you to upload your configuration\n"
-#~ "(packages, hardware configuration) to a centralized database in\n"
-#~ "order to keep you informed about security updates and useful upgrades.\n"
-#~ msgstr ""
-#~ "Бул ассистент сизди коопсуздукка байланыштуу жаңы жаңылоолор\n"
-#~ "жана пайдалуу апгрейддер жөнүндө кабардар болуп турушуңуз үчүн\n"
-#~ "сиздин конфигурацияңызды (пакеттер, техникалык жабдуулар "
-#~ "конфигурациясын)\n"
-#~ " борбордук берилиштер базасына жүктөөгө жардам берет.\n"
-
-#~ msgid "Account creation or authentication"
-#~ msgstr "Аккаунт түзүү же аутентификациялоо"
-
-#~ msgid "Enter your Mandriva Online login, password and machine name:"
-#~ msgstr "Mandriva Online логинин, паролун жана машина атын киргизиңиз:"
-
-#, fuzzy
-#~ msgid "Email address:"
-#~ msgstr "Шлюздун IP-адреси:"
-
-#~ msgid "Country"
-#~ msgstr "Өлкө"
-
-#~ msgid "Password:"
-#~ msgstr "Пароль:"
-
-#, fuzzy
-#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
-#~ msgstr ""
-#~ "Биригүү чекиттери алфавиттик-цифралык символдордон гана турушу керек"
-
-#~ msgid "Connecting to Mandriva Online website..."
-#~ msgstr "Mandriva Online веб-сайтына туташуу..."
 
 #~ msgid ""
 #~ "In order to benefit from Mandriva Online services,\n"
@@ -1025,42 +961,104 @@ msgstr "update_source булагынан пакеттерди жаңылоо м�
 #~ "Мындан тышкары, сиз www.mandrivaexpert.com колдоо кызматындан\n"
 #~ "төлөө жеңилдиктерин аласыз."
 
-#~ msgid "Connection problem"
-#~ msgstr "Туташуу проблемасы"
+#~ msgid ""
+#~ "In order to benefit from OpenMandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to OpenMandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "OpenMandriva Online кызматтарындан пайдалануу үчүн,\n"
+#~ "сиздин конфигурацияларыңыздын жүктөлүшүн сунуш кылабыз.\n"
+#~ "\n"
+#~ "Азыр, Уста төмөнкү маалыматтарды OpenMandriva'ко жөнөтөт:\n"
+#~ "\n"
+#~ "1) сиздин системада жүктөлгөн пакеттердин тизмези,\n"
+#~ "\n"
+#~ "2) системанын техникалык жабдуулар конфигурациясы.\n"
+#~ "\n"
+#~ "Эгерде сиз бул ойду жактырбасаңыз же бул кызматтардан пайдаланууну "
+#~ "калабасаңыз,\n"
+#~ "Калтыруу'ну басыңыз. Кийинки'ни басуу менен, сиз акыркы пайдалуу "
+#~ "коопсуздуктар, жаңылоор жана апгрейттер жөнүндө электрондук почта аркылуу "
+#~ "кабардар болосуз.\n"
+#~ "Мындан тышкары, сиз www.mandrivaexpert.com колдоо кызматындан\n"
+#~ "төлөө жеңилдиктерин аласыз."
 
-#~ msgid "Problem occurs when uploading files, please try again"
-#~ msgstr "Файлдарды жүктөө учурундагы проблема, кайра аракет кылыңыз"
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Пакеттер орнотулууда...\n"
 
-#~ msgid "Create a Mandriva Online Account"
-#~ msgstr "Mandriva Online аккаунтун түзүү"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "Жашыл"
-
-#~ msgid "First name:"
-#~ msgstr "Биринчи аты:"
+#~ msgid "Last check: "
+#~ msgstr "Акыркы текшерүү: "
 
 #, fuzzy
 #~ msgid "Last name:"
 #~ msgstr "Биринчи аты:"
 
-#~ msgid "Confirm Password:"
-#~ msgstr "Паролду кайталоо:"
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "OpenMandrivaUpdate иштетүү\n"
 
-#~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
-#~ msgstr ""
-#~ "Паролдор дал келишпейт\n"
-#~ " Кайталаңыз\n"
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Логин жана пароль 12 символдон кем болушу керек\n"
 
 #, fuzzy
-#~ msgid "Please fill in each field"
-#~ msgstr "Бардык талааларды толтуруңуз\n"
+#~ msgid "Login error"
+#~ msgstr "белгисиз ката"
 
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "Туура эмес почта адреси!\n"
+#~ msgid "Login:"
+#~ msgstr "Логин:"
+
+#~ msgid "Logs"
+#~ msgstr "Логдор"
+
+#, fuzzy
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr ""
+#~ "Биригүү чекиттери алфавиттик-цифралык символдордон гана турушу керек"
+
+#~ msgid "Machine name:"
+#~ msgstr "Машинанын аты:"
+
+#~ msgid "Mail contact:"
+#~ msgstr "Почта байланышы:"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Mandriva Linux Updates апплети"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online %s"
 
 #~ msgid ""
 #~ "Mandriva Online Account successfully created.\n"
@@ -1070,15 +1068,9 @@ msgstr "update_source булагынан пакеттерди жаңылоо м�
 #~ "Аутентификациялоо жана конфигурацияңызды жөнөтүү үчүн \"Кийинки\" "
 #~ "басыңыз\n"
 
-#~ msgid "Your upload was successful!"
-#~ msgstr "Сыртка жүктөө ийгиликтүү!"
-
-#~ msgid ""
-#~ "From now you will receive on security and updates \n"
-#~ "announcements thanks to Mandriva Online."
+#~ msgid "Mandriva Online gives access to Mandriva web services."
 #~ msgstr ""
-#~ "Мындан кийин сиз коопсуздуктар жана жыңылоолор\n"
-#~ "жөнүндө, Mandriva Online тарабынан кабардар болосуздар."
+#~ "Mandriva Online, Mandriva веб кызматтарды колдонуу мүмкүнчүлүгүн берет."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1088,48 +1080,324 @@ msgstr "update_source булагынан пакеттерди жаңылоо м�
 #~ "сунуштайт.\n"
 #~ "Программа сиздин системада жаңы жаңылоолор үчүн регулярдуу иштейт\n"
 
-#~ msgid "Your Mandriva Online account has been successfully configured\n"
-#~ msgstr "Сиздин Mandriva Online аккаунтуңуз ийгиликтүү конфигурацияланды\n"
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr "Mandriva Online кайра орнотулса керек, апплет кайра жүктөлүүдө ...."
 
-#~ msgid "Configuration uploaded successfully"
-#~ msgstr "Конфигурация ийгиликтүү сыртка жүктөлдү"
-
-#~ msgid "Problem uploading configuration"
-#~ msgstr "Сыртка жүктөөлүүдө конфигурацияда ката"
-
-#~ msgid ""
-#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
-#~ "firewall bad settings"
-#~ msgstr ""
-#~ "Mandriva Online веб сайтына кирүүгө мүмкүн эмес:аты/катылган белги туура "
-#~ "эмес  маршрутизатор/файервол ыңгайлашуусу туура эмес"
-
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- Mandriva Update иштетүү.\n"
-
-#~ msgid "Choose which packages should be installed and Press Ok"
-#~ msgstr "Орнотуу үчүн пакеттердим тандагыла жана Okди баскыла"
-
-#~ msgid "System is busy. Please wait ..."
-#~ msgstr "Система бош эмес. Күтө туруңуз ..."
-
-#~ msgid "Sending configuration..."
-#~ msgstr "Конфигурация жөнөтүлүүдө..."
-
-#~ msgid "No %s file found. Run mdkonline wizard first"
-#~ msgstr "%s файлы табылбады. Алгач mdkonline устасын иштетиңиз"
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva PowerPack"
 
 #~ msgid "Mandriva Update could not contact the site, we will try again."
 #~ msgstr "Mandriva Update сайты туташылбады, биз кайрадан аракет кылабыз."
 
-#~ msgid "Login:"
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
+
+#~ msgid "OpenMandriva Enterprise Server"
+#~ msgstr "OpenMandriva Enterprise Server"
+
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "OpenMandriva Linux Updates апплети"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva Online %s"
+
+#~ msgid ""
+#~ "OpenMandriva Online Account successfuly created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "OpenMandriva Online аккаунту ийгиликтүү түзүлдү.\n"
+#~ "Аутентификациялоо жана конфигурацияңызды жөнөтүү үчүн \"Кийинки\" "
+#~ "басыңыз\n"
+
+#~ msgid ""
+#~ "OpenMandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "OpenMandriva Online сизге автоматташтырылган жаңылоо мүмкүнчүлүгүн "
+#~ "сунуштайт.\n"
+#~ "Программа сиздин системада жаңы жаңылоолор үчүн регулярдуу иштейт\n"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "OpenMandriva Online кайра орнотулса керек, апплет кайра жүктөлүүдө ...."
+
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva PowerPack"
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr "OpenMandriva Update сайты туташылбады, биз кайрадан аракет кылабыз."
+
+#, fuzzy
+#~ msgid "Mrs."
+#~ msgstr "XMrIs"
+
+#~ msgid "Network Connection: "
+#~ msgstr "Тармак байланышы: "
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Сиздин системаңызды жаңылоо мүмкүнчүлүгү бар"
+
+#~ msgid "No"
+#~ msgstr "Жок"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "%s файлы табылбады. Алгач mdkonline устасын иштетиңиз"
+
+#~ msgid "No check"
+#~ msgstr "Текшерүүсүз"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Туура эмес почта адреси!\n"
+
+#~ msgid "Ok"
+#~ msgstr "ОК"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Онлайн кызматы өчүрүлгөн. Mandriva Online сайты менен байланышыңыз\n"
+
+#~ msgid "Online services disabled. Contact OpenMandriva Online site\n"
+#~ msgstr ""
+#~ "Онлайн кызматы өчүрүлгөн. OpenMandriva Online сайты менен байланышыңыз\n"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "%s үчүн пароль"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Сырсөздөр дал келишпейт."
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Бардык талааларды толтуруңуз\n"
+
+#~ msgid "Please fill in your account ID to add an additional package medium"
+#~ msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr "Кошумча пакеттер булагын кошууда колдонуучү IDни киргизиңиз"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Логинди көрсөтүңүз"
+
+#~ msgid "Please wait"
+#~ msgstr "Күтө туруңуз"
+
+#~ msgid "Preparing..."
+#~ msgstr "Даярдоо ..."
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Сервер менен туташуу проблемасы \n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Серверге кайрылууда ката кетти,сураныч жардамчы командасына кайрылыңыз"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Файлдарды жүктөө учурундагы проблема, кайра аракет кылыңыз"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Сыртка жүктөөлүүдө конфигурацияда ката"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Катталуу тиби"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Mandriva Online серверден жооп\n"
+
+#~ msgid "Response from OpenMandriva Online server\n"
+#~ msgstr "OpenMandriva Online серверден жооп\n"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Баяны: "
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Коопсуздук"
+
+#~ msgid "See logs"
+#~ msgstr "Логдорду кара"
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Конфигурация жөнөтүлүүдө..."
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "Кызматты конфигурациялоо проблемасы. Логдорду карап чыгып андан соң "
+#~ "support@moondrakeonline.com дарегин кат жазыңыз"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Жазуу катасы\n"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "Кызмат конфигурацияланган эмес. \"Кызматты конфигурациялоо\"ну басыңыз"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Сервердин IP'си жок!"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Сиздин тармактын конфигурациясынын кайсы бири туура эмес (маршрутуңуздун, "
+#~ "файрволуңуздун же проксиңиздин конфигурациясын текшериңиз)\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Атайын символдор мүмкүн эмес\n"
+
+#~ msgid "Status"
+#~ msgstr "Абалы"
+
+#~ msgid "Successfully added media %s."
+#~ msgstr "%s булагы ийгиликтүү кошулду."
+
+#, fuzzy
+#~ msgid "Successfully added media!"
+#~ msgstr "%s булагы ийгиликтүү кошулду."
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Система бош эмес. Күтө туруңуз ..."
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "Система жаңылоону талап кылбайт\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "* %s * такма аты колдонууда же туура эмес\n"
+#~ "Башкасын тандап алыңыз\n"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Паролдор дал келишпейт\n"
+#~ " Кайталаңыз\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Mandriva Linux дистрибутивинин жаңы версиясы чыкты."
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of OpenMandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "OpenMandriva Linux дистрибутивинин жаңы версиясы чыкты."
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Бул ассистент сизди коопсуздукка байланыштуу жаңы жаңылоолор\n"
+#~ "жана пайдалуу апгрейддер жөнүндө кабардар болуп турушуңуз үчүн\n"
+#~ "сиздин конфигурацияңызды (пакеттер, техникалык жабдуулар "
+#~ "конфигурациясын)\n"
+#~ " борбордук берилиштер базасына жүктөөгө жардам берет.\n"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Өтө эле эски релиз кызмат тарабынан колдоого ээ эмес"
+
+#~ msgid "Unknown state"
+#~ msgstr "Белгисиз абал"
+
+#~ msgid "Up"
+#~ msgstr "Жогору"
+
+#~ msgid "Updates: "
+#~ msgstr "Жаңылоолор: "
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Mandriva %s жаңылоосу ийгиликтүү аяктады."
+
+#, fuzzy
+#~ msgid "User Forbidden"
 #~ msgstr "Логин:"
 
-#~ msgid "or"
-#~ msgstr "же"
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Туура эмес аракет, же хост, же логин.\n"
 
-#~ msgid "wrong password:"
-#~ msgstr "туура эмес пароль:"
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Туура эмес пароль.\n"
+
+#~ msgid "Yes"
+#~ msgstr "Ооба"
+
+#~ msgid "You are using '%s' distribution."
+#~ msgstr "Сиз '%s' дистрибутивин колдонуп жатасыз."
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Сиздин Mandriva Online аккаунтуңуз ийгиликтүү конфигурацияланды\n"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have %s download subscription enabled."
+#~ msgstr "Сиздин Mandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "Сиздин Mandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
+
+#~ msgid "Your OpenMandriva Online account has been successfuly configured\n"
+#~ msgstr "Сиздин OpenMandriva Online аккаунтуңуз ийгиликтүү конфигурацияланды\n"
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have %s download subscription enabled."
+#~ msgstr "Сиздин OpenMandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr "Сиздин OpenMandriva колодонуучу аты %s жүктөө катталышын камтыбайт."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Сиздин OpenMandriva колодонуучу аты Powerpack жүктөө катталышын камтыбайт."
 
 #~ msgid ""
 #~ "Your login or password was wrong.\n"
@@ -1147,23 +1415,74 @@ msgstr "update_source булагынан пакеттерди жаңылоо м�
 #~ " Машина ысымын көрсөткөнүңүздү байкаңыз\n"
 #~ " (алфавиттик символдор гана кабыл алынат)"
 
-#~ msgid "Mail contact:"
-#~ msgstr "Почта байланышы:"
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on OpenMandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to OpenMandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Сиздин логин же пароль туура эмес.\n"
+#~ " Сизге же аларды кайра терүүгө же болбосо OpenMandriva Online'да аккаунт "
+#~ "түзүүгө туура келет.\n"
+#~ " Болбосо, артка, OpenMandriva Online'га туташуучу биринчи кадамга барыңыз.\n"
+#~ " Машина ысымын көрсөткөнүңүздү байкаңыз\n"
+#~ " (алфавиттик символдор гана кабыл алынат)"
 
-#~ msgid "Please provide a login"
-#~ msgstr "Логинди көрсөтүңүз"
+#~ msgid "Your upload was successful!"
+#~ msgstr "Сыртка жүктөө ийгиликтүү!"
 
-#~ msgid "Login and password should be less than 12 characters\n"
-#~ msgstr "Логин жана пароль 12 символдон кем болушу керек\n"
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline версиясы %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Бул эркин программалык жабдуу жана ал GNU GPL\n"
+#~ "шартынын негизинде таратылат\n"
+#~ "\n"
+#~ "колдонулушу:\n"
 
-#~ msgid "Special characters are not allowed\n"
-#~ msgstr "Атайын символдор мүмкүн эмес\n"
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mgaupdate версиясы %s\n"
+#~ "%s\n"
+#~ "Бул эркин программалык жабдуу жана ал GNU GPL\n"
+#~ "шартынын негизинде таратылат\n"
+#~ "\n"
+#~ "колдонулушу:\n"
 
-#~ msgid "Email not valid\n"
-#~ msgstr "Email туура эмес\n"
+#, fuzzy
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdkupdate версиясы %s\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "Бул эркин программалык жабдуу жана ал GNU GPL\n"
+#~ "шартынын негизинде таратылат\n"
+#~ "\n"
+#~ "колдонулушу:\n"
 
-#~ msgid "Account already exists\n"
-#~ msgstr "Мындай аккаунт бар\n"
+#~ msgid "or"
+#~ msgstr "же"
 
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "Сервер менен туташуу проблемасы \n"
+#~ msgid "wrong password:"
+#~ msgstr "туура эмес пароль:"

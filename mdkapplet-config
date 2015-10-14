@@ -4,7 +4,7 @@
 #                                                                              #
 # Copyright (C) 2008 Mandriva                                             #
 #                                                                              #
-# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+# Thierry Vignaud <thierry.vignaud at gmail dot com>                               #
 #                                                                              #
 # This program is free software; you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License Version 2 as            #
@@ -27,8 +27,8 @@ use common;
 
 BEGIN { unshift @::textdomains, 'mdkonline' }
 
-use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
-use ugtk2 qw(:all);
+use mygtk3 qw(gtknew); #- do not import gtkadd which conflicts with ugtk3 version
+use ugtk3 qw(:all);
 use mdkonline;
 use mdkapplet_gui;
 use interactive;
@@ -36,11 +36,11 @@ use interactive;
 get_product_id();
 configure();
 
-ugtk2::exit(0);
+ugtk3::exit(0);
 
 
 sub configure() {
-    my $w = ugtk2->new(N("Adding an additional package medium"), width => -1);
+    my $w = ugtk3->new(N("Adding an additional package medium"), width => -1);
 
     my %config = getVarsFromSh($config_file);
 
@@ -57,8 +57,6 @@ sub configure() {
     # config file has negative options but GUI want positive options (HIG):
     invbools_for_display(\%config);
     
-    my $_ww = eval { gtknew('HScale', digits => 5) };
-    my $is_hscale_unsupported = $@;
     my $product = translate_product();
 
     my $res =
@@ -69,22 +67,20 @@ sub configure() {
               gtknew('Label_Left', text => N("Here you can configure the updates applet"), @common),
               gtknew('Table', col_spacings => 5, row_spacings => 5, children => [
                   [ gtknew('Label', alignment => [ 0, 1 ], text => N("Update frequency (hours)")),
-                    gtknew($is_hscale_unsupported ? ('Entry', text_ref => \$config{UPDATE_FREQUENCY})
-                      : ('HScale',
+                    gtknew('HScale',
                         digits => 0,
                         lower => 1,
                         upper => 24,
                         step_increment => 1,
                         width => 100,
-                        value_ref => \$config{UPDATE_FREQUENCY})) ],
+                        value_ref => \$config{UPDATE_FREQUENCY}) ],
                   [ gtknew('Label', alignment => [ 0, 1 ], text => N("First check delay (minutes)")),
-                    gtknew($is_hscale_unsupported ? ('Entry', text_ref => \$config{UPDATE_FREQUENCY})
-                      : ('HScale',
+                    gtknew('HScale',
                         digits => 0,
                         lower => 5,
                         upper => 30,
                         step_increment => 1,
-                        value_ref => \$config{FIRST_CHECK_DELAY})) ],
+                        value_ref => \$config{FIRST_CHECK_DELAY}) ],
                   [ gtknew('CheckButton',
                            text => N("Check for newer \"%s\" releases", $product),
                            active_ref => \$config{DO_NOT_ASK_FOR_DISTRO_UPGRADE},

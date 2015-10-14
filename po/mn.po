@@ -6,10 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2003-02-21 00:17+0100\n"
 "Last-Translator: Sanlig Badral <badral@chinggis.com>\n"
 "Language-Team: Mongolian <mn@li.org>\n"
+"Language: mn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,70 +18,70 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr ""
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr ""
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, fuzzy, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
 "support@mandrivaonline.com"
 msgstr "Та гарсан асуудлаа support@mandrivaonline.com рүү илгээнэ үү\n"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr ""
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr ""
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr ""
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr ""
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr ""
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr ""
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr ""
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr ""
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
 msgstr ""
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -91,42 +92,37 @@ msgid ""
 "Then, restart \"%s\"."
 msgstr ""
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "Нээлттэй"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr ""
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr ""
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr ""
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr ""
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, fuzzy, c-format
 msgid "Configure Network"
 msgstr "Тохируулах"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr ""
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -134,374 +130,443 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr ""
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr ""
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Алдаа"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr ""
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr ""
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Дараах"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Хүчингүй"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, c-format
 msgid "Mandriva Linux"
 msgstr ""
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
 "the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr ""
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
 "and may take several hours to complete."
 msgstr ""
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr ""
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr ""
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
 "available."
 msgstr ""
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr ""
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr ""
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr ""
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr ""
 
-#: ../mdkapplet:893
-#, c-format
-msgid "Mandriva Online %s"
-msgstr ""
+#: ../mdkapplet:728
+#, fuzzy, c-format
+msgid "OpenMandriva Online %s"
+msgstr "Мандрива Линукс"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
+msgid "OpenMandriva Online gives access to Moondrake web services."
 msgstr ""
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr ""
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Анхааруулга"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr ""
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr ""
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Тухай..."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr ""
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr ""
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Гарах"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Алдаа"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, c-format
-msgid "Online subscription"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "Ок"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr ""
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr ""
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr ""
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, fuzzy, c-format
+msgid "Installation failed"
+msgstr "Хэлбэр!"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:152
+#, fuzzy, c-format
+msgid "Congratulations"
+msgstr "Баяр хүргэе!"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Дахин ачаал"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, c-format
+msgid "Powerpack Media Configuration"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:197
+#, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:214
+#, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:236
+#, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -509,103 +574,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, c-format
 msgid "Mandriva Linux Features"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, c-format
+msgid "Online subscription"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, fuzzy, c-format
 msgid "Your password"
 msgstr "Нууц үг:"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, fuzzy, c-format
 msgid "Forgotten password"
 msgstr "Нууц үг:"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Хаах"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, c-format
-msgid "Mandriva Flash"
-msgstr ""
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, c-format
-msgid "Mandriva Free"
-msgstr ""
-
-#: ../mdkonline.pm:179
-#, c-format
-msgid "Mandriva Mini"
-msgstr ""
-
-#: ../mdkonline.pm:180
-#, c-format
-msgid "Mandriva One"
-msgstr ""
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr ""
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr ""
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -618,84 +651,248 @@ msgstr ""
 "\n"
 "Ашиглалт: \n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, c-format
+msgid "Copyright (C) %s %s"
+msgstr ""
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- Энэ тусламжийг хэвлэх.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, fuzzy, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr ""
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, fuzzy, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --applet       - Бүх мэдээллийг шинэчлэх.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr ""
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "„update_source“ хэрэгслээс багцуудыг шинэчилэхэд алдаа.\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
 #, fuzzy
-#~ msgid "Installation failed"
-#~ msgstr "Хэлбэр!"
+msgid "Run OpenMandriva Updater"
+msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+msgid "Run OpenMandriva Package Media Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr ""
+
+#~ msgid "OpenMandriva"
+#~ msgstr "Мандрива Линукс"
 
 #, fuzzy
-#~ msgid "Congratulations"
-#~ msgstr "Баяр хүргэе!"
-
-#~ msgid "Reboot"
-#~ msgstr "Дахин ачаал"
-
-#~ msgid "Yes"
-#~ msgstr "Тийм"
-
-#~ msgid "No"
-#~ msgstr "Үгүй"
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
 
 #, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "rpmdb-г нээж болсонгүй"
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
+
+#, fuzzy
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
+
+#, fuzzy
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --applet       - Бүх мэдээллийг шинэчлэх.\n"
+
+#~ msgid "  --security     - use only security media.\n"
+#~ msgstr "  --security     - Зөвхөн хамгаалалтын хэрэгсэлд хэрэглэ.\n"
+
+#~ msgid "  -v             - verbose mode.\n"
+#~ msgstr "  -v             - Ажилуулах горим.\n"
+
+#~ msgid "Actions"
+#~ msgstr "Үйлдлүүл"
+
+#~ msgid "Clear"
+#~ msgstr "Цэвэрлэх"
+
+#~ msgid "Configure"
+#~ msgstr "Тохируулах"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Нууц үгээ бататгах:"
 
 #, fuzzy
 #~ msgid "Connecting to"
 #~ msgstr "Холболтын асуудлууд"
 
 #, fuzzy
-#~ msgid "Security error"
-#~ msgstr "Нууцлал"
+#~ msgid "Connection error"
+#~ msgstr "Холболтын нэр"
+
+#~ msgid "Connection problem"
+#~ msgstr "Холболтын асуудлууд"
+
+#~ msgid "Country"
+#~ msgstr "Хөдөөний"
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "Өгөгдлийн баазын сервер"
 
 #, fuzzy
 #~ msgid "Database error"
 #~ msgstr "Өгөгдлийн сангийн Алдаа"
 
-#, fuzzy
-#~ msgid "Registration error"
-#~ msgstr "Бүртгүүлэх Төрөл:"
+#~ msgid "Down"
+#~ msgstr "Доош"
+
+#~ msgid "Email"
+#~ msgstr "Э-Захиа"
 
 #, fuzzy
-#~ msgid "Some parameters are missing"
-#~ msgstr "Зайн хэвлэгчийн нэр байхгүй байна!"
+#~ msgid "Email address:"
+#~ msgstr "IP хаяг"
+
+#, fuzzy
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "rpmdb-г нээж болсонгүй"
+
+#~ msgid "Finish"
+#~ msgstr "Дуусгах"
+
+#, fuzzy
+#~ msgid "First name:"
+#~ msgstr "Хостын нэр:"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Ногоон"
+
+#, fuzzy
+#~ msgid "Installing packages ...\n"
+#~ msgstr "%s багцыг суулгаж байна...\n"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Хостын нэр:"
+
+#, fuzzy
+#~ msgid "Login error"
+#~ msgstr "тодорхойгүй алдаа"
+
+#~ msgid "Login:"
+#~ msgstr "Нэвтрэх нэр:"
+
+#, fuzzy
+#~ msgid "Logs"
+#~ msgstr "Нэвтрэх нэр:"
+
+#~ msgid "Mandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "Mandriva Update вэб хуудас руу хүрч чадахгүй байна, бид дахин оролдоё."
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "OpenMandriva Update вэб хуудас руу хүрч чадахгүй байна, бид дахин оролдоё."
+
+#~ msgid "Mr."
+#~ msgstr "Ноён"
+
+#~ msgid "Mrs."
+#~ msgstr "Хатагтай"
+
+#~ msgid "Ms."
+#~ msgstr "Хатагтай"
+
+#~ msgid "No"
+#~ msgstr "Үгүй"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Зөв биш э-шуудангийн хаяг! \n"
+
+#~ msgid "Ok"
+#~ msgstr "Ок"
 
 #, fuzzy
 #~ msgid "Password error"
 #~ msgstr "%s-ийн нууц үг"
 
 #, fuzzy
-#~ msgid "Login error"
-#~ msgstr "тодорхойгүй алдаа"
+#~ msgid "Password mismatch"
+#~ msgstr "Нууц үгс ижил биш байна"
+
+#~ msgid "Password:"
+#~ msgstr "Нууц үг:"
+
+#~ msgid "Preparing..."
+#~ msgstr "Бэлдэж байна..."
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Серверт холбогдоход асуудалтай байна \n"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Бүртгүүлэх Төрөл:"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Тайлбар:"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Нууцлал"
+
+#, fuzzy
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr "Та гарсан асуудлаа support@moondrakeonline.com рүү илгээнэ үү\n"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Бичих алдаа\n"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Зайн хэвлэгчийн нэр байхгүй байна!"
+
+#~ msgid "Status"
+#~ msgstr "Төлөв"
 
 #, fuzzy
 #~ msgid ""
@@ -705,62 +902,41 @@ msgstr "„update_source“ хэрэгслээс багцуудыг шинэчи
 #~ "Таны сонгосон * %s * хочийг өөр хүн сонгосон эсвэл зөв биш байна. Дахин "
 #~ "өөр хоч сонгоно уу \n"
 
-#, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "Тайлбар:"
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Нууц үг таарахгүй байна\n"
+#~ " Дахин оролдож үзнэ үү\n"
 
-#, fuzzy
-#~ msgid "Database access forbidden"
-#~ msgstr "Өгөгдлийн баазын сервер"
+#~ msgid "Unable to create mdkupdate medium.\n"
+#~ msgstr "„mdkupdate“ хэрэгсэл үүсгэх боломжгүй.\n"
 
-#, fuzzy
-#~ msgid "Service error"
-#~ msgstr "Бичих алдаа\n"
+#~ msgid "Unable to create mgaupdate medium.\n"
+#~ msgstr "„mgaupdate“ хэрэгсэл үүсгэх боломжгүй.\n"
 
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "Нууц үгс ижил биш байна"
+#~ msgid "Unable to update packages from mdkupdate medium.\n"
+#~ msgstr "„mdkupdate“ хэрэгслээс багцуудыг шинэчилэхэд алдаа.\n"
+
+#~ msgid "Unable to update packages from mgaupdate medium.\n"
+#~ msgstr "„mgaupdate“ хэрэгслээс багцуудыг шинэчилэхэд алдаа.\n"
+
+#~ msgid "Up"
+#~ msgstr "Дээш"
 
 #, fuzzy
 #~ msgid "User Forbidden"
 #~ msgstr "Хэрэглэгчийн мэдээлэл"
 
 #, fuzzy
-#~ msgid "Connection error"
-#~ msgstr "Холболтын нэр"
-
-#~ msgid "Preparing..."
-#~ msgstr "Бэлдэж байна..."
-
-#, fuzzy
-#~ msgid "Installing packages ...\n"
-#~ msgstr "%s багцыг суулгаж байна...\n"
-
-#~ msgid "Actions"
-#~ msgstr "Үйлдлүүл"
-
-#~ msgid "Configure"
-#~ msgstr "Тохируулах"
-
-#~ msgid "Status"
-#~ msgstr "Төлөв"
-
-#~ msgid "Up"
-#~ msgstr "Дээш"
-
-#~ msgid "Down"
-#~ msgstr "Доош"
-
-#, fuzzy
 #~ msgid "Wrong Password.\n"
 #~ msgstr "Нууц үг:"
 
-#, fuzzy
-#~ msgid "Logs"
-#~ msgstr "Нэвтрэх нэр:"
+#~ msgid "Yes"
+#~ msgstr "Тийм"
 
-#~ msgid "Clear"
-#~ msgstr "Цэвэрлэх"
+#~ msgid "Your login or password may be wrong"
+#~ msgstr "Таны нэр эсвэл нууц үг буруу байна!"
 
 #~ msgid ""
 #~ "mdonline version %s\n"
@@ -777,87 +953,37 @@ msgstr "„update_source“ хэрэгслээс багцуудыг шинэчи
 #~ "\n"
 #~ "Ашиглалт: \n"
 
-#~ msgid "Mr."
-#~ msgstr "Ноён"
-
-#~ msgid "Mrs."
-#~ msgstr "Хатагтай"
-
-#~ msgid "Ms."
-#~ msgstr "Хатагтай"
-
-#, fuzzy
-#~ msgid "Email address:"
-#~ msgstr "IP хаяг"
-
-#~ msgid "Country"
-#~ msgstr "Хөдөөний"
-
-#~ msgid "Password:"
-#~ msgstr "Нууц үг:"
-
-#~ msgid "Connection problem"
-#~ msgstr "Холболтын асуудлууд"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "Ногоон"
-
-#, fuzzy
-#~ msgid "First name:"
-#~ msgstr "Хостын нэр:"
-
-#, fuzzy
-#~ msgid "Last name:"
-#~ msgstr "Хостын нэр:"
-
-#~ msgid "Confirm Password:"
-#~ msgstr "Нууц үгээ бататгах:"
-
 #~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
 #~ msgstr ""
-#~ "Нууц үг таарахгүй байна\n"
-#~ " Дахин оролдож үзнэ үү\n"
-
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "Зөв биш э-шуудангийн хаяг! \n"
+#~ "mgaupdate Version %s\n"
+#~ "%s\n"
+#~ "Энэ бол чөлөөт программ хангамж ба GNU GPL лицензын дагуу цааш \n"
+#~ "тарааж болно.\n"
+#~ "\n"
+#~ "Ашиглалт: \n"
 
 #, fuzzy
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- Бүх мэдээллийг шинэчлэх.\n"
-
-#~ msgid "Mandriva Update could not contact the site, we will try again."
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
 #~ msgstr ""
-#~ "Mandriva Update вэб хуудас руу хүрч чадахгүй байна, бид дахин оролдоё."
-
-#~ msgid "Login:"
-#~ msgstr "Нэвтрэх нэр:"
+#~ "mdkupdate Version %s\n"
+#~ "Copyright ® %s OpenMandriva.\n"
+#~ "Энэ бол чөлөөт программ хангамж ба GNU GPL лицензын дагуу цааш \n"
+#~ "тарааж болно.\n"
+#~ "\n"
+#~ "Ашиглалт: \n"
 
 #~ msgid "or"
 #~ msgstr "эсвэл"
-
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "Серверт холбогдоход асуудалтай байна \n"
-
-#~ msgid "Unable to update packages from mdkupdate medium.\n"
-#~ msgstr "„mdkupdate“ хэрэгслээс багцуудыг шинэчилэхэд алдаа.\n"
-
-#~ msgid "Finish"
-#~ msgstr "Дуусгах"
-
-#~ msgid "Email"
-#~ msgstr "Э-Захиа"
-
-#~ msgid "  --security     - use only security media.\n"
-#~ msgstr "  --security     - Зөвхөн хамгаалалтын хэрэгсэлд хэрэглэ.\n"
-
-#~ msgid "  -v             - verbose mode.\n"
-#~ msgstr "  -v             - Ажилуулах горим.\n"
-
-#~ msgid "Your login or password may be wrong"
-#~ msgstr "Таны нэр эсвэл нууц үг буруу байна!"
-
-#~ msgid "Unable to create mdkupdate medium.\n"
-#~ msgstr "„mdkupdate“ хэрэгсэл үүсгэх боломжгүй.\n"

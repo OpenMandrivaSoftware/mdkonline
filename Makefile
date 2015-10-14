@@ -1,19 +1,15 @@
-PACKAGE = mdkonline
-VERSION:=2.78
-SVNROOT = svn+ssh://svn.mandriva.com/svn/soft/$(PACKAGE)
-
 NAME = mdkonline
+VERSION:=3.10.1
+
 MDKUPDATE = mdkupdate
 MDKAPPLET = mdkapplet
-SUBDIRS = po
-
-MANDRIVA_VERSION = $(shell awk 'BEGIN { RS=","; FS="=" } $$1 == "version" { print $$2 }' /etc/product.id)
+SUBDIRS = po polkit
 
 PREFIX = /
 DATADIR = $(PREFIX)/usr/share
 ICONSDIR = $(DATADIR)/icons
 PIXDIR = $(DATADIR)/$(NAME)
-SBINDIR = $(PREFIX)/usr/sbin
+LIBEXECDIR = $(PREFIX)/usr/libexec
 BINDIR = $(PREFIX)/usr/bin
 FBLIBDIR = $(PREFIX)/usr/lib/libDrakX/drakfirsttime
 SYSCONFDIR = $(PREFIX)/etc/sysconfig
@@ -25,18 +21,20 @@ override CFLAGS += -DPACKAGE=\"$(NAME)\" -DLOCALEDIR=\"$(localedir)\"
 
 all:
 	(find -name .svn -prune -name '*.pm' -o -name mdkapplet\* -o -name mdkupdate -o -name mdvonline_agent.pl -type f) | xargs perl -pi -e 's/\s*use\s+(diagnostics|vars|strict).*//g'
-	for d in $(SUBDIRS); do ( cd $$d ; make $@ ) ; done
+	for d in $(SUBDIRS); do ( make -C $$d $@ ) ; done
 
 clean:
 	$(MAKE) -C po $@
 	rm -f core .#*[0-9]
-	for d in $(SUBDIRS); do ( cd $$d ; make $@ ) ; done
+	for d in $(SUBDIRS); do ( make -C $$d $@ ) ; done
 	find . -name '*~' | xargs rm -f
 
 install: all
+	install -d $(PREFIX)/usr/{bin,libexec,share/{mime/packages,$(NAME)/pixmaps,autostart,gnome/autostart,icons/{mini,large}},lib/libDrakX/drakfirsttime}
+
 	install -d $(PREFIX)/usr/{sbin,bin,share/{mime/packages,$(NAME)/pixmaps,autostart,gnome/autostart,icons/{mini,large}},lib/libDrakX/drakfirsttime}
-	install -m755 $(MDKUPDATE) $(SBINDIR)
-	install -m755 $(MDKAPPLET) $(BINDIR)
+	install -m755 $(MDKUPDATE) $(MDKAPPLET)-config $(MDKAPPLET)-upgrade-helper $(LIBEXECDIR)
+	install -m755 $(MDKAPPLET) $(MDKAPPLET)-update-checker $(BINDIR)
 	install -d $(SYSCONFDIR)
 	install -m644 mdkapplet.conf $(SYSCONFDIR)/mdkapplet
 	install -m644 icons/$(NAME)16.png $(ICONSDIR)/mini/$(NAME).png
@@ -45,6 +43,7 @@ install: all
 	install -m644 pixmaps/*.png $(PIXDIR)/pixmaps
 	perl -pi -e "s/version = 1/version = '$(VERSION)'/" mdkonline.pm
 	install -m644 mdkonline.pm $(FBLIBDIR)
+	install -m644 mdkapplet.pm $(FBLIBDIR)
 	install -m644 mdkapplet_gui.pm $(FBLIBDIR)
 	install -m644 mdkapplet_urpm.pm $(FBLIBDIR)
 	for d in $(SUBDIRS); do make -C $$d $@; done
@@ -52,18 +51,9 @@ install: all
 	install -m644 mdkonline.xml $(DATADIR)/mime/packages/mdkonline.xml
 	mkdir -p $(DATADIR)/mimelnk/application/
 	install -m644 x-mdv-exec.desktop $(DATADIR)/mimelnk/application/
-	mkdir -p $(PREFIX)/etc/security/console.apps/
-	install -m644 console.apps_urpmi.update $(PREFIX)/etc/security/console.apps/urpmi.update
-	mkdir -p $(PREFIX)/etc/pam.d
-	install -m644 pam.d_urpmi.update $(PREFIX)/etc/pam.d/urpmi.update
-	ln -sf consolehelper $(PREFIX)/usr/bin/urpmi.update
-	for i in mdkapplet-config mdkapplet-add-media-helper mdkapplet-upgrade-helper; do \
-		install -m755 $$i $(SBINDIR); \
-		ln -sf consolehelper $(PREFIX)/usr/bin/$$i; \
-	done
 
 cleandist:
-	rm -rf $(PACKAGE)-$(VERSION) ../$(PACKAGE)-$(VERSION).tar.bz2
+	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar.bz2
 
 
 dis: dist
@@ -83,12 +73,12 @@ dist:
 dist-svn:
 	rm -rf $(NAME)-$(VERSION)
 	svn export -q -rBASE . $(NAME)-$(VERSION)
-	tar cfa ../$(PACKAGE)-$(VERSION).tar.xz $(PACKAGE)-$(VERSION)
+	tar cfa ../$(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
 
 
 dist-git:
-	 @git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;
+	 @git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -v > $(NAME)-$(VERSION).tar.xz;
 
 log:changelog
 

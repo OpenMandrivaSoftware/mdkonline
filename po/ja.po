@@ -9,10 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-ja\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2009-03-22 20:08+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,17 +21,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr "%s に更新をチェックします"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "新しい更新はありません"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -39,49 +40,49 @@ msgstr ""
 "サービスの設定に問題があります。ログを調べて support@mandrivaonline.com に"
 "メールしてください。"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "利用可能なパッケージを探しています。お待ちください..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "新しい更新があります"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr "新しいバージョンの Mandriva Linux がリリースされました"
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr ""
 "お使いのディストリビューションには付加的なパッケージメディアがあります。"
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "ネットワークが未接続です。ネットワークを設定してください。"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr ""
 "サービスが有効になっていません。「Online ウェブサイト」を選択してください。"
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr "urpmi データベースがロックされています"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "お使いのバージョンはサービスの対象外です (期限切れ/開発版)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
@@ -89,7 +90,7 @@ msgstr ""
 "メディアが見つかりません。RPM メディアマネージャでメディアを追加してくださ"
 "い。"
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -105,42 +106,37 @@ msgstr ""
 "\n"
 "その後、%s を再起動してください。"
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "有効"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr "メディアの更新でエラー"
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "システムを更新"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr "付加的なパッケージメディア"
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "更新をチェック"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "ネットワークの設定"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr "システムをアップグレード"
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -148,125 +144,146 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "Drakconnect を起動\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr "新バージョンの Mandriva Linux"
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "エラー"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr "新しいバージョンの Mandriva Linux がリリースされました。"
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr "この新しいバージョンの詳細情報"
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "ディストリビューション %s にアップグレードしますか？"
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr "次回から尋ねない"
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "次へ"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, fuzzy, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Online %s"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
 "the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, fuzzy, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr "ディストリビューション %s にアップグレードしますか？"
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr "新バージョンの OpenMandriva Linux"
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
@@ -275,17 +292,17 @@ msgstr ""
 "このアップグレードには高速な回線 (ケーブル、xDSL など) が必要です。完了するま"
 "でに数時間かかる場合があります。"
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr "推定で %s のデータをダウンロードします"
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr "開始する前に実行中のすべてのアプリケーションを終了してください。"
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
@@ -294,94 +311,89 @@ msgstr ""
 "ラップトップをお使いの場合は、電源を AC アダプタに切り替え、可能であれば Wi-"
 "Fi 接続よりイーサネット接続を優先してください。"
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "MandrivaUpdate を起動\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "新しい更新を計算中...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "新しい更新はありません\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "ネットワーク確認: 無効になっているようです\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online %s"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
-msgstr "Mandriva Online は Mandriva ウェブサービスへのアクセスを提供します。"
+msgid "OpenMandriva Online gives access to Moondrake web services."
+msgstr "OpenMandriva Online は Moondrake ウェブサービスへのアクセスを提供します。"
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Online ウェブサイト"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "警告"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr "詳細情報"
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr "メディアを追加"
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "情報..."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr "更新の設定"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "起動時に常に開始する"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "終了"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr "新しいメディアが利用できます"
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -390,141 +402,201 @@ msgstr ""
 "%s ディストリビューションをお使いなので、特典として付加的なソフトウェアもご利"
 "用いただけます。"
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "この付加的なソフトウェア用のリポジトリをインストールしますか？"
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr "付加的なパッケージメディアの追加"
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-"付加的なメディアを追加するには、あなたのアカウント ID を入力してください"
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "エラー"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "Online ウェブサイト"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "エラーが発生しました"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr ""
-"あなたの Mandriva アカウントは %s のダウンロード申し込みが有効になっていませ"
-"ん。"
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr "メディアを追加中にエラーが発生しました"
-
-#: ../mdkapplet-add-media-helper:234
-#, fuzzy, c-format
-msgid "Successfully added media!"
-msgstr "メディア %s を追加しました。"
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr "メディア %s を追加しました。"
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "OK"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr "ここで更新アプレットの設定を行います"
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, fuzzy, c-format
 msgid "Update frequency (hours)"
 msgstr "更新間隔 (秒)"
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, fuzzy, c-format
 msgid "First check delay (minutes)"
 msgstr "最初のチェックの遅延 (秒)"
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+"あなたのシステムの %s にはアップグレードに必要な空き領域が残っていません "
+"(%dMB < %dMB)"
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "インストール失敗"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr "'%s' にインストールのログがあります"
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "再試行"
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "おめでとうございます"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr "OpenMandriva の %s リリースへのアップグレードに成功しました。"
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr "システムを再起動してください。"
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "再起動"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "エラーが発生しました"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "更新の設定"
+
+#: ../mdkapplet-upgrade-helper:197
+#, fuzzy, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+"あなたの Mandriva アカウントは Powerpack のダウンロード申し込みが有効になって"
+"いません。"
+
+#: ../mdkapplet-upgrade-helper:214
+#, fuzzy, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+"付加的なメディアを追加するには、あなたのアカウント ID を入力してください"
+
+#: ../mdkapplet-upgrade-helper:236
+#, fuzzy, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+"付加的なメディアを追加するには、あなたのアカウント ID を入力してください"
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"パッケージのデータベースがロックされています。パッケージの\n"
+"データベースを使用しているアプリケーションを閉じてください。\n"
+"(別のデスクトップでメディアマネージャを実行中、あるいはパッケージ\n"
+"を現在インストール中ではありませんか？)"
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "メディアの追加に失敗しました"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr "メディアの更新でエラー"
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -532,103 +604,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Online %s"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Online ウェブサイト"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr "ユーザアカウントの詳細"
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr "メールアドレス"
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, c-format
 msgid "Your password"
 msgstr "パスワード"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, c-format
 msgid "Forgotten password"
 msgstr "パスワードを忘れました"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr "パスワードとメールアドレスは空にはできません。"
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "閉じる"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva PowerPack"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr "ディストリビューションのアップグレード"
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -640,35 +680,175 @@ msgstr ""
 "\n"
 "使用方法 :\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, fuzzy, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Copyright (C) %s by Mandriva"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- このヘルプメッセージを出力\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Mandriva Update を自動的に起動する。\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- MNF 固有のスクリプトを起動する。\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- テキストモードの Mandriva Update\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr "  --debug\t\t\t- 記録を取る\n"
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source メディアからパッケージを更新できません。\n"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "更新の設定"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "更新の設定"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#~ msgid "  --debug\t\t- log what is done.\n"
+#~ msgstr "  --debug\t\t- 記録を取る\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- OpenMandriva Update を自動的に起動する。\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- テキストモードの OpenMandriva Update\n"
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released"
+#~ msgstr "新しいバージョンの OpenMandriva Linux がリリースされました"
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released."
+#~ msgstr "新しいバージョンの OpenMandriva Linux がリリースされました。"
+
+#~ msgid "An error occurred while adding medium"
+#~ msgstr "メディアを追加中にエラーが発生しました"
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Copyright (C) %s by %s"
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Online ウェブサイト"
+
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "OpenMandrivaUpdate を起動\n"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online gives access to Mandriva web services."
+#~ msgstr ""
+#~ "Mandriva Online は Mandriva ウェブサービスへのアクセスを提供します。"
+
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva PowerPack"
+
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
+
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva Online %s"
+
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva PowerPack"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "Please fill in your account ID to add an additional package medium"
+#~ msgstr ""
+#~ "付加的なメディアを追加するには、あなたのアカウント ID を入力してください"
 
 #, fuzzy
 #~ msgid ""
@@ -676,6 +856,47 @@ msgstr "update_source メディアからパッケージを更新できません�
 #~ "you have subscribed online"
 #~ msgstr ""
 #~ "付加的なメディアを追加するには、あなたのアカウント ID を入力してください"
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "サービスの設定に問題があります。ログを調べて support@moondrakeonline.com "
+#~ "にメールしてください。"
+
+#~ msgid "Successfully added media %s."
+#~ msgstr "メディア %s を追加しました。"
+
+#, fuzzy
+#~ msgid "Successfully added media!"
+#~ msgstr "メディア %s を追加しました。"
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "新しい更新はありません\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "新しいバージョンの Mandriva Linux がリリースされました。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of OpenMandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "新しいバージョンの OpenMandriva Linux がリリースされました。"
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Mandriva の %s リリースへのアップグレードに成功しました。"
+
+#~ msgid "You are using '%s' distribution."
+#~ msgstr "お使いのディストリビューションは %s です"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have %s download subscription enabled."
+#~ msgstr ""
+#~ "あなたの Mandriva アカウントは %s のダウンロード申し込みが有効になっていま"
+#~ "せん。"
 
 #, fuzzy
 #~ msgid ""
@@ -685,68 +906,37 @@ msgstr "update_source メディアからパッケージを更新できません�
 #~ "あなたの Mandriva アカウントは %s のダウンロード申し込みが有効になっていま"
 #~ "せん。"
 
-#, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Online %s"
-
-#, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Online ウェブサイト"
-
 #~ msgid ""
-#~ "Your Mandriva account does not have Powerpack download subscription "
+#~ "Your OpenMandriva account does not have %s download subscription enabled."
+#~ msgstr ""
+#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になってい"
+#~ "ません。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Extended Maintenance subscription "
 #~ "enabled."
 #~ msgstr ""
-#~ "あなたの Mandriva アカウントは Powerpack のダウンロード申し込みが有効に"
+#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になってい"
+#~ "ません。"
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "あなたの OpenMandriva アカウントは Powerpack のダウンロード申し込みが有効に"
 #~ "なっていません。"
 
 #~ msgid ""
-#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
-#~ "dMB)"
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
 #~ msgstr ""
-#~ "あなたのシステムの %s にはアップグレードに必要な空き領域が残っていません "
-#~ "(%dMB < %dMB)"
-
-#~ msgid "Installation failed"
-#~ msgstr "インストール失敗"
-
-#~ msgid "Installation logs can be found in '%s'"
-#~ msgstr "'%s' にインストールのログがあります"
-
-#~ msgid "Retry"
-#~ msgstr "再試行"
-
-#~ msgid "Congratulations"
-#~ msgstr "おめでとうございます"
-
-#~ msgid "Upgrade to Mandriva %s release was successfull."
-#~ msgstr "Mandriva の %s リリースへのアップグレードに成功しました。"
-
-#~ msgid "You must restart your system."
-#~ msgstr "システムを再起動してください。"
-
-#~ msgid "Reboot"
-#~ msgstr "再起動"
-
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "パッケージのデータベースがロックされています。パッケージの\n"
-#~ "データベースを使用しているアプリケーションを閉じてください。\n"
-#~ "(別のデスクトップでメディアマネージャを実行中、あるいはパッケージ\n"
-#~ "を現在インストール中ではありませんか？)"
-
-#~ msgid "Failure when adding medium"
-#~ msgstr "メディアの追加に失敗しました"
-
-#, fuzzy
-#~ msgid ""
-#~ "The version of Mandriva Linux installed on your system is no longer "
-#~ "supported."
-#~ msgstr "新しいバージョンの Mandriva Linux がリリースされました。"
-
-#~ msgid "You are using '%s' distribution."
-#~ msgstr "お使いのディストリビューションは %s です"
+#~ "mgaupdate バージョン %s\n"
+#~ "%s\n"
+#~ "これはフリーソフトウェアであり、GNU GPL の下で再配布することができます。\n"
+#~ "\n"
+#~ "使用方法 :\n"

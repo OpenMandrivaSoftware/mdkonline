@@ -15,10 +15,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2010-06-08 12:13+0200\n"
 "Last-Translator: Keld Simonsen <keld@keldix.comm>\n"
 "Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,17 +27,17 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr "Vil se etter oppdateringer på %s"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "Systemet ditt er oppdatert."
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -45,54 +46,54 @@ msgstr ""
 "Feil ved oppsett av tjenesten. Kontroller loggene og kontakt "
 "support@mandrivaonline.com."
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "Ser etter tilgjengelige pakker. Vent litt …"
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "Det finnes nye oppdateringer for systemet ditt."
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr "En ny versjon av Mandriva Linux er nå ute."
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr "Et ekstra pakkemedium er tilgjengelig for distribusjonen din."
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr ""
 "Nettverket er ikke tilgjengelig. Kontroller at nettverksoppsettet fungerer."
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "Tjenesten er ikke startet. Velg «Hjemmeside»."
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr "urpmi-databasen er låst."
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "Utgaven din er ikke støtta (enten for gammel eller utviklingsutgave)."
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
 msgstr "Fant ingen medium. Du må legge til medium gjennom «Mediehåndtering»."
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -108,42 +109,37 @@ msgstr ""
 "\n"
 "Start så %s på nytt."
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "I bruk"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr "Feil ved oppdatering av media"
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "Installer oppdateringer"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr "Legg til ekstra pakkemedium"
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "Se etter oppdateringer"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "Sett opp nettverket"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr "Oppgrader systemet"
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -153,76 +149,92 @@ msgstr ""
 "Grunnleggende vedlikehold for denne distribusjonen er ikke støtta. Siden du "
 "abonnerer på utvida vedlikehold, får du likevel oppdateringer fram til %s."
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 "Fikk SIGHUP-signal (sannsynligvis er en oppgradering ferdig). Starter "
 "programmet på nytt."
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "Starter drakconnect\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr "Ny versjon av Mandriva Linux"
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr "Bla gjennom"
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Feil"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr "En ny versjon av Mandriva Linux er nå ute."
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr "Mer informasjon om denne nye versjonen"
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Vil du oppgradere til «%s»?"
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Ikke spør igjen"
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr "Last ned alle pakkene først"
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr "(Advarsel: Du trenger mye ledig diskplass)"
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr "Lagre pakkene i mappa:"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Neste"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
@@ -231,22 +243,22 @@ msgstr ""
 "Vedlikeholdet for dette Mandriva Linux-systemet har utløpt. Dette betyr at "
 "det ikke vil komme flere programvareoppdateringer."
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr "For å holde systemet sikkert, kan du:"
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr "Du bør skaffe utvidet vedlikehold."
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
@@ -255,22 +267,22 @@ msgstr ""
 "Du bør enten skaffe utvidet vedlikehold, eller oppgradere til en nyere "
 "versjon av %s."
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr "Du bør oppgradere til en nyere versjon av %s."
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr "Distribusjonen er ikke lenger støtta"
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr "Utvidet vedlikehold"
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
@@ -279,7 +291,12 @@ msgstr ""
 "Kjøp en vedlikeholdsutvidelse for denne versjonen (%s) og la den kjøre fram "
 "til %s."
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr "Ny versjon av OpenMandriva Linux"
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
@@ -288,17 +305,17 @@ msgstr ""
 "Denne oppgraderingen krever en nettverkstilkobling med høy båndbredde "
 "(kabel, XDSL) og kan ta flere timer å fullføre."
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr "Beregnet nedlastingsdata: %s"
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr "Du bør lukke alle andre program som kjører før du fortsetter."
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
@@ -307,238 +324,291 @@ msgstr ""
 "Du bør koble den bærbare maskinen til strømuttaket, og om mulig bruke "
 "kabeltilkobling i stedet for trådløs."
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "Kjører MandrivaUpdate\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "Gransker nye oppdateringer …\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "Systemet er oppdatert\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "Kontrollerer nettverk: ser ut til å være slått av\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online %s"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright © %s Mandriva"
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
-msgstr "Mandriva Online gir deg tilgang til vevtjenestene til Mandriva."
+msgid "OpenMandriva Online gives access to Moondrake web services."
+msgstr "OpenMandriva Online gir deg tilgang til vevtjenestene til Moondrake."
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Hjemmeside"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Olav Dahlum <odahlum@gmail.com>\n"
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Advarsel"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr "Mer informasjon"
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr "Legg til medium"
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Om …"
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr "Oppdateringsoppsett"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "Kjør ved oppstart"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Avslutt"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr "Nytt medium tilgjengelig"
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr "Du benytter «%s» og har derfor tilgang til mer programvare."
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Vil du legge til dette nye programvarelageret?"
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr "Legger til nytt pakkemedium"
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr "De støttede produktene er %s, «%s» er ikke på lista.\n"
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-"Skriv inn e-postadressen og passordet til kontoen din for å legge til det "
-"nye pakkemediet."
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Feil"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr "Feil ved henting av distribusjonsliste:"
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-"Mandriva tilbyr tolv måneder med skrivebordsoppdateringer (fram til %s) og "
-"atten måneder med baseoppdateringer (fram til %s) for distribusjoner."
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-"Utvidet vedlikehold er nå tilgjengelig for å få atten måneder med "
-"ytterligere oppdateringer (fram til %s)."
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr "Du kan abonnere <b>med en gang</b> for å få utvidet vedlikehold:"
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr "Livstidspolitikk"
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, c-format
-msgid "Online subscription"
-msgstr "Nettbasert abonnement"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "Det oppsto en feil"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr "Mandriva-kontoen din har ikke et nedlastingsabonnement for %s."
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr "Feil under forsøk på å legge til medium"
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr "La til medium."
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr "Medium %s ble lagt til."
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "OK"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr "Her kan du sette opp oppdateringsprogrammet"
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr "Oppdateringsfrekvens (timer)"
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr "Pause før første sjekk (minutt)"
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr "Se etter en ny utgave av «%s»"
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr "Se etter «%s»-medium som mangler"
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr "Begrenset"
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr "Bedrift"
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+"Systemet ditt har ikke nok ledig plass igjen på «%s» for en oppgradering (%d "
+"MB < %d MB)"
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "Feil ved installering"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr "Du finner installasjonslogger i «%s»"
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "Prøv på nytt"
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "Gratulerer"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr "Oppgraderinga til OpenMandriva %s er nå fullført."
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr "Du må starte maskina på nytt."
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Start på nytt"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "Det oppsto en feil"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "Oppdateringsoppsett"
+
+#: ../mdkapplet-upgrade-helper:197
+#, fuzzy, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+"Mandriva-kontoen din har ikke abonnementsnedlasting av PowerPack påslått."
+
+#: ../mdkapplet-upgrade-helper:214
+#, fuzzy, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+"Skriv inn e-postadressen og passordet til kontoen din for å legge til det "
+"nye pakkemediet."
+
+#: ../mdkapplet-upgrade-helper:236
+#, fuzzy, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+"Vær vennlig å skrive inn ID-en for kontoen din når du har abonnert på nett, "
+"for å kunne legge til flere pakkebrønner."
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"Pakkedatabasen er låst. Lukk andre programmer\n"
+"som bruker pakkedatabasen (har du en annen mediumshåndterer\n"
+"på et annet skrivebord, eller installeres pakker\n"
+"samtidig?)."
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Feil under forsøk på å legge til medium"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr "Feil ved oppdatering av media"
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -549,104 +619,71 @@ msgstr ""
 "effektiviteten til åpen kildekode-løsninger, sammen med eksklusiv "
 "programvare and offentlig støtte fra Mandriva."
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, c-format
 msgid "Mandriva Linux Features"
 msgstr "Funksjoner i Mandriva Linux"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, c-format
+msgid "Online subscription"
+msgstr "Nettbasert abonnement"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr "Mer informasjon om brukerkontoen din"
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr "E-postadresse"
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, c-format
 msgid "Your password"
 msgstr "Passord"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, c-format
 msgid "Forgotten password"
 msgstr "Glemt passord"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr "Passord- og e-postfeltet kan ikke være tomt."
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Lukk"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr "Velg ønsket versjon"
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr "Din tilgang til PowerPack er over"
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr "%s er nå tilgjengelig, du kan oppgradere til:"
 
-#: ../mdkonline.pm:177
-#, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Flash"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Free"
-
-#: ../mdkonline.pm:179
-#, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Mini"
-
-#: ../mdkonline.pm:180
-#, c-format
-msgid "Mandriva One"
-msgstr "Mandriva One"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva PowerPack"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-"Mandriva Linux-distribusjonen med ennå mer programvare og offentlig støtte."
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr "Den fritt tilgjengelige 100 %% åpen kildekode-distribusjonen."
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr "Distribusjonsoppgradering"
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -658,35 +695,228 @@ msgstr ""
 "\n"
 "bruk:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, fuzzy, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Copyright © %s Mandriva"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t– vis denne hjelpeteksten.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t– Mandriva Update kjørt automatisk.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t– Kjør mnf-spesifike skript.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t– tekstversjon av Mandriva Update.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr "  --debug\t\t\t– logg hva som blir gjort.\n"
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Klarte ikke oppdatere pakker fra oppdateringsmedium.\n"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "Oppdateringsoppsett"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "Oppdateringsoppsett"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "Kjører OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "Kjører OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "Kjører OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "Kjører OpenMandrivaUpdate\n"
+
+#~ msgid "  --debug\t\t- log what is done.\n"
+#~ msgstr "  --debug\t\t– logg hva som blir gjort.\n"
+
+#~ msgid "Check for newer OpenMandriva releases"
+#~ msgstr "Se etter en ny utgave av OpenMandriva"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t– OpenMandriva Update kjørt automatisk.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t– tekstversjon av OpenMandriva Update.\n"
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released"
+#~ msgstr "En ny versjon av OpenMandriva Linux er nå ute."
+
+#, fuzzy
+#~ msgid "A new version of OpenMandriva distribution has been released."
+#~ msgstr "En ny versjon av OpenMandriva Linux er nå ute."
+
+#~ msgid "An error occurred while adding medium"
+#~ msgstr "Feil under forsøk på å legge til medium"
+
+#~ msgid "Cancel, upgrade to Free Edition"
+#~ msgstr "Avbryt, oppgrader til «Free»"
+
+#~ msgid "Continue and Authenticate!"
+#~ msgstr "Fortsett og autentiser."
+
+#~ msgid ""
+#~ "Continue to use your new Powerpack account information to upgrade, or "
+#~ "Cancel and upgrade to the Free Edition."
+#~ msgstr ""
+#~ "Fortsett å bruke din nye PowerPack-kontoinformasjon for å oppgradere, "
+#~ "eller avbryte og oppgradere til «Free»."
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Copyright © %s %s"
+
+#~ msgid ""
+#~ "Extended maintenance is now available to get 18 months of additional "
+#~ "updates (until %s)."
+#~ msgstr ""
+#~ "Utvidet vedlikehold er nå tilgjengelig for å få atten måneder med "
+#~ "ytterligere oppdateringer (fram til %s)."
+
+#~ msgid "Failure while retrieving distributions list:"
+#~ msgstr "Feil ved henting av distribusjonsliste:"
+
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Skaff abonnement på PowerPack."
+
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "Kjører OpenMandrivaUpdate\n"
+
+#~ msgid "Lifetime policy"
+#~ msgstr "Livstidspolitikk"
+
+#, fuzzy
+#~ msgid ""
+#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
+#~ "delivered for this system."
+#~ msgstr ""
+#~ "Vedlikeholdet for dette OpenMandriva Linux-systemet har utløpt. Dette betyr "
+#~ "at det ikke vil komme flere programvareoppdateringer."
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Free"
+
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Flash"
+
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Free"
+
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Mini"
+
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva One"
+
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online gives access to Mandriva web services."
+#~ msgstr "Mandriva Online gir deg tilgang til vevtjenestene til Mandriva."
+
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva PowerPack"
+
+#~ msgid ""
+#~ "Mandriva provides 12 months of desktop updates (until %s) and 18 months "
+#~ "of base updates (up to the %s) for distributions."
+#~ msgstr ""
+#~ "Mandriva tilbyr tolv måneder med skrivebordsoppdateringer (fram til %s) "
+#~ "og atten måneder med baseoppdateringer (fram til %s) for distribusjoner."
+
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
+
+#~ msgid "OpenMandriva Enterprise Server"
+#~ msgstr "OpenMandriva Enterprise Server"
+
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "Funksjoner i OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Flash"
+
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Free"
+
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Mini"
+
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva One"
+
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva PowerPack"
+
+#~ msgid ""
+#~ "OpenMandriva Powerpack brings you the best of Linux experience for desktop: "
+#~ "stability and efficiency of open source solutions together with exclusive "
+#~ "softwares and OpenMandriva official support."
+#~ msgstr ""
+#~ "OpenMandriva Linux gir deg den beste opplevelsen for skrivebordet. "
+#~ "Stabilitet og effektiviteten til åpen kildekode-løsninger, sammen med "
+#~ "eksklusiv programvare and offentlig støtte fra OpenMandriva."
+
+#~ msgid ""
+#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 months "
+#~ "of base updates (up to the %s) for distributions."
+#~ msgstr ""
+#~ "OpenMandriva tilbyr tolv måneder med skrivebordsoppdateringer (fram til %s) "
+#~ "og atten måneder med baseoppdateringer (fram til %s) for distribusjoner."
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "Please fill in your account ID to add an additional package medium"
+#~ msgstr ""
+#~ "Skriv inn e-postadressen og passordet til kontoen din for å legge til det "
+#~ "nye pakkemediet."
 
 #~ msgid ""
 #~ "Please fill in your account ID to add an additional package medium once "
@@ -696,17 +926,11 @@ msgstr "Klarte ikke oppdatere pakker fra oppdateringsmedium.\n"
 #~ "nett, for å kunne legge til flere pakkebrønner."
 
 #~ msgid ""
-#~ "Your Mandriva account does not have Extended Maintenance subscription "
-#~ "enabled."
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
 #~ msgstr ""
-#~ "Mandriva-kontoen din har ikke utvidet vedlikeholdsabonnement slått på."
-
-#, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Free"
-
-#~ msgid "Would you like Powerpack?"
-#~ msgstr "Vil du ha PowerPack?"
+#~ "Feil ved oppsett av tjenesten. Kontroller loggene og kontakt "
+#~ "support@moondrakeonline.com."
 
 #~ msgid ""
 #~ "Since you don't have Powerpack rights you may visit mandriva store now "
@@ -715,66 +939,81 @@ msgstr "Klarte ikke oppdatere pakker fra oppdateringsmedium.\n"
 #~ "Siden du mangler rettigheter til PowerPack, kan du besøke nettbutikken "
 #~ "til Mandriva og bestille et abonnement."
 
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Skaff abonnement på PowerPack."
+#~ msgid "Successfully added media %s."
+#~ msgstr "Medium %s ble lagt til."
+
+#~ msgid "Successfully added media!"
+#~ msgstr "La til medium."
+
+#~ msgid "Supported products are %s, '%s' is not on the list.\n"
+#~ msgstr "De støttede produktene er %s, «%s» er ikke på lista.\n"
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "Systemet er oppdatert\n"
+
+#~ msgid "The 100%% Open Source distribution freely available."
+#~ msgstr "Den fritt tilgjengelige 100 %% åpen kildekode-distribusjonen."
 
 #~ msgid ""
-#~ "Continue to use your new Powerpack account information to upgrade, or "
-#~ "Cancel and upgrade to the Free Edition."
+#~ "The Mandriva Linux distribution with even more softwares and official "
+#~ "support."
 #~ msgstr ""
-#~ "Fortsett å bruke din nye PowerPack-kontoinformasjon for å oppgradere, "
-#~ "eller avbryte og oppgradere til «Free»."
+#~ "Mandriva Linux-distribusjonen med ennå mer programvare og offentlig "
+#~ "støtte."
 
-#~ msgid "Continue and Authenticate!"
-#~ msgstr "Fortsett og autentiser."
-
-#~ msgid "Cancel, upgrade to Free Edition"
-#~ msgstr "Avbryt, oppgrader til «Free»"
-
+#, fuzzy
 #~ msgid ""
-#~ "Your Mandriva account does not have Powerpack download subscription "
-#~ "enabled."
+#~ "The OpenMandriva distribution with even more softwares and official support."
 #~ msgstr ""
-#~ "Mandriva-kontoen din har ikke abonnementsnedlasting av PowerPack påslått."
-
-#~ msgid ""
-#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
-#~ "dMB)"
-#~ msgstr ""
-#~ "Systemet ditt har ikke nok ledig plass igjen på «%s» for en oppgradering (%"
-#~ "d MB < %d MB)"
-
-#~ msgid "Installation failed"
-#~ msgstr "Feil ved installering"
-
-#~ msgid "Installation logs can be found in '%s'"
-#~ msgstr "Du finner installasjonslogger i «%s»"
-
-#~ msgid "Retry"
-#~ msgstr "Prøv på nytt"
-
-#~ msgid "Congratulations"
-#~ msgstr "Gratulerer"
+#~ "OpenMandriva Linux-distribusjonen med ennå mer programvare og offentlig "
+#~ "støtte."
 
 #~ msgid "Upgrade to Mandriva %s release was successfull."
 #~ msgstr "Oppgraderinga til Mandriva %s er nå fullført."
 
-#~ msgid "You must restart your system."
-#~ msgstr "Du må starte maskina på nytt."
+#~ msgid "Would you like Powerpack?"
+#~ msgstr "Vil du ha PowerPack?"
 
-#~ msgid "Reboot"
-#~ msgstr "Start på nytt"
+#~ msgid "You can subscribe <b>right now</b> to get extended maintenance:"
+#~ msgstr "Du kan abonnere <b>med en gang</b> for å få utvidet vedlikehold:"
 
 #~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "Pakkedatabasen er låst. Lukk andre programmer\n"
-#~ "som bruker pakkedatabasen (har du en annen mediumshåndterer\n"
-#~ "på et annet skrivebord, eller installeres pakker\n"
-#~ "samtidig?)."
+#~ "Your Mandriva account does not have %s download subscription enabled."
+#~ msgstr "Mandriva-kontoen din har ikke et nedlastingsabonnement for %s."
 
-#~ msgid "Failure when adding medium"
-#~ msgstr "Feil under forsøk på å legge til medium"
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Mandriva-kontoen din har ikke utvidet vedlikeholdsabonnement slått på."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have %s download subscription enabled."
+#~ msgstr "OpenMandriva-kontoen din har ikke et nedlastingsabonnement for %s."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "OpenMandriva-kontoen din har ikke utvidet vedlikeholdsabonnement slått på."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "OpenMandriva-kontoen din har ikke abonnementsnedlasting av PowerPack påslått."
+
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mgaupdate versjon %s\n"
+#~ "%s\n"
+#~ "Dette er fri programvare og kan redistribueres under vilkårene til GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "bruk:\n"

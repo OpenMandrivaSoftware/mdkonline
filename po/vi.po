@@ -5,27 +5,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline 0.15\n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2005-02-12 19:53+0700\n"
 "Last-Translator: Trinh Minh Thanh <tmthanh@yahoo.com>\n"
 "Language-Team: Gnome-Vi <Gnomevi-list@lists.sourceforge.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, fuzzy, c-format
 msgid "Will check updates at %s"
 msgstr "Kiểm tra cập nhật"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "Hệ thống của bạn đã cập nhật"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -34,53 +35,53 @@ msgstr ""
 "Trục trặc về cấu hình dịch vụ. Hãy xem log và gửi email tới "
 "support@mandrivaonline.com"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "Hãy đợi, đang tìm các gói sẵn có..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "Có cập nhật mới cho hệ thống của bạn"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr ""
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr ""
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "Network chưa có. Hãy cấu hình network !"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "Dịch vụ chưa được kích hoạt. Hãy nhấn chuột lên \"Website Trực Tuyến\""
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, fuzzy, c-format
 msgid "urpmi database locked"
 msgstr "cơ sở dữ liệu urpmi bị khóa"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr "Không hỗ trợ phát hành này (phát hành quá cũ hay là bản phát triển)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
 msgstr ""
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, fuzzy, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -97,42 +98,37 @@ msgstr ""
 "\n"
 "Sau đó chạy lại %s."
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "Bật chạy"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr ""
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "Cài đặt các cập nhật"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr ""
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "Kiểm tra cập nhật"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "Cấu hình network"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr ""
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -140,374 +136,447 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "Chạy drakconnect\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr ""
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Lỗi"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr ""
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr ""
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Tiếp theo"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Bỏ qua"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, fuzzy, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Online"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
 "the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr ""
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
 "and may take several hours to complete."
 msgstr ""
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr ""
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr ""
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
 "available."
 msgstr ""
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "Chạy MandrivaUpdate\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "Tính toán các cập nhật mới...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "Hệ thống đã cập nhật mới\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "Kiểm tra mạng: có lẽ chưa bật chạy\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, fuzzy, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
+msgid "OpenMandriva Online gives access to Moondrake web services."
 msgstr ""
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "WebSite Trực Tuyến"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Cảnh báo"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr ""
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr ""
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Giới thiệu"
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, fuzzy, c-format
 msgid "Updates Configuration"
 msgstr "Đang đọc cấu hình\n"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "Luôn chạy khi khởi động"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Thoát"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Lỗi"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "Tên máy tính:"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "Lỗi xảy ra"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:226
-#, fuzzy, c-format
-msgid "An error occurred while adding medium"
-msgstr "Lỗi khi thêm phương tiện"
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "OK"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr ""
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr ""
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr ""
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "Không cài đặt được"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "Chúc mừng"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Khởi động lại"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "Lỗi xảy ra"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "Đang đọc cấu hình\n"
+
+#: ../mdkapplet-upgrade-helper:197
+#, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:214
+#, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:236
+#, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"Cơ sở dữ liệu gói phần mềm bị khóa. Hãy đóng các chương trình\n"
+"khác đang làm việc với cơ sở dữ liệu này (bạn có trình quản lý\n"
+"phương tiện khác trên desktop khác hay là bạn hiện cũng đang\n"
+"cài đặt các gói phần mềm?)."
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Lỗi khi thêm phương tiện"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -515,103 +584,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Online"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Tên máy tính:"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, fuzzy, c-format
 msgid "Your password"
 msgstr "Sai mật khẩu"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, fuzzy, c-format
 msgid "Forgotten password"
 msgstr "Sai mật khẩu"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Đóng"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, fuzzy, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr ""
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -624,118 +661,192 @@ msgstr ""
 "\n"
 "cách dùng:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Bản quyền (C) %s %s"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- in ra thông điệp trợ giúp này.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Tự động chạy Mandriva Update.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- chạy mnf specific scripts.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- phiên bản text mode của Mandriva Update.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr ""
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Không thể cập nhật các gói từ phương tiện update_source.\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Online"
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "Đang đọc cấu hình\n"
+
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "Đang đọc cấu hình\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "Chạy OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "Chạy OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "Chạy OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "Chạy OpenMandrivaUpdate\n"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- chạy Mandriva Update.\n"
+
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- chạy OpenMandriva Update.\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Tự động chạy OpenMandriva Update.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- phiên bản text mode của OpenMandriva Update.\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Tài khoản đã có rồi\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Việc tạo tài khoản hay chứng thực"
+
+#~ msgid "Actions"
+#~ msgstr "Hành động"
 
 #, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Tên máy tính:"
-
-#~ msgid "Installation failed"
-#~ msgstr "Không cài đặt được"
-
-#~ msgid "Congratulations"
-#~ msgstr "Chúc mừng"
-
-#~ msgid "Reboot"
-#~ msgstr "Khởi động lại"
-
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
-#~ msgstr ""
-#~ "Cơ sở dữ liệu gói phần mềm bị khóa. Hãy đóng các chương trình\n"
-#~ "khác đang làm việc với cơ sở dữ liệu này (bạn có trình quản lý\n"
-#~ "phương tiện khác trên desktop khác hay là bạn hiện cũng đang\n"
-#~ "cài đặt các gói phần mềm?)."
-
-#~ msgid "Failure when adding medium"
+#~ msgid "An error occurred while adding medium"
 #~ msgstr "Lỗi khi thêm phương tiện"
 
-#~ msgid "Yes"
-#~ msgstr "Có"
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
+#~ msgstr ""
+#~ "Không thể kết nối đến mandrivaonline website: sai đăng nhập/mật khẩu hoặc "
+#~ "thiết lập sai router/firewall"
 
-#~ msgid "No"
-#~ msgstr "Không"
+#~ msgid ""
+#~ "Cannot connect to OpenMandriva Online website: wrong login/password or "
+#~ "router/firewall bad settings"
+#~ msgstr ""
+#~ "Không thể kết nối đến mandrivaonline website: sai đăng nhập/mật khẩu hoặc "
+#~ "thiết lập sai router/firewall"
 
-#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
-#~ msgstr "Mandriva Online có vẻ được cài đặt lại, đang nạp lại applet ...."
+#~ msgid "Check updates"
+#~ msgstr "Kiểm tra cập nhật"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Kiểm tra tập tin cấu hình: không tồn tại\n"
 
 #~ msgid "Checking... Updates are available\n"
 #~ msgstr "Kiểm tra... Đang có bản cập nhật mới\n"
 
-#, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "không thể mở rpmdb"
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Chọn các gói cần cài đặt và nhấn Ok"
+
+#~ msgid "Clear"
+#~ msgstr "Xóa sạch"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Hoàn thành việc tải lên cấu hình"
+
+#~ msgid "Configuration uploaded successfuly"
+#~ msgstr "Hoàn thành việc tải lên cấu hình"
+
+#~ msgid "Configure"
+#~ msgstr "Cấu hình"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Cấu hình bây giờ!"
+
+#~ msgid "Configure the service"
+#~ msgstr "Cấu hình dịch vụ"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Xác Nhận Mật Khẩu:"
 
 #~ msgid "Connecting to"
 #~ msgstr "Kết nối tới"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "Applet Cập Nhật Mandriva Linux"
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Đang kết nối đến Mandriva Online website..."
+
+#~ msgid "Connecting to OpenMandriva Online website..."
+#~ msgstr "Đang kết nối đến OpenMandriva Online website..."
 
 #, fuzzy
-#~ msgid "Security error"
-#~ msgstr "Cảnh Báo Bảo Mật:"
+#~ msgid "Connection error"
+#~ msgstr "Tên kết nối"
+
+#~ msgid "Connection problem"
+#~ msgstr "Trục trặc kết nối"
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Bản quyền (C) %s %s"
+
+#~ msgid "Country"
+#~ msgstr "Quốc gia"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Tạo tài khoản Mandriva Online"
+
+#~ msgid "Create a OpenMandriva Online Account"
+#~ msgstr "Tạo tài khoản OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "Database access forbidden"
+#~ msgstr "Máy chủ Cơ sở Dữ liệu"
 
 #, fuzzy
 #~ msgid "Database error"
 #~ msgstr "Lỗi cơ sở dữ liệu"
 
-#, fuzzy
-#~ msgid "Registration error"
-#~ msgstr "Kiểu đăng ký"
+#~ msgid "Development release not supported by service"
+#~ msgstr "Dịch vụ không hỗ trợ phiên bản phát triển"
 
-#, fuzzy
-#~ msgid "Some parameters are missing"
-#~ msgstr "Thiếu tên máy in ở xa !"
-
-#, fuzzy
-#~ msgid "Password error"
-#~ msgstr "Mật khẩu cho %s"
-
-#, fuzzy
-#~ msgid "Login error"
-#~ msgstr "lỗi không xác định"
-
-#, fuzzy
-#~ msgid ""
-#~ "The email you provided is already in use\n"
-#~ "Please enter another one\n"
-#~ msgstr "Thư mục đích này đang được dùng rồi, hãy chọn thư mục khác."
+#~ msgid "Down"
+#~ msgstr "Xuống"
 
 #, fuzzy
 #~ msgid ""
@@ -744,190 +855,52 @@ msgstr "Không thể cập nhật các gói từ phương tiện update_source.\
 #~ msgstr "Trường tên trống, hãy nhập một tên"
 
 #, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "Restricted WEP"
+#~ msgid "Email address:"
+#~ msgstr "Địa chỉ thư gửi đi"
+
+#~ msgid "Email not valid\n"
+#~ msgstr "Email không hợp lệ\n"
+
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
+#~ msgstr "Hãy điền tên đăng nhập MandraleOnline, mật khẩu và tên máy:"
+
+#~ msgid "Enter your OpenMandriva Online login, password and machine name:"
+#~ msgstr "Hãy điền tên đăng nhập MandraleOnline, mật khẩu và tên máy:"
 
 #, fuzzy
-#~ msgid "Database access forbidden"
-#~ msgstr "Máy chủ Cơ sở Dữ liệu"
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "không thể mở rpmdb"
+
+#~ msgid "First name:"
+#~ msgstr "Tên đầu:"
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Từ bây giờ, bạn sẽ nhận được các thông\n"
+#~ "báo về cập nhật bảo mật thông qua Mandriva Online."
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to OpenMandriva Online."
+#~ msgstr ""
+#~ "Từ bây giờ, bạn sẽ nhận được các thông\n"
+#~ "báo về cập nhật bảo mật thông qua OpenMandriva Online."
 
 #, fuzzy
-#~ msgid "Service error"
-#~ msgstr "Lỗi ghi\n"
-
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "Mật khẩu không khớp."
-
-#, fuzzy
-#~ msgid "User Forbidden"
-#~ msgstr "Đăng nhập người dùng:"
-
-#, fuzzy
-#~ msgid "Connection error"
-#~ msgstr "Tên kết nối"
-
-#~ msgid "Please wait"
-#~ msgstr "Hãy đợi"
-
-#~ msgid "Preparing..."
-#~ msgstr "Đang chuẩn bị..."
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "Đang cài đặt các gói tin ...\n"
-
-#, fuzzy
-#~ msgid "New bundles are available for your system"
-#~ msgstr "Có cập nhật mới cho hệ thống của bạn"
-
-#~ msgid "Service is not configured. Please click on \"Configure the service\""
-#~ msgstr "Chưa cấu hình dịch vụ. Hãy nhấn \"Cấu hình dịch vụ\""
-
-#~ msgid "Configure the service"
-#~ msgstr "Cấu hình dịch vụ"
-
-#~ msgid "Check updates"
-#~ msgstr "Kiểm tra cập nhật"
-
-#~ msgid "Configure Now!"
-#~ msgstr "Cấu hình bây giờ!"
-
-#~ msgid "Actions"
-#~ msgstr "Hành động"
-
-#~ msgid "Configure"
-#~ msgstr "Cấu hình"
-
-#~ msgid "See logs"
-#~ msgstr "Xem log"
-
-#~ msgid "Status"
-#~ msgstr "Trạng thái"
-
-#~ msgid "Network Connection: "
-#~ msgstr "Kết nối mạng:"
-
-#~ msgid "Up"
-#~ msgstr "Lên"
-
-#~ msgid "Down"
-#~ msgstr "Xuống"
-
-#~ msgid "Last check: "
-#~ msgstr "Lần kiểm tra cuối:"
-
-#~ msgid "Machine name:"
+#~ msgid "Get Powerpack subscription!"
 #~ msgstr "Tên máy tính:"
 
-#~ msgid "Updates: "
-#~ msgstr "Cập nhật:"
-
-#~ msgid "Development release not supported by service"
-#~ msgstr "Dịch vụ không hỗ trợ phiên bản phát triển"
-
-#~ msgid "Too old release not supported by service"
-#~ msgstr "Dịch vụ không hỗ trợ phiên bản quá cũ"
-
-#~ msgid "Unknown state"
-#~ msgstr "Trạng thái không xác định"
-
-#~ msgid "Online services disabled. Contact Mandriva Online site\n"
-#~ msgstr "Dịch vụ trực tuyến bị tắt. Hãy liên lạc với Mandriva Online site\n"
-
-#~ msgid "Wrong Password.\n"
-#~ msgstr "Sai mật khẩu.\n"
-
-#~ msgid "Wrong Action or host or login.\n"
-#~ msgstr "Sai hành động, host, đăng nhập.\n"
-
-#~ msgid ""
-#~ "Something is wrong with your network settings (check your route, firewall "
-#~ "or proxy settings)\n"
-#~ msgstr ""
-#~ "Có gi đó chưa đúng trong thiết lập mạng (hãy kiểm tra thiết lập route, "
-#~ "tường lửa, proxy)\n"
-
-#~ msgid ""
-#~ "Problem occured while connecting to the server, please contact the "
-#~ "support team"
-#~ msgstr "Có trục trặc khi kết nỗi tới máy chủ, hãy liên lạc với nhóm hỗ trợ"
-
-#~ msgid "Response from Mandriva Online server\n"
-#~ msgstr "Trả lời từ máy chủ Mandriva Online\n"
-
-#~ msgid "No check"
-#~ msgstr "Không kiểm tra"
-
-#~ msgid "Checking config file: Not present\n"
-#~ msgstr "Kiểm tra tập tin cấu hình: không tồn tại\n"
-
-#~ msgid "Logs"
-#~ msgstr "Logs"
-
-#~ msgid "Clear"
-#~ msgstr "Xóa sạch"
-
-#~ msgid ""
-#~ "mdonline version %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "phiên bản mdonline %s\n"
-#~ "Bản quyền (C) %s Mandriva.\n"
-#~ "Đây là phần mềm tự do và có thể phân phối lại dưới các điều khoản của GNU/"
-#~ "GPL.\n"
-#~ "\n"
-#~ "cách dùng:\n"
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "Xanh lá cây"
 
 #~ msgid "I already have an account"
 #~ msgstr "Tôi đã có một tài khoản"
 
 #~ msgid "I want to subscribe"
 #~ msgstr "Tôi muốn đăng ký"
-
-#~ msgid "Mr."
-#~ msgstr "Ô."
-
-#~ msgid "Mrs."
-#~ msgstr "B."
-
-#~ msgid "Ms."
-#~ msgstr "B."
-
-#~ msgid ""
-#~ "This assistant will help you to upload your configuration\n"
-#~ "(packages, hardware configuration) to a centralized database in\n"
-#~ "order to keep you informed about security updates and useful upgrades.\n"
-#~ msgstr ""
-#~ "Trợ giúp này sẽ giúp bạn tải lên cấu hình bạn có\n"
-#~ "(các gói, cấu hình phần cứng) đến cơ sở dữ liệu tập chung nhằm\n"
-#~ "duy trì thông báo cho bạn về các cập nhật bảo mật và nâng cấp hữu ích.\n"
-
-#~ msgid "Account creation or authentication"
-#~ msgstr "Việc tạo tài khoản hay chứng thực"
-
-#~ msgid "Enter your Mandriva Online login, password and machine name:"
-#~ msgstr "Hãy điền tên đăng nhập MandraleOnline, mật khẩu và tên máy:"
-
-#, fuzzy
-#~ msgid "Email address:"
-#~ msgstr "Địa chỉ thư gửi đi"
-
-#~ msgid "Country"
-#~ msgstr "Quốc gia"
-
-#~ msgid "Password:"
-#~ msgstr "Mật khẩu:"
-
-#, fuzzy
-#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
-#~ msgstr "Các điểm gắn kết chỉ nên dùng các ký tự chữ và số"
-
-#~ msgid "Connecting to Mandriva Online website..."
-#~ msgstr "Đang kết nối đến Mandriva Online website..."
 
 #~ msgid ""
 #~ "In order to benefit from Mandriva Online services,\n"
@@ -966,42 +939,105 @@ msgstr "Không thể cập nhật các gói từ phương tiện update_source.\
 #~ "tại\n"
 #~ "www.mandrivaexpert.com."
 
-#~ msgid "Connection problem"
-#~ msgstr "Trục trặc kết nối"
+#~ msgid ""
+#~ "In order to benefit from OpenMandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to OpenMandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Để nhận lợi ích từ các dịch vụ OpenMandriva Online,\n"
+#~ "chúng tôi sẽ tải lên cấu hình bạn có.\n"
+#~ "\n"
+#~ "Bây giờ, đồ thuật sẽ gửi những thông tin sau tới OpenMandriva:\n"
+#~ "\n"
+#~ "1) danh sách các gói đã được cài đặt lên hệ thống,\n"
+#~ "\n"
+#~ "2) cấu hình phần cứng.\n"
+#~ "\n"
+#~ "Nếu cảm thấy không thoải mái, hoặc không muốn hưởng lợi từ dịch vụ này,\n"
+#~ "hãy nhấn 'Bỏ qua'. Nếu nhấn 'Tiếp theo', chúng tôi sẽ được phép gửi bạn "
+#~ "thông báo\n"
+#~ "về các cập nhật bảo mật và các nâng cấp hữu ích thông qua e-mail cá "
+#~ "nhân.\n"
+#~ "Thêm nữa, bạn được hưởng lợi do giảm giá chi trả cho các dịch vụ hỗ trợ "
+#~ "tại\n"
+#~ "www.mandrivaexpert.com."
 
-#~ msgid "Problem occurs when uploading files, please try again"
-#~ msgstr "Trục trặc khi tải lên các tập tin, hãy thực hiện lại"
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Đang cài đặt các gói tin ...\n"
 
-#~ msgid "Create a Mandriva Online Account"
-#~ msgstr "Tạo tài khoản Mandriva Online"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "Xanh lá cây"
-
-#~ msgid "First name:"
-#~ msgstr "Tên đầu:"
+#~ msgid "Last check: "
+#~ msgstr "Lần kiểm tra cuối:"
 
 #, fuzzy
 #~ msgid "Last name:"
 #~ msgstr "Tên đầu:"
 
-#~ msgid "Confirm Password:"
-#~ msgstr "Xác Nhận Mật Khẩu:"
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "Chạy OpenMandrivaUpdate\n"
 
-#~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
-#~ msgstr ""
-#~ "Mật khẩu không khớp\n"
-#~ " Hãy thử lại\n"
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Đăng nhập và mật khẩu không nên dài quá 12 ký tự\n"
 
 #, fuzzy
-#~ msgid "Please fill in each field"
-#~ msgstr "Hãy điền đủ các trường\n"
+#~ msgid "Login error"
+#~ msgstr "lỗi không xác định"
 
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "Địa chỉ thư không hợp lệ!\n"
+#~ msgid "Login:"
+#~ msgstr "Đăng nhập:"
+
+#~ msgid "Logs"
+#~ msgstr "Logs"
+
+#, fuzzy
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr "Các điểm gắn kết chỉ nên dùng các ký tự chữ và số"
+
+#~ msgid "Machine name:"
+#~ msgstr "Tên máy tính:"
+
+#~ msgid "Mail contact:"
+#~ msgstr "Thư liên lạc:"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Applet Cập Nhật Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Mandriva Online Account successfully created.\n"
@@ -1009,16 +1045,6 @@ msgstr "Không thể cập nhật các gói từ phương tiện update_source.\
 #~ msgstr ""
 #~ "Đã tạo được tài khoản Mandriva Online.\n"
 #~ "Hãy nhấn \"Tiếp theo\" để chứng thực và tải lên cấu hình của bạn\n"
-
-#~ msgid "Your upload was successful!"
-#~ msgstr "Đã hoàn thành việc tải lên!"
-
-#~ msgid ""
-#~ "From now you will receive on security and updates \n"
-#~ "announcements thanks to Mandriva Online."
-#~ msgstr ""
-#~ "Từ bây giờ, bạn sẽ nhận được các thông\n"
-#~ "báo về cập nhật bảo mật thông qua Mandriva Online."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1028,48 +1054,264 @@ msgstr "Không thể cập nhật các gói từ phương tiện update_source.\
 #~ "Một chương trình sẽ chạy thường quy trong hệ thống để đợi các cập nhật "
 #~ "mới\n"
 
-#~ msgid "Your Mandriva Online account has been successfully configured\n"
-#~ msgstr "Cấu hình thành công tài khoản Mandriva Online của bạn\n"
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr "Mandriva Online có vẻ được cài đặt lại, đang nạp lại applet ...."
 
-#~ msgid "Configuration uploaded successfully"
-#~ msgstr "Hoàn thành việc tải lên cấu hình"
-
-#~ msgid "Problem uploading configuration"
-#~ msgstr "Lỗi tải lên cấu hình"
-
-#~ msgid ""
-#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
-#~ "firewall bad settings"
-#~ msgstr ""
-#~ "Không thể kết nối đến mandrivaonline website: sai đăng nhập/mật khẩu hoặc "
-#~ "thiết lập sai router/firewall"
-
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- chạy Mandriva Update.\n"
-
-#~ msgid "Choose which packages should be installed and Press Ok"
-#~ msgstr "Chọn các gói cần cài đặt và nhấn Ok"
-
-#~ msgid "System is busy. Please wait ..."
-#~ msgstr "Hệ thống đang bận, hãy chờ...."
-
-#~ msgid "Sending configuration..."
-#~ msgstr "Đang gửi cấu hình..."
-
-#~ msgid "No %s file found. Run mdkonline wizard first"
-#~ msgstr "Không thấy tập tin %s. Hãy chạy đồ thuật mdkonline trước"
+#, fuzzy
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva Online"
 
 #~ msgid "Mandriva Update could not contact the site, we will try again."
 #~ msgstr "Mandriva Update không thể liên lạc với site, hãy thử lại sau."
 
-#~ msgid "Login:"
-#~ msgstr "Đăng nhập:"
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
 
-#~ msgid "or"
-#~ msgstr "hoặc"
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandriva Online"
 
-#~ msgid "wrong password:"
-#~ msgstr "Mật khẩu sai:"
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "Applet Cập Nhật OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid ""
+#~ "OpenMandriva Online Account successfuly created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Đã tạo được tài khoản OpenMandriva Online.\n"
+#~ "Hãy nhấn \"Tiếp theo\" để chứng thực và tải lên cấu hình của bạn\n"
+
+#~ msgid ""
+#~ "OpenMandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "OpenMandriva Online cung cấp khả năng tự động cập nhật.\n"
+#~ "Một chương trình sẽ chạy thường quy trong hệ thống để đợi các cập nhật "
+#~ "mới\n"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr "OpenMandriva Online có vẻ được cài đặt lại, đang nạp lại applet ...."
+
+#, fuzzy
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr "OpenMandriva Update không thể liên lạc với site, hãy thử lại sau."
+
+#~ msgid "Mr."
+#~ msgstr "Ô."
+
+#~ msgid "Mrs."
+#~ msgstr "B."
+
+#~ msgid "Ms."
+#~ msgstr "B."
+
+#~ msgid "Network Connection: "
+#~ msgstr "Kết nối mạng:"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Có cập nhật mới cho hệ thống của bạn"
+
+#~ msgid "No"
+#~ msgstr "Không"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "Không thấy tập tin %s. Hãy chạy đồ thuật mdkonline trước"
+
+#~ msgid "No check"
+#~ msgstr "Không kiểm tra"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Địa chỉ thư không hợp lệ!\n"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr "Dịch vụ trực tuyến bị tắt. Hãy liên lạc với Mandriva Online site\n"
+
+#~ msgid "Online services disabled. Contact OpenMandriva Online site\n"
+#~ msgstr "Dịch vụ trực tuyến bị tắt. Hãy liên lạc với OpenMandriva Online site\n"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "Mật khẩu cho %s"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "Mật khẩu không khớp."
+
+#~ msgid "Password:"
+#~ msgstr "Mật khẩu:"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "Hãy điền đủ các trường\n"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Hãy cung cấp đăng nhập"
+
+#~ msgid "Please wait"
+#~ msgstr "Hãy đợi"
+
+#~ msgid "Preparing..."
+#~ msgstr "Đang chuẩn bị..."
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Trục trặc kết nối với máy chủ\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr "Có trục trặc khi kết nỗi tới máy chủ, hãy liên lạc với nhóm hỗ trợ"
+
+#~ msgid ""
+#~ "Problem occurred while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr "Có trục trặc khi kết nỗi tới máy chủ, hãy liên lạc với nhóm hỗ trợ"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Trục trặc khi tải lên các tập tin, hãy thực hiện lại"
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Lỗi tải lên cấu hình"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "Kiểu đăng ký"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Trả lời từ máy chủ Mandriva Online\n"
+
+#~ msgid "Response from OpenMandriva Online server\n"
+#~ msgstr "Trả lời từ máy chủ OpenMandriva Online\n"
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "Restricted WEP"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "Cảnh Báo Bảo Mật:"
+
+#~ msgid "See logs"
+#~ msgstr "Xem log"
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Đang gửi cấu hình..."
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "Trục trặc về cấu hình dịch vụ. Hãy xem log và gửi email tới "
+#~ "support@moondrakeonline.com"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "Lỗi ghi\n"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr "Chưa cấu hình dịch vụ. Hãy nhấn \"Cấu hình dịch vụ\""
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "Thiếu tên máy in ở xa !"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Có gi đó chưa đúng trong thiết lập mạng (hãy kiểm tra thiết lập route, "
+#~ "tường lửa, proxy)\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Không cho phép các ký tự đặc biệt\n"
+
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Hệ thống đang bận, hãy chờ...."
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "Hệ thống đã cập nhật mới\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr "Thư mục đích này đang được dùng rồi, hãy chọn thư mục khác."
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Mật khẩu không khớp\n"
+#~ " Hãy thử lại\n"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Trợ giúp này sẽ giúp bạn tải lên cấu hình bạn có\n"
+#~ "(các gói, cấu hình phần cứng) đến cơ sở dữ liệu tập chung nhằm\n"
+#~ "duy trì thông báo cho bạn về các cập nhật bảo mật và nâng cấp hữu ích.\n"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Dịch vụ không hỗ trợ phiên bản quá cũ"
+
+#~ msgid "Unknown state"
+#~ msgstr "Trạng thái không xác định"
+
+#~ msgid "Up"
+#~ msgstr "Lên"
+
+#~ msgid "Updates: "
+#~ msgstr "Cập nhật:"
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "Đăng nhập người dùng:"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Sai hành động, host, đăng nhập.\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Sai mật khẩu.\n"
+
+#~ msgid "Yes"
+#~ msgstr "Có"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Cấu hình thành công tài khoản Mandriva Online của bạn\n"
+
+#~ msgid "Your OpenMandriva Online account has been successfuly configured\n"
+#~ msgstr "Cấu hình thành công tài khoản OpenMandriva Online của bạn\n"
 
 #~ msgid ""
 #~ "Your login or password was wrong.\n"
@@ -1088,28 +1330,75 @@ msgstr "Không thể cập nhật các gói từ phương tiện update_source.\
 #~ " Cần biết là bạn cũng phải cung cấp tên máy tính \n"
 #~ " (chỉ chấp nhận các ký tự trong bảng chữ cái)"
 
-#~ msgid "Mail contact:"
-#~ msgstr "Thư liên lạc:"
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on OpenMandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to OpenMandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Tên đăng nhập hoặc mật khẩu của bạn không đúng.\n"
+#~ "Hoặc là bạn phải nhập lại, hoặc bạn cần tạo một tài khoản cho OpenMandriva "
+#~ "Linux Online.\n"
+#~ " Trong trường hợp sau, hãy quay về bước đầu tiên để kết nối tới OpenMandriva "
+#~ "Linux Online.\n"
+#~ " Cần biết là bạn cũng phải cung cấp tên máy tính \n"
+#~ " (chỉ chấp nhận các ký tự trong bảng chữ cái)"
 
-#~ msgid "Please provide a login"
-#~ msgstr "Hãy cung cấp đăng nhập"
-
-#~ msgid "Login and password should be less than 12 characters\n"
-#~ msgstr "Đăng nhập và mật khẩu không nên dài quá 12 ký tự\n"
-
-#~ msgid "Special characters are not allowed\n"
-#~ msgstr "Không cho phép các ký tự đặc biệt\n"
-
-#~ msgid "Email not valid\n"
-#~ msgstr "Email không hợp lệ\n"
-
-#~ msgid "Account already exists\n"
-#~ msgstr "Tài khoản đã có rồi\n"
-
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "Trục trặc kết nối với máy chủ\n"
+#~ msgid "Your upload was successful!"
+#~ msgstr "Đã hoàn thành việc tải lên!"
 
 #~ msgid ""
-#~ "Problem occurred while connecting to the server, please contact the "
-#~ "support team"
-#~ msgstr "Có trục trặc khi kết nỗi tới máy chủ, hãy liên lạc với nhóm hỗ trợ"
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "phiên bản mdonline %s\n"
+#~ "Bản quyền (C) %s Mandriva.\n"
+#~ "Đây là phần mềm tự do và có thể phân phối lại dưới các điều khoản của GNU/"
+#~ "GPL.\n"
+#~ "\n"
+#~ "cách dùng:\n"
+
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "phiên bản mgaupdate %s\n"
+#~ "%s\n"
+#~ "Đây là phần mềm tự do và có thể phân phối lại dưới các điều khoản của GNU/"
+#~ "GPL.\n"
+#~ "\n"
+#~ "cách dùng:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "phiên bản mdkupdate %s\n"
+#~ "Bản quyền (C) %s OpenMandriva.\n"
+#~ "Đây là phần mềm tự do và có thể phân phối lại dưới các điều khoản của GNU/"
+#~ "GPL.\n"
+#~ "\n"
+#~ "cách dùng:\n"
+
+#~ msgid "or"
+#~ msgstr "hoặc"
+
+#~ msgid "wrong password:"
+#~ msgstr "Mật khẩu sai:"

@@ -6,7 +6,7 @@ package mdkapplet_gui;
 # Copyright (C) 2003-2010 Mandriva                                             #
 #                                                                              #
 # Daouda Lo                                                                    #
-# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+# Thierry Vignaud <thierry.vignaud at gmail dot com>                               #
 #                                                                              #
 # This program is free software; you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License Version 2 as            #
@@ -48,14 +48,14 @@ our @EXPORT_OK = qw(
     open_ask_powerpack_dialog
 );
 
-use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
-use ugtk2 qw(:all);
+use mygtk3 qw(gtknew); #- do not import gtkadd which conflicts with ugtk3 version
+use ugtk3 qw(:all);
 use mdkonline qw();	# you don't want to polute the namespace
 use interactive;
 use interactive::gtk;
 use lib qw(/usr/lib/libDrakX/drakfirsttime);
 
-ugtk2::add_icon_path("/usr/share/mdkonline/pixmaps/");
+ugtk3::add_icon_path("/usr/share/mdkonline/pixmaps/");
 
 our $localdir = "$ENV{HOME}/.MdkOnline";
 our $localfile = "$localdir/mdkonline";
@@ -64,7 +64,7 @@ our $localfile = "$localdir/mdkonline";
 mkdir_p($localdir) if !-d $localdir;
 -e "$ENV{HOME}/.mdkonline" and system("mv", "$ENV{HOME}/.mdkonline", $localfile);
 
-interactive::gtk::add_padding(Gtk2::Label->new);
+interactive::gtk::add_padding(Gtk3::Label->new);
 
 our %local_config;
 read_local_config();
@@ -105,7 +105,7 @@ our $powerpack_ad = [
 
 sub new_portable_dialog {
     my ($title) = @_;
-    ugtk2->new($title, width => $width + 20);
+    ugtk3->new($title, width => $width + 20);
 }
 
 sub fill_n_run_portable_dialog {
@@ -141,12 +141,7 @@ sub fill_n_run_portable_dialog {
 
 sub new_link_button {
     my ($url, $text) = @_;
-    my $link = Gtk2::LinkButton->new($url, $text);
-    $link->set_uri_hook(sub {
-                            my (undef, $url) = @_;
-                            run_program::raw({ detach => 1, setuid => get_parent_uid() }, 'www-browser', $url);
-                        });
-    $link;
+    Gtk3::LinkButton->new($url, $text);
 }
 
 sub read_local_config() {
@@ -188,7 +183,7 @@ sub run_ask_credentials_dialog {
 	$password_text = $password_w->get_text;
 	$email_text = $email_w->get_text;
 	$ok_clicked = 1;
-	Gtk2->main_quit;
+	Gtk3->main_quit;
     };
 
     my @widgets = (
@@ -225,7 +220,7 @@ sub run_ask_credentials_dialog {
 		       )
 		   )
 	       ]),
-	ugtk2::create_okcancel($w, N("Next"), N("Cancel")),
+	ugtk3::create_okcancel($w, N("Next"), N("Cancel")),
 	);
 
     fill_n_run_portable_dialog($w, \@widgets);

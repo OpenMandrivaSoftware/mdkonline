@@ -5,27 +5,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline 0.15\n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2004-09-29 19:58+0400\n"
 "Last-Translator: \n"
 "Language-Team: Georgian <aiet@qartuli.com>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, fuzzy, c-format
 msgid "Will check updates at %s"
 msgstr "განახლებების შემოწმება"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "თქვენი სისტემა განახლებულია"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -34,55 +35,55 @@ msgstr ""
 "პრობლემა სერვისების კონფიგურაციაში. გთხოვთ გადაამოწმოთ აღრიცხვის ფაილები "
 "(logs) დაგამოაგზავნოთ ფოსტა მისმართზე support@mandrivaonline.com"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr ""
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "თქვენი სისტემა განახლებას საჭიროებს"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr ""
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr ""
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "ქსელი მიუწვდომელია. შეასწორეთ ქსელის კონფიგურაცია"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "სერვისი არ არის აქტივირებული. დააწკაპუნეთ „Online Website“-ზე"
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, fuzzy, c-format
 msgid "urpmi database locked"
 msgstr "urpmi მონაცემთა ბაზა ჩაკეტილია"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr ""
 "ამ გამოშვების (Release) მხარდაჭერა არ გამაჩნია (ან მოძველებულია, ან "
 "development release არის)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
 msgstr ""
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -93,42 +94,37 @@ msgid ""
 "Then, restart \"%s\"."
 msgstr ""
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "აქტიური"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr ""
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "განახლებების ინსტალირება"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr ""
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "განახლებების შეამოწმება"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "ქსელის კონფიგურირება"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr ""
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -136,374 +132,443 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "ვიძახებ drakconnect-ს\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr ""
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "შეცდომა"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr ""
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr ""
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "შემდეგი"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "სტოპ!"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, fuzzy, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Online"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
 "the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr ""
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr ""
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
 "and may take several hours to complete."
 msgstr ""
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr ""
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr ""
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
 "available."
 msgstr ""
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "ვიძახებ MandrivaUpdate-ს\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "ვანგარიშობ გასაახლებელ პაკეტებს...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "სისტემა განახლებულია\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "ვამოწმებ ქსელს: როგორც ჩანს გამორთულია\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, fuzzy, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
+msgid "OpenMandriva Online gives access to Moondrake web services."
 msgstr ""
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Online WebSite"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "გაფრთხილება"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr ""
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr ""
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "შესახებ..."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, fuzzy, c-format
 msgid "Updates Configuration"
 msgstr "კონფიგურაცის გადაგზავნა"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "მუდამ გამოიძახე სისტემის ჩატვირთვისას (startup)"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "გასვლა"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr ""
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "შეცდომა"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "სისტემის სახელი (Machine name):"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:234
-#, c-format
-msgid "Successfully added media!"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr ""
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr ""
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr ""
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr ""
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "ინსტალაცია ჩაიშალა"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "გილოცავთ"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "კონფიგურაცის გადაგზავნა"
+
+#: ../mdkapplet-upgrade-helper:197
+#, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:214
+#, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:236
+#, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr ""
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -511,103 +576,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Online"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "სისტემის სახელი (Machine name):"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, fuzzy, c-format
 msgid "Your password"
 msgstr "არასწორი პაროლი"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, fuzzy, c-format
 msgid "Forgotten password"
 msgstr "არასწორი პაროლი"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "დახურვა"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, fuzzy, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva Online"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr ""
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -620,98 +653,196 @@ msgstr ""
 "\n"
 "გამოყენება:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, c-format
+msgid "Copyright (C) %s %s"
+msgstr "საავტორო უფლებები (C) %s %s"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- აჩვენე ეს დამხმარე ტექსტი.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- Mandriva Update-ის ავტომატური გამოძახებ.\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- mnf სპეფიციკის სკრიფტების გამოძახევა.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- Mandriva Update-ის newt ვერსია.\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr ""
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source-ის მედიუმიდან პაკეტები ვერ განვაახლე.\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Online"
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "კონფიგურაცის გადაგზავნა"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
 #, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "სისტემის სახელი (Machine name):"
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "კონფიგურაცის გადაგზავნა"
 
-#~ msgid "Installation failed"
-#~ msgstr "ინსტალაცია ჩაიშალა"
-
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-#~ msgid "Congratulations"
-#~ msgstr "კონფიგურაცის გადაგზავნა"
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "ვიძახებ OpenMandrivaUpdate-ს\n"
 
-#~ msgid "Yes"
-#~ msgstr "კი"
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
 
-#~ msgid "No"
-#~ msgstr "არა"
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "ვიძახებ OpenMandrivaUpdate-ს\n"
 
-#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "ვიძახებ OpenMandrivaUpdate-ს\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "ვიძახებ OpenMandrivaUpdate-ს\n"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- გამოიძახე Mandriva Update.\n"
+
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- გამოიძახე OpenMandriva Update.\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- OpenMandriva Update-ის ავტომატური გამოძახებ.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- OpenMandriva Update-ის newt ვერსია.\n"
+
+#~ msgid "  --update       - Update keys\n"
+#~ msgstr "  --update       - განახლების კვანძები\n"
+
+#~ msgid "Account already exists\n"
+#~ msgstr "ანგარიში უკვე არსებობს\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "ანგარიშის შექმნა ან ავტორიზაცია"
+
+#~ msgid "Actions"
+#~ msgstr "მოქმედებები"
+
+#~ msgid "Authentification"
+#~ msgstr "რეგისტრაცია"
+
+#~ msgid ""
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
 #~ msgstr ""
-#~ "როგორ ჩანს Mandriva Online ხელმეორედ იქნა ინსტალირებული. ხელახლა ვიძახებ "
-#~ "აპლეტს..."
+#~ "ვერ ვუკავშირდები Mandriva Online ვებ-გვერდს: ან მომხმ. სახელი და პაროლია "
+#~ "არასწორი, ან თქვენი როუტერი/firewall არის ცუდად კონფიგურირებული"
+
+#~ msgid ""
+#~ "Cannot connect to OpenMandriva Online website: wrong login/password or "
+#~ "router/firewall bad settings"
+#~ msgstr ""
+#~ "ვერ ვუკავშირდები OpenMandriva Online ვებ-გვერდს: ან მომხმ. სახელი და პაროლია "
+#~ "არასწორი, ან თქვენი როუტერი/firewall არის ცუდად კონფიგურირებული"
+
+#~ msgid "Check updates"
+#~ msgstr "განახლებების შემოწმება"
+
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "ვამოწმებ config ფაილს: არა იძებნება\n"
 
 #~ msgid "Checking... Updates are available\n"
 #~ msgstr "ვამოწმებ... არსებობს გასაახლებელი პაკეტები\n"
 
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr ""
+#~ "ამოირჩიეთ, თუ რომელი პაკეტის ინსტალირება გსურთ და დააწკაპუნეთ ღილაკზე [Ok]"
+
+#~ msgid "Clear"
+#~ msgstr "ამოშლა"
+
 #, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "ვერ ვიძახებ ფაილს %s\n"
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "განახლება წარმატებით დაგვირგვინდა!"
+
+#, fuzzy
+#~ msgid "Configuration uploaded successfuly"
+#~ msgstr "განახლება წარმატებით დაგვირგვინდა!"
+
+#~ msgid "Configure"
+#~ msgstr "კონფიგურაცია"
+
+#~ msgid "Configure Now!"
+#~ msgstr "კონფიგურირება ახლა!"
+
+#~ msgid "Configure the service"
+#~ msgstr "სერვისის კონფიგურირება"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "გაიმეორეთ პაროლი:"
 
 #~ msgid "Connecting to"
 #~ msgstr "ვუკავშირდები:"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "მენდრეიქის განახლების აპლეტი"
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "უკავშირდები Mandriva Online ვებგვერდს..."
+
+#~ msgid "Connecting to OpenMandriva Online website..."
+#~ msgstr "უკავშირდები OpenMandriva Online ვებგვერდს..."
 
 #, fuzzy
-#~ msgid "Security error"
-#~ msgstr "უსაფრთხოება"
+#~ msgid "Connection error"
+#~ msgstr "კავშირი"
+
+#~ msgid "Connection problem"
+#~ msgstr "კავშირის პრობლემა"
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "საავტორო უფლებები (C) %s %s"
+
+#~ msgid "Country"
+#~ msgstr "ქვეყანა"
+
+#~ msgid "Country:"
+#~ msgstr "ქვეყანა:"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Mandriva Online-ზე ანგარიშის გახსნა"
+
+#~ msgid "Create a OpenMandriva Online Account"
+#~ msgstr "OpenMandriva Online-ზე ანგარიშის გახსნა"
 
 #, fuzzy
 #~ msgid "Database error"
 #~ msgstr "მონაცემთა ბაზები"
 
-#, fuzzy
-#~ msgid "Registration error"
-#~ msgstr "შეცდომა წაკითხვისას\n"
+#~ msgid "Development release not supported by service"
+#~ msgstr "Development release-ის მხარდაჭერა სერვისს არ გააჩნია"
 
-#, fuzzy
-#~ msgid "Some parameters are missing"
-#~ msgstr "დროის პარამეტრები"
-
-#, fuzzy
-#~ msgid "Password error"
-#~ msgstr "პაროლი %s-სთვის"
-
-#, fuzzy
-#~ msgid "Login error"
-#~ msgstr "უცნობი შეცდომა"
+#~ msgid "Down"
+#~ msgstr "ძინავს"
 
 #, fuzzy
 #~ msgid ""
@@ -720,182 +851,68 @@ msgstr "update_source-ის მედიუმიდან პაკეტე�
 #~ msgstr "სახელი ველი თავისუფალია. გთხოვთ მიუთითოთ სახელი"
 
 #, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "აღწერა:"
+#~ msgid "Email address:"
+#~ msgstr "გთხოვთ სწორი მისამართი შეიყვანოთ!\n"
 
-#, fuzzy
-#~ msgid "Service error"
-#~ msgstr "შეცდომა დამახსოვრებისას\n"
-
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "პაროლები არ ემთხვევა."
-
-#, fuzzy
-#~ msgid "User Forbidden"
-#~ msgstr "მომხმარებლის მენიუ"
-
-#, fuzzy
-#~ msgid "Connection error"
-#~ msgstr "კავშირი"
-
-#~ msgid "Please wait"
-#~ msgstr "გთხოვთ იქონიოთ მოთმინება"
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "მიმდინარეობს პაკეტების ინსტალირება ...\n"
-
-#, fuzzy
-#~ msgid "New bundles are available for your system"
-#~ msgstr "თქვენი სისტემა განახლებას საჭიროებს"
-
-#~ msgid "Service is not configured. Please click on \"Configure the service\""
-#~ msgstr ""
-#~ "სერვისი არ არის კონფიგურირებული. დააწკაპუნეთ „სერვისების კონფიგურირება“-ზე"
-
-#~ msgid "Configure the service"
-#~ msgstr "სერვისის კონფიგურირება"
-
-#~ msgid "Check updates"
-#~ msgstr "განახლებების შემოწმება"
-
-#~ msgid "Configure Now!"
-#~ msgstr "კონფიგურირება ახლა!"
-
-#~ msgid "Actions"
-#~ msgstr "მოქმედებები"
-
-#~ msgid "Configure"
-#~ msgstr "კონფიგურაცია"
-
-#~ msgid "See logs"
-#~ msgstr "აჩვენე აღრიცხვები"
-
-#~ msgid "Status"
-#~ msgstr "სტატუსი"
-
-#~ msgid "Network Connection: "
-#~ msgstr "ქსელის კავშირი:"
-
-#~ msgid "Up"
-#~ msgstr "ღვიძავს"
-
-#~ msgid "Down"
-#~ msgstr "ძინავს"
-
-#~ msgid "Last check: "
-#~ msgstr "ბოლო შემოწმება:"
-
-#~ msgid "Machine name:"
-#~ msgstr "სისტემის სახელი (Machine name):"
-
-#~ msgid "Updates: "
-#~ msgstr "განახლებები:"
-
-#~ msgid "Development release not supported by service"
-#~ msgstr "Development release-ის მხარდაჭერა სერვისს არ გააჩნია"
-
-#~ msgid "Too old release not supported by service"
-#~ msgstr "release ძალიან ძველია და service-ს მისი მხარდაჭერა არ გააჩნია"
-
-#~ msgid "Unknown state"
-#~ msgstr "უცნობი მდგომარეობა"
-
-#~ msgid "Online services disabled. Contact Mandriva Online site\n"
-#~ msgstr ""
-#~ "ონლაინ მომსახურებები შეწყვეტილია. მიაკითხეთ Mandriva Online-ის ვებგვერდს\n"
-
-#~ msgid "Wrong Password.\n"
-#~ msgstr "არასწორი პაროლი\n"
-
-#~ msgid "Wrong Action or host or login.\n"
-#~ msgstr "არასწორი მოქმედება, ჰოსტი ან შესვლა.\n"
-
-#~ msgid ""
-#~ "Something is wrong with your network settings (check your route, firewall "
-#~ "or proxy settings)\n"
-#~ msgstr ""
-#~ "თქვენი ქსელის პარამეტრებში რაღაც გაუგებრობაა (გადაამოწმეთ route, firewall "
-#~ "ან proxy პარამეტრები)\n"
-
-#~ msgid ""
-#~ "Problem occured while connecting to the server, please contact the "
-#~ "support team"
-#~ msgstr ""
-#~ "პრობლემა სერვერთან დაკავშირებისას, გთხოვთ დაუკავშირდეთ ტექნიკურ "
-#~ "დახმარების ჯგუფს"
-
-#, fuzzy
-#~ msgid "Response from Mandriva Online server\n"
-#~ msgstr "კეთილი იყოს თქვენი ფეხი Mandriva Online-ზე."
-
-#~ msgid "No check"
-#~ msgstr "შეამოწმების გარეშე"
-
-#~ msgid "Checking config file: Not present\n"
-#~ msgstr "ვამოწმებ config ფაილს: არა იძებნება\n"
-
-#~ msgid "Logs"
-#~ msgstr "ლოგები (აღრიცხვები)"
-
-#~ msgid "Clear"
-#~ msgstr "ამოშლა"
-
-#~ msgid ""
-#~ "mdonline version %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "mdonline ვერსია %s\n"
-#~ "საავტორო უფლებები (C) %s Mandriva.\n"
-#~ "პროგრამა უფასო გახლავთ და ნებადართულია მისი GNU GPL ლიცენზიის პირობების "
-#~ "თანახმად გავრცელება.\n"
-#~ "\n"
-#~ "გამოყენება:\n"
-
-#~ msgid "I already have an account"
-#~ msgstr "მე უკვე გამაჩნია ანგარიში"
-
-#~ msgid "I want to subscribe"
-#~ msgstr "მინდა გავწევრიანდე"
-
-#~ msgid "Reading configuration\n"
-#~ msgstr "ვკითხულობ კონფიგურაცას\n"
-
-#~ msgid ""
-#~ "This assistant will help you to upload your configuration\n"
-#~ "(packages, hardware configuration) to a centralized database in\n"
-#~ "order to keep you informed about security updates and useful upgrades.\n"
-#~ msgstr ""
-#~ "ეს ასისტენტი დაგეხმარებათ თქვენი კონფიგურაციის განახლებაში\n"
-#~ "(პაკეტები, აპარატურის კონფიგურაცია) ცენტრალურ მონაცემთა ბაზაში, იმისთვის, "
-#~ "რომ\n"
-#~ "თქვენ ავტომატურად შეიტყოთ უსაფრთხობასთან დაკავშირებულ და მნიშვნელოვან "
-#~ "გაუმჯობესებებზე.\n"
-
-#~ msgid "Account creation or authentication"
-#~ msgstr "ანგარიშის შექმნა ან ავტორიზაცია"
+#~ msgid "Email not valid\n"
+#~ msgstr "ელფოსტა არასწორია\n"
 
 #~ msgid "Enter your Mandriva Online login, password and machine name:"
 #~ msgstr ""
 #~ "შეიყვანეთ თქვენი Mandriva Online-ის მომხმარებლის სახელი, პაროლი და "
 #~ "სისტემის სახელი:"
 
+#~ msgid "Enter your OpenMandriva Online login, password and machine name:"
+#~ msgstr ""
+#~ "შეიყვანეთ თქვენი OpenMandriva Online-ის მომხმარებლის სახელი, პაროლი და "
+#~ "სისტემის სახელი:"
+
 #, fuzzy
-#~ msgid "Email address:"
-#~ msgstr "გთხოვთ სწორი მისამართი შეიყვანოთ!\n"
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "ვერ ვიძახებ ფაილს %s\n"
 
-#~ msgid "Country"
-#~ msgstr "ქვეყანა"
+#~ msgid "Finish"
+#~ msgstr "დამთავრება"
 
-#~ msgid "Password:"
-#~ msgstr "პაროლი:"
+#, fuzzy
+#~ msgid "First name:"
+#~ msgstr "ფაილის სახელი:"
 
-#~ msgid "Connecting to Mandriva Online website..."
-#~ msgstr "უკავშირდები Mandriva Online ვებგვერდს..."
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
+#~ msgstr ""
+#~ "Mandriva Online-ის მეშვეობით დღეიდან თქვენ მიიღებთ უსაფრთხოებასთან "
+#~ "დაკავშირებულ\n"
+#~ "და მნიშვნელოვან გაუმჯობესებების განცხადებებს."
+
+#~ msgid ""
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to OpenMandriva Online."
+#~ msgstr ""
+#~ "OpenMandriva Online-ის მეშვეობით დღეიდან თქვენ მიიღებთ უსაფრთხოებასთან "
+#~ "დაკავშირებულ\n"
+#~ "და მნიშვნელოვან გაუმჯობესებების განცხადებებს."
+
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "სისტემის სახელი (Machine name):"
+
+#, fuzzy
+#~ msgid "Greeting:"
+#~ msgstr "მწვანე"
+
+#~ msgid "I already have an account"
+#~ msgstr "მე უკვე გამაჩნია ანგარიში"
+
+#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
+#~ msgstr "მე ჯერ არ მაქვს ანგარიში Mandriva Online-ზე და მსურს გაწევრიანება"
+
+#~ msgid "I don't have a OpenMandriva Online account and I want to subscribe"
+#~ msgstr "მე ჯერ არ მაქვს ანგარიში OpenMandriva Online-ზე და მსურს გაწევრიანება"
+
+#~ msgid "I want to subscribe"
+#~ msgstr "მინდა გავწევრიანდე"
 
 #~ msgid ""
 #~ "In order to benefit from Mandriva Online services,\n"
@@ -931,43 +948,102 @@ msgstr "update_source-ის მედიუმიდან პაკეტე�
 #~ "განახლებების შესახებ. ასევე, თქვენ საშუალება მოგეცემათ ისარგებლოთ\n"
 #~ "ფასდაკლებებით www.mandrivaexpert.com-ზე არსებული ფასიან მომსახურებებზე."
 
-#~ msgid "Connection problem"
-#~ msgstr "კავშირის პრობლემა"
+#~ msgid ""
+#~ "In order to benefit from OpenMandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to OpenMandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "იმისათვის, რომ გამოიყენოთ OpenMandriva Online-ის სერვისი, ჩვენ ვაპირებთ\n"
+#~ "თქვენი კონფიგურაციის ატვირთვას.\n"
+#~ "\n"
+#~ "თუ გააგრძელებთ, შემდეგი ინფორმაცია გადაიგზავნება OpenMandriva-ში:\n"
+#~ "\n"
+#~ "1) თქვენ სისტემაში ინსტალირებულ პაკეტთა სია,\n"
+#~ "\n"
+#~ "2) თქვენი აპარატურის კონფიგურაცია\n"
+#~ "\n"
+#~ "თუ თქვენ ეს არ გსურთ, ან არ გინდათ სერვისის გამოყენება, გთხოვთ\n"
+#~ "დააჭიროთ 'სტოპ!'-ს. თუ 'შემდეგი'-ს დააჭერთ, მაშინ უფლებას გვეძლევა\n"
+#~ "შეგატყობინოთ უსაფრთხოებასთან დაკავშირებული და მნიშვნელოვანი\n"
+#~ "განახლებების შესახებ. ასევე, თქვენ საშუალება მოგეცემათ ისარგებლოთ\n"
+#~ "ფასდაკლებებით www.mandrivaexpert.com-ზე არსებული ფასიან მომსახურებებზე."
 
-#~ msgid "Problem occurs when uploading files, please try again"
-#~ msgstr "ფაილების ატვირთვისას პრობლემებია. გთხოვთ კვლავ ცადოთ"
+#~ msgid "Installing packages ...\n"
+#~ msgstr "მიმდინარეობს პაკეტების ინსტალირება ...\n"
 
-#~ msgid "Create a Mandriva Online Account"
-#~ msgstr "Mandriva Online-ზე ანგარიშის გახსნა"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "მწვანე"
-
-#, fuzzy
-#~ msgid "First name:"
-#~ msgstr "ფაილის სახელი:"
+#~ msgid "Last check: "
+#~ msgstr "ბოლო შემოწმება:"
 
 #, fuzzy
 #~ msgid "Last name:"
 #~ msgstr "სიმღერების სახელები:"
 
-#~ msgid "Confirm Password:"
-#~ msgstr "გაიმეორეთ პაროლი:"
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "ვიძახებ OpenMandrivaUpdate-ს\n"
 
-#~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
+#~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr ""
-#~ "პროლები არ ემთხვევა\n"
-#~ " გთხოვთ ცადოთ ისევ\n"
+#~ "შესასვლელი სახელი და პაროლი 12-ზე ნაკლები ნიშნისაგან უნდა შედგებოდეს\n"
 
 #, fuzzy
-#~ msgid "Please fill in each field"
-#~ msgstr "გთხოვთ შეავსოთ ყველა ველი\n"
+#~ msgid "Login error"
+#~ msgstr "უცნობი შეცდომა"
 
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "გთხოვთ სწორი მისამართი შეიყვანოთ!\n"
+#~ msgid "Login:"
+#~ msgstr "მომხმარებელი:"
+
+#~ msgid "Logs"
+#~ msgstr "ლოგები (აღრიცხვები)"
+
+#~ msgid "Machine name:"
+#~ msgstr "სისტემის სახელი (Machine name):"
+
+#~ msgid "Mail contact:"
+#~ msgstr "ელფოსტით კავშირი:"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Online"
+
+#~ msgid "Mandriva Linux Privacy Policy"
+#~ msgstr "Mandriva Linux-ის პირადი უფლებების პოლისი"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "მენდრეიქის განახლების აპლეტი"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online"
 
 #~ msgid ""
 #~ "Mandriva Online Account successfully created.\n"
@@ -977,16 +1053,9 @@ msgstr "update_source-ის მედიუმიდან პაკეტე�
 #~ "გთხოვთ დააჭიროთ \"შემდეგ\" ღილაკს რათა გაიაროთ ვტორიზაცია და ატვირთოთ "
 #~ "თვენი კონფიგურაცია\n"
 
-#~ msgid "Your upload was successful!"
-#~ msgstr "განახლება წარმატებით დაგვირგვინდა!"
-
 #~ msgid ""
-#~ "From now you will receive on security and updates \n"
-#~ "announcements thanks to Mandriva Online."
-#~ msgstr ""
-#~ "Mandriva Online-ის მეშვეობით დღეიდან თქვენ მიიღებთ უსაფრთხოებასთან "
-#~ "დაკავშირებულ\n"
-#~ "და მნიშვნელოვან გაუმჯობესებების განცხადებებს."
+#~ "Mandriva Online could not be contacted, please try again at a later time"
+#~ msgstr "Mandriva Online-ს ვერ ვუკავშირდები. გთხოვთ მოგვიანებით სცადოთ"
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -996,53 +1065,302 @@ msgstr "update_source-ის მედიუმიდან პაკეტე�
 #~ "თქვენს სისტემაზე რეგულარურად გაიშვება პროგრამა, რომელიც განახლებებს "
 #~ "დაელოდება\n"
 
-#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
 #~ msgstr ""
-#~ "თქვენი Mandriva Online ანგარიშის კონფიგურაცია  წარმატებით დასრულდა\n"
+#~ "როგორ ჩანს Mandriva Online ხელმეორედ იქნა ინსტალირებული. ხელახლა ვიძახებ "
+#~ "აპლეტს..."
 
 #, fuzzy
-#~ msgid "Configuration uploaded successfully"
-#~ msgstr "განახლება წარმატებით დაგვირგვინდა!"
-
-#, fuzzy
-#~ msgid "Problem uploading configuration"
-#~ msgstr "ვკითხულობ კონფიგურაცას\n"
-
-#~ msgid ""
-#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
-#~ "firewall bad settings"
-#~ msgstr ""
-#~ "ვერ ვუკავშირდები Mandriva Online ვებ-გვერდს: ან მომხმ. სახელი და პაროლია "
-#~ "არასწორი, ან თქვენი როუტერი/firewall არის ცუდად კონფიგურირებული"
-
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- გამოიძახე Mandriva Update.\n"
-
-#~ msgid "Choose which packages should be installed and Press Ok"
-#~ msgstr ""
-#~ "ამოირჩიეთ, თუ რომელი პაკეტის ინსტალირება გსურთ და დააწკაპუნეთ ღილაკზე [Ok]"
-
-#~ msgid "System is busy. Please wait ..."
-#~ msgstr "სისტემა დაკავებულია. მოთმინება იქონიეთ..."
-
-#~ msgid "Sending configuration..."
-#~ msgstr "ვაგზავნი კონფიგურაციას..."
-
-#~ msgid "No %s file found. Run mdkonline wizard first"
-#~ msgstr "%s ფაილი ვერ ვიპოვე. ჯერ mdkonline-ის ოსტატი გამოიძახეთ"
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva Online"
 
 #~ msgid "Mandriva Update could not contact the site, we will try again."
 #~ msgstr ""
 #~ "Mandriva Update-მა ვერ შეძლო დაკავშირებოდა საიტს. მოგვიანებით ვცადოთ."
 
-#~ msgid "Login:"
-#~ msgstr "მომხმარებელი:"
+#~ msgid ""
+#~ "Mandriva Update could not upload the diff files. Send a mail to support "
+#~ "[at] mandrivaonline [dot] net"
+#~ msgstr ""
+#~ "Mandriva Update–მა ვერ შეძლო diff ფაილების ატვირთვა. გააგზავნეთ ელფოსტა "
+#~ "მისამართზე support [at] mandrivaonline [dot] net"
 
-#~ msgid "or"
-#~ msgstr "ან"
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
 
-#~ msgid "wrong password:"
-#~ msgstr "არასწორი პაროლი:"
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid "OpenMandriva Linux Privacy Policy"
+#~ msgstr "OpenMandriva Linux-ის პირადი უფლებების პოლისი"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "მენდრეიქის განახლების აპლეტი"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid ""
+#~ "OpenMandriva Online Account successfuly created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "OpenMandriva Online-ზე წარმატებით განხორციელდა თქვენი ანგარიშის "
+#~ "რეგისტრაცია.\n"
+#~ "გთხოვთ დააჭიროთ \"შემდეგ\" ღილაკს რათა გაიაროთ ვტორიზაცია და ატვირთოთ "
+#~ "თვენი კონფიგურაცია\n"
+
+#~ msgid ""
+#~ "OpenMandriva Online could not be contacted, please try again at a later time"
+#~ msgstr "OpenMandriva Online-ს ვერ ვუკავშირდები. გთხოვთ მოგვიანებით სცადოთ"
+
+#~ msgid ""
+#~ "OpenMandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "OpenMandriva Online გაძლევთ საშუალებას ავტომატურად განაახლოთ სისტემა.\n"
+#~ "თქვენს სისტემაზე რეგულარურად გაიშვება პროგრამა, რომელიც განახლებებს "
+#~ "დაელოდება\n"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "როგორ ჩანს OpenMandriva Online ხელმეორედ იქნა ინსტალირებული. ხელახლა ვიძახებ "
+#~ "აპლეტს..."
+
+#, fuzzy
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva Online"
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr ""
+#~ "OpenMandriva Update-მა ვერ შეძლო დაკავშირებოდა საიტს. მოგვიანებით ვცადოთ."
+
+#~ msgid ""
+#~ "OpenMandriva Update could not upload the diff files. Send a mail to support "
+#~ "[at] mandrivaonline [dot] net"
+#~ msgstr ""
+#~ "OpenMandriva Update–მა ვერ შეძლო diff ფაილების ატვირთვა. გააგზავნეთ ელფოსტა "
+#~ "მისამართზე support [at] mandrivaonline [dot] net"
+
+#~ msgid "Network Connection: "
+#~ msgstr "ქსელის კავშირი:"
+
+#, fuzzy
+#~ msgid "New bundles are available for your system"
+#~ msgstr "თქვენი სისტემა განახლებას საჭიროებს"
+
+#~ msgid "No"
+#~ msgstr "არა"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "%s ფაილი ვერ ვიპოვე. ჯერ mdkonline-ის ოსტატი გამოიძახეთ"
+
+#~ msgid "No check"
+#~ msgstr "შეამოწმების გარეშე"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "გთხოვთ სწორი მისამართი შეიყვანოთ!\n"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "ონლაინ მომსახურებები შეწყვეტილია. მიაკითხეთ Mandriva Online-ის ვებგვერდს\n"
+
+#~ msgid "Online services disabled. Contact OpenMandriva Online site\n"
+#~ msgstr ""
+#~ "ონლაინ მომსახურებები შეწყვეტილია. მიაკითხეთ OpenMandriva Online-ის "
+#~ "ვებგვერდს\n"
+
+#, fuzzy
+#~ msgid "Password error"
+#~ msgstr "პაროლი %s-სთვის"
+
+#, fuzzy
+#~ msgid "Password mismatch"
+#~ msgstr "პაროლები არ ემთხვევა."
+
+#~ msgid "Password:"
+#~ msgstr "პაროლი:"
+
+#, fuzzy
+#~ msgid "Please Wait"
+#~ msgstr "გთხოვთ იქონიოთ მოთმინება"
+
+#, fuzzy
+#~ msgid "Please fill in each field"
+#~ msgstr "გთხოვთ შეავსოთ ყველა ველი\n"
+
+#~ msgid "Please provide a login"
+#~ msgstr "გთხოვთ მიუთითოთ შესასვლელი სახელი"
+
+#~ msgid "Please wait"
+#~ msgstr "გთხოვთ იქონიოთ მოთმინება"
+
+#~ msgid "Previous"
+#~ msgstr "წინა"
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "სერვერს ვერ ვუკავშირდები \n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "პრობლემა სერვერთან დაკავშირებისას, გთხოვთ დაუკავშირდეთ ტექნიკურ "
+#~ "დახმარების ჯგუფს"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "ფაილების ატვირთვისას პრობლემებია. გთხოვთ კვლავ ცადოთ"
+
+#, fuzzy
+#~ msgid "Problem uploading configuration"
+#~ msgstr "ვკითხულობ კონფიგურაცას\n"
+
+#~ msgid "Quitting Wizard\n"
+#~ msgstr "ოსტატის დასრულება\n"
+
+#~ msgid "Reading configuration\n"
+#~ msgstr "ვკითხულობ კონფიგურაცას\n"
+
+#, fuzzy
+#~ msgid "Registration error"
+#~ msgstr "შეცდომა წაკითხვისას\n"
+
+#, fuzzy
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "კეთილი იყოს თქვენი ფეხი Mandriva Online-ზე."
+
+#, fuzzy
+#~ msgid "Response from OpenMandriva Online server\n"
+#~ msgstr "კეთილი იყოს თქვენი ფეხი OpenMandriva Online-ზე."
+
+#, fuzzy
+#~ msgid "Restriction Error"
+#~ msgstr "აღწერა:"
+
+#, fuzzy
+#~ msgid "Security error"
+#~ msgstr "უსაფრთხოება"
+
+#~ msgid "See logs"
+#~ msgstr "აჩვენე აღრიცხვები"
+
+#~ msgid "Sending configuration..."
+#~ msgstr "ვაგზავნი კონფიგურაციას..."
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "პრობლემა სერვისების კონფიგურაციაში. გთხოვთ გადაამოწმოთ აღრიცხვის ფაილები "
+#~ "(logs) დაგამოაგზავნოთ ფოსტა მისმართზე support@moondrakeonline.com"
+
+#, fuzzy
+#~ msgid "Service error"
+#~ msgstr "შეცდომა დამახსოვრებისას\n"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "სერვისი არ არის კონფიგურირებული. დააწკაპუნეთ „სერვისების კონფიგურირება“-ზე"
+
+#~ msgid "Skip Wizard"
+#~ msgstr "ჯადოქარის დასრულება"
+
+#, fuzzy
+#~ msgid "Some parameters are missing"
+#~ msgstr "დროის პარამეტრები"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "თქვენი ქსელის პარამეტრებში რაღაც გაუგებრობაა (გადაამოწმეთ route, firewall "
+#~ "ან proxy პარამეტრები)\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "საგანგებო სიმბოლოები არ არის ნებადართული\n"
+
+#~ msgid "Status"
+#~ msgstr "სტატუსი"
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "სისტემა დაკავებულია. მოთმინება იქონიეთ..."
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "სისტემა განახლებულია\n"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "პროლები არ ემთხვევა\n"
+#~ " გთხოვთ ცადოთ ისევ\n"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "ეს ასისტენტი დაგეხმარებათ თქვენი კონფიგურაციის განახლებაში\n"
+#~ "(პაკეტები, აპარატურის კონფიგურაცია) ცენტრალურ მონაცემთა ბაზაში, იმისთვის, "
+#~ "რომ\n"
+#~ "თქვენ ავტომატურად შეიტყოთ უსაფრთხობასთან დაკავშირებულ და მნიშვნელოვან "
+#~ "გაუმჯობესებებზე.\n"
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "release ძალიან ძველია და service-ს მისი მხარდაჭერა არ გააჩნია"
+
+#~ msgid "Unable to update packages from mdkupdate medium.\n"
+#~ msgstr "mdkupdate-ის მედიუმიდან პაკეტები ვერ განვაახლე.\n"
+
+#~ msgid "Unable to update packages from mgaupdate medium.\n"
+#~ msgstr "mgaupdate-ის მედიუმიდან პაკეტები ვერ განვაახლე.\n"
+
+#~ msgid "Unknown state"
+#~ msgstr "უცნობი მდგომარეობა"
+
+#~ msgid "Up"
+#~ msgstr "ღვიძავს"
+
+#~ msgid "Updates: "
+#~ msgstr "განახლებები:"
+
+#, fuzzy
+#~ msgid "User Forbidden"
+#~ msgstr "მომხმარებლის მენიუ"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "არასწორი მოქმედება, ჰოსტი ან შესვლა.\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "არასწორი პაროლი\n"
+
+#~ msgid "Yes"
+#~ msgstr "კი"
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr ""
+#~ "თქვენი Mandriva Online ანგარიშის კონფიგურაცია  წარმატებით დასრულდა\n"
+
+#~ msgid "Your OpenMandriva Online account has been successfuly configured\n"
+#~ msgstr ""
+#~ "თქვენი OpenMandriva Online ანგარიშის კონფიგურაცია  წარმატებით დასრულდა\n"
 
 #~ msgid ""
 #~ "Your login or password was wrong.\n"
@@ -1060,72 +1378,77 @@ msgstr "update_source-ის მედიუმიდან პაკეტე�
 #~ "სისტემის სახელი(Machine name) \n"
 #~ " (ნებადართულია მხოლოდ ანბანის ასოები)"
 
-#~ msgid "Mail contact:"
-#~ msgstr "ელფოსტით კავშირი:"
-
-#~ msgid "Please provide a login"
-#~ msgstr "გთხოვთ მიუთითოთ შესასვლელი სახელი"
-
-#~ msgid "Login and password should be less than 12 characters\n"
-#~ msgstr ""
-#~ "შესასვლელი სახელი და პაროლი 12-ზე ნაკლები ნიშნისაგან უნდა შედგებოდეს\n"
-
-#~ msgid "Special characters are not allowed\n"
-#~ msgstr "საგანგებო სიმბოლოები არ არის ნებადართული\n"
-
-#~ msgid "Email not valid\n"
-#~ msgstr "ელფოსტა არასწორია\n"
-
-#~ msgid "Account already exists\n"
-#~ msgstr "ანგარიში უკვე არსებობს\n"
-
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "სერვერს ვერ ვუკავშირდები \n"
-
-#~ msgid "Unable to update packages from mdkupdate medium.\n"
-#~ msgstr "mdkupdate-ის მედიუმიდან პაკეტები ვერ განვაახლე.\n"
-
 #~ msgid ""
-#~ "Mandriva Update could not upload the diff files. Send a mail to support "
-#~ "[at] mandrivaonline [dot] net"
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on OpenMandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to OpenMandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
 #~ msgstr ""
-#~ "Mandriva Update–მა ვერ შეძლო diff ფაილების ატვირთვა. გააგზავნეთ ელფოსტა "
-#~ "მისამართზე support [at] mandrivaonline [dot] net"
+#~ "თქვენი მომხმარებლის სახელი ან პაროლი არასწორია.\n"
+#~ " ან ხელახლა უნდა ჩაწეროთ, ან ახალი ანგარიში შექმნათ OpenMandriva Online-ზე.\n"
+#~ " ამ უკანასკნელის გასაკეთებლად მიუბრუნდით პირველ მოქმედებას OpenMandriva "
+#~ "Online-ზე დასაკავშირებლად. გაითვალისწინეთ, რომ თქვენ ასევე უნდა მიუთითოთ "
+#~ "სისტემის სახელი(Machine name) \n"
+#~ " (ნებადართულია მხოლოდ ანბანის ასოები)"
 
-#, fuzzy
-#~ msgid "Please Wait"
-#~ msgstr "გთხოვთ იქონიოთ მოთმინება"
-
-#~ msgid "Previous"
-#~ msgstr "წინა"
-
-#~ msgid "I don't have a Mandriva Online account and I want to subscribe"
-#~ msgstr "მე ჯერ არ მაქვს ანგარიში Mandriva Online-ზე და მსურს გაწევრიანება"
-
-#~ msgid "Mandriva Linux Privacy Policy"
-#~ msgstr "Mandriva Linux-ის პირადი უფლებების პოლისი"
-
-#~ msgid "Authentification"
-#~ msgstr "რეგისტრაცია"
-
-#~ msgid "Finish"
-#~ msgstr "დამთავრება"
+#~ msgid "Your upload was successful!"
+#~ msgstr "განახლება წარმატებით დაგვირგვინდა!"
 
 #~ msgid "automated Upgrades"
 #~ msgstr "ავტომატიზირებული განახლება"
 
-#~ msgid "Country:"
-#~ msgstr "ქვეყანა:"
-
-#~ msgid "Quitting Wizard\n"
-#~ msgstr "ოსტატის დასრულება\n"
+#~ msgid ""
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdonline ვერსია %s\n"
+#~ "საავტორო უფლებები (C) %s Mandriva.\n"
+#~ "პროგრამა უფასო გახლავთ და ნებადართულია მისი GNU GPL ლიცენზიის პირობების "
+#~ "თანახმად გავრცელება.\n"
+#~ "\n"
+#~ "გამოყენება:\n"
 
 #~ msgid ""
-#~ "Mandriva Online could not be contacted, please try again at a later time"
-#~ msgstr "Mandriva Online-ს ვერ ვუკავშირდები. გთხოვთ მოგვიანებით სცადოთ"
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mgaupdate ვერსია %s\n"
+#~ "%s\n"
+#~ "პროგრამა უფასო გახლავთ და ნებადართულია მისი GNU GPL ლიცენზიის პირობების "
+#~ "თანახმად გავრცელება.\n"
+#~ "\n"
+#~ "გამოყენება:\n"
 
-#~ msgid "  --update       - Update keys\n"
-#~ msgstr "  --update       - განახლების კვანძები\n"
+#, fuzzy
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "mdkupdate ვერსია %s\n"
+#~ "საავტორო უფლებები (C) %s OpenMandriva.\n"
+#~ "პროგრამა უფასო გახლავთ და ნებადართულია მისი GNU GPL ლიცენზიის პირობების "
+#~ "თანახმად გავრცელება.\n"
+#~ "\n"
+#~ "გამოყენება:\n"
 
-#~ msgid "Skip Wizard"
-#~ msgstr "ჯადოქარის დასრულება"
+#~ msgid "or"
+#~ msgstr "ან"
+
+#~ msgid "wrong password:"
+#~ msgstr "არასწორი პაროლი:"

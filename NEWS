@@ -1,3 +1,100 @@
+Version 3.10.1 - 23 February 2015, Per Øyvind Karlsen
+
+- update and merge translations from Mageia
+- update with new URL for distribution list file (Robert Xu)
+
+Version 3.10 - 4 February 2014, Thierry Vignaud
+
+- include strings from mdkapplet-update-checker & mdkapplet-upgrade-helper
+- fix some gtk2 -> gtk3 migration fallouts (mga#12527)
+- fix crashing if there's not notification daemon (mga#12416)
+
+Version 3.9 - 25 January 2014, Colin Guthrie
+
+- do not exec pkexec but run it so it has a parent process to fix double fork
+  issues mga#11184 mga#12364
+
+Version 3.8 - 22 January 2014, Thierry Vignaud
+
+- block CHLD signals on startup in order to prevent glib-threading segfaults
+  (mga#10289)
+
+Version 3.7.1 - 22 January 2014, Thierry Vignaud
+
+- better fix for mga#12280 while fixing mdkapplet exiting reported by
+  Colin
+- workaround gnome-shell not exiting message tray mode when clicking on actions
+  (bgo#706783)
+
+Version 3.6 - 17 January 2014, Thierry Vignaud
+
+- workaround X11 hanging if one right click on status icon without
+  having closed the notification (mga#12280)
+
+Version 3.5 - 8 January 2014, Thierry Vignaud
+
+- delay setting SIG_CHLD handler
+  (thus fixing segfault on startup (mdk#10289))
+
+Version 3.4 - 30 December 2013, Thierry Vignaud
+
+- mdkapplet-config (mdk#12148)
+  o fix detecting if HScale widgets are supported
+  o fix two Entry pointing to the same reference in old compat mode
+  o drop support for mdv 200[89].x
+
+Version 3.3 - 21 December 2013, Thierry Vignaud
+
+- fix doing nothing when clicking on notifications buttons (mdk#12041)
+- split mdkapplet-update-checker
+  (prevents segfault due to mixing glib threads with secular forks)
+
+Version 3.2 - 16 December 2013, Thierry Vignaud
+
+- fix crashing when displaying about dialog (mga#12009)
+
+Version 3.1 - 6 December 2013, Thierry Vignaud
+
+- fix using Notifications introspection API (mga#11897)
+
+Version 3.0 - 5 December 2013, Thierry Vignaud
+
+- convert from gtk2 to gtk3 (needs rpmdrake >= 6.0)
+
+Version 2.84 - 16 November 2013, Colin Guthrie
+
+- polkit: only use pkexec when not already root
+
+Version 2.83 - 13 October 2013, Colin Guthrie
+
+- re-add polkit wrapper for urpmi.update (mga#11125)
+
+Version 2.82 - 12 October 2013, Colin Guthrie
+
+- use polkit for authorisation (mga#11125)
+- do not handle priority upgrades specially. This is now fixed in urpmi itself
+- do not pass invalid --nocheck option to urpmi.update
+
+Version 2.80.1 - 15 May 2013, Per Øyvind Karlsen
+
+- ensure nonfree/tainted media is kept enabled on distro upgrade
+- do not use urpm code to check the folder as this is run as unprivileged user (mga#6083)
+- enable the 'download all' links for everyone (mga#8157)
+- split initial distro upgrade into two parts and ensure rpm+urpmi installed in a
+  single transaction to prevent rpmdb errors
+
+Version 2.80 - 4 May 2013, Colin Guthrie
+
+- add support for a 'distro-prepare-upgrade' package when performing distro
+  upgrades
+- do not define the $root variable in mgaapplet-upgrade-helper as it's exported
+  from mgaonline.pm
+- exit early from mgaapplet-upgrade-helper if we don't pass expected/required
+  args
+- fix urpm::check_dir() call (old name check_cache_dir() was changed)
+
+Version 2.79 - 15 April 2013, Thierry Vignaud
+
 - check that choosen download directory is owned by root (mga#6083)
 
 Version 2.78 - 31 August 2012, Thierry Vignaud

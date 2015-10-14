@@ -5,31 +5,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline 0.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-07 16:23-0300\n"
+"POT-Creation-Date: 2015-02-23 04:38+0100\n"
 "PO-Revision-Date: 2009-10-01 16:32+0100\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Meddal.com\n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cy\n"
 "Plural-Forms: nplurals=2; plural=(n==2) ? 1 : 0;\n"
 "X-Generator: Virtaal 0.4.0-beta1\n"
 "X-Poedit-Language: Welsh\n"
 "X-Poedit-Country: UK\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
-#: ../mdkapplet:71
+#: ../mdkapplet:82
 #, c-format
 msgid "Will check updates at %s"
 msgstr "Gwirio diweddariadau ar %s"
 
-#: ../mdkapplet:79
+#: ../mdkapplet:90
 #, c-format
 msgid "Your system is up-to-date"
 msgstr "Mae'r system yn gyfredol"
 
-#: ../mdkapplet:84
+#: ../mdkapplet:95
 #, c-format
 msgid ""
 "Service configuration problem. Please check logs and send mail to "
@@ -38,48 +38,48 @@ msgstr ""
 "Problemau ffurfweddu'r gwasanaethwr. Gwiriwch gofnodion ac anfon e-byst at "
 "support@mandrivaonline.com"
 
-#: ../mdkapplet:90
+#: ../mdkapplet:101
 #, c-format
 msgid "Please wait, finding available packages..."
 msgstr "Arhoswch, canfod pecynnau sydd ar gael..."
 
-#: ../mdkapplet:95
+#: ../mdkapplet:106
 #, c-format
 msgid "New updates are available for your system"
 msgstr "Mae diweddariadau newydd ar gael ar gyfer eich system"
 
-#: ../mdkapplet:101
+#: ../mdkapplet:112
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released"
 msgstr "Mae dosbarthiad newydd o Mandriva Linux wedi ei ryddhau"
 
-#: ../mdkapplet:119 ../mdkapplet:161
+#: ../mdkapplet:130 ../mdkapplet:172
 #, c-format
 msgid "An additional package medium is available for your distribution."
 msgstr "Mae cyfrwng pecynnau ychwanegol ar gael ar gyfer eich dosbarthiad."
 
-#: ../mdkapplet:124
+#: ../mdkapplet:135
 #, c-format
 msgid "Network is down. Please configure your network"
 msgstr "Nid yw'r rhwydwaith ar gael.  Ffurfweddwch eich rhwydwaith"
 
-#: ../mdkapplet:130
+#: ../mdkapplet:141
 #, c-format
 msgid "Service is not activated. Please click on \"Online Website\""
 msgstr "Nid yw'r gwasanaeth ar gael. Cliciwch \"Gwefan Ar-lein\""
 
-#: ../mdkapplet:135 ../mdkapplet:141
+#: ../mdkapplet:146 ../mdkapplet:152
 #, c-format
 msgid "urpmi database locked"
 msgstr "Cronfa ddata urpmi wedi cloi"
 
-#: ../mdkapplet:146
+#: ../mdkapplet:157
 #, c-format
 msgid "Release not supported (too old release, or development release)"
 msgstr ""
 "Nid yw'r rhyddhad yn cael ei gynnal (mae'n rhy hen neu'n rhyddhad datblygu)"
 
-#: ../mdkapplet:156
+#: ../mdkapplet:167
 #, c-format
 msgid ""
 "No medium found. You must add some media through 'Software Media Manager'."
@@ -87,7 +87,7 @@ msgstr ""
 "Heb ganfod cyfrwng. Rhaid ychwanegu cyfrwng drwy'r \"Rheolwr Cyfrwng "
 "Meddalwedd\""
 
-#: ../mdkapplet:166
+#: ../mdkapplet:177
 #, c-format
 msgid ""
 "You already have at least one update medium configured, but\n"
@@ -104,42 +104,37 @@ msgstr ""
 "\n"
 "Yna ailgychwyn %s."
 
-#: ../mdkapplet:171
+#: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
 msgstr "Galluogwyd"
 
-#: ../mdkapplet:184
-#, c-format
-msgid "Error updating media"
-msgstr "Gwall wrth diweddaru cyfrwng"
-
-#: ../mdkapplet:224 ../mdkapplet:946
+#: ../mdkapplet:188 ../mdkapplet:783
 #, c-format
 msgid "Install updates"
 msgstr "Gosod diweddariadau"
 
-#: ../mdkapplet:225 ../mdkapplet:226
+#: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
 msgid "Add additional package medium"
 msgstr "Ychwanegu cyfrwng pecynnau ychwanegol"
 
-#: ../mdkapplet:227
+#: ../mdkapplet:191
 #, c-format
 msgid "Check Updates"
 msgstr "Gwirio Diweddariad"
 
-#: ../mdkapplet:228
+#: ../mdkapplet:192
 #, c-format
 msgid "Configure Network"
 msgstr "Ffurfweddu'r Rhwydwaith"
 
-#: ../mdkapplet:229
+#: ../mdkapplet:193
 #, c-format
 msgid "Upgrade the system"
 msgstr "Diweddaru'r system"
 
-#: ../mdkapplet:394
+#: ../mdkapplet:353
 #, c-format
 msgid ""
 "Basic maintenance for this distribution has expired. Thanks to your "
@@ -147,96 +142,112 @@ msgid ""
 "until %s"
 msgstr ""
 
-#: ../mdkapplet:439
+#: ../mdkapplet:398
 #, c-format
 msgid "Received SIGHUP (probably an upgrade has finished), restarting applet."
 msgstr ""
 
-#: ../mdkapplet:446
+#: ../mdkapplet:405
 #, c-format
 msgid "Launching drakconnect\n"
 msgstr "Cychwyn drakconnect\n"
 
-#: ../mdkapplet:459 ../mdkapplet:632
+#: ../mdkapplet:412
 #, c-format
 msgid "New version of Mandriva Linux distribution"
 msgstr "Fersiwn newydd o ddosbarthiad Mandriva Linux"
 
-#: ../mdkapplet:464
+#: ../mdkapplet:417
 #, c-format
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:473
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
+#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
+#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
+#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
+#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#, c-format
+msgid "Error"
+msgstr "Gwall"
+
+#: ../mdkapplet:421
+#, c-format
+msgid "You must choose a directory owned by the super administrator!"
+msgstr ""
+
+#: ../mdkapplet:428
 #, c-format
 msgid "A new version of Mandriva Linux distribution has been released."
 msgstr "Mae dosbarthiad newydd o Mandriva Linux wedi ei ryddhau."
 
-#: ../mdkapplet:475 ../mdkapplet:572
+#: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
 msgid "More info about this new version"
 msgstr "Mwy o wybodaeth am y fersiwn newydd"
 
-#: ../mdkapplet:477 ../mdkapplet:566
+#: ../mdkapplet:432 ../mdkapplet:519
 #, c-format
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Hoffech chi ddiweddaru i ddosbarthiad '%s'??"
 
-#: ../mdkapplet:479 ../mdkapplet:576 ../mdkapplet:1033 ../mdkapplet:1063
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Peidio gofyn y tro nesaf"
 
-#: ../mdkapplet:482
+#: ../mdkapplet:435
 #, c-format
 msgid "Download all packages at once"
 msgstr ""
 
-#: ../mdkapplet:483
+#: ../mdkapplet:436
 #, c-format
 msgid "(Warning: You will need quite a lot of free space)"
 msgstr ""
 
-#: ../mdkapplet:489
+#: ../mdkapplet:441
 #, c-format
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Nesaf"
 
-#: ../mdkapplet:493 ../mdkapplet:581 ../mdkapplet:658 ../mdkapplet:1034
-#: ../mdkapplet:1064 ../mdkapplet_gui.pm:232 ../mdkapplet_gui.pm:313
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
+#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
+#: ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
 msgstr "Diddymu"
 
-#: ../mdkapplet:508
+#: ../mdkapplet:461
 #, c-format
 msgid ""
 "Maintenance for this Mandriva Linux version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
-#: ../mdkapplet:514
+#: ../mdkapplet:467
 #, c-format
 msgid "In order to keep your system secure, you can:"
 msgstr ""
 
-#: ../mdkapplet:520
+#: ../mdkapplet:473
 #, c-format
 msgid "Mandriva Linux"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet:526
+#: ../mdkapplet:479
 #, c-format
 msgid "You should get extended maintenance."
 msgstr ""
 
-#: ../mdkapplet:528
+#: ../mdkapplet:481
 #, fuzzy, c-format
 msgid ""
 "You should either get extended maintenance or upgrade to a newer version of "
@@ -245,29 +256,34 @@ msgstr ""
 "Nid yw'r dosbarthiad yn cael ei gynnal bellach. Ni fydd diweddariadau "
 "pellach. Dylech ddiweddaru i fersiwn mwy diweddar o ddosbarthiad %s."
 
-#: ../mdkapplet:532
+#: ../mdkapplet:485
 #, fuzzy, c-format
 msgid "You should upgrade to a newer version of the %s distribution."
 msgstr "Hoffech chi ddiweddaru i ddosbarthiad '%s'??"
 
-#: ../mdkapplet:542
+#: ../mdkapplet:495
 #, c-format
 msgid "Your distribution is no longer supported"
 msgstr ""
 
-#: ../mdkapplet:547
+#: ../mdkapplet:500
 #, c-format
 msgid "Extended Maintenance"
 msgstr ""
 
-#: ../mdkapplet:552
+#: ../mdkapplet:505
 #, c-format
 msgid ""
 "Purchase a maintenance extension for this version (%s) and keep it running "
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:649
+#: ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva distribution"
+msgstr "Fersiwn newydd o ddosbarthiad OpenMandriva Linux"
+
+#: ../mdkapplet:604
 #, c-format
 msgid ""
 "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
@@ -276,17 +292,17 @@ msgstr ""
 "Mae'r diweddariad yn gofyn am gysylltiad rhwydwaith band llydan cyflym "
 "(cebl, xDSL,...) a gall gymryd rhai oriau i'w gwblhau."
 
-#: ../mdkapplet:651
+#: ../mdkapplet:606
 #, c-format
 msgid "Estimated download data will be %s"
 msgstr "Amcan o'r data i'w lwytho i lawr yw %s"
 
-#: ../mdkapplet:652
+#: ../mdkapplet:607
 #, c-format
 msgid "You should close all other running applications before continuing."
 msgstr "Dylech gau pob rhaglen sy'n rhedeg cyn parhau."
 
-#: ../mdkapplet:655
+#: ../mdkapplet:610
 #, c-format
 msgid ""
 "You should put your laptop on AC and favor ethernet connection over wifi, if "
@@ -295,94 +311,89 @@ msgstr ""
 "Dylech osod eich gliniadur ar gyflenwad trydan ac mae ethernet yn well na'r "
 "diwifr, os yn bosib."
 
-#: ../mdkapplet:687
+#: ../mdkapplet:644
 #, c-format
 msgid "Launching MandrivaUpdate\n"
 msgstr "Cychwyn MandrivaUpdate\n"
 
-#: ../mdkapplet:719
+#: ../mdkapplet:662
 #, c-format
 msgid "Computing new updates...\n"
 msgstr "Cyfrifo diweddariadau newydd...\n"
 
-#: ../mdkapplet:826
-#, c-format
-msgid "System is up-to-date\n"
-msgstr "Mae'r system yn gyfredol\n"
-
-#: ../mdkapplet:866
+#: ../mdkapplet:701
 #, c-format
 msgid "Checking Network: seems disabled\n"
 msgstr "Gwirio'r Rhwydwaith: i weld wedi ei anablu\n"
 
-#: ../mdkapplet:893
+#: ../mdkapplet:728
 #, c-format
-msgid "Mandriva Online %s"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Online %s"
+msgstr "OpenMandriva Online %s"
 
-#: ../mdkapplet:894
+#: ../mdkapplet:729
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Hawlfraint (C) %s  Mandriva"
 
-#: ../mdkapplet:897
+#: ../mdkapplet:732
 #, c-format
-msgid "Mandriva Online gives access to Mandriva web services."
-msgstr "Mandriva Online yw gwasanaethau gwe Mandriva."
+msgid "OpenMandriva Online gives access to Moondrake web services."
+msgstr "OpenMandriva Online yw gwasanaethau gwe Moondrake."
 
-#: ../mdkapplet:899
+#: ../mdkapplet:734
 #, c-format
 msgid "Online WebSite"
 msgstr "Gwefan Ar-lein"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../mdkapplet:904
+#: ../mdkapplet:739
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "-:Rhoslyn Prys <post@meddal.com>\n"
 
-#: ../mdkapplet:932
+#: ../mdkapplet:768
 #, c-format
 msgid "Warning"
 msgstr "Rhybudd"
 
-#: ../mdkapplet:935 ../mdkapplet:940 ../mdkapplet:948 ../mdkapplet:950
-#: ../mdkapplet_gui.pm:264
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
+#: ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr "Rhagor o Wybodaeth"
 
-#: ../mdkapplet:952
+#: ../mdkapplet:789
 #, c-format
 msgid "Add media"
 msgstr "Ychwanegu cyfrwng"
 
-#: ../mdkapplet:967
+#: ../mdkapplet:808
 #, c-format
 msgid "About..."
 msgstr "Ynghylch..."
 
-#: ../mdkapplet:969 ../mdkapplet-config:68
+#: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
 msgid "Updates Configuration"
 msgstr "Ffurfweddiad Diweddaru"
 
-#: ../mdkapplet:971
+#: ../mdkapplet:812
 #, c-format
 msgid "Always launch on startup"
 msgstr "Cychwyn wrth gychwyn"
 
-#: ../mdkapplet:973
+#: ../mdkapplet:814
 #, c-format
 msgid "Quit"
 msgstr "Gadael"
 
-#: ../mdkapplet:1023 ../mdkapplet:1028 ../mdkapplet:1053 ../mdkapplet:1058
+#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
 #, c-format
 msgid "New medium available"
 msgstr "Cyfrwng newydd ar gael"
 
-#: ../mdkapplet:1030 ../mdkapplet:1060
+#: ../mdkapplet:871 ../mdkapplet:901
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -391,138 +402,196 @@ msgstr ""
 "Rydych yn defnyddio dosbarthiad '%s' ac o ganlyniad mae gennych fynediad "
 "breintiedig i feddalwedd ychwanegol."
 
-#: ../mdkapplet:1032 ../mdkapplet:1062
+#: ../mdkapplet:873 ../mdkapplet:903
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Hoffech chi osod y storfa o feddalwedd ychwanegol?"
 
-#: ../mdkapplet:1061 ../mdkonline.pm:182
+#: ../mdkapplet:902
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
 
-#: ../mdkapplet-add-media-helper:84 ../mdkapplet-config:43
+#: ../mdkapplet-config:43
 #, c-format
 msgid "Adding an additional package medium"
 msgstr "Ychwanegu cyfrwng pecynnau ychwanegol"
 
-#: ../mdkapplet-add-media-helper:128
-#, c-format
-msgid "Supported products are %s, '%s' is not on the list.\n"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:138
-#, c-format
-msgid "Please fill in your account ID to add an additional package medium"
-msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
-
-#: ../mdkapplet-add-media-helper:148 ../mdkapplet-add-media-helper:193
-#: ../mdkapplet-add-media-helper:225 ../mdkapplet_gui.pm:244
-#, c-format
-msgid "Error"
-msgstr "Gwall"
-
-#: ../mdkapplet-add-media-helper:149
-#, c-format
-msgid "Failure while retrieving distributions list:"
-msgstr ""
-
-#. -PO: Here '%s' will be a localized date (eg:
-#: ../mdkapplet-add-media-helper:161
-#, c-format
-msgid ""
-"Mandriva provides 12 months of desktop updates (until %s) and 18 months of "
-"base updates (up to the %s) for distributions."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:167
-#, c-format
-msgid ""
-"Extended maintenance is now available to get 18 months of additional updates "
-"(until %s)."
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:170
-#, c-format
-msgid "You can subscribe <b>right now</b> to get extended maintenance:"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:174
-#, c-format
-msgid "Lifetime policy"
-msgstr ""
-
-#: ../mdkapplet-add-media-helper:175 ../mdkapplet_gui.pm:105
-#, fuzzy, c-format
-msgid "Online subscription"
-msgstr "Disgrifiad y peiriant:"
-
-#: ../mdkapplet-add-media-helper:194
-#, c-format
-msgid "An error occurred"
-msgstr "Digwyddodd gwall"
-
-#: ../mdkapplet-add-media-helper:200
-#, c-format
-msgid "Your Mandriva account does not have %s download subscription enabled."
-msgstr "Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho %s i lawr."
-
-#: ../mdkapplet-add-media-helper:226
-#, c-format
-msgid "An error occurred while adding medium"
-msgstr "Digwyddodd gwall wrth ychwanegu cyfrwng"
-
-#: ../mdkapplet-add-media-helper:234
-#, fuzzy, c-format
-msgid "Successfully added media!"
-msgstr "Wedi ychwanegu cyfrwng %s yn llwyddiannus."
-
-#: ../mdkapplet-add-media-helper:236
-#, c-format
-msgid "Successfully added media %s."
-msgstr "Wedi ychwanegu cyfrwng %s yn llwyddiannus."
-
-#: ../mdkapplet-add-media-helper:238
-#, c-format
-msgid "Ok"
-msgstr "Iawn"
-
-#: ../mdkapplet-config:69
+#: ../mdkapplet-config:67
 #, c-format
 msgid "Here you can configure the updates applet"
 msgstr "Yma mae modd ffurfweddu'r rhaglennig diweddaru"
 
-#: ../mdkapplet-config:71
+#: ../mdkapplet-config:69
 #, c-format
 msgid "Update frequency (hours)"
 msgstr "Amlder diweddaru (awr)"
 
-#: ../mdkapplet-config:80
+#: ../mdkapplet-config:77
 #, c-format
 msgid "First check delay (minutes)"
 msgstr "Oedi gwiriad cyntaf (munud)"
 
-#: ../mdkapplet-config:89
+#: ../mdkapplet-config:85
 #, c-format
 msgid "Check for newer \"%s\" releases"
 msgstr ""
 
-#: ../mdkapplet-config:95 ../mdkapplet-config:101
+#: ../mdkapplet-config:91 ../mdkapplet-config:97
 #, c-format
 msgid "Check for missing \"%s\" media"
 msgstr ""
 
-#: ../mdkapplet-config:95
+#: ../mdkapplet-config:91
 #, c-format
 msgid "Restricted"
 msgstr ""
 
-#: ../mdkapplet-config:101
+#: ../mdkapplet-config:97
 #, c-format
 msgid "Enterprise"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:87
+#: ../mdkapplet-upgrade-helper:86
+#, c-format
+msgid ""
+"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgstr "Nid oes digon o le ar %s ar gyfer y diweddariad (%dMB < %dMB)"
+
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
+#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#, c-format
+msgid "Installation failed"
+msgstr "Methodd y gosod"
+
+#: ../mdkapplet-upgrade-helper:142
+#, c-format
+msgid "Installation logs can be found in '%s'"
+msgstr "Mae cofnodion gosod i'w gweld yn '%s'"
+
+#: ../mdkapplet-upgrade-helper:143
+#, c-format
+msgid "Retry"
+msgstr "Ail geisiwch."
+
+#: ../mdkapplet-upgrade-helper:152
+#, c-format
+msgid "Congratulations"
+msgstr "Llongyfarchiadau"
+
+#: ../mdkapplet-upgrade-helper:156
+#, c-format
+msgid "Upgrade to OpenMandriva %s release was successful."
+msgstr "Mae diweddaru i OpenMandriva %s wedi bod yn llwyddiant."
+
+#: ../mdkapplet-upgrade-helper:158
+#, c-format
+msgid "You must restart your system."
+msgstr "Rhaid ailgychwyn eich system."
+
+#: ../mdkapplet-upgrade-helper:159
+#, c-format
+msgid "Reboot"
+msgstr "Ail gychwyn"
+
+#: ../mdkapplet-upgrade-helper:175
+#, c-format
+msgid "An error occurred"
+msgstr "Digwyddodd gwall"
+
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
+#: ../mdkapplet-upgrade-helper:235
+#, fuzzy, c-format
+msgid "Powerpack Media Configuration"
+msgstr "Ffurfweddiad Diweddaru"
+
+#: ../mdkapplet-upgrade-helper:197
+#, fuzzy, c-format
+msgid ""
+"You current Mandriva account does not have Powerpack ' .\n"
+"              'subscription enabled."
+msgstr ""
+"Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho PowerPack i lawr."
+
+#: ../mdkapplet-upgrade-helper:214
+#, fuzzy, c-format
+msgid ""
+"Please fill your My.Mandriva login and password to add additional package "
+"media for Powerpack."
+msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
+
+#: ../mdkapplet-upgrade-helper:236
+#, fuzzy, c-format
+msgid ""
+"Please fill your account ID to add Powerpack %s version packages media once "
+"you have subscribed online"
+msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
+
+#: ../mdkapplet-upgrade-helper:253
+#, c-format
+msgid "Unable to download distro list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:259
+#, c-format
+msgid "Distribution version %s was not found in the update list"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid "Preparation Required"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:268
+#, c-format
+msgid ""
+"In order to upgrade, your current installation needs to be prepared.\n"
+"\n"
+"Do you wish to do this preparation now?"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:279
+#, c-format
+msgid ""
+"Further action is required before you can continue.\n"
+"\n"
+"Please see %s for more information."
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:280
+#, c-format
+msgid "Next Steps"
+msgstr ""
+
+#: ../mdkapplet-upgrade-helper:310
+#, c-format
+msgid ""
+"Packages database is locked. Please close other applications\n"
+"working with packages database (do you have another media\n"
+"manager on another desktop, or are you currently installing\n"
+"packages as well?)."
+msgstr ""
+"Mae cronfa ddata'r pecynnau wedi cau. Crëwch raglenni eraill\n"
+"sy'n gweithio ar y gronfa ddata (oes gennych chi reolwr cyfrwng\n"
+"arall ar fwrdd gwaith arall, neu a ydych yn gosod pecynnau\n"
+" eraill hefyd?"
+
+#: ../mdkapplet-upgrade-helper:373
+#, c-format
+msgid "Failure when adding medium"
+msgstr "Methu ychwanegu cyfrwng"
+
+#: ../mdkapplet-upgrade-helper:396
+#, c-format
+msgid "Failed to add powerpack restricted medium"
+msgstr ""
+
+#: ../mdkapplet.pm:19
+#, c-format
+msgid "Error updating media"
+msgstr "Gwall wrth diweddaru cyfrwng"
+
+#: ../mdkapplet_gui.pm:83
 #, c-format
 msgid ""
 "Mandriva Powerpack brings you the best of Linux experience for desktop: "
@@ -530,103 +599,71 @@ msgid ""
 "softwares and Mandriva official support."
 msgstr ""
 
-#: ../mdkapplet_gui.pm:94
+#: ../mdkapplet_gui.pm:90
 #, fuzzy, c-format
 msgid "Mandriva Linux Features"
 msgstr "Mandriva Linux"
 
-#: ../mdkapplet_gui.pm:213
+#: ../mdkapplet_gui.pm:101
+#, fuzzy, c-format
+msgid "Online subscription"
+msgstr "Disgrifiad y peiriant:"
+
+#: ../mdkapplet_gui.pm:204
 #, c-format
 msgid "More information on your user account"
 msgstr "Rhagor o wybodaeth am eich cyfrif defnyddiwr"
 
-#: ../mdkapplet_gui.pm:220
+#: ../mdkapplet_gui.pm:211
 #, c-format
 msgid "Your email"
 msgstr "Eich e-bost"
 
-#: ../mdkapplet_gui.pm:221
+#: ../mdkapplet_gui.pm:212
 #, c-format
 msgid "Your password"
 msgstr "Eich cyfrinair"
 
-#: ../mdkapplet_gui.pm:228
+#: ../mdkapplet_gui.pm:219
 #, c-format
 msgid "Forgotten password"
 msgstr "Cyfrinair wedi ei anghofio"
 
-#: ../mdkapplet_gui.pm:245
+#: ../mdkapplet_gui.pm:236
 #, c-format
 msgid "Password and email cannot be empty."
 msgstr "Nid oes modd i'r cyfrinair a'r e-bost fod yn wag"
 
-#: ../mdkapplet_gui.pm:267
+#: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
 msgstr "Cau"
 
-#: ../mdkapplet_gui.pm:302
+#: ../mdkapplet_gui.pm:293
 #, c-format
 msgid "Choose your upgrade version"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:306
+#: ../mdkapplet_gui.pm:297
 #, c-format
 msgid "Your Powerpack access has ended"
 msgstr ""
 
-#: ../mdkapplet_gui.pm:309
+#: ../mdkapplet_gui.pm:300
 #, c-format
 msgid "%s is now available, you can upgrade to:"
 msgstr ""
 
-#: ../mdkonline.pm:177
-#, fuzzy, c-format
-msgid "Mandriva Flash"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:178 ../mdkonline.pm:198
-#, fuzzy, c-format
-msgid "Mandriva Free"
-msgstr "Mandriva Linux"
-
-#: ../mdkonline.pm:179
-#, fuzzy, c-format
-msgid "Mandriva Mini"
-msgstr "Mandriva Linux"
-
-#: ../mdkonline.pm:180
-#, fuzzy, c-format
-msgid "Mandriva One"
-msgstr "Mandriva Online %s"
-
-#: ../mdkonline.pm:181 ../mdkonline.pm:194
-#, c-format
-msgid "Mandriva PowerPack"
-msgstr "Mandriva PowerPack"
-
-#: ../mdkonline.pm:195
-#, c-format
-msgid ""
-"The Mandriva Linux distribution with even more softwares and official "
-"support."
-msgstr ""
-
-#: ../mdkonline.pm:199
-#, c-format
-msgid "The 100%% Open Source distribution freely available."
-msgstr ""
-
-#: ../mdkonline.pm:213
+#: ../mdkonline.pm:200
 #, c-format
 msgid "Distribution Upgrade"
 msgstr "Diweddaru'r Dosbarthiad"
 
-#: ../mdkupdate:59
-#, c-format
+#: ../mdkupdate:60
+#, fuzzy, c-format
 msgid ""
 "mdkupdate version %s\n"
-"Copyright (C) %s Mandriva.\n"
+"%s\n"
 "This is free software and may be redistributed under the terms of the GNU "
 "GPL.\n"
 "\n"
@@ -639,179 +676,259 @@ msgstr ""
 "\n"
 "defnydd:\n"
 
-#: ../mdkupdate:64
+#: ../mdkupdate:66
+#, c-format
+msgid "Copyright (C) %s %s"
+msgstr "Hawlfraint (H) %s  %s"
+
+#: ../mdkupdate:66 ../mdkupdate:67
 #, c-format
 msgid "  --help\t\t- print this help message.\n"
 msgstr "  --help\t\t- argraffu'r neges cymorth hon.\n"
 
-#: ../mdkupdate:65
+#: ../mdkupdate:68
 #, c-format
 msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
 msgstr "  --auto\t\t- cychwyn Mandriva Update yn awtomatig\n"
 
-#: ../mdkupdate:66
+#: ../mdkupdate:69
 #, c-format
 msgid "  --mnf\t\t\t- launch mnf specific scripts.\n"
 msgstr "  --mnf\t\t\t- cychwyn sgriptiau mnf penodol.\n"
 
-#: ../mdkupdate:67
+#: ../mdkupdate:70
 #, c-format
 msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
 msgstr "  --noX\t\t\t- fersiwn modd testun o Mandriva Update\n"
 
-#: ../mdkupdate:68
+#: ../mdkupdate:71
 #, c-format
 msgid "  --debug\t\t\t- log what is done\n"
 msgstr "  --debug\t\t\t- cofnodi'r hyn sydd wedi ei wneud\n"
 
-#: ../mdkupdate:98
+#: ../mdkupdate:101
 #, c-format
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
 #, fuzzy
-#~ msgid ""
-#~ "Please fill in your account ID to add an additional package medium once "
-#~ "you have subscribed online"
-#~ msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
+msgid "Run OpenMandriva Update Applet Configuration"
+msgstr "Ffurfweddiad Diweddaru"
 
+#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
 #, fuzzy
+msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgstr "Ffurfweddiad Diweddaru"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Upgrade Helper"
+msgstr "Cychwyn OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+msgstr ""
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Updater"
+msgstr "Cychwyn OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
+msgid "Authentication is required to run OpenMandriva Updater"
+msgstr ""
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run OpenMandriva Package Media Updater"
+msgstr "Cychwyn OpenMandrivaUpdate\n"
+
+#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgstr "Cychwyn OpenMandrivaUpdate\n"
+
+#~ msgid "  --debug\t\t- log what is done.\n"
+#~ msgstr "  --debug\t\t- cofnodi'r hyn sydd wedi ei wneud\n"
+
+#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
+#~ msgstr "  --applet\t\t- cychwyn Mandriva Update.\n"
+
+#~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
+#~ msgstr "  --applet\t\t- cychwyn OpenMandriva Update.\n"
+
+#~ msgid "  --applet       - launch Mandriva Update.\n"
+#~ msgstr "  --applet       - cychwyn Mandriva Update.\n"
+
+#~ msgid "  --applet       - launch OpenMandriva Update.\n"
+#~ msgstr "  --applet       - cychwyn OpenMandriva Update.\n"
+
+#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- cychwyn OpenMandriva Update yn awtomatig\n"
+
+#~ msgid "  --auto         - Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto         - cychwyn Mandriva Update yn awtomatig\n"
+
+#~ msgid "  --auto         - OpenMandriva Update launched automatically.\n"
+#~ msgstr "  --auto         - cychwyn OpenMandriva Update yn awtomatig\n"
+
+#~ msgid "  --box=\t\t\t- hostname.\n"
+#~ msgstr "  --box=\t\t\t- enw gwesteiwr.\n"
+
 #~ msgid ""
-#~ "Your Mandriva account does not have Extended Maintenance subscription "
-#~ "enabled."
+#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
+#~ "file.\n"
 #~ msgstr ""
-#~ "Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho %s i lawr."
+#~ "  --bundle file.bundle\t- didoli a gosod pecyn o .bundle metainfo file.\n"
+
+#~ msgid "  --country\t\t\t- name of country of the user. \n"
+#~ msgstr "  --country\t\t\t- enw gwlad y defnyddiwr. \n"
+
+#~ msgid "  --help         - print this help message.\n"
+#~ msgstr "  --help         - argraffu'r neges cymorth hon.\n"
+
+#~ msgid "  --interactive\t\t- use the interactive mode.\n"
+#~ msgstr "  --interactive\t\t- defnyddio'r modd rhyngweithiol.\n"
+
+#~ msgid "  --login=\t\t     - login name of the user.\n"
+#~ msgstr "  --login=\t\t     - enw mewngofnodi'r defnyddiwr.\n"
+
+#~ msgid "  --mnf          - launch mnf specific scripts.\n"
+#~ msgstr "  --mnf          - cychwyn sgriptiau mnf penodol.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- fersiwn modd testun o OpenMandriva Update\n"
+
+#~ msgid "  --noX          - text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX          - fersiwn modd testun o Mandriva Update\n"
+
+#~ msgid "  --noX          - text mode version of OpenMandriva Update.\n"
+#~ msgstr "  --noX          - fersiwn modd testun o OpenMandriva Update\n"
+
+#~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
+#~ msgstr "  --nointeractive\t- defnyddio'r modd anrhyngweithiol.\n"
+
+#~ msgid "  --pass=\t\t\t- password  of the user.\n"
+#~ msgstr "  --pass=\t\t\t- cyfrinair y defnyddiwr.\n"
+
+#~ msgid "(Ex: My Home Office's Computer)"
+#~ msgstr "(E.e.: Cyfrifiadur Swyddfa Cartref)"
 
 #, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Mandriva Linux"
+#~ msgid "A new version of OpenMandriva distribution has been released"
+#~ msgstr "Mae dosbarthiad newydd o OpenMandriva Linux wedi ei ryddhau"
 
 #, fuzzy
-#~ msgid "Get Powerpack subscription!"
-#~ msgstr "Disgrifiad y peiriant:"
+#~ msgid "A new version of OpenMandriva distribution has been released."
+#~ msgstr "Mae dosbarthiad newydd o OpenMandriva Linux wedi ei ryddhau."
+
+#~ msgid "Account already exists\n"
+#~ msgstr "Mae'r cyfrif yn bod eisoes\n"
+
+#~ msgid "Account creation or authentication"
+#~ msgstr "Creu cyfrif neu ddilysiad"
+
+#~ msgid "Actions"
+#~ msgstr "Gweithredoedd"
+
+#~ msgid "An error occurred while adding medium"
+#~ msgstr "Digwyddodd gwall wrth ychwanegu cyfrwng"
 
 #~ msgid ""
-#~ "Your Mandriva account does not have Powerpack download subscription "
-#~ "enabled."
+#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
+#~ "firewall bad settings"
 #~ msgstr ""
-#~ "Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho PowerPack i "
-#~ "lawr."
+#~ "Methu cysylltu â safle gwe Mandriva Online: mewngofnod/cyfrinair anghywir "
+#~ "neu osodiadau llwybrydd/mur cadarn anghywir."
 
 #~ msgid ""
-#~ "Your system does not have enough space left in %s for upgrade (%dMB < %"
-#~ "dMB)"
-#~ msgstr "Nid oes digon o le ar %s ar gyfer y diweddariad (%dMB < %dMB)"
-
-#~ msgid "Installation failed"
-#~ msgstr "Methodd y gosod"
-
-#~ msgid "Installation logs can be found in '%s'"
-#~ msgstr "Mae cofnodion gosod i'w gweld yn '%s'"
-
-#~ msgid "Retry"
-#~ msgstr "Ail geisiwch."
-
-#~ msgid "Congratulations"
-#~ msgstr "Llongyfarchiadau"
-
-#~ msgid "Upgrade to Mandriva %s release was successfull."
-#~ msgstr "Mae diweddaru i Mandriva %s wedi bod yn llwyddiant."
-
-#~ msgid "You must restart your system."
-#~ msgstr "Rhaid ailgychwyn eich system."
-
-#~ msgid "Reboot"
-#~ msgstr "Ail gychwyn"
-
-#~ msgid ""
-#~ "Packages database is locked. Please close other applications\n"
-#~ "working with packages database (do you have another media\n"
-#~ "manager on another desktop, or are you currently installing\n"
-#~ "packages as well?)."
+#~ "Cannot connect to OpenMandriva Online website: wrong login/password or "
+#~ "router/firewall bad settings"
 #~ msgstr ""
-#~ "Mae cronfa ddata'r pecynnau wedi cau. Crëwch raglenni eraill\n"
-#~ "sy'n gweithio ar y gronfa ddata (oes gennych chi reolwr cyfrwng\n"
-#~ "arall ar fwrdd gwaith arall, neu a ydych yn gosod pecynnau\n"
-#~ " eraill hefyd?"
+#~ "Methu cysylltu â safle gwe OpenMandriva Online: mewngofnod/cyfrinair "
+#~ "anghywir neu osodiadau llwybrydd/mur cadarn anghywir."
 
-#~ msgid "Failure when adding medium"
-#~ msgstr "Methu ychwanegu cyfrwng"
+#~ msgid "Cannot get list of updates: %s"
+#~ msgstr "Methu estyn rhestr y diweddariadau: %s"
 
-#, fuzzy
-#~ msgid ""
-#~ "The version of Mandriva Linux installed on your system is no longer "
-#~ "supported."
-#~ msgstr "Mae dosbarthiad newydd o Mandriva Linux wedi ei ryddhau."
+#~ msgid "Check updates"
+#~ msgstr "Gwirio diweddariad"
 
-#, fuzzy
-#~ msgid "You are using '%s' distribution."
-#~ msgstr "Hoffech chi ddiweddaru i ddosbarthiad '%s'??"
-
-#~ msgid "Do you want to upgrade?"
-#~ msgstr "Hoffech chi ddiweddaru?"
-
-#~ msgid "Yes"
-#~ msgstr "Iawn"
-
-#~ msgid "No"
-#~ msgstr "Na"
-
-#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
-#~ msgstr ""
-#~ "Mae Mandriva Online i'w weld wedi ei ail osod, ail lwytho'r rhaglennig..."
+#~ msgid "Checking config file: Not present\n"
+#~ msgstr "Gwirio ffeil ffurfweddiad: Nid yw ar gael\n"
 
 #~ msgid "Checking... Updates are available\n"
 #~ msgstr "Gwirio... Mae diweddariadau ar gael\n"
 
-#~ msgid "Packages are up to date"
-#~ msgstr "Mae'r pecynnau'n rhai diweddaraf"
+#~ msgid "Choose which packages should be installed and Press Ok"
+#~ msgstr "Dewiswch pa becynnau i'w gosod a chlicio Iawn"
 
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "Methu agor cronfa ddata urpmi"
+#~ msgid "Clear"
+#~ msgstr "Clirio"
+
+#~ msgid "Configuration uploaded successfully"
+#~ msgstr "Llwytho'r ffurfweddiad yn llwyddiannus"
+
+#~ msgid "Configuration uploaded successfuly"
+#~ msgstr "Llwytho'r ffurfweddiad yn llwyddiannus"
+
+#~ msgid "Configure"
+#~ msgstr "Ffurfweddu"
+
+#~ msgid "Configure Now!"
+#~ msgstr "Ffurfweddu!"
+
+#~ msgid "Configure the service"
+#~ msgstr "Ffurfweddu'r gwasanaeth"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Cadarnhau Cyfrinair:"
 
 #~ msgid "Connecting to"
 #~ msgstr "Cysylltu â"
 
-#~ msgid "Mandriva Linux Updates Applet"
-#~ msgstr "Rhaglennig Diweddaru Mandriva Linux"
+#~ msgid "Connecting to Mandriva Online website..."
+#~ msgstr "Cysylltu â safle gwe Mandriva Online..."
 
-#~ msgid "Security error"
-#~ msgstr "Gwall diogelwch"
+#~ msgid "Connecting to OpenMandriva Online website..."
+#~ msgstr "Cysylltu â safle gwe OpenMandriva Online..."
 
-#~ msgid "Generic error (machine already registered)"
-#~ msgstr "Gwall generig (peiriant wedi ei gofrestri)"
+#~ msgid "Connection error"
+#~ msgstr "Gwall cysylltiad"
+
+#~ msgid "Connection problem"
+#~ msgstr "Problem cysylltu"
+
+#~ msgid "Copyright (C) %s by %s"
+#~ msgstr "Hawlfraint (C) %s  %s"
+
+#~ msgid "Country"
+#~ msgstr "Gwlad"
+
+#~ msgid "Create a Mandriva Online Account"
+#~ msgstr "Creu cyfrif Mandriva Online "
+
+#~ msgid "Create a OpenMandriva Online Account"
+#~ msgstr "Creu cyfrif OpenMandriva Online "
+
+#~ msgid "Creating account failed!"
+#~ msgstr "Methodd creu cyfrif y defnyddiwr!"
+
+#~ msgid "Database access forbidden"
+#~ msgstr "Mynediad cronfa ddata gwaharddedig"
 
 #~ msgid "Database error"
 #~ msgstr "Gwall cronfa ddata"
 
-#~ msgid ""
-#~ "Server Database failed\n"
-#~ "Please Try again Later"
-#~ msgstr ""
-#~ "Methodd cronfa ddata'r gweinydd\n"
-#~ "Ceisiwch eto'n hwyrach"
+#~ msgid "Development release not supported by service"
+#~ msgstr "Nid yw ryddhad datblygu'n cael ei gynnal gan y gwasanaeth"
 
-#~ msgid "Registration error"
-#~ msgstr "Gwall cofrestru"
+#~ msgid "Do you want to upgrade?"
+#~ msgstr "Hoffech chi ddiweddaru?"
 
-#~ msgid "Some parameters are missing"
-#~ msgstr "Mae rhai paramedrau ar goll"
-
-#~ msgid "Password error"
-#~ msgstr "Gwall cyfrinair"
-
-#~ msgid "Login error"
-#~ msgstr "Gwall mewngofnodi"
-
-#~ msgid ""
-#~ "The email you provided is already in use\n"
-#~ "Please enter another one\n"
-#~ msgstr ""
-#~ "Mae'r e-bost rydych wedi ei ddarparu'n cael ei ddefnyddio eisoes\n"
-#~ "Dewiswch un arall\n"
-
-#~ msgid "The email you provided is invalid or forbidden"
-#~ msgstr "Mae'r e-bost a ddarparwyd yn annilys neu waharddedig"
+#~ msgid "Down"
+#~ msgstr "Lawr"
 
 #~ msgid ""
 #~ "Email address box is empty\n"
@@ -820,62 +937,20 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "Mae'r blwch cyfeiriad gwe yn wag\n"
 #~ "Darparwch un"
 
-#~ msgid "Restriction Error"
-#~ msgstr "Gwall Cyfyngu"
+#~ msgid "Email address:"
+#~ msgstr "Cyfeiriad e-bost:"
 
-#~ msgid "Database access forbidden"
-#~ msgstr "Mynediad cronfa ddata gwaharddedig"
+#~ msgid "Email not valid\n"
+#~ msgstr "Nid yw'r e-bost yn ddilys\n"
 
-#~ msgid "Service error"
-#~ msgstr "Gwall gwasanaeth"
-
-#~ msgid ""
-#~ "Mandriva web services are currently unavailable\n"
-#~ "Please Try again Later"
+#~ msgid "Enter your Mandriva Online login, password and machine name:"
 #~ msgstr ""
-#~ "Nid yw gwasanaethau Mandrivaar gael ar hyn o bryd\n"
-#~ "Ceisiwch eto'n hwyrach"
+#~ "Rhowch eich mewngofnod Mandriva Online, eich cyfrinair ac enw'r peiriant :"
 
-#~ msgid "Password mismatch"
-#~ msgstr "Anghydweddiad cyfrinair"
-
-#~ msgid ""
-#~ "Mandriva web services are under maintenance\n"
-#~ "Please Try again Later"
+#~ msgid "Enter your OpenMandriva Online login, password and machine name:"
 #~ msgstr ""
-#~ "Mae gwasanaethau gwe Mandriva yn cael eu trwsio\n"
-#~ "Ceisiwch eto"
-
-#~ msgid "User Forbidden"
-#~ msgstr "Gwahardd Defnyddiwr"
-
-#~ msgid "User account forbidden by Mandriva web services"
-#~ msgstr "Cyfrif defnyddiwr wedi ei wahardd gan wasanaethau gwe Mandriva"
-
-#~ msgid "Connection error"
-#~ msgstr "Gwall cysylltiad"
-
-#~ msgid "Mandriva web services not reachable"
-#~ msgstr "Methu cyrraedd gwasanaethau gwe Mandriva"
-
-#~ msgid ""
-#~ "  --bundle file.bundle\t- parse and install package from .bundle metainfo "
-#~ "file.\n"
-#~ msgstr ""
-#~ "  --bundle file.bundle\t- didoli a gosod pecyn o .bundle metainfo file.\n"
-
-#~ msgid ""
-#~ "You first need to install the system on your harddrive with the 'Live "
-#~ "Install' wizard."
-#~ msgstr ""
-#~ "Rhaid gosod y system ar eich disg caled yn gyntaf gyda dewin 'Live "
-#~ "Install'."
-
-#~ msgid "Please wait"
-#~ msgstr "Arhoswch"
-
-#~ msgid "Preparing..."
-#~ msgstr "Paratoi..."
+#~ "Rhowch eich mewngofnod OpenMandriva Online, eich cyfrinair ac enw'r "
+#~ "peiriant :"
 
 #~ msgid ""
 #~ "Failed to authenticate to the bundle server:\n"
@@ -886,200 +961,41 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "\n"
 #~ "%s"
 
-#~ msgid ""
-#~ "The version of the Mandriva Online client is too old.\n"
-#~ "\n"
-#~ "You need to update to a newer version. You can get a new one from http://"
-#~ "start.mandriva.com"
-#~ msgstr ""
-#~ "Mae'r fersiwn o gleient Mandriva Online yn rhy hen.\n"
-#~ "\n"
-#~ "Rhaid diweddaru i fersiwn newydd. Gallwch ei gael o http://start.mandriva."
-#~ "com"
+#~ msgid "Failed to open urpmi database"
+#~ msgstr "Methu agor cronfa ddata urpmi"
 
-#~ msgid "This bundle is not well formated. Aborting."
-#~ msgstr "Nid yw'r bwndel wedi ei ffurfio'n dda. Atal."
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "Gosod pecynnau...\n"
-
-#~ msgid "New bundles are available for your system"
-#~ msgstr "Mae bwndeli newydd ar gael ar gyfer eich system"
-
-#~ msgid "Service is not configured. Please click on \"Configure the service\""
-#~ msgstr ""
-#~ "Nid yw'r gwasanaeth wedi ei ffurfweddu. Cliciwch \"Ffurfweddu'r gwasanaeth"
-#~ "\""
-
-#~ msgid "Configure the service"
-#~ msgstr "Ffurfweddu'r gwasanaeth"
-
-#~ msgid "Check updates"
-#~ msgstr "Gwirio diweddariad"
-
-#~ msgid "Configure Now!"
-#~ msgstr "Ffurfweddu!"
-
-#~ msgid "Actions"
-#~ msgstr "Gweithredoedd"
-
-#~ msgid "Configure"
-#~ msgstr "Ffurfweddu"
-
-#~ msgid "See logs"
-#~ msgstr "Darllen cofnodion"
-
-#~ msgid "Status"
-#~ msgstr "Statws"
-
-#~ msgid "Network Connection: "
-#~ msgstr "Cyswllt Rhwydwaith:"
-
-#~ msgid "Up"
-#~ msgstr "Fyny"
-
-#~ msgid "Down"
-#~ msgstr "Lawr"
-
-#~ msgid "Last check: "
-#~ msgstr "Gwiriad diwethaf:"
-
-#~ msgid "Machine name:"
-#~ msgstr "Enw'r peiriant:"
-
-#~ msgid "Updates: "
-#~ msgstr "Diweddariadau:"
-
-#~ msgid "Development release not supported by service"
-#~ msgstr "Nid yw ryddhad datblygu'n cael ei gynnal gan y gwasanaeth"
-
-#~ msgid "Too old release not supported by service"
-#~ msgstr "Nid yw hen ryddhad yn cael ei gynnal gan y gwasanaeth"
-
-#~ msgid "Unknown state"
-#~ msgstr "Cyflwr anhysbys"
-
-#~ msgid "Online services disabled. Contact Mandriva Online site\n"
-#~ msgstr ""
-#~ "Mae'r gwasanaethau ar-lein wedi eu hatal. Cysylltwch â safle Mandriva "
-#~ "Online\n"
-
-#~ msgid "Wrong Password.\n"
-#~ msgstr "Y cyfrinair anghywir\n"
-
-#~ msgid "Wrong Action or host or login.\n"
-#~ msgstr "Gweithred, gwestai neu fewngofnod anghywir.\n"
+#~ msgid "First name:"
+#~ msgstr "Enw cyntaf:"
 
 #~ msgid ""
-#~ "Something is wrong with your network settings (check your route, firewall "
-#~ "or proxy settings)\n"
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to Mandriva Online."
 #~ msgstr ""
-#~ "Mae rhywbeth o'i le ar osodiadau eich rhwydwaith (gwiriwch eich llwybr, "
-#~ "mur cadarn neu osodiadau dirprwy)\n"
+#~ "O hyn ymlaen byddwch yn derbyn cyhoeddiadau\n"
+#~ "diogelwch a diweddariadau gan Mandriva Online."
 
 #~ msgid ""
-#~ "Problem occured while connecting to the server, please contact the "
-#~ "support team"
+#~ "From now you will receive on security and updates \n"
+#~ "announcements thanks to OpenMandriva Online."
 #~ msgstr ""
-#~ "Digwyddodd anhawster wrth gysylltu â'r gweinydd, cysylltwch â'r tîm "
-#~ "cefnogi"
+#~ "O hyn ymlaen byddwch yn derbyn cyhoeddiadau\n"
+#~ "diogelwch a diweddariadau gan OpenMandriva Online."
 
-#~ msgid "Response from Mandriva Online server\n"
-#~ msgstr "Ymateb gan weinydd Mandriva Online\n"
+#~ msgid "Generic error (machine already registered)"
+#~ msgstr "Gwall generig (peiriant wedi ei gofrestri)"
 
-#~ msgid "No check"
-#~ msgstr "Dim gwiriad"
+#, fuzzy
+#~ msgid "Get Powerpack subscription!"
+#~ msgstr "Disgrifiad y peiriant:"
 
-#~ msgid "Checking config file: Not present\n"
-#~ msgstr "Gwirio ffeil ffurfweddiad: Nid yw ar gael\n"
-
-#~ msgid "Logs"
-#~ msgstr "Cofnodion"
-
-#~ msgid "Clear"
-#~ msgstr "Clirio"
-
-#~ msgid ""
-#~ "mdonline version %s\n"
-#~ "Copyright (C) %s Mandriva.\n"
-#~ "This is free software and may be redistributed under the terms of the GNU "
-#~ "GPL.\n"
-#~ "\n"
-#~ "usage:\n"
-#~ msgstr ""
-#~ "fersiwn %s mdonline  \n"
-#~ "Hawlfraint (H) %s Mandriva.\n"
-#~ "Mae hwn yn feddalwedd rhydd ac mae modd ei ail ddosbarthu o dan amodau "
-#~ "GNU GPL.\n"
-#~ "\n"
-#~ "defnydd:\n"
-
-#~ msgid "  --box=\t\t\t- hostname.\n"
-#~ msgstr "  --box=\t\t\t- enw gwesteiwr.\n"
-
-#~ msgid "  --country\t\t\t- name of country of the user. \n"
-#~ msgstr "  --country\t\t\t- enw gwlad y defnyddiwr. \n"
-
-#~ msgid "  --interactive\t\t- use the interactive mode.\n"
-#~ msgstr "  --interactive\t\t- defnyddio'r modd rhyngweithiol.\n"
-
-#~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
-#~ msgstr "  --nointeractive\t- defnyddio'r modd anrhyngweithiol.\n"
-
-#~ msgid "  --login=\t\t     - login name of the user.\n"
-#~ msgstr "  --login=\t\t     - enw mewngofnodi'r defnyddiwr.\n"
-
-#~ msgid "  --pass=\t\t\t- password  of the user.\n"
-#~ msgstr "  --pass=\t\t\t- cyfrinair y defnyddiwr.\n"
+#~ msgid "Greeting:"
+#~ msgstr "Cyfarchiad:"
 
 #~ msgid "I already have an account"
 #~ msgstr "Mae gen i gyfrif yn barod"
 
 #~ msgid "I want to subscribe"
 #~ msgstr "Rwyf eisiau tanysgrifio"
-
-#~ msgid "Mr."
-#~ msgstr "Mr."
-
-#~ msgid "Mrs."
-#~ msgstr "Mrs."
-
-#~ msgid "Ms."
-#~ msgstr "Ms."
-
-#~ msgid ""
-#~ "This assistant will help you to upload your configuration\n"
-#~ "(packages, hardware configuration) to a centralized database in\n"
-#~ "order to keep you informed about security updates and useful upgrades.\n"
-#~ msgstr ""
-#~ "Bydd y cynorthwyydd yn eich helpu i lwytho'ch ffurfweddiad i fyny\n"
-#~ "(pecynnau, ffurfweddiad caledwedd) i gronfa ddata canolog er\n"
-#~ "mwyn eich hysbysu am ddiweddariadau diogelwch a defnyddiol.\n"
-
-#~ msgid "Account creation or authentication"
-#~ msgstr "Creu cyfrif neu ddilysiad"
-
-#~ msgid "Enter your Mandriva Online login, password and machine name:"
-#~ msgstr ""
-#~ "Rhowch eich mewngofnod Mandriva Online, eich cyfrinair ac enw'r peiriant :"
-
-#~ msgid "Email address:"
-#~ msgstr "Cyfeiriad e-bost:"
-
-#~ msgid "Country"
-#~ msgstr "Gwlad"
-
-#~ msgid "Password:"
-#~ msgstr "Cyfrinair:"
-
-#~ msgid "(Ex: My Home Office's Computer)"
-#~ msgstr "(E.e.: Cyfrifiadur Swyddfa Cartref)"
-
-#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
-#~ msgstr "Rhaid i enw'r peiriant fod 1 i 40 nod rhifol"
-
-#~ msgid "Connecting to Mandriva Online website..."
-#~ msgstr "Cysylltu â safle gwe Mandriva Online..."
 
 #~ msgid ""
 #~ "In order to benefit from Mandriva Online services,\n"
@@ -1117,42 +1033,100 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "Hefyd, byddwch yn manteisio ar wasanaeth cefnogaeth ratach gan\n"
 #~ "www.mandrivaexpert.com."
 
-#~ msgid "Connection problem"
-#~ msgstr "Problem cysylltu"
+#~ msgid ""
+#~ "In order to benefit from OpenMandriva Online services,\n"
+#~ "we are about to upload your configuration.\n"
+#~ "\n"
+#~ "The Wizard will now send the following information to OpenMandriva:\n"
+#~ "\n"
+#~ "1) the list of packages you have installed on your system,\n"
+#~ "\n"
+#~ "2) your hardware configuration.\n"
+#~ "\n"
+#~ "If you feel uncomfortable by that idea, or do not want to benefit from "
+#~ "this service,\n"
+#~ "please press 'Cancel'. By pressing 'Next', you allow us to keep you "
+#~ "informed\n"
+#~ "about security updates and useful upgrades via personalized email "
+#~ "alerts.\n"
+#~ "Furthermore, you benefit from discounted paid support services on\n"
+#~ "www.mandrivaexpert.com."
+#~ msgstr ""
+#~ "Er mwyn manteisio ar wasanaethau OpenMandriva Online,\n"
+#~ "rydym ar fin llwytho eich ffurfweddiad i fyny.\n"
+#~ "\n"
+#~ "Bydd y Dewin yn anfon y wybodaeth ganlynol at OpenMandriva:\n"
+#~ "\n"
+#~ "1) rhestr y pecynnau sydd ar eich system,\n"
+#~ "\n"
+#~ "2) ffurfweddiad eich caledwedd\n"
+#~ "\n"
+#~ "Os nad ydych yn gysurus gyda hyn, neu heb fod eisiau manteisio ar y "
+#~ "gwasanaeth\n"
+#~ "cliciwch 'Diddymu'. Drwy glicio 'Nesaf' rydych yn caniatáu i ni eich "
+#~ "hysbysu am\n"
+#~ "ddiweddariadau diogelwch a defnyddiol drwy hysbysiadau e-bost personol.\n"
+#~ "Hefyd, byddwch yn manteisio ar wasanaeth cefnogaeth ratach gan\n"
+#~ "www.mandrivaexpert.com."
 
-#~ msgid "Problem occurs when uploading files, please try again"
-#~ msgstr "Mae problem yn digwydd wrth lwytho ffeiliau i fyny, ceisiwch eto."
+#~ msgid "Installing packages ...\n"
+#~ msgstr "Gosod pecynnau...\n"
 
-#~ msgid "Create a Mandriva Online Account"
-#~ msgstr "Creu cyfrif Mandriva Online "
-
-#~ msgid "Greeting:"
-#~ msgstr "Cyfarchiad:"
-
-#~ msgid "First name:"
-#~ msgstr "Enw cyntaf:"
+#~ msgid "Last check: "
+#~ msgstr "Gwiriad diwethaf:"
 
 #~ msgid "Last name:"
 #~ msgstr "Enw olaf :"
 
-#~ msgid "Confirm Password:"
-#~ msgstr "Cadarnhau Cyfrinair:"
+#~ msgid "Launching OpenMandrivaUpdate\n"
+#~ msgstr "Cychwyn OpenMandrivaUpdate\n"
 
-#~ msgid ""
-#~ "The passwords do not match\n"
-#~ " Please try again\n"
-#~ msgstr ""
-#~ "Nid yw'r cyfrineiriau'n cydweddu\n"
-#~ "Ceisiwch eto\n"
+#~ msgid "Login and password should be less than 12 characters\n"
+#~ msgstr "Dylai'r mewngofnodiad a'r cyfrinair fod yn llai na 12 nod\n"
 
-#~ msgid "Please fill in each field"
-#~ msgstr "Llanwch pob maes"
+#~ msgid "Login error"
+#~ msgstr "Gwall mewngofnodi"
 
-#~ msgid "Not a valid mail address!\n"
-#~ msgstr "Nid yw'n gyfeiriad e-bost dilys!\n"
+#~ msgid "Login:"
+#~ msgstr "Mewngofnod:"
 
-#~ msgid "Creating account failed!"
-#~ msgstr "Methodd creu cyfrif y defnyddiwr!"
+#~ msgid "Logs"
+#~ msgstr "Cofnodion"
+
+#~ msgid "Machine name must be 1 to 40 alphanumerical characters"
+#~ msgstr "Rhaid i enw'r peiriant fod 1 i 40 nod rhifol"
+
+#~ msgid "Machine name:"
+#~ msgstr "Enw'r peiriant:"
+
+#~ msgid "Mail contact:"
+#~ msgstr "Cyswllt E-bost"
+
+#, fuzzy
+#~ msgid "Mandiva Free"
+#~ msgstr "Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Flash"
+#~ msgstr "Mandriva Online %s"
+
+#, fuzzy
+#~ msgid "Mandriva Free"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Mandriva Linux Updates Applet"
+#~ msgstr "Rhaglennig Diweddaru Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva Mini"
+#~ msgstr "Mandriva Linux"
+
+#, fuzzy
+#~ msgid "Mandriva One"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Mandriva Online %s"
+#~ msgstr "Mandriva Online %s"
 
 #~ msgid ""
 #~ "Mandriva Online Account successfully created.\n"
@@ -1161,15 +1135,8 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "Crëwyd Cyfrif Mandriva Online yn llwyddiannus.\n"
 #~ "Cliciwch \"Nesaf\" i ddilysu a llwytho'ch ffurfweddiad i fyny\n"
 
-#~ msgid "Your upload was successful!"
-#~ msgstr "Roedd eich llwytho i fyny'n llwyddiant!"
-
-#~ msgid ""
-#~ "From now you will receive on security and updates \n"
-#~ "announcements thanks to Mandriva Online."
-#~ msgstr ""
-#~ "O hyn ymlaen byddwch yn derbyn cyhoeddiadau\n"
-#~ "diogelwch a diweddariadau gan Mandriva Online."
+#~ msgid "Mandriva Online gives access to Mandriva web services."
+#~ msgstr "Mandriva Online yw gwasanaethau gwe Mandriva."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1179,69 +1146,428 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "Bydd rhaglen yn rhedeg yn rheolaidd yn eich system i gasglu "
 #~ "diweddariadau.\n"
 
-#~ msgid "Your Mandriva Online account has been successfully configured\n"
-#~ msgstr "Mae eich cyfrif Mandriva Online wedi ei ffurfweddu'n llwyddiannus\n"
-
-#~ msgid "Configuration uploaded successfully"
-#~ msgstr "Llwytho'r ffurfweddiad yn llwyddiannus"
-
-#~ msgid "Problem uploading configuration"
-#~ msgstr "Anhawster llwytho'r ffurfweddiad"
-
-#~ msgid ""
-#~ "Cannot connect to Mandriva Online website: wrong login/password or router/"
-#~ "firewall bad settings"
+#~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
 #~ msgstr ""
-#~ "Methu cysylltu â safle gwe Mandriva Online: mewngofnod/cyfrinair anghywir "
-#~ "neu osodiadau llwybrydd/mur cadarn anghywir."
+#~ "Mae Mandriva Online i'w weld wedi ei ail osod, ail lwytho'r rhaglennig..."
 
-#~ msgid "  --applet\t\t- launch Mandriva Update.\n"
-#~ msgstr "  --applet\t\t- cychwyn Mandriva Update.\n"
-
-#~ msgid "Cannot get list of updates: %s"
-#~ msgstr "Methu estyn rhestr y diweddariadau: %s"
-
-#~ msgid "Choose which packages should be installed and Press Ok"
-#~ msgstr "Dewiswch pa becynnau i'w gosod a chlicio Iawn"
-
-#~ msgid "System is busy. Please wait ..."
-#~ msgstr "Mae'r system yn brysur. Arhoswch..."
-
-#~ msgid "Sending configuration..."
-#~ msgstr "Anfon ffurfweddiad..."
-
-#~ msgid "Unsecure invocation: Method available through httpS only"
-#~ msgstr "Galwad aniogel: Dull ar gael drwy https yn unig"
-
-#~ msgid "  --help         - print this help message.\n"
-#~ msgstr "  --help         - argraffu'r neges cymorth hon.\n"
-
-#~ msgid "  --auto         - Mandriva Update launched automatically.\n"
-#~ msgstr "  --auto         - cychwyn Mandriva Update yn awtomatig\n"
-
-#~ msgid "  --applet       - launch Mandriva Update.\n"
-#~ msgstr "  --applet       - cychwyn Mandriva Update.\n"
-
-#~ msgid "  --mnf          - launch mnf specific scripts.\n"
-#~ msgstr "  --mnf          - cychwyn sgriptiau mnf penodol.\n"
-
-#~ msgid "  --noX          - text mode version of Mandriva Update.\n"
-#~ msgstr "  --noX          - fersiwn modd testun o Mandriva Update\n"
-
-#~ msgid "No %s file found. Run mdkonline wizard first"
-#~ msgstr "Heb ganfod unrhyw ffeiliau %s. Rhedwch ddewin mdkonline yn gyntaf"
+#~ msgid "Mandriva PowerPack"
+#~ msgstr "Mandriva PowerPack"
 
 #~ msgid "Mandriva Update could not contact the site, we will try again."
 #~ msgstr "Mandriva Update yn methu cysylltu â'r safle, byddwn yn ceisio eto"
 
-#~ msgid "Login:"
-#~ msgstr "Mewngofnod:"
+#~ msgid ""
+#~ "Mandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Nid yw gwasanaethau Mandrivaar gael ar hyn o bryd\n"
+#~ "Ceisiwch eto'n hwyrach"
 
-#~ msgid "or"
-#~ msgstr "neu"
+#~ msgid ""
+#~ "Mandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mae gwasanaethau gwe Mandriva yn cael eu trwsio\n"
+#~ "Ceisiwch eto"
 
-#~ msgid "wrong password:"
-#~ msgstr "cyfrinair anghywir!"
+#~ msgid "Mandriva web services not reachable"
+#~ msgstr "Methu cyrraedd gwasanaethau gwe Mandriva"
+
+#~ msgid "OpenMandriva"
+#~ msgstr "OpenMandriva"
+
+#~ msgid "OpenMandriva Enterprise Server"
+#~ msgstr "OpenMandriva Enterprise Server"
+
+#, fuzzy
+#~ msgid "OpenMandriva Features"
+#~ msgstr "OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva Flash"
+#~ msgstr "OpenMandriva Online %s"
+
+#, fuzzy
+#~ msgid "OpenMandriva Free"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Linux"
+#~ msgstr "OpenMandriva Linux"
+
+#~ msgid "OpenMandriva Linux Updates Applet"
+#~ msgstr "Rhaglennig Diweddaru OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva Mini"
+#~ msgstr "OpenMandriva Linux"
+
+#, fuzzy
+#~ msgid "OpenMandriva One"
+#~ msgstr "OpenMandriva Online %s"
+
+#~ msgid ""
+#~ "OpenMandriva Online Account successfuly created.\n"
+#~ "Please click \"Next\" to authenticate and upload your configuration\n"
+#~ msgstr ""
+#~ "Crëwyd Cyfrif OpenMandriva Online yn llwyddiannus.\n"
+#~ "Cliciwch \"Nesaf\" i ddilysu a llwytho'ch ffurfweddiad i fyny\n"
+
+#~ msgid ""
+#~ "OpenMandriva Online offers you the ability to automate the updates.\n"
+#~ "A program will run regulary in your system waiting for new updates\n"
+#~ msgstr ""
+#~ "Mae OpenMandriva Online yn cynnig y dewis i chi ddiweddaru'n awtomatig,\n"
+#~ "Bydd rhaglen yn rhedeg yn rheolaidd yn eich system i gasglu "
+#~ "diweddariadau.\n"
+
+#~ msgid "OpenMandriva Online seems to be reinstalled, reloading applet ...."
+#~ msgstr ""
+#~ "Mae OpenMandriva Online i'w weld wedi ei ail osod, ail lwytho'r rhaglennig..."
+
+#~ msgid "OpenMandriva PowerPack"
+#~ msgstr "OpenMandriva PowerPack"
+
+#~ msgid "OpenMandriva Update could not contact the site, we will try again."
+#~ msgstr "OpenMandriva Update yn methu cysylltu â'r safle, byddwn yn ceisio eto"
+
+#~ msgid ""
+#~ "OpenMandriva web services are currently unavailable\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Nid yw gwasanaethau OpenMandrivaar gael ar hyn o bryd\n"
+#~ "Ceisiwch eto'n hwyrach"
+
+#~ msgid ""
+#~ "OpenMandriva web services are under maintenance\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Mae gwasanaethau gwe OpenMandriva yn cael eu trwsio\n"
+#~ "Ceisiwch eto"
+
+#~ msgid "OpenMandriva web services not reachable"
+#~ msgstr "Methu cyrraedd gwasanaethau gwe OpenMandriva"
+
+#~ msgid "Mr."
+#~ msgstr "Mr."
+
+#~ msgid "Mrs."
+#~ msgstr "Mrs."
+
+#~ msgid "Ms."
+#~ msgstr "Ms."
+
+#~ msgid "Network Connection: "
+#~ msgstr "Cyswllt Rhwydwaith:"
+
+#~ msgid "New bundles are available for your system"
+#~ msgstr "Mae bwndeli newydd ar gael ar gyfer eich system"
+
+#~ msgid "No"
+#~ msgstr "Na"
+
+#~ msgid "No %s file found. Run mdkonline wizard first"
+#~ msgstr "Heb ganfod unrhyw ffeiliau %s. Rhedwch ddewin mdkonline yn gyntaf"
+
+#~ msgid "No check"
+#~ msgstr "Dim gwiriad"
+
+#~ msgid "Not a valid mail address!\n"
+#~ msgstr "Nid yw'n gyfeiriad e-bost dilys!\n"
+
+#~ msgid "Ok"
+#~ msgstr "Iawn"
+
+#~ msgid "Online services disabled. Contact Mandriva Online site\n"
+#~ msgstr ""
+#~ "Mae'r gwasanaethau ar-lein wedi eu hatal. Cysylltwch â safle Mandriva "
+#~ "Online\n"
+
+#~ msgid "Online services disabled. Contact OpenMandriva Online site\n"
+#~ msgstr ""
+#~ "Mae'r gwasanaethau ar-lein wedi eu hatal. Cysylltwch â safle OpenMandriva "
+#~ "Online\n"
+
+#~ msgid "Packages are up to date"
+#~ msgstr "Mae'r pecynnau'n rhai diweddaraf"
+
+#~ msgid "Password error"
+#~ msgstr "Gwall cyfrinair"
+
+#~ msgid "Password mismatch"
+#~ msgstr "Anghydweddiad cyfrinair"
+
+#~ msgid "Password:"
+#~ msgstr "Cyfrinair:"
+
+#~ msgid "Please fill in each field"
+#~ msgstr "Llanwch pob maes"
+
+#~ msgid "Please fill in your account ID to add an additional package medium"
+#~ msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please fill in your account ID to add an additional package medium once "
+#~ "you have subscribed online"
+#~ msgstr "Rhwoch enw eich cyfrif yn ogystal a'r cyfrwng pecyn ychwnegol"
+
+#~ msgid "Please provide a login"
+#~ msgstr "Rhowch fewngofnod"
+
+#~ msgid "Please wait"
+#~ msgstr "Arhoswch"
+
+#~ msgid "Preparing..."
+#~ msgstr "Paratoi..."
+
+#~ msgid "Problem connecting to server \n"
+#~ msgstr "Anhawster wrth gysylltu â'r gweinydd\n"
+
+#~ msgid ""
+#~ "Problem occured while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Digwyddodd anhawster wrth gysylltu â'r gweinydd, cysylltwch â'r tîm "
+#~ "cefnogi"
+
+#~ msgid ""
+#~ "Problem occurred while connecting to the server, please contact the "
+#~ "support team"
+#~ msgstr ""
+#~ "Digwyddodd anhawster wrth cysylltu â'r gweinydd, cycylltwch â'r tîm "
+#~ "cefnogi"
+
+#~ msgid "Problem occurs when uploading files, please try again"
+#~ msgstr "Mae problem yn digwydd wrth lwytho ffeiliau i fyny, ceisiwch eto."
+
+#~ msgid "Problem uploading configuration"
+#~ msgstr "Anhawster llwytho'r ffurfweddiad"
+
+#~ msgid "Registration error"
+#~ msgstr "Gwall cofrestru"
+
+#~ msgid "Response from Mandriva Online server\n"
+#~ msgstr "Ymateb gan weinydd Mandriva Online\n"
+
+#~ msgid "Response from OpenMandriva Online server\n"
+#~ msgstr "Ymateb gan weinydd OpenMandriva Online\n"
+
+#~ msgid "Restriction Error"
+#~ msgstr "Gwall Cyfyngu"
+
+#~ msgid "Security error"
+#~ msgstr "Gwall diogelwch"
+
+#~ msgid "See logs"
+#~ msgstr "Darllen cofnodion"
+
+#~ msgid "Sending configuration..."
+#~ msgstr "Anfon ffurfweddiad..."
+
+#~ msgid ""
+#~ "Server Database failed\n"
+#~ "Please Try again Later"
+#~ msgstr ""
+#~ "Methodd cronfa ddata'r gweinydd\n"
+#~ "Ceisiwch eto'n hwyrach"
+
+#~ msgid ""
+#~ "Service configuration problem. Please check logs and send mail to "
+#~ "support@moondrakeonline.com"
+#~ msgstr ""
+#~ "Problemau ffurfweddu'r gwasanaethwr. Gwiriwch gofnodion ac anfon e-byst "
+#~ "at support@moondrakeonline.com"
+
+#~ msgid "Service error"
+#~ msgstr "Gwall gwasanaeth"
+
+#~ msgid "Service is not configured. Please click on \"Configure the service\""
+#~ msgstr ""
+#~ "Nid yw'r gwasanaeth wedi ei ffurfweddu. Cliciwch \"Ffurfweddu'r gwasanaeth"
+#~ "\""
+
+#~ msgid "Some parameters are missing"
+#~ msgstr "Mae rhai paramedrau ar goll"
+
+#~ msgid ""
+#~ "Something is wrong with your network settings (check your route, firewall "
+#~ "or proxy settings)\n"
+#~ msgstr ""
+#~ "Mae rhywbeth o'i le ar osodiadau eich rhwydwaith (gwiriwch eich llwybr, "
+#~ "mur cadarn neu osodiadau dirprwy)\n"
+
+#~ msgid "Special characters are not allowed\n"
+#~ msgstr "Does dim caniatâd i nodau arbennig\n"
+
+#~ msgid "Status"
+#~ msgstr "Statws"
+
+#~ msgid "Successfully added media %s."
+#~ msgstr "Wedi ychwanegu cyfrwng %s yn llwyddiannus."
+
+#, fuzzy
+#~ msgid "Successfully added media!"
+#~ msgstr "Wedi ychwanegu cyfrwng %s yn llwyddiannus."
+
+#~ msgid "System is busy. Please wait ..."
+#~ msgstr "Mae'r system yn brysur. Arhoswch..."
+
+#~ msgid "System is up-to-date\n"
+#~ msgstr "Mae'r system yn gyfredol\n"
+
+#~ msgid ""
+#~ "The email you provided is already in use\n"
+#~ "Please enter another one\n"
+#~ msgstr ""
+#~ "Mae'r e-bost rydych wedi ei ddarparu'n cael ei ddefnyddio eisoes\n"
+#~ "Dewiswch un arall\n"
+
+#~ msgid "The email you provided is invalid or forbidden"
+#~ msgstr "Mae'r e-bost a ddarparwyd yn annilys neu waharddedig"
+
+#~ msgid ""
+#~ "The passwords do not match\n"
+#~ " Please try again\n"
+#~ msgstr ""
+#~ "Nid yw'r cyfrineiriau'n cydweddu\n"
+#~ "Ceisiwch eto\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of Mandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Mae dosbarthiad newydd o Mandriva Linux wedi ei ryddhau."
+
+#, fuzzy
+#~ msgid ""
+#~ "The version of OpenMandriva Linux installed on your system is no longer "
+#~ "supported."
+#~ msgstr "Mae dosbarthiad newydd o OpenMandriva Linux wedi ei ryddhau."
+
+#~ msgid ""
+#~ "The version of the Mandriva Online client is too old.\n"
+#~ "\n"
+#~ "You need to update to a newer version. You can get a new one from http://"
+#~ "start.mandriva.com"
+#~ msgstr ""
+#~ "Mae'r fersiwn o gleient Mandriva Online yn rhy hen.\n"
+#~ "\n"
+#~ "Rhaid diweddaru i fersiwn newydd. Gallwch ei gael o http://start.mandriva."
+#~ "com"
+
+#~ msgid ""
+#~ "The version of the OpenMandriva Online client is too old.\n"
+#~ "\n"
+#~ "You need to update to a newer version. You can get a new one from http://"
+#~ "start.mandriva.com"
+#~ msgstr ""
+#~ "Mae'r fersiwn o gleient OpenMandriva Online yn rhy hen.\n"
+#~ "\n"
+#~ "Rhaid diweddaru i fersiwn newydd. Gallwch ei gael o http://start.mandriva."
+#~ "com"
+
+#~ msgid ""
+#~ "This assistant will help you to upload your configuration\n"
+#~ "(packages, hardware configuration) to a centralized database in\n"
+#~ "order to keep you informed about security updates and useful upgrades.\n"
+#~ msgstr ""
+#~ "Bydd y cynorthwyydd yn eich helpu i lwytho'ch ffurfweddiad i fyny\n"
+#~ "(pecynnau, ffurfweddiad caledwedd) i gronfa ddata canolog er\n"
+#~ "mwyn eich hysbysu am ddiweddariadau diogelwch a defnyddiol.\n"
+
+#~ msgid "This bundle is not well formated. Aborting."
+#~ msgstr "Nid yw'r bwndel wedi ei ffurfio'n dda. Atal."
+
+#~ msgid "Too old release not supported by service"
+#~ msgstr "Nid yw hen ryddhad yn cael ei gynnal gan y gwasanaeth"
+
+#~ msgid "Unable to update packages from mdkupdate medium.\n"
+#~ msgstr "Methu diweddaru pecynnau o gyfrwng mdkupdate.\n"
+
+#~ msgid "Unable to update packages from mgaupdate medium.\n"
+#~ msgstr "Methu diweddaru pecynnau o gyfrwng mgaupdate.\n"
+
+#~ msgid "Unknown state"
+#~ msgstr "Cyflwr anhysbys"
+
+#~ msgid "Unsecure invocation: Method available through httpS only"
+#~ msgstr "Galwad aniogel: Dull ar gael drwy https yn unig"
+
+#~ msgid "Up"
+#~ msgstr "Fyny"
+
+#~ msgid "Updates: "
+#~ msgstr "Diweddariadau:"
+
+#~ msgid "Upgrade to Mandriva %s release was successfull."
+#~ msgstr "Mae diweddaru i Mandriva %s wedi bod yn llwyddiant."
+
+#~ msgid "User Forbidden"
+#~ msgstr "Gwahardd Defnyddiwr"
+
+#~ msgid "User account forbidden by Mandriva web services"
+#~ msgstr "Cyfrif defnyddiwr wedi ei wahardd gan wasanaethau gwe Mandriva"
+
+#~ msgid "User account forbidden by OpenMandriva web services"
+#~ msgstr "Cyfrif defnyddiwr wedi ei wahardd gan wasanaethau gwe OpenMandriva"
+
+#~ msgid "Wrong Action or host or login.\n"
+#~ msgstr "Gweithred, gwestai neu fewngofnod anghywir.\n"
+
+#~ msgid "Wrong Password.\n"
+#~ msgstr "Y cyfrinair anghywir\n"
+
+#~ msgid "Yes"
+#~ msgstr "Iawn"
+
+#, fuzzy
+#~ msgid "You are using '%s' distribution."
+#~ msgstr "Hoffech chi ddiweddaru i ddosbarthiad '%s'??"
+
+#~ msgid ""
+#~ "You first need to install the system on your harddrive with the 'Live "
+#~ "Install' wizard."
+#~ msgstr ""
+#~ "Rhaid gosod y system ar eich disg caled yn gyntaf gyda dewin 'Live "
+#~ "Install'."
+
+#~ msgid "Your Mandriva Online account has been successfully configured\n"
+#~ msgstr "Mae eich cyfrif Mandriva Online wedi ei ffurfweddu'n llwyddiannus\n"
+
+#~ msgid ""
+#~ "Your Mandriva account does not have %s download subscription enabled."
+#~ msgstr ""
+#~ "Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho %s i lawr."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your Mandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Nid yw eich cyfrif Mandriva yn cynnwystanysgrifiad llwytho %s i lawr."
+
+#~ msgid "Your OpenMandriva Online account has been successfuly configured\n"
+#~ msgstr ""
+#~ "Mae eich cyfrif OpenMandriva Online wedi ei ffurfweddu'n llwyddiannus\n"
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have %s download subscription enabled."
+#~ msgstr ""
+#~ "Nid yw eich cyfrif OpenMandriva yn cynnwystanysgrifiad llwytho %s i lawr."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Extended Maintenance subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Nid yw eich cyfrif OpenMandriva yn cynnwystanysgrifiad llwytho %s i lawr."
+
+#~ msgid ""
+#~ "Your OpenMandriva account does not have Powerpack download subscription "
+#~ "enabled."
+#~ msgstr ""
+#~ "Nid yw eich cyfrif OpenMandriva yn cynnwystanysgrifiad llwytho PowerPack i "
+#~ "lawr."
 
 #~ msgid ""
 #~ "Your login or password was wrong.\n"
@@ -1258,33 +1584,73 @@ msgstr "Methu diweddaru pecynnau o gyfrwng update_source.\n"
 #~ "cofiwch y bydd angen darparu enw Peiriant \n"
 #~ "(gyda dim ond llythrennau)"
 
-#~ msgid "Mail contact:"
-#~ msgstr "Cyswllt E-bost"
+#~ msgid ""
+#~ "Your login or password was wrong.\n"
+#~ " Either you'll have to type it again, or you'll need to create an account "
+#~ "on OpenMandriva Online.\n"
+#~ " In the latter case, go back to the first step to connect to OpenMandriva "
+#~ "Online.\n"
+#~ " Be aware that you must also provide a Machine name \n"
+#~ " (only alphabetical characters are admitted)"
+#~ msgstr ""
+#~ "Mae eich mewngofnod neu gyfrinair yn anghywir\n"
+#~ "Un ai rhaid i chi ei ail deipio neu greu cyfrif OpenMandriva Online newydd.\n"
+#~ "Os yr olaf, ewch yn ôl i'r cam cyntaf â chysylltu â OpenMandriva Online.\n"
+#~ "cofiwch y bydd angen darparu enw Peiriant \n"
+#~ "(gyda dim ond llythrennau)"
 
-#~ msgid "Please provide a login"
-#~ msgstr "Rhowch fewngofnod"
-
-#~ msgid "Login and password should be less than 12 characters\n"
-#~ msgstr "Dylai'r mewngofnodiad a'r cyfrinair fod yn llai na 12 nod\n"
-
-#~ msgid "Special characters are not allowed\n"
-#~ msgstr "Does dim caniatâd i nodau arbennig\n"
-
-#~ msgid "Email not valid\n"
-#~ msgstr "Nid yw'r e-bost yn ddilys\n"
-
-#~ msgid "Account already exists\n"
-#~ msgstr "Mae'r cyfrif yn bod eisoes\n"
-
-#~ msgid "Problem connecting to server \n"
-#~ msgstr "Anhawster wrth gysylltu â'r gweinydd\n"
+#~ msgid "Your upload was successful!"
+#~ msgstr "Roedd eich llwytho i fyny'n llwyddiant!"
 
 #~ msgid ""
-#~ "Problem occurred while connecting to the server, please contact the "
-#~ "support team"
+#~ "mdonline version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
 #~ msgstr ""
-#~ "Digwyddodd anhawster wrth cysylltu â'r gweinydd, cycylltwch â'r tîm "
-#~ "cefnogi"
+#~ "fersiwn %s mdonline  \n"
+#~ "Hawlfraint (H) %s Mandriva.\n"
+#~ "Mae hwn yn feddalwedd rhydd ac mae modd ei ail ddosbarthu o dan amodau "
+#~ "GNU GPL.\n"
+#~ "\n"
+#~ "defnydd:\n"
 
-#~ msgid "Unable to update packages from mdkupdate medium.\n"
-#~ msgstr "Methu diweddaru pecynnau o gyfrwng mdkupdate.\n"
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "%s\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "fersiwn %s mgaupdate  \n"
+#~ "%s\n"
+#~ "Mae hwn yn feddalwedd rhydd ac mae modd ei ail ddosbarthu o dan amodau "
+#~ "GNU GPL.\n"
+#~ "\n"
+#~ "defnydd:\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "mgaupdate version %s\n"
+#~ "Copyright (C) %s Mandriva.\n"
+#~ "Copyright (C) %s OpenMandriva.\n"
+#~ "This is free software and may be redistributed under the terms of the GNU "
+#~ "GPL.\n"
+#~ "\n"
+#~ "usage:\n"
+#~ msgstr ""
+#~ "fersiwn %s mdkupdate  \n"
+#~ "Hawlfraint (H) %s OpenMandriva.\n"
+#~ "Mae hwn yn feddalwedd rhydd ac mae modd ei ail ddosbarthu o dan amodau "
+#~ "GNU GPL.\n"
+#~ "\n"
+#~ "defnydd:\n"
+
+#~ msgid "or"
+#~ msgstr "neu"
+
+#~ msgid "wrong password:"
+#~ msgstr "cyfrinair anghywir!"

@@ -4,7 +4,7 @@
 #                                                                              #
 # Copyright (C) 2008-2010 Mandriva                                             #
 #                                                                              #
-# Thierry Vignaud <tvignaud at mandriva dot com>                               #
+# Thierry Vignaud <thierry.vignaud at gmail dot com>                               #
 #                                                                              #
 # This program is free software; you can redistribute it and/or modify         #
 # it under the terms of the GNU General Public License Version 2 as            #
@@ -31,15 +31,17 @@ use feature 'state';
 
 BEGIN { unshift @::textdomains, 'mdkonline' }
 
-use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
-use ugtk2 qw(:all);
+use mygtk3 qw(gtknew); #- do not import gtkadd which conflicts with ugtk3 version
+use ugtk3 qw(:all);
+use interactive;
+use do_pkgs;
 use lib qw(/usr/lib/libDrakX/drakfirsttime);
 use mdkonline;
 use Rpmdrake::open_db;
 use lang;
 use mdkapplet_gui qw(run_ask_credentials_dialog);
 
-ugtk2::add_icon_path("/usr/share/mdkonline/pixmaps/");
+ugtk3::add_icon_path("/usr/share/mdkonline/pixmaps/");
 my ($log_file);
 
 my ($new_distro_version, $download_dir);
@@ -53,9 +55,14 @@ foreach my $opt (@ARGV) {
     }
 }
 
-my $root = Rpmdrake::open_db::fast_open_urpmi_db()->{root};
+die("Usage: mgaapplet-upgrade-helper --new_distro_version=n [--rpm-root-dir] [--urpmi-root=dir] [--download-all=dir]\n") if !$new_distro_version;
 
-my $product_id = common::parse_LDAP_namespace_structure(cat_("$root/etc/product.id"));
+$root = Rpmdrake::open_db::fast_open_urpmi_db()->{root};
+
+read_sys_config();
+my $product_id = get_product_id();
+
+check_preparation();
 
 if (!$ENV{URPMI_IGNORESIZE}) {
     check_available_free_space('/usr', 800) &&
@@ -75,11 +82,11 @@ sub check_available_free_space {
     my (undef, $free_KB) = MDK::Common::System::df($dir);
 
     if ($free_KB / 1024 < $wanted_MB) {
-	my $msg = ugtk2::escape_text_for_TextView_markup_format(
+	my $msg = ugtk3::escape_text_for_TextView_markup_format(
 	    N("Your system does not have enough space left in %s for upgrade (%dMB < %dMB)",
 	      $dir,
 	      $free_KB / 1024, $wanted_MB));
-	ugtk2::ask_warn(N("Error"), $msg);
+	ugtk3::ask_warn(N("Error"), $msg);
 	0;
     } else {
 	1;
@@ -87,9 +94,6 @@ sub check_available_free_space {
 }
 
 sub run_gurpmi() {
-    my @initial_args = ('--replacefiles', '--clean');
-    push @initial_args, "--download-all=$download_dir" if $download_dir;
-
     # Windows are created before upgrading packages, to guarantee that
     # any possible related GTK upgrade won't affect us...
     my $succeeded_win = create_upgrade_succeeded_window();
@@ -97,7 +101,7 @@ sub run_gurpmi() {
 
     while ($refork_gurpmi) {
         
-        my $ok = fork_gurpmi(@initial_args);
+        my $ok = fork_gurpmi();
         if ($refork_gurpmi && !$ok) {
             $refork_gurpmi--;
         } else {
@@ -129,8 +133,8 @@ my @common = (
 );
 
 sub create_upgrade_failed_window() {
-    local $mygtk2::left_padding = 0;
-    my $w = ugtk2->new(N("Error"));
+    local $mygtk3::left_padding = 0;
+    my $w = ugtk3->new(N("Error"));
     gtkadd($w->{window},
            gtknew('VBox', children_tight => [
                get_banner(),
@@ -144,12 +148,12 @@ sub create_upgrade_failed_window() {
 }
 
 sub create_upgrade_succeeded_window() {
-    local $mygtk2::left_padding = 0;
-    my $w = ugtk2->new(N("Congratulations"));
+    local $mygtk3::left_padding = 0;
+    my $w = ugtk3->new(N("Congratulations"));
     gtkadd($w->{window},
            gtknew('VBox', children_tight => [
                get_banner(),
-               gtknew('Label_Left', text => N("Upgrade to Mandriva %s release was successfull.", $new_distro_version),
+               gtknew('Label_Left', text => N("Upgrade to OpenMandriva Lx %s release was successful.", $new_distro_version),
                       @common),
                gtknew('Label_Left', text => N("You must restart your system."), @common),
                create_okcancel($w, N("Reboot"), N("Cancel")),
@@ -167,8 +171,8 @@ sub powerpack_auth_callback {
     # Checking for profile retrieving errors...
     if ($profile->{code} != 0) {
         my $in = interactive->vnew;
-        $in->ask_warn(N('Error'), 
-                      N('An error occurred') . "\n" . $profile->{message});
+        $in->ask_warn(N("Error"), 
+                      N("An error occurred") . "\n" . $profile->{message});
         return;
     } 
 
@@ -189,9 +193,9 @@ sub powerpack_auth_callback {
     }
     else {
         mdkapplet_gui::run_no_rights_dialog(
-            N('Powerpack Media Configuration'),
-            N('You current Mandriva account does not have Powerpack ' .
-              'subscription enabled.'),
+            N("Powerpack Media Configuration"),
+            N("You current Mandriva account does not have Powerpack ' .
+              'subscription enabled."),
             'https://my.mandriva.com/powerpack/',
             );
         return;
@@ -206,10 +210,8 @@ sub try_to_add_powerpack_media {
 
     if ($is_powerpack) {
         # Verifying rights of current powerpack users...
-        my $title = N('Powerpack Media Configuration');
-        my $description = N('Please fill your My.Mandriva login and ' .
-                            'password to add additional package media '.
-                            'for Powerpack.');
+        my $title = N("Powerpack Media Configuration");
+        my $description = N("Please fill your My.Mandriva login and password to add additional package media for Powerpack.");
 
         # If no rights @auth_info == ()...
         $auth_info = run_ask_credentials_dialog(
@@ -230,10 +232,8 @@ sub try_to_add_powerpack_media {
         $auth_info and return $auth_info;
 
         # Get the new authentication info from user...
-        my $title = N('Powerpack Media Configuration');
-        my $description = N('Please fill your account ID to add ' .
-                            'Powerpack %s version packages media once ' .
-                            'you have subscribed online',
+        my $title = N("Powerpack Media Configuration");
+        my $description = N("Please fill your account ID to add Powerpack %s version packages media once you have subscribed online",
                             $new_distro_version);
         $auth_info = run_ask_credentials_dialog(
             $title,
@@ -246,8 +246,47 @@ sub try_to_add_powerpack_media {
     return;
 }
 
+sub check_preparation() {
+    # Find the matching new_distro_version
+    my @distros = get_distro_list();
+    if (!@distros) {
+        ugtk3::ask_warn(N("Error"), N("Unable to download distro list"));
+        die("unable to retrieve distro list\n");
+    }
+
+    my $new_distro = find { $_->{version} eq $new_distro_version } @distros;
+    if (!$new_distro) {
+        ugtk3::ask_warn(N("Error"), N("Distribution version %s was not found in the update list", $new_distro_version));
+        die("could not find version '$new_distro_version' in the distro update list\n");
+    }
+
+    if ($new_distro->{needs_preparation}) {
+        my $statefile = "$root/var/lib/distro-prepare-upgrade/state";
+        my $prepared = -f $statefile && cat_($statefile) =~ /ready/;
+
+        if (!$prepared) {
+            ugtk3::ask_yesorno(N("Preparation Required"), N("In order to upgrade, your current installation needs to be prepared.\n\nDo you wish to do this preparation now?")) or exit(0);
+
+            my $in = interactive->vnew;
+            my $do_pkgs = do_pkgs::do_pkgs($in);
+            $do_pkgs->ensure_is_installed("distro-prepare-upgrade") or exit(0);
+
+            # Check to see if installation alone is enough to ensure things are in the right state?
+            $prepared = -f $statefile && cat_($statefile) =~ /ready/;
+            if (!$prepared) {
+                my $infofile = "$root/usr/share/doc/distro-prepare-upgrade/README.prepare";
+                my $info = -f $infofile && ugtk3::escape_text_for_TextView_markup_format(join('', cat_($infofile)));
+                $info ||= N("Further action is required before you can continue.\n\nPlease see %s for more information.", $new_distro->{url});
+                ugtk3::ask_warn(N("Next Steps"), $info);
+                exit(0) if !$::testing;
+                log::l("I would validate /var/lib/distro-prepare-upgrade/state == 'ready'");
+            }
+        }
+    }
+}
+
 sub upgrade() {
-    my $xid = gtkroot()->XWINDOW;
+    my $xid = gtkroot()->get_xid;
     
     run_program::raw({ detach => 1 }, 'xdg-screensaver', 'suspend', $xid);
     my $_w = before_leaving { run_program::raw({ detach => 1 }, 'xdg-screensaver', 'resume', $xid) };
@@ -265,7 +304,7 @@ sub upgrade() {
 
     if (my $err = $@) {
         log::explanations(sprintf("locking urpmi database failed: %s"), $err);
-        ugtk2::ask_warn(N("Error"),
+        ugtk3::ask_warn(N("Error"),
                         N("Installation failed"),
                         '',
                         formatAlaTeX(N("Packages database is locked. Please close other applications
@@ -275,6 +314,25 @@ packages as well?)."))
                     );
         exit(1);
     }
+
+    my ($nonfree, $tainted);
+
+    log::explanations("Checking for enabled Non-free/Tainted");
+    foreach my $media (@{$urpm->{media}}) {
+        log::explanations("Checking $media->{name}");
+        if (!defined($media->{ignore})) {
+            log::explanations("Media $media->{name} is not ignored");
+            if ($media->{name} =~ /^Nonfree/) {
+                $nonfree = 1;
+                log::explanations("Non-free found to be enabled");
+            }
+            if ($media->{name} =~ /^Tainted/) {
+                $tainted = 1;
+                log::explanations("Tainted found to be enabled");
+            }
+        }
+    }
+
     undef $urpmi_lock;
 
     touch(get_stale_upgrade_filename());
@@ -310,7 +368,7 @@ packages as well?)."))
         log::explanations("restoringing urpmi configuration from $file");
         cp_af($file, "$root/etc/urpmi/urpmi.cfg");
         update_media();
-        ugtk2::ask_warn(N("Error"),
+        ugtk3::ask_warn(N("Error"),
                         N("Installation failed"),
                         N("Failure when adding medium"),
                     );
@@ -333,10 +391,9 @@ packages as well?)."))
             log::explanations("restoringing urpmi configuration from $file");
             cp_af($file, "$root/etc/urpmi/urpmi.cfg");
             update_media();
-            ugtk2::ask_warn(N('Error'),
-                            N('Installation failed'),
-                            N('Failed to add powerpack restricted ' .
-                              'medium'),
+            ugtk2::ask_warn(N("Error"),
+                            N("Installation failed"),
+                            N("Failed to add powerpack restricted medium"),
                 );
             exit(2);            
         }
@@ -344,6 +401,20 @@ packages as well?)."))
         update_media();
     }
 
+    if ($nonfree || $tainted) {
+        if ($nonfree) {
+            log::explanations("enabling non-free as it was there before upgrade");
+            enable_media("Non-free");
+        }
+
+        if ($tainted) {
+            log::explanations("enabling tainted as it was there before upgrade");
+            enable_media("Tainted");
+        }
+
+        # Media was added, update it and move along...
+        update_media();
+    }
     log::explanations("upgrading urpmi and rpmdrake");
     log::explanations("upgrading the whole system");
 
@@ -365,10 +436,16 @@ packages as well?)."))
 
 sub fork_gurpmi {
     run_program::raw({ timeout => 'never' },
-		     'gurpmi', '>>', $log_file, '2>>', $log_file, '--auto', '--auto-select',
-                      if_($root, "--urpmi-root=$root"), @_);
+		     'gurpmi', '>>', $log_file, '2>>', $log_file, '--auto', '--auto-select', '--replacefiles', '--clean',
+                      if_($root, "--urpmi-root=$root"),
+                      if_($download_dir, "--download-all=$download_dir"));
 }
 
 sub update_media() {
-    run_program::run('urpmi.update', if_($root, '--urpmi-root', $root), '-a', '--nocheck');
+    run_program::run('urpmi.update', if_($root, '--urpmi-root', $root), '-a');
+}
+
+sub enable_media {
+    my ($repos) = @_;
+    run_program::run('urpmi.update', if_($root, '--urpmi-root', $root), '--no-ignore', "$repos Release", "$repos Updates");
 }

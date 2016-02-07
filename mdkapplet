@@ -643,7 +643,7 @@ sub installUpdates() {
     return if $mdv_update_pid;
     log::explanations(N_("Launching OpenMandrivaUpdate\n"));
     gnome_shell_exit_overview();
-    my $program = find { -x "/usr/bin/$_" } qw(MageiaUpdate MandrivaUpdate);
+    my $program = find { -x "/usr/bin/$_" } qw(OnlineUpdate MandrivaUpdate);
     $mdv_update_pid = fork_exec($program, '--no-media-update', '--no-confirmation', '--no-splash',
                                 if_($root, "--urpmi-root=$root"));
     silentCheck(); gtkflush();

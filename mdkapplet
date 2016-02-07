@@ -835,23 +835,6 @@ sub mainQuit() {
     Gtk3->main_quit;
 }
 
-sub get_enabled_restricted_media {
-    my ($urpm) = @_;
-    grep { $_->{name} =~ /restricted/i && !$_->{ignore} } @{$urpm->{media}};
-}
-
-sub is_restricted_media_configured {
-    my ($urpm) = @_;
-    return 1 if !is_restricted_media_supported();
-
-    my @restricted_media = get_enabled_restricted_media($urpm);
-    my @names = map { $_->{name} } @restricted_media;
-    # we need both 'Restricted' & 'Restricted Updates' media
-    # those who did online update trough mdkapplet do not have restricted medium, hence the test for 2 medium:
-    @restricted_media >= (urpm::cfg::get_arch() =~ /64/ ? 4 : 2)
-      && (grep { /Restricted Updates/ } @names) && (grep { /Restricted/ && !/Updates/ } @names);
-}
-
 sub really_prepare_add_restricted() {
     $mdv_update_pid = run_program::raw({ detach => 1 }, 
 				       'mdkapplet-add-media-helper', 

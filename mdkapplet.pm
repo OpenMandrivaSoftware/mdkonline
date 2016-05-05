@@ -7,7 +7,7 @@ our @ISA = 'Exporter';
 our @EXPORT = qw(%comm_codes);
 
 
-my %comm_codes = (
+our %comm_codes = (
     locked => {
         code => 2,
         status => 'locked',

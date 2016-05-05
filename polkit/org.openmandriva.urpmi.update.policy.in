@@ -4,12 +4,12 @@
 "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
 
- <vendor>Moondrake</vendor>
- <vendor_url>http://www.moondrake.org/</vendor_url>
+ <vendor>Openmandriva</vendor>
+ <vendor_url>http://www.openmandriva.org/</vendor_url>
 
- <action id="org.moondrake.urpmi.update.pkexec.run">
-    <_description>Run Moondrake Package Media Updater</_description>
-    <_message>Authentication is required to run Moondrake Package Media Updater</_message>
+ <action id="org.openmandriva.urpmi.update.pkexec.run">
+    <_description>Run Openmandriva Package Media Updater</_description>
+    <_message>Authentication is required to run Openmandriva Package Media Updater</_message>
     <icon_name>drakconf</icon_name>
     <defaults>
      <allow_any>no</allow_any>

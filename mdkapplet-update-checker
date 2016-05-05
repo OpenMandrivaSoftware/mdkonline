@@ -25,6 +25,7 @@ use standalone; # for explanations
 use MDK::Common;
 use Rpmdrake::open_db;
 use mdkapplet;
+use mdkonline;
 use urpm;
 use urpm::lock;
 use urpm::select;

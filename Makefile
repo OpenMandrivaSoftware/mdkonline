@@ -1,5 +1,5 @@
 NAME = mdkonline
-VERSION:=3.10.3
+VERSION:=3.10.4
 
 MDKUPDATE = mdkupdate
 MDKAPPLET = mdkapplet

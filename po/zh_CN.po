@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zh_CN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2008-03-29 21:34+0800\n"
 "Last-Translator: 汤诗语 <shiyu@mandriva.org>\n"
 "Language-Team: Mandriva Linux i18n Team <cooker-i18n@mandrivalinux.org>\n"
@@ -146,10 +146,10 @@ msgstr "已收到终止信号(升级或许已经完成)，请重启小程序。"
 msgid "Launching drakconnect\n"
 msgstr "调用 Mandriva 网络中心\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "新版本的 Mandriva Linux 发行版"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "OpenMandriva 系统新版本"
 
 #: ../mdkapplet:417
 #, c-format
@@ -171,9 +171,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr "您必须选择一个由超级管理员拥有的目录！"
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "Mandriva Linux 发行版已经发布了新版本。"
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "OpenMandriva 系统已发布新版本。"
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -185,7 +185,7 @@ msgstr "关于此版本的更多信息"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "您是否想要升级到“%s”发行版?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "下次不要再询问"
@@ -205,14 +205,14 @@ msgstr "(警告：您需要大量剩余空间)"
 msgid "Where to download packages:"
 msgstr "从何处下载软件包:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "下一步"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -220,11 +220,11 @@ msgid "Cancel"
 msgstr "取消"
 
 #: ../mdkapplet:461
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
-msgstr "此版本的 Mandriva Linux 维护已经结束。此系统不会发放任何更新。"
+msgstr "该版本 OpenMandriva 系统维护周期已过。此后不再为该系统提供任何更新。"
 
 #: ../mdkapplet:467
 #, c-format
@@ -232,9 +232,9 @@ msgid "In order to keep your system secure, you can:"
 msgstr "为了保持您的系统安全，您可以:"
 
 #: ../mdkapplet:473
-#, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+#, fuzzy, c-format
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Linux"
 
 #: ../mdkapplet:479
 #, c-format
@@ -270,11 +270,6 @@ msgid ""
 "until %s."
 msgstr "购买此版本(%s)的延保服务可持续更新至 %s。"
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "OpenMandriva 系统新版本"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -301,8 +296,8 @@ msgstr "如果可能的话，您应该将您的笔记本转为用电源供电，
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "调用 MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "正在启动 OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -320,14 +315,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "版权 (C) %s Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online 可访问 Moondrake Web 服务。"
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online 可让您访问 Mandriva 的 Web 服务。"
 
 #: ../mdkapplet:734
 #, c-format
@@ -376,24 +371,24 @@ msgstr "在启动时自动调用"
 msgid "Quit"
 msgstr "退出"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "有新介质"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr "您正在使用“%s”发行版，所以有权访问额外的软件。"
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "您是否想要安装这一额外的软件仓库?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva 企业服务器"
@@ -467,7 +462,7 @@ msgstr "恭喜"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -672,8 +667,8 @@ msgstr "  --help\t\t- 打印本帮助信息。\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- 自动调用 Mandriva Update。\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- 自动启动 OpenMandriva 更新器。\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -682,8 +677,8 @@ msgstr "  --mnf\t\t\t- 调用 mnf 指定的脚本。\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- Mandriva 更新的文本模式版本。\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- OpenMandriva 更新器文本模式版本。\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -695,43 +690,72 @@ msgstr "  --debug\t\t\t- 记录所执行的操作\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "无法从 update_source 介质更新软件包。\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "更新配置"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "更新配置"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "正在启动 OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "正在启动 OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "正在启动 OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "正在启动 OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "正在启动 OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "正在启动 OpenMandrivaUpdate\n"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "新版本的 Mandriva Linux 发行版"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "Mandriva Linux 发行版已经发布了新版本。"
+
+#~ msgid ""
+#~ "Maintenance for this Mandriva Linux version has ended. No more updates "
+#~ "will be delivered for this system."
+#~ msgstr "此版本的 Mandriva Linux 维护已经结束。此系统不会发放任何更新。"
+
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "调用 MandrivaUpdate\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online 可访问 Moondrake Web 服务。"
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- 自动调用 Mandriva Update。\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- Mandriva 更新的文本模式版本。\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- 记录所执行的操作\n"
@@ -739,17 +763,8 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 #~ msgid "Check for newer OpenMandriva releases"
 #~ msgstr "检查新的 OpenMandriva 版本"
 
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- 自动启动 OpenMandriva 更新器。\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- OpenMandriva 更新器文本模式版本。\n"
-
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "OpenMandriva 系统已经发布了新版本"
-
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "OpenMandriva 系统已发布新版本。"
 
 #~ msgid "An error occurred while adding medium"
 #~ msgstr "添加介质时发生了错误"
@@ -765,16 +780,8 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 #~ msgid "Failure while retrieving distributions list:"
 #~ msgstr "获取发行版列失败:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "正在启动 OpenMandrivaUpdate\n"
-
 #~ msgid "Lifetime policy"
 #~ msgstr "生命周期策略"
-
-#~ msgid ""
-#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
-#~ "delivered for this system."
-#~ msgstr "该版本 OpenMandriva 系统维护周期已过。此后不再为该系统提供任何更新。"
 
 #~ msgid "Mandriva Flash"
 #~ msgstr "Mandriva Flash"
@@ -790,9 +797,6 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 
 #~ msgid "Mandriva Online %s"
 #~ msgstr "Mandriva Online %s"
-
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online 可让您访问 Mandriva 的 Web 服务。"
 
 #~ msgid "Mandriva PowerPack"
 #~ msgstr "Mandriva PowerPack"
@@ -820,9 +824,6 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Free"
 
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Linux"
-
 #~ msgid "OpenMandriva Mini"
 #~ msgstr "OpenMandriva Mini"
 
@@ -833,19 +834,19 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 #~ msgstr "OpenMandriva PowerPack"
 
 #~ msgid ""
-#~ "OpenMandriva Powerpack brings you the best of Linux experience for desktop: "
-#~ "stability and efficiency of open source solutions together with exclusive "
-#~ "softwares and OpenMandriva official support."
+#~ "OpenMandriva Powerpack brings you the best of Linux experience for "
+#~ "desktop: stability and efficiency of open source solutions together with "
+#~ "exclusive softwares and OpenMandriva official support."
 #~ msgstr ""
-#~ "OpenMandriva Powerpack 为您提供了绝佳的 Linux 桌面体验：既有开放源代码解决方"
-#~ "案的稳定和高效，又有丰富软件和 OpenMandriva 的官方支持。"
+#~ "OpenMandriva Powerpack 为您提供了绝佳的 Linux 桌面体验：既有开放源代码解决"
+#~ "方案的稳定和高效，又有丰富软件和 OpenMandriva 的官方支持。"
 
 #~ msgid ""
-#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 months "
-#~ "of base updates (up to the %s) for distributions."
+#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 "
+#~ "months of base updates (up to the %s) for distributions."
 #~ msgstr ""
-#~ "OpenMandriva 为桌面提供了十二个月的更新(直至 %s)，为基本系统提供了十八个月的"
-#~ "更新(直至 %s)。"
+#~ "OpenMandriva 为桌面提供了十二个月的更新(直至 %s)，为基本系统提供了十八个月"
+#~ "的更新(直至 %s)。"
 
 #~ msgid "Ok"
 #~ msgstr "确定"
@@ -885,7 +886,8 @@ msgstr "正在启动 OpenMandrivaUpdate\n"
 
 #, fuzzy
 #~ msgid ""
-#~ "The OpenMandriva distribution with even more softwares and official support."
+#~ "The OpenMandriva distribution with even more softwares and official "
+#~ "support."
 #~ msgstr "OpenMandriva Linux 发行版为您提供了更多软件和官方支持。"
 
 #~ msgid "You can subscribe <b>right now</b> to get extended maintenance:"

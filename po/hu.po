@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-2010.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2010-06-20 19:11+0100\n"
 "Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
@@ -163,10 +163,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "A DrakConnect indítása\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "Mandriva Linux disztribúció új verziója"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "OpenMandriva Linux disztribúció új verziója"
 
 #: ../mdkapplet:417
 #, c-format
@@ -188,9 +188,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr ""
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "A Mandriva Linux disztribúciónak új verziója jelent meg."
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "A OpenMandriva Linux disztribúciónak új verziója jelent meg."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -202,7 +202,7 @@ msgstr "Több információ az új verzióról"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Tényleg frissíteni akar a '%s' disztribúcióra?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Legközelebb ne kérdezze meg"
@@ -222,14 +222,14 @@ msgstr "(Figyelem: Fel kell szabadítania egy helyet)"
 msgid "Where to download packages:"
 msgstr "A csomagok letöltési helye:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Következő"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -237,12 +237,12 @@ msgid "Cancel"
 msgstr "Mégsem"
 
 #: ../mdkapplet:461
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
-"Ennek a Mandriva Linuxnak a karbantartási ideje lejárt, nem fog többé "
+"Ennek a OpenMandriva Linuxnak a karbantartási ideje lejárt, nem fog többé "
 "frissítés megjelenni hozzá."
 
 #: ../mdkapplet:467
@@ -252,9 +252,9 @@ msgstr ""
 "Ahhoz, hogy a rendszerét biztonságban tartsa, az alábbi dolgokat teheti:"
 
 #: ../mdkapplet:473
-#, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+#, fuzzy, c-format
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Linux"
 
 #: ../mdkapplet:479
 #, c-format
@@ -294,11 +294,6 @@ msgstr ""
 "Fizessen elő kiterjesztett karbantartásra, amivel ez a verzió (%s) %s-ig "
 "naprakész marad."
 
-#: ../mdkapplet:587
-#, fuzzy, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "OpenMandriva Linux disztribúció új verziója"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -329,8 +324,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "\"MandrivaUpdate\" indítása\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -348,15 +343,15 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright (C) %s, Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr ""
-"A OpenMandriva Online hozzáférést biztosít a Moondrake webes szolgáltatásaihoz."
+"A Mandriva Online hozzáférést biztosít a Mandriva webes szolgáltatásaihoz."
 
 #: ../mdkapplet:734
 #, c-format
@@ -405,12 +400,12 @@ msgstr "Minden rendszerindításnál induljon el"
 msgid "Quit"
 msgstr "Kilépés"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "Új, elérhető adathordozó"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -418,12 +413,12 @@ msgid ""
 msgstr ""
 "Ön a '%s' disztribúciót használja, és további szoftverekhez van hozzáférése."
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Szeretné a további szoftvereket tartalmazó csomagforrást használni?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
@@ -498,8 +493,8 @@ msgid "Congratulations"
 msgstr "Gratulálunk"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "A OpenMandriva %s kiadására történő frissítés sikeresen lezajlott."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -711,8 +706,8 @@ msgstr "  --help\t\t- jelen segítség megjelenítése\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update automatikus indítása\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update automatikus indítása\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -721,8 +716,8 @@ msgstr "  --mnf\t\t\t- MNF-specifikus szkriptek indítása\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- a Mandriva Update szöveges felületű verziója\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- a OpenMandriva Update szöveges felületű verziója\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -734,52 +729,82 @@ msgstr "  --debug\t\t\t- a tevékenység naplózása\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "A csomagok Mandriva Update-adatforrásból való frissítése sikertelen.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Frissítési beállítások"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Frissítési beállítások"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "\"OpenMandrivaUpdate\" indítása\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "\"OpenMandrivaUpdate\" indítása\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "\"OpenMandrivaUpdate\" indítása\n"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "Mandriva Linux disztribúció új verziója"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "A Mandriva Linux disztribúciónak új verziója jelent meg."
+
+#~ msgid ""
+#~ "Maintenance for this Mandriva Linux version has ended. No more updates "
+#~ "will be delivered for this system."
+#~ msgstr ""
+#~ "Ennek a Mandriva Linuxnak a karbantartási ideje lejárt, nem fog többé "
+#~ "frissítés megjelenni hozzá."
+
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "\"MandrivaUpdate\" indítása\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr ""
+#~ "A OpenMandriva Online hozzáférést biztosít a Moondrake webes "
+#~ "szolgáltatásaihoz."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update automatikus indítása\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- a Mandriva Update szöveges felületű verziója\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- a tevékenység naplózása\n"
 
 #~ msgid "Check for newer OpenMandriva releases"
 #~ msgstr "Az új OpenMandriva kiadás ellenőrzése"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update automatikus indítása\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=\t\t\t- gépnév\n"
@@ -800,9 +825,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=\t\t     - a felhasználó bejelentkezési neve\n"
 
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- a OpenMandriva Update szöveges felületű verziója\n"
-
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive\t- nem-interaktív mód használata\n"
 
@@ -812,10 +834,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #, fuzzy
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "A OpenMandriva Linux disztribúciónak új verziója jelent meg"
-
-#, fuzzy
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "A OpenMandriva Linux disztribúciónak új verziója jelent meg."
 
 #~ msgid "Actions"
 #~ msgstr "Műveletek"
@@ -928,9 +946,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #~ msgid "Last check: "
 #~ msgstr "Legutóbbi ellenőrzés: "
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "\"OpenMandrivaUpdate\" indítása\n"
-
 #~ msgid "Lifetime policy"
 #~ msgstr "Tervezett életciklus"
 
@@ -942,14 +957,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
 #~ msgid "Machine name:"
 #~ msgstr "Gépnév:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
-#~ "delivered for this system."
-#~ msgstr ""
-#~ "Ennek a OpenMandriva Linuxnak a karbantartási ideje lejárt, nem fog többé "
-#~ "frissítés megjelenni hozzá."
 
 #~ msgid "Mandiva Free"
 #~ msgstr "Mandiva Free"
@@ -971,10 +978,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
 #~ msgid "Mandriva Online %s"
 #~ msgstr "Mandriva Online %s"
-
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr ""
-#~ "A Mandriva Online hozzáférést biztosít a Mandriva webes szolgáltatásaihoz."
 
 #~ msgid "Mandriva Online seems to be reinstalled, reloading applet ...."
 #~ msgstr ""
@@ -1025,9 +1028,6 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Free"
 
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Linux"
-
 #~ msgid "OpenMandriva Linux Updates Applet"
 #~ msgstr "OpenMandriva Linux-frissítési alkalmazás"
 
@@ -1046,17 +1046,17 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #~ msgstr "OpenMandriva PowerPack"
 
 #~ msgid ""
-#~ "OpenMandriva Powerpack brings you the best of Linux experience for desktop: "
-#~ "stability and efficiency of open source solutions together with exclusive "
-#~ "softwares and OpenMandriva official support."
+#~ "OpenMandriva Powerpack brings you the best of Linux experience for "
+#~ "desktop: stability and efficiency of open source solutions together with "
+#~ "exclusive softwares and OpenMandriva official support."
 #~ msgstr ""
-#~ "A OpenMandriva Powerpack adja önnek a legjobb Linux élményt: stabilitás és "
-#~ "eredményesség a nyílt forrású megoldásoknak köszönhetően, exkluzív "
+#~ "A OpenMandriva Powerpack adja önnek a legjobb Linux élményt: stabilitás "
+#~ "és eredményesség a nyílt forrású megoldásoknak köszönhetően, exkluzív "
 #~ "szoftverek és a OpenMandriva hivatalos támogatása."
 
 #~ msgid ""
-#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 months "
-#~ "of base updates (up to the %s) for distributions."
+#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 "
+#~ "months of base updates (up to the %s) for distributions."
 #~ msgstr ""
 #~ "A OpenMandriva minden disztibúción 12 hónap frissítést biztosít a "
 #~ "munkaasztali alkalmazások számára (maradt %s) és 18 hónapot a "
@@ -1230,7 +1230,8 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
 #, fuzzy
 #~ msgid ""
-#~ "The OpenMandriva distribution with even more softwares and official support."
+#~ "The OpenMandriva distribution with even more softwares and official "
+#~ "support."
 #~ msgstr ""
 #~ "A OpenMandriva Linux disztribúció most még több szoftverrel és hivatalos "
 #~ "támogatással."
@@ -1306,7 +1307,8 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 
 #~ msgid "User account forbidden by OpenMandriva web services"
 #~ msgstr ""
-#~ "A felhasználói azonosító le van tiltva a OpenMandriva webes szolgáltatásain"
+#~ "A felhasználói azonosító le van tiltva a OpenMandriva webes "
+#~ "szolgáltatásain"
 
 #~ msgid "Would you like Powerpack?"
 #~ msgstr "Szeretné a Powerpack-ot használni?"
@@ -1355,14 +1357,15 @@ msgstr "\"OpenMandrivaUpdate\" indítása\n"
 #~ "Your OpenMandriva account does not have Extended Maintenance subscription "
 #~ "enabled."
 #~ msgstr ""
-#~ "A OpenMandriva hozzáféréséhez nem fizetett elő Kiterjesztett karbantartásra."
+#~ "A OpenMandriva hozzáféréséhez nem fizetett elő Kiterjesztett "
+#~ "karbantartásra."
 
 #~ msgid ""
 #~ "Your OpenMandriva account does not have Powerpack download subscription "
 #~ "enabled."
 #~ msgstr ""
-#~ "A te OpenMandriva hozzáféréseddel nincs lehetőséged a Powerpack letöltéseket "
-#~ "használni."
+#~ "A te OpenMandriva hozzáféréseddel nincs lehetőséged a Powerpack "
+#~ "letöltéseket használni."
 
 #~ msgid ""
 #~ "mdonline version %s\n"

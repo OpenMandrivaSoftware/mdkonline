@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: all2.po\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-06-19 16:21+0200\n"
-"PO-Revision-Date: 2004-09-20 15:44+0200\n"
-"Last-Translator: Thierry Vignaud <tvignaud@mandrakesoft.com>\n"
-"Language-Team: br <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #. -PO: here %s will be replaced by the local time (eg: "Will check updates at 14:03:50"
 #: ../mdkapplet:82
@@ -28,17 +28,13 @@ msgstr ""
 
 #: ../mdkapplet:95
 #, c-format
-msgid ""
-"Service configuration problem. Please check logs and send mail to "
-"support@mandrivaonline.com"
+msgid "Service configuration problem. Please check logs and send mail to support@mandrivaonline.com"
 msgstr ""
 
 #: ../mdkapplet:101
-#, fuzzy, c-format
+#, c-format
 msgid "Please wait, finding available packages..."
 msgstr ""
-"Fan tamall\n"
-"Ag scrios pacáistí"
 
 #: ../mdkapplet:106
 #, c-format
@@ -77,8 +73,7 @@ msgstr ""
 
 #: ../mdkapplet:167
 #, c-format
-msgid ""
-"No medium found. You must add some media through 'Software Media Manager'."
+msgid "No medium found. You must add some media through 'Software Media Manager'."
 msgstr ""
 
 #: ../mdkapplet:177
@@ -95,12 +90,12 @@ msgstr ""
 #: ../mdkapplet:182
 #, c-format
 msgid "Enabled"
-msgstr "Cumasaithe"
+msgstr ""
 
 #: ../mdkapplet:188 ../mdkapplet:783
-#, fuzzy, c-format
+#, c-format
 msgid "Install updates"
-msgstr "Feistigh córas"
+msgstr ""
 
 #: ../mdkapplet:189 ../mdkapplet:190
 #, c-format
@@ -113,9 +108,9 @@ msgid "Check Updates"
 msgstr ""
 
 #: ../mdkapplet:192
-#, fuzzy, c-format
+#, c-format
 msgid "Configure Network"
-msgstr "Cumraigh gréasánú"
+msgstr ""
 
 #: ../mdkapplet:193
 #, c-format
@@ -124,10 +119,7 @@ msgstr ""
 
 #: ../mdkapplet:353
 #, c-format
-msgid ""
-"Basic maintenance for this distribution has expired. Thanks to your "
-"subscription to extended maintenance, your system will be kept up to date "
-"until %s"
+msgid "Basic maintenance for this distribution has expired. Thanks to your subscription to extended maintenance, your system will be kept up to date until %s"
 msgstr ""
 
 #: ../mdkapplet:398
@@ -150,14 +142,10 @@ msgstr ""
 msgid "Browse"
 msgstr ""
 
-#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89
-#: ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174
-#: ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259
-#: ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371
-#: ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
+#: ../mdkapplet:421 ../mdkapplet-upgrade-helper:89 ../mdkapplet-upgrade-helper:137 ../mdkapplet-upgrade-helper:174 ../mdkapplet-upgrade-helper:253 ../mdkapplet-upgrade-helper:259 ../mdkapplet-upgrade-helper:307 ../mdkapplet-upgrade-helper:371 ../mdkapplet-upgrade-helper:394 ../mdkapplet_gui.pm:235
 #, c-format
 msgid "Error"
-msgstr "Earráid"
+msgstr ""
 
 #: ../mdkapplet:421
 #, c-format
@@ -199,25 +187,19 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
-#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858 ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
-msgstr "Teacs"
+msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
-#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
-#: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
-#: ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858 ../mdkapplet:888 ../mdkapplet-upgrade-helper:143 ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Cancel"
-msgstr "Cealaigh"
+msgstr ""
 
 #: ../mdkapplet:461
 #, c-format
-msgid ""
-"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
-"be delivered for this system."
+msgid "Maintenance for this OpenMandriva Lx version has ended. No more updates will be delivered for this system."
 msgstr ""
 
 #: ../mdkapplet:467
@@ -226,9 +208,9 @@ msgid "In order to keep your system secure, you can:"
 msgstr ""
 
 #: ../mdkapplet:473
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Lx"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../mdkapplet:479
 #, c-format
@@ -237,9 +219,7 @@ msgstr ""
 
 #: ../mdkapplet:481
 #, c-format
-msgid ""
-"You should either get extended maintenance or upgrade to a newer version of "
-"the %s distribution."
+msgid "You should either get extended maintenance or upgrade to a newer version of the %s distribution."
 msgstr ""
 
 #: ../mdkapplet:485
@@ -259,16 +239,12 @@ msgstr ""
 
 #: ../mdkapplet:505
 #, c-format
-msgid ""
-"Purchase a maintenance extension for this version (%s) and keep it running "
-"until %s."
+msgid "Purchase a maintenance extension for this version (%s) and keep it running until %s."
 msgstr ""
 
 #: ../mdkapplet:604
 #, c-format
-msgid ""
-"This upgrade requires high bandwidth network connection (cable, xDSL, ...)  "
-"and may take several hours to complete."
+msgid "This upgrade requires high bandwidth network connection (cable, xDSL, ...)  and may take several hours to complete."
 msgstr ""
 
 #: ../mdkapplet:606
@@ -283,15 +259,13 @@ msgstr ""
 
 #: ../mdkapplet:610
 #, c-format
-msgid ""
-"You should put your laptop on AC and favor ethernet connection over wifi, if "
-"available."
+msgid "You should put your laptop on AC and favor ethernet connection over wifi, if available."
 msgstr ""
 
 #: ../mdkapplet:644
-#, fuzzy, c-format
+#, c-format
 msgid "Launching OpenMandrivaUpdate\n"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../mdkapplet:662
 #, c-format
@@ -304,9 +278,9 @@ msgid "Checking Network: seems disabled\n"
 msgstr ""
 
 #: ../mdkapplet:728
-#, fuzzy, c-format
+#, c-format
 msgid "OpenMandriva Online %s"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../mdkapplet:729
 #, c-format
@@ -332,10 +306,9 @@ msgstr ""
 #: ../mdkapplet:768
 #, c-format
 msgid "Warning"
-msgstr "Rabhadh"
+msgstr ""
 
-#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787
-#: ../mdkapplet_gui.pm:255
+#: ../mdkapplet:771 ../mdkapplet:777 ../mdkapplet:785 ../mdkapplet:787 ../mdkapplet_gui.pm:255
 #, c-format
 msgid "More Information"
 msgstr ""
@@ -348,7 +321,7 @@ msgstr ""
 #: ../mdkapplet:808
 #, c-format
 msgid "About..."
-msgstr "Faoi..."
+msgstr ""
 
 #: ../mdkapplet:810 ../mdkapplet-config:66
 #, c-format
@@ -363,7 +336,7 @@ msgstr ""
 #: ../mdkapplet:814
 #, c-format
 msgid "Quit"
-msgstr "Scoir"
+msgstr ""
 
 #: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
@@ -372,9 +345,7 @@ msgstr ""
 
 #: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
-msgid ""
-"You use '%s' distribution and therefore have privileged access to additional "
-"software."
+msgid "You use '%s' distribution and therefore have privileged access to additional software."
 msgstr ""
 
 #: ../mdkapplet:856 ../mdkapplet:886
@@ -429,15 +400,13 @@ msgstr ""
 
 #: ../mdkapplet-upgrade-helper:86
 #, c-format
-msgid ""
-"Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
+msgid "Your system does not have enough space left in %s for upgrade (%dMB < %dMB)"
 msgstr ""
 
-#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308
-#: ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
+#: ../mdkapplet-upgrade-helper:141 ../mdkapplet-upgrade-helper:308 ../mdkapplet-upgrade-helper:372 ../mdkapplet-upgrade-helper:395
 #, c-format
 msgid "Installation failed"
-msgstr "Theip ar shuiteáil"
+msgstr ""
 
 #: ../mdkapplet-upgrade-helper:142
 #, c-format
@@ -447,12 +416,12 @@ msgstr ""
 #: ../mdkapplet-upgrade-helper:143
 #, c-format
 msgid "Retry"
-msgstr "Atriail"
+msgstr ""
 
 #: ../mdkapplet-upgrade-helper:152
 #, c-format
 msgid "Congratulations"
-msgstr "Comhghairdeas"
+msgstr ""
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
@@ -467,15 +436,14 @@ msgstr ""
 #: ../mdkapplet-upgrade-helper:159
 #, c-format
 msgid "Reboot"
-msgstr "Atosaigh"
+msgstr ""
 
 #: ../mdkapplet-upgrade-helper:175
 #, c-format
 msgid "An error occurred"
-msgstr "Tharla earráid"
+msgstr ""
 
-#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213
-#: ../mdkapplet-upgrade-helper:235
+#: ../mdkapplet-upgrade-helper:196 ../mdkapplet-upgrade-helper:213 ../mdkapplet-upgrade-helper:235
 #, c-format
 msgid "Powerpack Media Configuration"
 msgstr ""
@@ -489,16 +457,12 @@ msgstr ""
 
 #: ../mdkapplet-upgrade-helper:214
 #, c-format
-msgid ""
-"Please fill your My.Mandriva login and password to add additional package "
-"media for Powerpack."
+msgid "Please fill your My.Mandriva login and password to add additional package media for Powerpack."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:236
 #, c-format
-msgid ""
-"Please fill your account ID to add Powerpack %s version packages media once "
-"you have subscribed online"
+msgid "Please fill your account ID to add Powerpack %s version packages media once you have subscribed online"
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:253
@@ -547,9 +511,9 @@ msgid ""
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:373
-#, fuzzy, c-format
+#, c-format
 msgid "Failure when adding medium"
-msgstr "Tharla earráid"
+msgstr ""
 
 #: ../mdkapplet-upgrade-helper:396
 #, c-format
@@ -563,16 +527,13 @@ msgstr ""
 
 #: ../mdkapplet_gui.pm:83
 #, c-format
-msgid ""
-"Mandriva Powerpack brings you the best of Linux experience for desktop: "
-"stability and efficiency of open source solutions together with exclusive "
-"softwares and Mandriva official support."
+msgid "Mandriva Powerpack brings you the best of Linux experience for desktop: stability and efficiency of open source solutions together with exclusive softwares and Mandriva official support."
 msgstr ""
 
 #: ../mdkapplet_gui.pm:90
-#, fuzzy, c-format
+#, c-format
 msgid "Mandriva Linux Features"
-msgstr "Ionad Rialaithe Mandriva Linux"
+msgstr ""
 
 #: ../mdkapplet_gui.pm:101
 #, c-format
@@ -590,14 +551,14 @@ msgid "Your email"
 msgstr ""
 
 #: ../mdkapplet_gui.pm:212
-#, fuzzy, c-format
+#, c-format
 msgid "Your password"
-msgstr "Gan pasfhocal"
+msgstr ""
 
 #: ../mdkapplet_gui.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Forgotten password"
-msgstr "Gan pasfhocal"
+msgstr ""
 
 #: ../mdkapplet_gui.pm:236
 #, c-format
@@ -607,7 +568,7 @@ msgstr ""
 #: ../mdkapplet_gui.pm:258
 #, c-format
 msgid "Close"
-msgstr "Dún"
+msgstr ""
 
 #: ../mdkapplet_gui.pm:293
 #, c-format
@@ -634,8 +595,7 @@ msgstr ""
 msgid ""
 "mdkupdate version %s\n"
 "%s\n"
-"This is free software and may be redistributed under the terms of the GNU "
-"GPL.\n"
+"This is free software and may be redistributed under the terms of the GNU GPL.\n"
 "\n"
 "usage:\n"
 msgstr ""
@@ -676,220 +636,33 @@ msgid "Unable to update packages from update_source medium.\n"
 msgstr ""
 
 #: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
-#, fuzzy
 msgid "Run Openmandriva Update Applet Configuration"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
-#, fuzzy
-msgid ""
-"Authentication is required to run Openmandriva Update Applet Configuration"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgid "Authentication is required to run Openmandriva Update Applet Configuration"
+msgstr ""
 
 #: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
-#, fuzzy
 msgid "Run Openmandriva Upgrade Helper"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
-#, fuzzy
 msgid "Authentication is required to run Openmandriva Upgrade Helper"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
-#, fuzzy
 msgid "Run Openmandriva Updater"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
-#, fuzzy
 msgid "Authentication is required to run Openmandriva Updater"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
-#, fuzzy
 msgid "Run Openmandriva Package Media Updater"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
+msgstr ""
 
 #: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
-#, fuzzy
 msgid "Authentication is required to run Openmandriva Package Media Updater"
-msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva Linux"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#~ msgid "Actions"
-#~ msgstr "Gníomhartha"
-
-#, fuzzy
-#~ msgid "An error occurred while adding medium"
-#~ msgstr "Tharla earráid"
-
-#~ msgid "Clear"
-#~ msgstr "Glan"
-
-#~ msgid "Configure"
-#~ msgstr "Cumraigh"
-
-#~ msgid "Confirm Password:"
-#~ msgstr "Dearbhaigh an Focal Faire:"
-
-#~ msgid "Connection error"
-#~ msgstr "Earráid naisc"
-
-#~ msgid "Country"
-#~ msgstr "Tír"
-
-#, fuzzy
-#~ msgid "Database access forbidden"
-#~ msgstr "Freastalaí Bunachair Sonraí"
-
-#, fuzzy
-#~ msgid "Database error"
-#~ msgstr "Freastalaí Bunachair Sonraí"
-
-#~ msgid "Down"
-#~ msgstr "Síos"
-
-#~ msgid "Email address:"
-#~ msgstr "Seoladh Ríomhphoist:"
-
-#, fuzzy
-#~ msgid "Failed to open urpmi database"
-#~ msgstr "Téip ag oscailt comhad: %s\n"
-
-#~ msgid "First name:"
-#~ msgstr "Ainm baiste:"
-
-#, fuzzy
-#~ msgid "Greeting:"
-#~ msgstr "Glas"
-
-#~ msgid "Installing packages ...\n"
-#~ msgstr "Ag suiteáil pacáistí...\n"
-
-#~ msgid "Last name:"
-#~ msgstr "Sloinne:"
-
-#, fuzzy
-#~ msgid "Login error"
-#~ msgstr "earráid anaithnid"
-
-#~ msgid "Login:"
-#~ msgstr "Log isteach:"
-
-#~ msgid "Logs"
-#~ msgstr "Iarchomhaid"
-
-#, fuzzy
-#~ msgid "Mandiva Free"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva Flash"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva Free"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva Mini"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva One"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva Online %s"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#, fuzzy
-#~ msgid "Mandriva PowerPack"
-#~ msgstr "Ionad Rialaithe Mandriva Linux"
-
-#~ msgid "OpenMandriva"
-#~ msgstr "OpenMandriva"
-
-#, fuzzy
-#~ msgid "OpenMandriva Flash"
-#~ msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#, fuzzy
-#~ msgid "OpenMandriva Free"
-#~ msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#, fuzzy
-#~ msgid "OpenMandriva Mini"
-#~ msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#, fuzzy
-#~ msgid "OpenMandriva One"
-#~ msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#, fuzzy
-#~ msgid "OpenMandriva PowerPack"
-#~ msgstr "Ionad Rialaithe OpenMandriva Linux"
-
-#~ msgid "Mr."
-#~ msgstr "An t-Uas."
-
-#~ msgid "Mrs."
-#~ msgstr "Bean"
-
-#~ msgid "Ms."
-#~ msgstr "Ms."
-
-#~ msgid "No"
-#~ msgstr "Níl"
-
-#~ msgid "Ok"
-#~ msgstr "Ceart go Leor"
-
-#, fuzzy
-#~ msgid "Password error"
-#~ msgstr "Pasfhcoal do %s"
-
-#, fuzzy
-#~ msgid "Password mismatch"
-#~ msgstr "Ní ionann na focail fhaire"
-
-#~ msgid "Password:"
-#~ msgstr "Focal Faire:"
-
-#~ msgid "Please wait"
-#~ msgstr "Fan go fóill, le do thoil"
-
-#~ msgid "Preparing..."
-#~ msgstr "Á Ullmhú..."
-
-#, fuzzy
-#~ msgid "Restriction Error"
-#~ msgstr "Cur Síos: "
-
-#, fuzzy
-#~ msgid "Security error"
-#~ msgstr "Slándáil"
-
-#, fuzzy
-#~ msgid "Service error"
-#~ msgstr "Earraidh scríobhta\n"
-
-#~ msgid "Status"
-#~ msgstr "Stádas"
-
-#~ msgid "Up"
-#~ msgstr "Suas"
-
-#, fuzzy
-#~ msgid "User Forbidden"
-#~ msgstr "Roghchlár Úsáideora"
-
-#~ msgid "Yes"
-#~ msgstr "Tá"
-
-#~ msgid "or"
-#~ msgstr "nó"
+msgstr ""

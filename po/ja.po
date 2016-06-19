@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-ja\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2009-03-22 20:08+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
@@ -154,10 +154,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Drakconnect を起動\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "新バージョンの Mandriva Linux"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "新バージョンの OpenMandriva Linux"
 
 #: ../mdkapplet:417
 #, c-format
@@ -179,9 +179,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr ""
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "新しいバージョンの Mandriva Linux がリリースされました。"
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "新しいバージョンの OpenMandriva Linux がリリースされました。"
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -193,7 +193,7 @@ msgstr "この新しいバージョンの詳細情報"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "ディストリビューション %s にアップグレードしますか？"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "次回から尋ねない"
@@ -213,14 +213,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "次へ"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -230,7 +230,7 @@ msgstr "キャンセル"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -241,8 +241,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:479
 #, c-format
@@ -278,11 +278,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, fuzzy, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "新バージョンの OpenMandriva Linux"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -313,8 +308,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "MandrivaUpdate を起動\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "OpenMandrivaUpdate を起動\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -332,14 +327,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online は Moondrake ウェブサービスへのアクセスを提供します。"
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online は Mandriva ウェブサービスへのアクセスを提供します。"
 
 #: ../mdkapplet:734
 #, c-format
@@ -388,12 +383,12 @@ msgstr "起動時に常に開始する"
 msgid "Quit"
 msgstr "終了"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "新しいメディアが利用できます"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -402,12 +397,12 @@ msgstr ""
 "%s ディストリビューションをお使いなので、特典として付加的なソフトウェアもご利"
 "用いただけます。"
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "この付加的なソフトウェア用のリポジトリをインストールしますか？"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -482,8 +477,8 @@ msgid "Congratulations"
 msgstr "おめでとうございます"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "OpenMandriva の %s リリースへのアップグレードに成功しました。"
 
 #: ../mdkapplet-upgrade-helper:158
@@ -692,8 +687,8 @@ msgstr "  --help\t\t- このヘルプメッセージを出力\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update を自動的に起動する。\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update を自動的に起動する。\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -702,8 +697,8 @@ msgstr "  --mnf\t\t\t- MNF 固有のスクリプトを起動する。\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- テキストモードの Mandriva Update\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- テキストモードの OpenMandriva Update\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -715,60 +710,76 @@ msgstr "  --debug\t\t\t- 記録を取る\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source メディアからパッケージを更新できません。\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "更新の設定"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "更新の設定"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "OpenMandrivaUpdate を起動\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "OpenMandrivaUpdate を起動\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "OpenMandrivaUpdate を起動\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "OpenMandrivaUpdate を起動\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate を起動\n"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "新バージョンの Mandriva Linux"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "新しいバージョンの Mandriva Linux がリリースされました。"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "MandrivaUpdate を起動\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr ""
+#~ "OpenMandriva Online は Moondrake ウェブサービスへのアクセスを提供します。"
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update を自動的に起動する。\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- テキストモードの Mandriva Update\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- 記録を取る\n"
 
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update を自動的に起動する。\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- テキストモードの OpenMandriva Update\n"
-
 #, fuzzy
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "新しいバージョンの OpenMandriva Linux がリリースされました"
-
-#, fuzzy
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "新しいバージョンの OpenMandriva Linux がリリースされました。"
 
 #~ msgid "An error occurred while adding medium"
 #~ msgstr "メディアを追加中にエラーが発生しました"
@@ -779,9 +790,6 @@ msgstr "OpenMandrivaUpdate を起動\n"
 #, fuzzy
 #~ msgid "Get Powerpack subscription!"
 #~ msgstr "Online ウェブサイト"
-
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "OpenMandrivaUpdate を起動\n"
 
 #, fuzzy
 #~ msgid "Mandiva Free"
@@ -806,10 +814,6 @@ msgstr "OpenMandrivaUpdate を起動\n"
 #~ msgid "Mandriva Online %s"
 #~ msgstr "Mandriva Online %s"
 
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr ""
-#~ "Mandriva Online は Mandriva ウェブサービスへのアクセスを提供します。"
-
 #~ msgid "Mandriva PowerPack"
 #~ msgstr "Mandriva PowerPack"
 
@@ -826,10 +830,6 @@ msgstr "OpenMandrivaUpdate を起動\n"
 
 #, fuzzy
 #~ msgid "OpenMandriva Free"
-#~ msgstr "OpenMandriva Online %s"
-
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
 #~ msgstr "OpenMandriva Online %s"
 
 #, fuzzy
@@ -909,23 +909,23 @@ msgstr "OpenMandrivaUpdate を起動\n"
 #~ msgid ""
 #~ "Your OpenMandriva account does not have %s download subscription enabled."
 #~ msgstr ""
-#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になってい"
-#~ "ません。"
+#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になって"
+#~ "いません。"
 
 #, fuzzy
 #~ msgid ""
 #~ "Your OpenMandriva account does not have Extended Maintenance subscription "
 #~ "enabled."
 #~ msgstr ""
-#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になってい"
-#~ "ません。"
+#~ "あなたの OpenMandriva アカウントは %s のダウンロード申し込みが有効になって"
+#~ "いません。"
 
 #~ msgid ""
 #~ "Your OpenMandriva account does not have Powerpack download subscription "
 #~ "enabled."
 #~ msgstr ""
-#~ "あなたの OpenMandriva アカウントは Powerpack のダウンロード申し込みが有効に"
-#~ "なっていません。"
+#~ "あなたの OpenMandriva アカウントは Powerpack のダウンロード申し込みが有効"
+#~ "になっていません。"
 
 #~ msgid ""
 #~ "mgaupdate version %s\n"

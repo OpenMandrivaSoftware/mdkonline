@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ca\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2005-09-20 00:10+0200\n"
 "Last-Translator: Albert Astals Cid <astals11@terra.es>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -151,10 +151,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "S'està executant drakconnect\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr ""
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "S'ha alliberat una nova versió de la distribució OpenMandriva"
 
 #: ../mdkapplet:417
 #, c-format
@@ -176,9 +176,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr ""
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr ""
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "Hi ha disponible una nova distribució de OpenMandriva."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -190,7 +190,7 @@ msgstr "Més informació sobre aquesta nova versió"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "No m'ho tornis a preguntar"
@@ -210,14 +210,14 @@ msgstr "(Atenció: cal força espai lliure)"
 msgid "Where to download packages:"
 msgstr "On descarregar paquets:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Següent"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -227,7 +227,7 @@ msgstr "Cancel·la"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -238,8 +238,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "L'equip Mandriva Linux Online"
+msgid "OpenMandriva Lx"
+msgstr "L'equip OpenMandriva Linux Online"
 
 #: ../mdkapplet:479
 #, c-format
@@ -275,11 +275,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, fuzzy, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "S'ha alliberat una nova versió de la distribució OpenMandriva"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -310,8 +305,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "S'està executant MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "S'està executant OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -329,13 +324,13 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s per %s"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr "OpenMandriva Online dóna accés a serveis web Moondrake."
 
 #: ../mdkapplet:734
@@ -385,24 +380,24 @@ msgstr "Executa sempre al inici"
 msgid "Quit"
 msgstr "Surt"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, fuzzy, c-format
 msgid "New medium available"
 msgstr "No disponible"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -476,7 +471,7 @@ msgstr "Felicitats"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -682,8 +677,8 @@ msgstr "  --help\t\t- mostra aquest missatge d'ajuda.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update es llança automàticament.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update es llança automàticament.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -692,8 +687,8 @@ msgstr ""
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- versió en mode text de Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- versió en mode text de OpenMandriva Update.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -705,59 +700,68 @@ msgstr ""
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "No es poden actualitzar els paquets des del suport update_source.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
-msgid "Run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Executa la configuració de la miniaplicació d'actualizació"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Executa la configuració de la miniaplicació d'actualizació"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Executa l'actualitzador de OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
-msgid "Run OpenMandriva Updater"
-msgstr "Executa l'actualitzador de OpenMandriva"
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Executa l'actualitzador de OpenMandriva"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "Executa l'actualitzador de OpenMandriva"
+
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Updater"
+msgstr "Executa l'actualitzador de OpenMandriva"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "Executa l'actualitzador de OpenMandriva"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "Executa l'actualitzador de OpenMandriva"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "L'equip Mandriva Linux Online"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "S'està executant MandrivaUpdate\n"
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update es llança automàticament.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- versió en mode text de Mandriva Update.\n"
 
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "S'ha alliberat una nova versió de la distribució OpenMandriva"
-
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "Hi ha disponible una nova distribució de OpenMandriva."
 
 #~ msgid "  --applet\t\t- launch Mandriva Update.\n"
 #~ msgstr "  --applet\t\t- actualitza Mandriva Update.\n"
 
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr "  --applet\t\t- actualitza OpenMandriva Update.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update es llança automàticament.\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- versió en mode text de OpenMandriva Update.\n"
 
 #~ msgid "  --security     - use only security media.\n"
 #~ msgstr "  --security     - utilitza només suports de seguretat.\n"
@@ -792,8 +796,8 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ "vostres dades personals."
 
 #~ msgid ""
-#~ " You are just starting our Free OpenMandriva Linux Download Edition for the "
-#~ "first time. \n"
+#~ " You are just starting our Free OpenMandriva Linux Download Edition for "
+#~ "the first time. \n"
 #~ "\n"
 #~ "There are now over three million OpenMandriva Linux users all over the "
 #~ "world!\n"
@@ -804,16 +808,16 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ "The text below is the privacy policy of OpenMandriva about your personal "
 #~ "data."
 #~ msgstr ""
-#~ " Esteu iniciant la edició de descarrega gratuïta de OpenMandriva Linux per "
-#~ "primera vegada.\n"
+#~ " Esteu iniciant la edició de descarrega gratuïta de OpenMandriva Linux "
+#~ "per primera vegada.\n"
 #~ "\n"
 #~ "Hi ha més de tres milions d'usuaris de OpenMandriva Linux al món!\n"
 #~ "\n"
 #~ "Si us plau pren-te uns segons per omplir un petit qüestionari. Les dades "
 #~ "del\n"
 #~ "qüestionari es faran servir per estudis interns de mercat.\n"
-#~ "El text de sota és la política de privacitat de OpenMandriva en quant a les "
-#~ "vostres dades personals."
+#~ "El text de sota és la política de privacitat de OpenMandriva en quant a "
+#~ "les vostres dades personals."
 
 #~ msgid "%s packages available for update"
 #~ msgstr "Hi ha %s paquets disponibles per actualitzar"
@@ -904,9 +908,6 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 
 #~ msgid "Connection problem"
 #~ msgstr "Problema de connexió"
-
-#~ msgid "Copyright (C) %s by %s"
-#~ msgstr "Copyright (C) %s per %s"
 
 #~ msgid "Country"
 #~ msgstr "País"
@@ -1131,9 +1132,6 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ msgid "Launching Mandriva Update\n"
 #~ msgstr "S'està executant Mandriva Update\n"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "S'està executant OpenMandrivaUpdate\n"
-
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr ""
 #~ "Tant el nom d'usuari com la contrasenya han de tenir menys de 12 "
@@ -1226,10 +1224,6 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Free"
 
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "L'equip OpenMandriva Linux Online"
-
 #~ msgid "OpenMandriva Linux Privacy Policy"
 #~ msgstr "Normes de privacitat de OpenMandriva Linux"
 
@@ -1246,7 +1240,8 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ msgstr "OpenMandriva One"
 
 #~ msgid ""
-#~ "OpenMandriva Online could not be contacted, please try again at a later time"
+#~ "OpenMandriva Online could not be contacted, please try again at a later "
+#~ "time"
 #~ msgstr ""
 #~ "No s'ha pogut contactar amb OpenMandriva Online, si us plau, provi-ho més "
 #~ "tard"
@@ -1266,7 +1261,8 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 
 #~ msgid "OpenMandriva Update could not contact the site, we will try again."
 #~ msgstr ""
-#~ "OpenMandriva Update no ha pogut contactar amb el lloc, ho provarem més tard."
+#~ "OpenMandriva Update no ha pogut contactar amb el lloc, ho provarem més "
+#~ "tard."
 
 #~ msgid "Network Connection: "
 #~ msgstr "Connexió de xarxa: "
@@ -1567,8 +1563,8 @@ msgstr "Executa l'actualitzador de OpenMandriva"
 #~ "El nom d'usuari o la contrasenya són incorrectes.\n"
 #~ " Us caldrà tornar-los a escriure, o bé crear un compte a OpenMandriva "
 #~ "Online.\n"
-#~ " En aquest darrer cas, torneu al primer pas per connectar amb OpenMandriva "
-#~ "Online.\n"
+#~ " En aquest darrer cas, torneu al primer pas per connectar amb "
+#~ "OpenMandriva Online.\n"
 #~ " Estigueu avisat de que també cal proporcionar un nom de màquina \n"
 #~ " (només s'admeten caràcters de l'alfabet)"
 

@@ -1,0 +1,4 @@
+polkit/org.openmandriva.mdkapplet-config.policy.in
+polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in
+polkit/org.openmandriva.mdkupdate.policy.in
+polkit/org.openmandriva.urpmi.update.policy.in

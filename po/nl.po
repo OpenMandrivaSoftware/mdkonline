@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-nl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2008-12-10 23:10+0100\n"
 "Last-Translator: Reinout van Schouwen <reinouts@gnome.org>\n"
 "Language-Team: Nederlands\n"
@@ -155,10 +155,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Drakconnect wordt gestart\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "Nieuwe versie van Mandriva Linux-distributie"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "Nieuwe versie van de OpenMandriva-distributie"
 
 #: ../mdkapplet:417
 #, c-format
@@ -180,9 +180,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr "U dient een map te kiezen waarvan root de eigenaar is!"
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "Er is een nieuwe versie van de Mandriva Linux-distributie uitgebracht."
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "Een nieuwe versie van de OpenMandriva-distributie is uitgebracht."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -194,7 +194,7 @@ msgstr "Meer informatie over deze nieuwe versie"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Wilt u opwaarderen naar de distributie ‘%s’?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Volgende keer niet meer vragen"
@@ -214,14 +214,14 @@ msgstr "(Waarschuwing: U heeft hiervoor vrij veel vrije ruimte nodig)"
 msgid "Where to download packages:"
 msgstr "Waar de te downloaden pakketten worden opgeslagen:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Volgende"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -229,11 +229,13 @@ msgid "Cancel"
 msgstr "Annuleren"
 
 #: ../mdkapplet:461
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
+"Ondersteuning voor deze OpenMandriva versie is gestopt. U zult geen verdere "
+"updates meer ontvangen voor dit systeem."
 
 #: ../mdkapplet:467
 #, c-format
@@ -242,8 +244,8 @@ msgstr "Om uw systeem veilig te houden kunt u:"
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:479
 #, c-format
@@ -281,11 +283,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "Nieuwe versie van de OpenMandriva-distributie"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -318,8 +315,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "MandrivaUpdate wordt gestart\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "OpenMandrivaUpdate wordt gestart\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -337,14 +334,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright © %s van Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online geeft toegang tot webdiensten van Moondrake."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online geeft toegang tot webdiensten van Mandriva."
 
 #: ../mdkapplet:734
 #, c-format
@@ -395,12 +392,12 @@ msgstr "Altijd starten bij systeemstart"
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "Nieuw medium beschikbaar"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -409,12 +406,12 @@ msgstr ""
 "U gebruikt de distributie ‘%s’ en heeft daarom bevoorrechte toegang tot "
 "extrasoftware."
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Wilt u dit extra softwaredepot installeren?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -489,8 +486,8 @@ msgid "Congratulations"
 msgstr "Gefeliciteerd"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "Opwaardering naar OpenMandriva versie %s geslaagd."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -703,8 +700,8 @@ msgstr "  --help\t\t- deze gebruiksaanwijzing.tonen\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update automatisch starten.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update automatisch starten.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -713,8 +710,8 @@ msgstr "  --mnf\t\t\t- specifieke mnf scripts starten.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- tekstmodus van Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- tekstmodus van OpenMandriva Update.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -726,38 +723,71 @@ msgstr "  --debug\t\t\t- in logboek bijhouden wat er gebeurt\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Niet in staat pakketten bij te werken vanaf het update_source-medium\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
-msgid "Run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Start de OpenMandriva Update Applet-configuratie"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr ""
-"Authenticatie is nodig om de OpenMandriva Update Applet-configuratie te starten"
+"Authenticatie is nodig om de OpenMandriva Update Applet-configuratie te "
+"starten"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
-msgid "Run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Start de OpenMandriva Upgrade Helper"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Authenticatei is nodig om de OpenMandriva Upgrade Helper te starten"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
-msgid "Run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Updater"
 msgstr "Start OpenMandriva Updater"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Authenticatie is nodig om OpenMandriva Updater te starten"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
-msgid "Run OpenMandriva Package Media Updater"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
 msgstr "Werk OpenMandriva's pakketmedia bij"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
 msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "Nieuwe versie van Mandriva Linux-distributie"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van de Mandriva Linux-distributie uitgebracht."
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "MandrivaUpdate wordt gestart\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online geeft toegang tot webdiensten van Moondrake."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update automatisch starten.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- tekstmodus van Mandriva Update.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- in logboek bijhouden wat er gebeurt\n"
@@ -770,9 +800,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr "  --applet\t\t- OpenMandriva Update starten.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update automatisch starten.\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=\t\t\t- computernaam.\n"
@@ -793,9 +820,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=\t\t     - aanmeldnaam van de gebruiker.\n"
 
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- tekstmodus van OpenMandriva Update.\n"
-
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive\t- de non-interactieve modus gebruiken.\n"
 
@@ -807,9 +831,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "Een nieuwe versie van de OpenMandriva-distributie is uitgebracht"
-
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "Een nieuwe versie van de OpenMandriva-distributie is uitgebracht."
 
 #~ msgid "Account already exists\n"
 #~ msgstr "Account bestaat al\n"
@@ -1063,9 +1084,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 #~ msgid "Last name:"
 #~ msgstr "Achternaam:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "OpenMandrivaUpdate wordt gestart\n"
-
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr "Gebruikersnaam en wachtwoord moeten korter zijn dan 12 tekens\n"
 
@@ -1086,13 +1104,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 
 #~ msgid "Mail contact:"
 #~ msgstr "Mailadres: "
-
-#~ msgid ""
-#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
-#~ "delivered for this system."
-#~ msgstr ""
-#~ "Ondersteuning voor deze OpenMandriva versie is gestopt. U zult geen verdere "
-#~ "updates meer ontvangen voor dit systeem."
 
 #, fuzzy
 #~ msgid "Mandiva Free"
@@ -1127,9 +1138,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 #~ "Aanmaken van een Mandriva Online-account is gelukt.\n"
 #~ "Klik op \"Volgende\" om aan te melden en uw systeemsamenstelling te "
 #~ "verzenden\n"
-
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online geeft toegang tot webdiensten van Mandriva."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1181,10 +1189,6 @@ msgstr "Authenticatie is nodig om OpenMandriva's pakketmedia bij te werken"
 
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Free"
-
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Online %s"
 
 #~ msgid "OpenMandriva Linux Updates Applet"
 #~ msgstr "OpenMandriva Linux herzieningen-applet"

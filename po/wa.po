@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2004-08-11 20:48+0200\n"
 "Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -152,9 +152,9 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Enondant drakconnect\n"
 
-#: ../mdkapplet:412
+#: ../mdkapplet:412 ../mdkapplet:587
 #, c-format
-msgid "New version of Mandriva Linux distribution"
+msgid "New version of OpenMandriva Lx distribution"
 msgstr ""
 
 #: ../mdkapplet:417
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../mdkapplet:428
 #, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
+msgid "A new version of OpenMandriva Lx distribution has been released."
 msgstr ""
 
 #: ../mdkapplet:430 ../mdkapplet:525
@@ -191,7 +191,7 @@ msgstr ""
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
@@ -211,14 +211,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Shuvant"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -228,7 +228,7 @@ msgstr "Rinoncî"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -239,8 +239,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:479
 #, c-format
@@ -276,11 +276,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr ""
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -307,8 +302,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "Enondant «MandrivaUpdate»\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "Enondant «OpenMandrivaUpdate»\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -326,16 +321,16 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright © %s pa Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr ""
-"OpenMandriva Online (Moondrake so les fyis) vos dene accès åzès siervices waibe "
-"da OpenMandriva."
+"Mandriva Online (Mandriva so les fyis) vos dene accès åzès siervices waibe "
+"da Mandriva."
 
 #: ../mdkapplet:734
 #, c-format
@@ -384,24 +379,24 @@ msgstr "El drovi tofer a l' enondaedje"
 msgid "Quit"
 msgstr "Cwiter"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, fuzzy, c-format
 msgid "New medium available"
 msgstr "Nén disponibe"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -475,7 +470,7 @@ msgstr "Proficiate"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -681,7 +676,7 @@ msgstr " --help           - mostere ci messaedje d' aidance chal.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
 msgstr " --auto           - enonder les metaedjes a djoû otomaticmint.\n"
 
 #: ../mdkupdate:69
@@ -691,7 +686,7 @@ msgstr " --mnf            - enonder les scripes especifikes mnf.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
 msgstr " --noX            - enonder l' modêye e môde tecse.\n"
 
 #: ../mdkupdate:71
@@ -705,43 +700,64 @@ msgid "Unable to update packages from update_source medium.\n"
 msgstr ""
 "Dji n' a nén savou mete a djoû les pacaedjes foû do sopoirt update_source.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Evoyî l' apontiaedje"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Evoyî l' apontiaedje"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Enondant «OpenMandrivaUpdate»\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Enondant «OpenMandrivaUpdate»\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "Enondant «OpenMandrivaUpdate»\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Enondant «OpenMandrivaUpdate»\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "Enondant «OpenMandrivaUpdate»\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "Enondant «OpenMandrivaUpdate»\n"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "Enondant «MandrivaUpdate»\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr ""
+#~ "OpenMandriva Online (Moondrake so les fyis) vos dene accès åzès siervices "
+#~ "waibe da OpenMandriva."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr " --auto           - enonder les metaedjes a djoû otomaticmint.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr " --noX            - enonder l' modêye e môde tecse.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug         - fé on djournå di çou k' est fwait\n"
@@ -753,9 +769,6 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr ""
 #~ " --applet         - enonder les metaedjes a djoû di OpenMandriva Linux.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr " --auto           - enonder les metaedjes a djoû otomaticmint.\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=          - no do lodjoe.\n"
@@ -775,9 +788,6 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=        - no d' elodjaedje di l' uzeu.\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr " --noX            - enonder l' modêye e môde tecse.\n"
 
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive - eployî l' môde nén interactif.\n"
@@ -988,7 +998,8 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ msgstr "Dji n' a nén d' conte Mandriva Online et dji vôreu m' eredjîstrer"
 
 #~ msgid "I don't have a OpenMandriva Online account and I want to subscribe"
-#~ msgstr "Dji n' a nén d' conte OpenMandriva Online et dji vôreu m' eredjîstrer"
+#~ msgstr ""
+#~ "Dji n' a nén d' conte OpenMandriva Online et dji vôreu m' eredjîstrer"
 
 #~ msgid "I want to subscribe"
 #~ msgstr "Dji vôreu divni mimbe"
@@ -1049,7 +1060,8 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ "Furthermore, you benefit from discounted paid support services on\n"
 #~ "www.mandrivaexpert.com."
 #~ msgstr ""
-#~ "Po profiter des siervices di OpenMandriva Linux so fyis (Moondrake Online),\n"
+#~ "Po profiter des siervices di OpenMandriva Linux so fyis (Moondrake "
+#~ "Online),\n"
 #~ "i fåt evoyî les informåcions åd fwait di l' apontiaedje di voste "
 #~ "éndjole.\n"
 #~ "\n"
@@ -1081,9 +1093,6 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 
 #~ msgid "Launch OpenMandriva Linux Update"
 #~ msgstr "Enonder les metaedjes a djoû di OpenMandriva Linux"
-
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "Enondant «OpenMandrivaUpdate»\n"
 
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr ""
@@ -1150,11 +1159,6 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ "Dji n' a polou m' raloyî a Mandriva Online, rissayîz on pô pus tård s' i "
 #~ "vs plait."
 
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr ""
-#~ "Mandriva Online (Mandriva so les fyis) vos dene accès åzès siervices "
-#~ "waibe da Mandriva."
-
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
 #~ "A program will run regulary in your system waiting for new updates\n"
@@ -1215,10 +1219,6 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Online %s"
 
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Online %s"
-
 #~ msgid "OpenMandriva Linux Privacy Policy"
 #~ msgstr "Politike sol privaceye di OpenMandriva Linux"
 
@@ -1241,10 +1241,11 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ "Clitchîz so «Shuvant» po vs elodjî eyet eberweter vost apontiaedje\n"
 
 #~ msgid ""
-#~ "OpenMandriva Online could not be contacted, please try again at a later time"
+#~ "OpenMandriva Online could not be contacted, please try again at a later "
+#~ "time"
 #~ msgstr ""
-#~ "Dji n' a polou m' raloyî a OpenMandriva Online, rissayîz on pô pus tård s' i "
-#~ "vs plait."
+#~ "Dji n' a polou m' raloyî a OpenMandriva Online, rissayîz on pô pus tård "
+#~ "s' i vs plait."
 
 #~ msgid ""
 #~ "OpenMandriva Online offers you the ability to automate the updates.\n"
@@ -1268,11 +1269,11 @@ msgstr "Enondant «OpenMandrivaUpdate»\n"
 #~ msgstr "Dji n' a polou m' raloyî sol waibe, on rsayrè on pô pus tård."
 
 #~ msgid ""
-#~ "OpenMandriva Update could not upload the diff files. Send a mail to support "
-#~ "[at] mandrivaonline [dot] net"
+#~ "OpenMandriva Update could not upload the diff files. Send a mail to "
+#~ "support [at] mandrivaonline [dot] net"
 #~ msgstr ""
-#~ "OpenMandriva Update èn pola nén eberweter les fitchîs diff. Evoyîs èn emila "
-#~ "a: support[at]mandrivaonline[pont]net"
+#~ "OpenMandriva Update èn pola nén eberweter les fitchîs diff. Evoyîs èn "
+#~ "emila a: support[at]mandrivaonline[pont]net"
 
 #~ msgid ""
 #~ "OpenMandriva web services are currently unavailable\n"

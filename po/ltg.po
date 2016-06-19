@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline 0.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2004-02-17 17:39+0200\n"
 "Last-Translator: Unknown\n"
 "Language-Team: ll10nt <ll10nt@listes.murds.lv>\n"
@@ -143,9 +143,9 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Palaist userdrake"
 
-#: ../mdkapplet:412
+#: ../mdkapplet:412 ../mdkapplet:587
 #, c-format
-msgid "New version of Mandriva Linux distribution"
+msgid "New version of OpenMandriva Lx distribution"
 msgstr ""
 
 #: ../mdkapplet:417
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../mdkapplet:428
 #, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
+msgid "A new version of OpenMandriva Lx distribution has been released."
 msgstr ""
 
 #: ../mdkapplet:430 ../mdkapplet:525
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Nuokūšreiz navaicuot"
@@ -202,14 +202,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Tuoļuok"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -219,7 +219,7 @@ msgstr "Atceļt"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -230,8 +230,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online"
 
 #: ../mdkapplet:479
 #, c-format
@@ -267,11 +267,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr ""
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -297,9 +292,9 @@ msgid ""
 msgstr ""
 
 #: ../mdkapplet:644
-#, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr ""
+#, fuzzy, c-format
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "OpenMandriva Online"
 
 #: ../mdkapplet:662
 #, fuzzy, c-format
@@ -317,13 +312,13 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Autortīseibys © %s %s"
 
 #: ../mdkapplet:732
 #, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr ""
 
 #: ../mdkapplet:734
@@ -373,24 +368,24 @@ msgstr ""
 msgid "Quit"
 msgstr "Izīt"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -464,7 +459,7 @@ msgstr "Apsveicam"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -666,7 +661,7 @@ msgstr "  --help\t\t- drukuot itū paliedzeibys tekstu.\n"
 
 #: ../mdkupdate:68
 #, fuzzy, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
 msgstr "  --applet\t\t- atjaunuot vysu informaceju.\n"
 
 #: ../mdkupdate:69
@@ -676,7 +671,7 @@ msgstr ""
 
 #: ../mdkupdate:70
 #, fuzzy, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
 msgstr "  --applet       - atjaunuot vysu informaceju.\n"
 
 #: ../mdkupdate:71
@@ -689,43 +684,58 @@ msgstr ""
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Nav īspiejams atjaunuot pakūtnis nu update_source medium.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Nūlosu konfiguraceju\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Nūlosu konfiguraceju\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "OpenMandriva Online"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "OpenMandriva Online"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "OpenMandriva Online"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "OpenMandriva Online"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "OpenMandriva Online"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "OpenMandriva Online"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online"
+
+#, fuzzy
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --applet\t\t- atjaunuot vysu informaceju.\n"
+
+#, fuzzy
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --applet       - atjaunuot vysu informaceju.\n"
 
 #, fuzzy
 #~ msgid "  --applet\t\t- launch Mandriva Update.\n"
@@ -734,14 +744,6 @@ msgstr "OpenMandriva Online"
 #, fuzzy
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr "  --applet\t\t- atjaunuot vysu informaceju.\n"
-
-#, fuzzy
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --applet\t\t- atjaunuot vysu informaceju.\n"
-
-#, fuzzy
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --applet       - atjaunuot vysu informaceju.\n"
 
 #~ msgid "  --security     - use only security media.\n"
 #~ msgstr "  --security     - lītuot tikai drūšeibys datu nesieju.\n"
@@ -773,8 +775,8 @@ msgstr "OpenMandriva Online"
 #~ "Sekojūšais teksts ir jiusu personeigū datu Mandriva privātuma politika."
 
 #~ msgid ""
-#~ " You are just starting our Free OpenMandriva Linux Download Edition for the "
-#~ "first time. \n"
+#~ " You are just starting our Free OpenMandriva Linux Download Edition for "
+#~ "the first time. \n"
 #~ "\n"
 #~ "There are now over three million OpenMandriva Linux users all over the "
 #~ "world!\n"
@@ -794,7 +796,8 @@ msgstr "OpenMandriva Online"
 #~ "Lyudzu pagaidit dažys sekundis, kab aizpiļdeitu eisu aptaujis lopu. Ituos "
 #~ "aptaujis lopys \n"
 #~ "dati tiks izmontuoti tikai dieļ tierga izpietis datim.\n"
-#~ "Sekojūšais teksts ir jiusu personeigū datu OpenMandriva privātuma politika."
+#~ "Sekojūšais teksts ir jiusu personeigū datu OpenMandriva privātuma "
+#~ "politika."
 
 #, fuzzy
 #~ msgid "Actions"
@@ -934,7 +937,8 @@ msgstr "OpenMandriva Online"
 
 #~ msgid "Enter your OpenMandriva Online login, password and machine name:"
 #~ msgstr ""
-#~ "Īvodit jiusu OpenMandriva Online lītuotuojvuordu, paroli i datora nūsaukumu:"
+#~ "Īvodit jiusu OpenMandriva Online lītuotuojvuordu, paroli i datora "
+#~ "nūsaukumu:"
 
 #~ msgid "Error while sending informations"
 #~ msgstr "Kliuda nūsyutūt informaceju"
@@ -1136,10 +1140,6 @@ msgstr "OpenMandriva Online"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Online"
 
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Online"
-
 #~ msgid "OpenMandriva Linux Privacy Policy"
 #~ msgstr "OpenMandriva Linux privātuma politika"
 
@@ -1156,8 +1156,10 @@ msgstr "OpenMandriva Online"
 #~ msgstr "OpenMandriva Online"
 
 #~ msgid ""
-#~ "OpenMandriva Online could not be contacted, please try again at a later time"
-#~ msgstr "OpenMandriva Update navar dasaslēgt da servera, pamieginuosim vāluok"
+#~ "OpenMandriva Online could not be contacted, please try again at a later "
+#~ "time"
+#~ msgstr ""
+#~ "OpenMandriva Update navar dasaslēgt da servera, pamieginuosim vāluok"
 
 #~ msgid ""
 #~ "OpenMandriva Online offers you the ability to automate the updates.\n"
@@ -1471,13 +1473,14 @@ msgstr "OpenMandriva Online"
 #~ "\n"
 #~ "Firstly, we record your email address, name and postal address.\n"
 #~ "Secondly we give you a unique customer ID. This ID will be used to \n"
-#~ "add additional information related to your OpenMandriva Linux account such "
-#~ "as:\n"
+#~ "add additional information related to your OpenMandriva Linux account "
+#~ "such as:\n"
 #~ "    - Your subscription to mailling lists.\n"
 #~ "    - When registering a purchased product, we ask for personal\n"
 #~ "information as well as system/hardware details so that we may deliver\n"
 #~ "the best support services customized to your needs.\n"
-#~ "    - On our donation page and on our online store (OpenMandrivaStore), we\n"
+#~ "    - On our donation page and on our online store (OpenMandrivaStore), "
+#~ "we\n"
 #~ "record data for billing purpose (we do not store any credit card data).\n"
 #~ "    \n"
 #~ "What do we do with this information?\n"
@@ -1495,7 +1498,8 @@ msgstr "OpenMandriva Online"
 #~ "to receive support, we keep this information private unless the\n"
 #~ "information is required by one of our partners to deliver the support\n"
 #~ "you require.\n"
-#~ "    - If you use OpenMandrivaStore, we also use your Customer ID to track\n"
+#~ "    - If you use OpenMandrivaStore, we also use your Customer ID to "
+#~ "track\n"
 #~ "your order and deliver your products.\n"
 #~ "    - If you provide us with marketing information, we keep it for \n"
 #~ "internal use only in order to improve our products so that they can \n"
@@ -1523,8 +1527,8 @@ msgstr "OpenMandriva Online"
 #~ "    - Kod registrejūt nūpierktū produktu, mes lyudzam personeigū\n"
 #~ "informaceju, taidu kai sistemys/dzeļžu detalis, lai mes varātu pīguoduot\n"
 #~ "lobuokūs atbolsta pakolpuojums pīlāguotus jiusu vajadzeibom.\n"
-#~ "    - Myusu zīduojumu lopa i myusu tīšsaistis veikalā (OpenMandrivaStore), "
-#~ "mes\n"
+#~ "    - Myusu zīduojumu lopa i myusu tīšsaistis veikalā "
+#~ "(OpenMandrivaStore), mes\n"
 #~ "īrokstom datus dieļ tuo, kab pasludynuot mierki (mes nasaglobojom "
 #~ "nikaidus kreditkartis datus).\n"
 #~ "    \n"
@@ -1547,8 +1551,8 @@ msgstr "OpenMandriva Online"
 #~ "kab sajimtu atbolstu, mes turom itū informaceju privātu, cikom\n"
 #~ "informaceja ir napīcīšoma kaidam nu myusu partnerim, lai dūtu atbolstu,\n"
 #~ "kuru jius pīprosot.\n"
-#~ "    - Ja jius lītojot OpenMandriva Linux veikalu, mes ari izmontojam jiusu "
-#~ "klienta personys aplīceibu (ID),\n"
+#~ "    - Ja jius lītojot OpenMandriva Linux veikalu, mes ari izmontojam "
+#~ "jiusu klienta personys aplīceibu (ID),\n"
 #~ "kab izsekuotu jiusu pasyutiejumam i pīguoduotu jiusu produktus.\n"
 #~ "    - Ja jius nūdrūšynojit myus ar marketinga informaceju, mes turom tū \n"
 #~ "īkšejai lītuošonai tikai lai uzlobuotu myusu produktus tai, lai tūs "

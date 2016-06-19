@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2006-09-13 20:38+0200\n"
 "Last-Translator: Vedran Ljubovic <vljubovic@smartnet.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
@@ -154,9 +154,9 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Pokrećem drakconnect\n"
 
-#: ../mdkapplet:412
+#: ../mdkapplet:412 ../mdkapplet:587
 #, c-format
-msgid "New version of Mandriva Linux distribution"
+msgid "New version of OpenMandriva Lx distribution"
 msgstr ""
 
 #: ../mdkapplet:417
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../mdkapplet:428
 #, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
+msgid "A new version of OpenMandriva Lx distribution has been released."
 msgstr ""
 
 #: ../mdkapplet:430 ../mdkapplet:525
@@ -193,7 +193,7 @@ msgstr ""
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
@@ -213,14 +213,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Dalje"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -230,7 +230,7 @@ msgstr "Odustani"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -241,8 +241,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:479
 #, c-format
@@ -278,11 +278,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr ""
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -309,8 +304,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "Pokrećem MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "Pokrećem OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -328,14 +323,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Autorska prava (C) %s Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online vam omogućuje pristup Moondrake web uslugama."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online vam omogućuje pristup Mandriva web uslugama."
 
 #: ../mdkapplet:734
 #, c-format
@@ -384,24 +379,24 @@ msgstr "Uvijek pokreni na početku"
 msgid "Quit"
 msgstr "Završi"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -475,7 +470,7 @@ msgstr "Čestitam"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -679,8 +674,8 @@ msgstr "  --help\t\t- štampa ovu poruku.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update se automatski pokreće.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update se automatski pokreće.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -689,8 +684,8 @@ msgstr "  --mnf\t\t\t- pokreni skripte specifične za mnf.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- tekstualna verzija Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- tekstualna verzija OpenMandriva Update.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -702,43 +697,62 @@ msgstr "  --debug\t\t\t- ispisuje sve što se radi\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Nisam u mogućnosti da uradim update paketa sa update_source medija.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Čitam konfiguraciju\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Čitam konfiguraciju\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Pokrećem OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Pokrećem OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "Pokrećem OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Pokrećem OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "Pokrećem OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "Pokrećem OpenMandrivaUpdate\n"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "Pokrećem MandrivaUpdate\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online vam omogućuje pristup Moondrake web uslugama."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update se automatski pokreće.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- tekstualna verzija Mandriva Update.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- ispisuje sve što se radi\n"
@@ -748,9 +762,6 @@ msgstr "Pokrećem OpenMandrivaUpdate\n"
 
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr "  --applet\t\t- pokreće OpenMandriva Update.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update se automatski pokreće.\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=\t\t\t- hostname.\n"
@@ -770,9 +781,6 @@ msgstr "Pokrećem OpenMandrivaUpdate\n"
 
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=\t\t     - prijavno ime korisnika.\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- tekstualna verzija OpenMandriva Update.\n"
 
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive\t- koristi ne-interaktivni režim.\n"
@@ -1030,9 +1038,6 @@ msgstr "Pokrećem OpenMandrivaUpdate\n"
 #~ msgid "Last name:"
 #~ msgstr "Prezime:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "Pokrećem OpenMandrivaUpdate\n"
-
 #~ msgid "Login error"
 #~ msgstr "Greška sa prijavom"
 
@@ -1078,9 +1083,6 @@ msgstr "Pokrećem OpenMandrivaUpdate\n"
 #~ "Račun za Mandriva Online je uspješno napravljen.\n"
 #~ "Kliknite na \"Dalje\" za identifikaciju i slanje vaših postavki\n"
 
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online vam omogućuje pristup Mandriva web uslugama."
-
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
 #~ "A program will run regulary in your system waiting for new updates\n"
@@ -1125,10 +1127,6 @@ msgstr "Pokrećem OpenMandrivaUpdate\n"
 
 #, fuzzy
 #~ msgid "OpenMandriva Free"
-#~ msgstr "OpenMandriva Online %s"
-
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
 #~ msgstr "OpenMandriva Online %s"
 
 #~ msgid "OpenMandriva Linux Updates Applet"

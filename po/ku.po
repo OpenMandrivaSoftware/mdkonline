@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-ku\n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2004-12-14 20:33+0100\n"
 "Last-Translator: Kadir Dilsiz <kadir@linux-ku.com>\n"
 "Language-Team: Kurdî <team@linux-ku.com>\n"
@@ -145,9 +145,9 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Drakconnect destpêdike\n"
 
-#: ../mdkapplet:412
+#: ../mdkapplet:412 ../mdkapplet:587
 #, c-format
-msgid "New version of Mandriva Linux distribution"
+msgid "New version of OpenMandriva Lx distribution"
 msgstr ""
 
 #: ../mdkapplet:417
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../mdkapplet:428
 #, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
+msgid "A new version of OpenMandriva Lx distribution has been released."
 msgstr ""
 
 #: ../mdkapplet:430 ../mdkapplet:525
@@ -184,7 +184,7 @@ msgstr ""
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr ""
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr ""
@@ -204,14 +204,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -221,7 +221,7 @@ msgstr "Betal"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -232,8 +232,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Tu Bi Xêr Hatî Mandriva Online"
+msgid "OpenMandriva Lx"
+msgstr "Tu Bi Xêr Hatî OpenMandriva Online"
 
 #: ../mdkapplet:479
 #, c-format
@@ -269,11 +269,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr ""
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -300,8 +295,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "Destpêkirina MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "Destpêkirina OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -320,12 +315,12 @@ msgstr "Tu Bi Xêr Hatî OpenMandriva Online"
 
 #: ../mdkapplet:729
 #, c-format
-msgid "Copyright (C) %s by Mandriva"
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
 #: ../mdkapplet:732
 #, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
 msgstr ""
 
 #: ../mdkapplet:734
@@ -375,24 +370,24 @@ msgstr "Di vekirina sîsteme de bişuxlîne"
 msgid "Quit"
 msgstr "Derkeve"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -466,7 +461,7 @@ msgstr "Serkeftin"
 
 #: ../mdkapplet-upgrade-helper:156
 #, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr ""
 
 #: ../mdkapplet-upgrade-helper:158
@@ -668,7 +663,7 @@ msgstr "  --help\t\t- ev peyama alîkariyê nîşan dide.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
 msgstr ""
 
 #: ../mdkupdate:69
@@ -678,7 +673,7 @@ msgstr ""
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
 msgstr ""
 
 #: ../mdkupdate:71
@@ -691,43 +686,53 @@ msgstr ""
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "di medyaya update_source de paket tên nûjenkirin.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Sazkirina te tê xwendin\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Sazkirina te tê xwendin\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Destpêkirina OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Destpêkirina OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "Destpêkirina OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Destpêkirina OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "Destpêkirina OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "Destpêkirina OpenMandrivaUpdate\n"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Tu Bi Xêr Hatî Mandriva Online"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "Destpêkirina MandrivaUpdate\n"
 
 #~ msgid "Account already exists\n"
 #~ msgstr "Hesabekî wiha jixwe heye\n"
@@ -932,9 +937,6 @@ msgstr "Destpêkirina OpenMandrivaUpdate\n"
 #~ msgid "Last name:"
 #~ msgstr "Navê komputerê:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "Destpêkirina OpenMandrivaUpdate\n"
-
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr "Divê navê Bikarhêner û şîfre ji 12 karakteran biçûktir be\n"
 
@@ -1013,10 +1015,6 @@ msgstr "Destpêkirina OpenMandrivaUpdate\n"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "Tu Bi Xêr Hatî OpenMandriva Online"
 
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "Tu Bi Xêr Hatî OpenMandriva Online"
-
 #~ msgid "OpenMandriva Linux Updates Applet"
 #~ msgstr "Sepandinoka Nûjenkirina OpenMandriva Linux"
 
@@ -1032,8 +1030,8 @@ msgstr "Destpêkirina OpenMandrivaUpdate\n"
 #~ "OpenMandriva Online offers you the ability to automate the updates.\n"
 #~ "A program will run regulary in your system waiting for new updates\n"
 #~ msgstr ""
-#~ "OpenMandriva Online bernameyeke ku dê dê jixweber nûjenkirinên dikarin werin "
-#~ "sepandin teklîf bike.\n"
+#~ "OpenMandriva Online bernameyeke ku dê dê jixweber nûjenkirinên dikarin "
+#~ "werin sepandin teklîf bike.\n"
 #~ "Dê bi navber di pergala te de bixebite û\n"
 #~ "nûjenkirinan bişopîne\n"
 
@@ -1043,7 +1041,8 @@ msgstr "Destpêkirina OpenMandrivaUpdate\n"
 
 #~ msgid "OpenMandriva Update could not contact the site, we will try again."
 #~ msgstr ""
-#~ "Têkilî bi malpera OpenMandriva Update pêk nehat, em ê dûvre dîsa biceribînin."
+#~ "Têkilî bi malpera OpenMandriva Update pêk nehat, em ê dûvre dîsa "
+#~ "biceribînin."
 
 #~ msgid "Mr."
 #~ msgstr "M."

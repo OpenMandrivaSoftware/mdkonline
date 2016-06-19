@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2009-03-26 12:55+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
 "Language-Team: Icelandic <kde-isl@molar.is>\n"
@@ -150,10 +150,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Ræsi drakconnect\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "Ný útgáfa af Mandriva Linux dreifingunni"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "Ný útgáfa af OpenMandriva Linux dreifingunni"
 
 #: ../mdkapplet:417
 #, c-format
@@ -175,9 +175,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr ""
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "Ný útgáfa af Mandriva Linux hefur verið sett í dreifingu."
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "Ný útgáfa af OpenMandriva Linux hefur verið sett í dreifingu."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -189,7 +189,7 @@ msgstr "Ítarlegri upplýsingar um þessa nýju útgáfu"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Viltu uppfæra í '%s' dreifinguna?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Ekki spyrja aftur"
@@ -209,14 +209,14 @@ msgstr ""
 msgid "Where to download packages:"
 msgstr ""
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Næsta"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -226,7 +226,7 @@ msgstr "Hætta við"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -237,8 +237,8 @@ msgstr ""
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:479
 #, c-format
@@ -274,11 +274,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, fuzzy, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "Ný útgáfa af OpenMandriva Linux dreifingunni"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -309,8 +304,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "Ræsi MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "Ræsi OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -328,14 +323,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Höfundaréttur (C) %s Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online veitir aðgang að Moondrake vefþjónustu."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online veitir aðgang að Mandriva vefþjónustu."
 
 #: ../mdkapplet:734
 #, c-format
@@ -384,12 +379,12 @@ msgstr "Ræsa alltaf þegar kveikt á vél"
 msgid "Quit"
 msgstr "Hætta"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "Nýr miðill tiltækur"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -397,12 +392,12 @@ msgid ""
 msgstr ""
 "Þú notar '%s' dreifinguna og hefur því forgangs-aðgang að aukahugbúnaði."
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Vilt þú bæta við þessum auka-pakkamiðli?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -477,8 +472,8 @@ msgid "Congratulations"
 msgstr "Til hamingju"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "Tókst að uppfæra í útgáfu OpenMandriva %s."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -682,8 +677,8 @@ msgstr "  --help\t\t- prenta þessa hjálp.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Uppfærslur keyrðar sjálfvirkt.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Uppfærslur keyrðar sjálfvirkt.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -692,8 +687,8 @@ msgstr "  --mnf\t\t\t- ræsa sértækar mnf skriftur.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- textahams útgáfa af Mandriva Uppfærslum.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- textahams útgáfa af OpenMandriva Uppfærslum.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -705,60 +700,75 @@ msgstr "  --debug\t\t\t- skrá niður allt sem gert er\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Gat ekki uppfært pakka frá uppfærslumiðli.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Stillingar á uppfærslum"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Stillingar á uppfærslum"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Ræsi OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Ræsi OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "Ræsi OpenMandrivaUpdate\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Ræsi OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "Ræsi OpenMandrivaUpdate\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "Ræsi OpenMandrivaUpdate\n"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "Ný útgáfa af Mandriva Linux dreifingunni"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "Ný útgáfa af Mandriva Linux hefur verið sett í dreifingu."
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "Ræsi MandrivaUpdate\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online veitir aðgang að Moondrake vefþjónustu."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Uppfærslur keyrðar sjálfvirkt.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- textahams útgáfa af Mandriva Uppfærslum.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- skrá niður allt sem gert er\n"
 
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Uppfærslur keyrðar sjálfvirkt.\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- textahams útgáfa af OpenMandriva Uppfærslum.\n"
-
 #, fuzzy
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "Ný útgáfa af OpenMandriva Linux hefur verið sett í dreifingu"
-
-#, fuzzy
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "Ný útgáfa af OpenMandriva Linux hefur verið sett í dreifingu."
 
 #~ msgid "An error occurred while adding medium"
 #~ msgstr "Villa kom upp þegar reynt var að bæta við miðli"
@@ -769,9 +779,6 @@ msgstr "Ræsi OpenMandrivaUpdate\n"
 #, fuzzy
 #~ msgid "Get Powerpack subscription!"
 #~ msgstr "Tengjast vefsvæði"
-
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "Ræsi OpenMandrivaUpdate\n"
 
 #, fuzzy
 #~ msgid "Mandiva Free"
@@ -796,9 +803,6 @@ msgstr "Ræsi OpenMandrivaUpdate\n"
 #~ msgid "Mandriva Online %s"
 #~ msgstr "Mandriva Online %s"
 
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online veitir aðgang að Mandriva vefþjónustu."
-
 #~ msgid "Mandriva PowerPack"
 #~ msgstr "Mandriva PowerPack"
 
@@ -815,10 +819,6 @@ msgstr "Ræsi OpenMandrivaUpdate\n"
 
 #, fuzzy
 #~ msgid "OpenMandriva Free"
-#~ msgstr "OpenMandriva Online %s"
-
-#, fuzzy
-#~ msgid "OpenMandriva Linux"
 #~ msgstr "OpenMandriva Online %s"
 
 #, fuzzy

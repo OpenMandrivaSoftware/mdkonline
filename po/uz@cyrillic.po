@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline-uz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2009-12-20 19:03+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -148,10 +148,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "drakconnect'ни ишга тушириш\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "Mandriva Linux дистрибутивининг янги версияси"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "OpenMandriva Linux дистрибутивининг янги версияси"
 
 #: ../mdkapplet:417
 #, c-format
@@ -173,9 +173,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr ""
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "Mandriva Linux дистрибутивининг янги версияси чиқди."
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "OpenMandriva Linux дистрибутивининг янги версияси чиқди."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -187,7 +187,7 @@ msgstr "Ушбу янги версия ҳақида кенгроқ маълум�
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "'%s' версияга янгилашни истайсизми?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Бошқа сўралмасин"
@@ -207,14 +207,14 @@ msgstr "(Диққат: Сизга дискда яна кўпроқ керак)"
 msgid "Where to download packages:"
 msgstr "Пакетлар қаерга ёзиб олинади:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Кейингиси"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -224,7 +224,7 @@ msgstr "Бекор қилиш"
 #: ../mdkapplet:461
 #, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
 
@@ -234,9 +234,9 @@ msgid "In order to keep your system secure, you can:"
 msgstr ""
 
 #: ../mdkapplet:473
-#, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+#, fuzzy, c-format
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva Linux"
 
 #: ../mdkapplet:479
 #, c-format
@@ -275,11 +275,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, fuzzy, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "OpenMandriva Linux дистрибутивининг янги версияси"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -310,8 +305,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "MandrivaUpdate ишга туширилмоқда\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -329,15 +324,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright (C) %s by Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr ""
-"OpenMandriva Online, Moondrake веб хизматларига уланиш имкониятини беради."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online, Mandriva веб хизматларига уланиш имкониятини беради."
 
 #: ../mdkapplet:734
 #, c-format
@@ -386,12 +380,12 @@ msgstr "Тизимга кирганда ишга тушириш"
 msgid "Quit"
 msgstr "Чиқиш"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "Янги тўплам мавжуд"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -400,12 +394,12 @@ msgstr ""
 "Сиз '%s' дистрибутивидан фойдаланяпсиз ва сизга қўшимча дастурларга рухсат "
 "бор."
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Ушбу қўшимча дастурлар репозиторийсини ўрнатишни истайсизми?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
@@ -478,8 +472,8 @@ msgid "Congratulations"
 msgstr "Табриклаймиз"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "OpenMandriva %s релизига янгилаш муваффақиятли амалган оширилди."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -680,8 +674,8 @@ msgstr "  --help\t\t- шу ёрдам хабарини кўрсатиш.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update автоматик ишга тушади.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update автоматик ишга тушади.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -690,8 +684,8 @@ msgstr "  --mnf\t\t\t- mnf скриптини ишга тушириш.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- Mandriva Update матн усули.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- OpenMandriva Update матн усули.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -703,43 +697,68 @@ msgstr "  --debug\t\t\t- бажарилган ишлар бўйича лог ж�
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "update_source тўпламидан пакетларни янгилаб бўлмади.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Update Applet Configuration"
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Янгилаш мосламалари"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "Янгилаш мосламалари"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Upgrade Helper"
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
-msgstr ""
-
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
 #, fuzzy
-msgid "Run OpenMandriva Updater"
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
-msgstr ""
-
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
 #, fuzzy
-msgid "Run OpenMandriva Package Media Updater"
+msgid "Run Openmandriva Updater"
 msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
 #, fuzzy
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
+
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "Mandriva Linux дистрибутивининг янги версияси"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "Mandriva Linux дистрибутивининг янги версияси чиқди."
+
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "MandrivaUpdate ишга туширилмоқда\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr ""
+#~ "OpenMandriva Online, Moondrake веб хизматларига уланиш имкониятини беради."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update автоматик ишга тушади.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- Mandriva Update матн усули.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- бажарилган ишлар бўйича лог журнали\n"
@@ -750,22 +769,12 @@ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 #~ msgid "  --applet\t\t- launch OpenMandriva Update.\n"
 #~ msgstr "  --applet\t\t- OpenMandriva Update хизматини ишга тушириш.\n"
 
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update автоматик ишга тушади.\n"
-
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- OpenMandriva Update матн усули.\n"
-
 #~ msgid "  --update       - Update keys\n"
 #~ msgstr "  --update       - Калитларни янгилаш.\n"
 
 #, fuzzy
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "OpenMandriva Linux дистрибутивининг янги версияси чиқди"
-
-#, fuzzy
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "OpenMandriva Linux дистрибутивининг янги версияси чиқди."
 
 #~ msgid "Account already exists\n"
 #~ msgstr "Ҳисоб аллақачон мавжуд\n"
@@ -899,9 +908,6 @@ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 #~ msgid "Last name:"
 #~ msgstr "Исми:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
-
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr "Фойдаланувчи ва махфий сўз 12 та белгидан кам бўлиши керак\n"
 
@@ -947,10 +953,6 @@ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 #~ "Mandriva Online билан алоқа ўрнатиб бўлмади. Илтимос кейинроқ уриниб "
 #~ "кўринг"
 
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr ""
-#~ "Mandriva Online, Mandriva веб хизматларига уланиш имкониятини беради."
-
 #~ msgid "Mandriva PowerPack"
 #~ msgstr "Mandriva PowerPack"
 
@@ -970,9 +972,6 @@ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 #~ msgid "OpenMandriva Free"
 #~ msgstr "OpenMandriva Free"
 
-#~ msgid "OpenMandriva Linux"
-#~ msgstr "OpenMandriva Linux"
-
 #~ msgid "OpenMandriva Mini"
 #~ msgstr "OpenMandriva Mini"
 
@@ -980,7 +979,8 @@ msgstr "OpenMandrivaUpdate ишга туширилмоқда\n"
 #~ msgstr "OpenMandriva One"
 
 #~ msgid ""
-#~ "OpenMandriva Online could not be contacted, please try again at a later time"
+#~ "OpenMandriva Online could not be contacted, please try again at a later "
+#~ "time"
 #~ msgstr ""
 #~ "OpenMandriva Online билан алоқа ўрнатиб бўлмади. Илтимос кейинроқ уриниб "
 #~ "кўринг"

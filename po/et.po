@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2010-06-07 22:59+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
@@ -155,10 +155,10 @@ msgstr ""
 msgid "Launching drakconnect\n"
 msgstr "Drakconnecti käivitamine\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr "Mandriva Linuxi distributsiooni uus versioon"
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "OpenMandriva uus versioon"
 
 #: ../mdkapplet:417
 #, c-format
@@ -180,9 +180,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr "Valida tuleb kataloog, mille omanik on administraator!"
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr "Ilmunud on Mandriva Linuxi distributsiooni uus versioon."
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "Ilmunud on OpenMandriva uus versioon."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -194,7 +194,7 @@ msgstr "Rohkem teavet uue versiooni kohta"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Kas soovite uuendada ja paigaldada '%s'?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Rohkem ei küsita"
@@ -214,14 +214,14 @@ msgstr "(Hoiatus: see vajab päris palju vaba ruumi)"
 msgid "Where to download packages:"
 msgstr "Pakettide allalaadimise koht:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Edasi"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -229,13 +229,13 @@ msgid "Cancel"
 msgstr "Loobu"
 
 #: ../mdkapplet:461
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
-"Selle Mandriva Linuxi süsteemi hooldusperiood on läbi. See tähendab, et Te "
-"ei saa enam tarkvara uuendusi."
+"Selle OpenMandriva versiooni hooldusperiood on läbi. See tähendab, et Te ei "
+"saa enam tarkvara uuendusi."
 
 #: ../mdkapplet:467
 #, c-format
@@ -243,9 +243,9 @@ msgid "In order to keep your system secure, you can:"
 msgstr "Hoidmaks süsteemi turvalisena, võite"
 
 #: ../mdkapplet:473
-#, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+#, fuzzy, c-format
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva"
 
 #: ../mdkapplet:479
 #, c-format
@@ -285,11 +285,6 @@ msgstr ""
 "Osta selle versiooni hooldusperioodi pikendamise (%s) ja hoida oma süsteemi "
 "töös kuni %s."
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "OpenMandriva uus versioon"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -320,8 +315,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "MandrivaUpdate'i käivitamine\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "OpenMandrivaUpdate'i käivitamine\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -339,14 +334,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Autoriõigus (C) %s: Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online võimaldab kasutada Moondrake veebiteenuseid."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online võimaldab kasutada Mandriva veebiteenuseid."
 
 #: ../mdkapplet:734
 #, c-format
@@ -395,12 +390,12 @@ msgstr "Käivitatakse alati käivitumisel"
 msgid "Quit"
 msgstr "Välju"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr "Saadaval on uus andmekandja"
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
@@ -409,12 +404,12 @@ msgstr ""
 "Te kasutate distributsiooni '%s' ja saate seepärast võimaluse paigaldada "
 "lisatarkvara."
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr "Kas soovite lisada täiendava andmekandja?"
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr "Mandriva Enterprise Server"
@@ -488,8 +483,8 @@ msgid "Congratulations"
 msgstr "Õnnitlused!"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "Uuendamine OpenMandriva versioonile %s õnnestus."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -706,8 +701,8 @@ msgstr "  --help\t\t- selle abiteate näitamine.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update käivitatakse automaatselt.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update käivitatakse automaatselt.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -716,8 +711,8 @@ msgstr "  --mnf\t\t\t- käivitatakse MNF-spetsiifilised skriptid.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- Mandriva Update'i tekstiversioon.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- OpenMandriva Update'i tekstiversioon.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -729,37 +724,75 @@ msgstr "  --debug\t\t\t- toimingud logitakse\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Pakettide uuendamine update_source andmekandjalt nurjus.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
-msgid "Run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "OpenMandriva uuendamisapleti seadistamise käivitamine"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr "OpenMandriva uuendamisapleti seadistamiseks on vajalik autentimine"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
-msgid "Run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "OpenMandriva uuendamisabilise käivitamine"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "OpenMandriva uuendamisabilise käivitamiseks on vajalik autentimine"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
-msgid "Run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Updater"
 msgstr "OpenMandriva uuendaja käivitamine"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "OpenMandriva uuendaja käivitamiseks on vajalik autentimine"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
-msgid "Run OpenMandriva Package Media Updater"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
 msgstr "OpenMandriva andmekandjate uuendaja käivitamine"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
-msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimine"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr ""
+"OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimine"
+
+#~ msgid "New version of Mandriva Linux distribution"
+#~ msgstr "Mandriva Linuxi distributsiooni uus versioon"
+
+#~ msgid "A new version of Mandriva Linux distribution has been released."
+#~ msgstr "Ilmunud on Mandriva Linuxi distributsiooni uus versioon."
+
+#~ msgid ""
+#~ "Maintenance for this Mandriva Linux version has ended. No more updates "
+#~ "will be delivered for this system."
+#~ msgstr ""
+#~ "Selle Mandriva Linuxi süsteemi hooldusperiood on läbi. See tähendab, et "
+#~ "Te ei saa enam tarkvara uuendusi."
+
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Linux"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "MandrivaUpdate'i käivitamine\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online võimaldab kasutada Moondrake veebiteenuseid."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update käivitatakse automaatselt.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- Mandriva Update'i tekstiversioon.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- toimingud logitakse\n"
@@ -769,9 +802,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 
 #~ msgid "  --applet\t\t- launch Mandriva Update.\n"
 #~ msgstr "  --applet\t\t- käivitatakse Mandriva Update.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update käivitatakse automaatselt.\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=\t\t\t- masinanimi.\n"
@@ -792,9 +822,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=\t\t     - kasutaja kasutajatunnus.\n"
 
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- OpenMandriva Update'i tekstiversioon.\n"
-
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive\t- mitteinteraktiivse režiimi kasutamine.\n"
 
@@ -806,9 +833,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "Ilmunud on OpenMandriva uus versioon"
-
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "Ilmunud on OpenMandriva uus versioon."
 
 #~ msgid "Account creation or authentication"
 #~ msgstr "Konto loomine või autentimine"
@@ -1019,9 +1043,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ msgid "Last name:"
 #~ msgstr "Perekonnanimi:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "OpenMandrivaUpdate'i käivitamine\n"
-
 #~ msgid "Lifetime policy"
 #~ msgstr "Hooldusperioodi reeglid"
 
@@ -1039,13 +1060,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 
 #~ msgid "Machine name:"
 #~ msgstr "Masina nimi:"
-
-#~ msgid ""
-#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
-#~ "delivered for this system."
-#~ msgstr ""
-#~ "Selle OpenMandriva versiooni hooldusperiood on läbi. See tähendab, et Te ei "
-#~ "saa enam tarkvara uuendusi."
 
 #~ msgid "Mandiva Free"
 #~ msgstr "Mandriva Free"
@@ -1075,9 +1089,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ "Mandriva Online'i konto edukalt loodud.\n"
 #~ "Palun klõpsake nupule \"Järgmine\" autentimiseks ja oma konfiguratsiooni "
 #~ "saatmiseks\n"
-
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online võimaldab kasutada Mandriva veebiteenuseid."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1119,9 +1130,6 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ msgid "Mandriva web services not reachable"
 #~ msgstr "Mandriva veebiteenused pole kättesaadavad"
 
-#~ msgid "OpenMandriva"
-#~ msgstr "OpenMandriva"
-
 #~ msgid "OpenMandriva Enterprise Server"
 #~ msgstr "OpenMandriva Enterprise Server"
 
@@ -1144,20 +1152,20 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ msgstr "OpenMandriva PowerPack"
 
 #~ msgid ""
-#~ "OpenMandriva Powerpack brings you the best of Linux experience for desktop: "
-#~ "stability and efficiency of open source solutions together with exclusive "
-#~ "softwares and OpenMandriva official support."
+#~ "OpenMandriva Powerpack brings you the best of Linux experience for "
+#~ "desktop: stability and efficiency of open source solutions together with "
+#~ "exclusive softwares and OpenMandriva official support."
 #~ msgstr ""
-#~ "OpenMandriva Powerpack pakub Teile parimaid Linuxi kogemusi töölaual: avatud "
-#~ "lähtekoodi stabiilsus ja tõhusus käsikäes eksklusiivse tarkvara ja "
+#~ "OpenMandriva Powerpack pakub Teile parimaid Linuxi kogemusi töölaual: "
+#~ "avatud lähtekoodi stabiilsus ja tõhusus käsikäes eksklusiivse tarkvara ja "
 #~ "OpenMandriva ametliku tugiteenusega."
 
 #~ msgid ""
-#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 months "
-#~ "of base updates (up to the %s) for distributions."
+#~ "OpenMandriva provides 12 months of desktop updates (until %s) and 18 "
+#~ "months of base updates (up to the %s) for distributions."
 #~ msgstr ""
-#~ "OpenMandriva pakub uuendusi töölauale 12 kuud (kuni %s) ja baassüsteemile 18 "
-#~ "kuud (kuni %s)."
+#~ "OpenMandriva pakub uuendusi töölauale 12 kuud (kuni %s) ja baassüsteemile "
+#~ "18 kuud (kuni %s)."
 
 #~ msgid "Mr."
 #~ msgstr "Hr."
@@ -1300,7 +1308,8 @@ msgstr "OpenMandriva andmekandjate uuendaja käivitamiseks on vajalik autentimin
 #~ msgstr "Mandriva Linux veel rohkema tarkvaraga ja ametliku tugiteenusega."
 
 #~ msgid ""
-#~ "The OpenMandriva distribution with even more softwares and official support."
+#~ "The OpenMandriva distribution with even more softwares and official "
+#~ "support."
 #~ msgstr "OpenMandriva veel rohkema tarkvaraga ja ametliku tugiteenusega."
 
 #~ msgid ""

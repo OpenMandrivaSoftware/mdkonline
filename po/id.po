@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mdkonline\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-23 04:38+0100\n"
+"POT-Creation-Date: 2016-06-19 16:21+0200\n"
 "PO-Revision-Date: 2007-10-27 19:40+0700\n"
 "Last-Translator: Willy Sudiarto Raharjo <willysr@gmail.com>\n"
 "Language-Team: Indonesia <mdk-id@yahoogroups.com>\n"
@@ -154,10 +154,10 @@ msgstr "Menerima SIGHUP (mungkin upgrade telah selesai), merestart applet."
 msgid "Launching drakconnect\n"
 msgstr "Menjalankan drakconnect\n"
 
-#: ../mdkapplet:412
-#, c-format
-msgid "New version of Mandriva Linux distribution"
-msgstr ""
+#: ../mdkapplet:412 ../mdkapplet:587
+#, fuzzy, c-format
+msgid "New version of OpenMandriva Lx distribution"
+msgstr "Versi baru distribusi OpenMandriva"
 
 #: ../mdkapplet:417
 #, c-format
@@ -179,9 +179,9 @@ msgid "You must choose a directory owned by the super administrator!"
 msgstr "Anda harus memilih direktori yang dimiliki oleh administrator super!"
 
 #: ../mdkapplet:428
-#, c-format
-msgid "A new version of Mandriva Linux distribution has been released."
-msgstr ""
+#, fuzzy, c-format
+msgid "A new version of OpenMandriva Lx distribution has been released."
+msgstr "Versi baru distribusi OpenMandriva telah dirilis."
 
 #: ../mdkapplet:430 ../mdkapplet:525
 #, c-format
@@ -193,7 +193,7 @@ msgstr "Info lebih lanjut tentang versi ini"
 msgid "Do you want to upgrade to the '%s' distribution?"
 msgstr "Apakah Anda ingin mengupgrade ke distribusi '%s'?"
 
-#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:874 ../mdkapplet:904
+#: ../mdkapplet:434 ../mdkapplet:529 ../mdkapplet:857 ../mdkapplet:887
 #, c-format
 msgid "Do not ask me next time"
 msgstr "Jangan tanya lagi lain waktu"
@@ -213,14 +213,14 @@ msgstr "(Peringatan: Anda akan memerlukan sangat banyak ruang bebas)"
 msgid "Where to download packages:"
 msgstr "Di mana akan mendownload paket:"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet_gui.pm:223 ../mdkapplet_gui.pm:304
 #, c-format
 msgid "Next"
 msgstr "Selanjutnya"
 
-#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:875
-#: ../mdkapplet:905 ../mdkapplet-upgrade-helper:143
+#: ../mdkapplet:444 ../mdkapplet:534 ../mdkapplet:613 ../mdkapplet:858
+#: ../mdkapplet:888 ../mdkapplet-upgrade-helper:143
 #: ../mdkapplet-upgrade-helper:159 ../mdkapplet_gui.pm:223
 #: ../mdkapplet_gui.pm:304
 #, c-format
@@ -228,11 +228,13 @@ msgid "Cancel"
 msgstr "Batal"
 
 #: ../mdkapplet:461
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Maintenance for this Mandriva Linux version has ended. No more updates will "
+"Maintenance for this OpenMandriva Lx version has ended. No more updates will "
 "be delivered for this system."
 msgstr ""
+"Perawatan untuk versi OpenMandriva ini sudah berakhir. Tidak ada lagi update "
+"yang akan disampaikan untuk sistem ini."
 
 #: ../mdkapplet:467
 #, c-format
@@ -241,8 +243,8 @@ msgstr "Untuk menjaga agar sistem Anda tetap aman, Anda bisa:"
 
 #: ../mdkapplet:473
 #, fuzzy, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Online %s"
+msgid "OpenMandriva Lx"
+msgstr "OpenMandriva"
 
 #: ../mdkapplet:479
 #, c-format
@@ -278,11 +280,6 @@ msgid ""
 "until %s."
 msgstr ""
 
-#: ../mdkapplet:587
-#, c-format
-msgid "New version of OpenMandriva distribution"
-msgstr "Versi baru distribusi OpenMandriva"
-
 #: ../mdkapplet:604
 #, c-format
 msgid ""
@@ -314,8 +311,8 @@ msgstr ""
 
 #: ../mdkapplet:644
 #, c-format
-msgid "Launching MandrivaUpdate\n"
-msgstr "Menjalankan MandrivaUpdate\n"
+msgid "Launching OpenMandrivaUpdate\n"
+msgstr "Menjalankan OpenMandrivaUpdate\n"
 
 #: ../mdkapplet:662
 #, c-format
@@ -333,14 +330,14 @@ msgid "OpenMandriva Online %s"
 msgstr "OpenMandriva Online %s"
 
 #: ../mdkapplet:729
-#, c-format
-msgid "Copyright (C) %s by Mandriva"
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Hak cipta (C) %s oleh Mandriva"
 
 #: ../mdkapplet:732
-#, c-format
-msgid "OpenMandriva Online gives access to Moondrake web services."
-msgstr "OpenMandriva Online memberikan akses ke layanan web Moondrake."
+#, fuzzy, c-format
+msgid "OpenMandriva Online gives access to OpenMandriva web services."
+msgstr "Mandriva Online memberikan akses ke layanan web Mandriva."
 
 #: ../mdkapplet:734
 #, c-format
@@ -397,24 +394,24 @@ msgstr "Selalu jalankan ketika pembukaan"
 msgid "Quit"
 msgstr "Keluar"
 
-#: ../mdkapplet:864 ../mdkapplet:869 ../mdkapplet:894 ../mdkapplet:899
+#: ../mdkapplet:847 ../mdkapplet:852 ../mdkapplet:877 ../mdkapplet:882
 #, c-format
 msgid "New medium available"
 msgstr ""
 
-#: ../mdkapplet:871 ../mdkapplet:901
+#: ../mdkapplet:854 ../mdkapplet:884
 #, c-format
 msgid ""
 "You use '%s' distribution and therefore have privileged access to additional "
 "software."
 msgstr ""
 
-#: ../mdkapplet:873 ../mdkapplet:903
+#: ../mdkapplet:856 ../mdkapplet:886
 #, c-format
 msgid "Do you want to install this additional software repository?"
 msgstr ""
 
-#: ../mdkapplet:902
+#: ../mdkapplet:885
 #, c-format
 msgid "Mandriva Enterprise Server"
 msgstr ""
@@ -488,8 +485,8 @@ msgid "Congratulations"
 msgstr "Selamat"
 
 #: ../mdkapplet-upgrade-helper:156
-#, c-format
-msgid "Upgrade to OpenMandriva %s release was successful."
+#, fuzzy, c-format
+msgid "Upgrade to OpenMandriva Lx %s release was successful."
 msgstr "Upgrade ke OpenMandriva %s berhasil."
 
 #: ../mdkapplet-upgrade-helper:158
@@ -701,8 +698,8 @@ msgstr "  --help\t\t- cetak pesan bantuan ini.\n"
 
 #: ../mdkupdate:68
 #, c-format
-msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
-msgstr "  --auto\t\t- Mandriva Update dijalankan secara otomatis.\n"
+msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
+msgstr "  --auto\t\t- OpenMandriva Update dijalankan secara otomatis.\n"
 
 #: ../mdkupdate:69
 #, c-format
@@ -711,8 +708,8 @@ msgstr "  --mnf\t\t\t- jalankan script khusus mnf.\n"
 
 #: ../mdkupdate:70
 #, c-format
-msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
-msgstr "  --noX\t\t\t- versi mode teks dari Mandriva Update.\n"
+msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
+msgstr "  --noX\t\t\t- versi mode teks OpenMandriva Update.\n"
 
 #: ../mdkupdate:71
 #, c-format
@@ -724,38 +721,65 @@ msgstr "  --debug\t\t\t- mencatat apa yang sudah selesai\n"
 msgid "Unable to update packages from update_source medium.\n"
 msgstr "Gagal meng-update paket dari media update_source.\n"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:1
-msgid "Run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Update Applet Configuration"
 msgstr "Jalankan Konfigurasi Applet Update OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkapplet-config.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Update Applet Configuration"
+#: ../polkit/org.openmandriva.mdkapplet-config.policy.in.h:2
+#, fuzzy
+msgid ""
+"Authentication is required to run Openmandriva Update Applet Configuration"
 msgstr ""
-"Otentikasi diperlukan untuk menjalankan Konfigurasi Applet Update OpenMandriva"
+"Otentikasi diperlukan untuk menjalankan Konfigurasi Applet Update "
+"OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:1
-msgid "Run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Upgrade Helper"
 msgstr "Jalankan Pembantu Upgrade OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkapplet-upgrade-helper.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Upgrade Helper"
+#: ../polkit/org.openmandriva.mdkapplet-upgrade-helper.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Upgrade Helper"
 msgstr "Otentikasi diperlukan untuk menjalankan Pembantu Upgrade OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:1
-msgid "Run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Updater"
 msgstr "Jalankan Update OpenMandriva"
 
-#: ../polkit/org.moondrake.mdkupdate.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Updater"
+#: ../polkit/org.openmandriva.mdkupdate.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Updater"
 msgstr "Otentikasi diperlukan untuk menjalankan Update OpenMandriva"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:1
-msgid "Run OpenMandriva Package Media Updater"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:1
+#, fuzzy
+msgid "Run Openmandriva Package Media Updater"
 msgstr "Jalankan Updater Media Paket OpenMandriva"
 
-#: ../polkit/org.moondrake.urpmi.update.policy.in.h:2
-msgid "Authentication is required to run OpenMandriva Package Media Updater"
-msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva"
+#: ../polkit/org.openmandriva.urpmi.update.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run Openmandriva Package Media Updater"
+msgstr ""
+"Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva"
+
+#, fuzzy
+#~ msgid "Mandriva Linux"
+#~ msgstr "Mandriva Online %s"
+
+#~ msgid "Launching MandrivaUpdate\n"
+#~ msgstr "Menjalankan MandrivaUpdate\n"
+
+#~ msgid "OpenMandriva Online gives access to Moondrake web services."
+#~ msgstr "OpenMandriva Online memberikan akses ke layanan web Moondrake."
+
+#~ msgid "  --auto\t\t- Mandriva Update launched automatically.\n"
+#~ msgstr "  --auto\t\t- Mandriva Update dijalankan secara otomatis.\n"
+
+#~ msgid "  --noX\t\t\t- text mode version of Mandriva Update.\n"
+#~ msgstr "  --noX\t\t\t- versi mode teks dari Mandriva Update.\n"
 
 #~ msgid "  --debug\t\t- log what is done.\n"
 #~ msgstr "  --debug\t\t- catat apa yang dilakukan\n"
@@ -765,9 +789,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 
 #~ msgid "  --applet\t\t- launch Mandriva Update.\n"
 #~ msgstr "  --applet\t\t- jalankan Mandriva Update.\n"
-
-#~ msgid "  --auto\t\t- OpenMandriva Update launched automatically.\n"
-#~ msgstr "  --auto\t\t- OpenMandriva Update dijalankan secara otomatis.\n"
 
 #~ msgid "  --box=\t\t\t- hostname.\n"
 #~ msgstr "  --box=\t\t\t- namahost.\n"
@@ -788,9 +809,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 #~ msgid "  --login=\t\t     - login name of the user.\n"
 #~ msgstr "  --login=\t\t     - nama login pengguna.\n"
 
-#~ msgid "  --noX\t\t\t- text mode version of OpenMandriva Update.\n"
-#~ msgstr "  --noX\t\t\t- versi mode teks OpenMandriva Update.\n"
-
 #~ msgid "  --nointeractive\t- use the non-interactive mode.\n"
 #~ msgstr "  --nointeractive\t- gundakan mode non-interaktif.\n"
 
@@ -802,9 +820,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 
 #~ msgid "A new version of OpenMandriva distribution has been released"
 #~ msgstr "Versi baru distribusi OpenMandriva telah dirilis"
-
-#~ msgid "A new version of OpenMandriva distribution has been released."
-#~ msgstr "Versi baru distribusi OpenMandriva telah dirilis."
 
 #~ msgid "Account already exists\n"
 #~ msgstr "Account sudah ada\n"
@@ -994,9 +1009,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 #~ msgid "Last name:"
 #~ msgstr "Nama belakang:"
 
-#~ msgid "Launching OpenMandrivaUpdate\n"
-#~ msgstr "Menjalankan OpenMandrivaUpdate\n"
-
 #~ msgid "Login and password should be less than 12 characters\n"
 #~ msgstr "Login dan kata sandi harus kurang dari 12 karakter\n"
 
@@ -1017,13 +1029,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 
 #~ msgid "Mail contact:"
 #~ msgstr "Kontak mail:"
-
-#~ msgid ""
-#~ "Maintenance for this OpenMandriva version has ended. No more updates will be "
-#~ "delivered for this system."
-#~ msgstr ""
-#~ "Perawatan untuk versi OpenMandriva ini sudah berakhir. Tidak ada lagi update "
-#~ "yang akan disampaikan untuk sistem ini."
 
 #, fuzzy
 #~ msgid "Mandiva Free"
@@ -1058,9 +1063,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 #~ "Account Mandriva Online berhasil dibuat.\n"
 #~ "Silahkan klik \"Lanjut\" untuk authentikasi dan mengupload konfigurasi "
 #~ "Anda\n"
-
-#~ msgid "Mandriva Online gives access to Mandriva web services."
-#~ msgstr "Mandriva Online memberikan akses ke layanan web Mandriva."
 
 #~ msgid ""
 #~ "Mandriva Online offers you the ability to automate the updates.\n"
@@ -1098,9 +1100,6 @@ msgstr "Otentikasi diperlukan untuk menjalankan Updater Media Paket OpenMandriva
 
 #~ msgid "Mandriva web services not reachable"
 #~ msgstr "Layanan web Mandriva tidak dapat dicapai"
-
-#~ msgid "OpenMandriva"
-#~ msgstr "OpenMandriva"
 
 #~ msgid "OpenMandriva Flash"
 #~ msgstr "OpenMandriva Flash"
